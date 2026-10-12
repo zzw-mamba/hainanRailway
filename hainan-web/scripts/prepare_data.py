@@ -48,7 +48,7 @@ def prepare(split_dir=None, output_dir=OUT, identifier_dir=None, report_dir=None
     relationships, topology_report = build_topology(roads['features'], node_index)
     (output_dir / 'topology_report.json').write_text(json.dumps(topology_report, ensure_ascii=False, indent=2), encoding='utf-8')
     with (identifier_dir / 'link_id_mapping.csv').open('w', encoding='utf-8-sig', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(id_mapping[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(id_mapping[0]), lineterminator='\n')
         writer.writeheader()
         writer.writerows(id_mapping)
     (identifier_dir / 'link_id_mapping.json').write_text(json.dumps(id_mapping, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -77,7 +77,7 @@ def prepare(split_dir=None, output_dir=OUT, identifier_dir=None, report_dir=None
         (report_dir / 'business_osm_mapping.json').write_text(json.dumps(mappings, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         fields = ['businessLinkId', 'unitId', 'unitName', 'status', 'reason', 'linkId', 'osmLinkId', 'fromFraction', 'toFraction', 'overlapM', 'direction', 'directionNameConflict', 'startDistanceM', 'endDistanceM', 'pathLengthM', 'lengthErrorM']
         with (report_dir / 'business_osm_mapping.csv').open('w', encoding='utf-8-sig', newline='') as stream:
-            writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore')
+            writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
             writer.writeheader()
             for mapping in mappings:
                 for segment in mapping['osmSegments'] or [{}]:
@@ -85,13 +85,13 @@ def prepare(split_dir=None, output_dir=OUT, identifier_dir=None, report_dir=None
         groups = association_summary['groups']
         with (report_dir / 'highway_unit_comparison.csv').open('w', encoding='utf-8-sig', newline='') as stream:
             fields = ['route', 'kind', 'unitId', 'name', 'interchange', 'businessLinks', 'matched', 'ambiguous', 'unmatched']
-            writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore')
+            writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
             writer.writeheader()
             for unit in groups['mainUnits'] + groups['rampUnits']:
                 writer.writerow({**unit, 'route': 'G9811', 'businessLinks': len(unit['businessLinkIds']), **unit['statusCounts']})
         with (report_dir / 'main_corridor_candidates.csv').open('w', encoding='utf-8-sig', newline='') as stream:
             fields = ['businessLinkId', 'unitId', 'unitName', 'componentId', 'direction', 'fromStationM', 'toStationM', 'declaredLengthM', 'geometricLengthM', 'startDistanceM', 'endDistanceM', 'linkCheckStatus', 'linkCheckReason']
-            writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore')
+            writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
             writer.writeheader()
             writer.writerows(groups['corridorCandidates'])
         # Keep final direction counts consistent with the displayed annotations.

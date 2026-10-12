@@ -1,5 +1,6 @@
 """Regenerate from unsplit roads, validate, then publish a complete web snapshot."""
 import argparse
+from copy import deepcopy
 import fcntl
 from datetime import datetime, timezone
 import json
@@ -14,6 +15,7 @@ from link_splitting import SplitConfig, split_links, validate_split_result
 from split_links import read_features, write_json, write_mapping_csv
 from osm_topology import extract_node_index, junction_cuts, build_topology
 from source_edits import apply_edit, effective_sources, preferred_cuts, read_edits
+from merge_highway import merge_highway_sources
 
 
 MIN_LENGTH_M = 100
@@ -60,12 +62,26 @@ def _regenerate(max_length, output_root, edit_operation=None, publish=True):
         current_snapshot = OUT / 'hainan.json'
         previous = json.loads(current_snapshot.read_text(encoding='utf-8')) if current_snapshot.exists() else {}
         previous_roads = previous.get('roads', [])
+        original_features = effective_sources(collection, edits)
+        node_index = extract_node_index(ROOT / 'data/pbf/hainan-260922.osm.pbf', original_features)
+        features = merge_highway_sources(original_features, node_index)
         changed_lineage = None
         if edit_operation is not None:
-            edits, changed_lineage = apply_edit(collection, edits, edit_operation, previous_roads)
-        features = effective_sources(collection, edits)
+            active = {feature['properties']['link_id'] for feature in features}
+            edit_view = deepcopy(edits)
+            edit_view['upserts'] = {key: value for key, value in edits['upserts'].items() if key in active}
+            edit_view['deleted'] = []
+            merged_collection = {**collection, 'features': features}
+            updated, changed_lineage = apply_edit(merged_collection, edit_view, edit_operation, previous_roads)
+            edits['revision'], edits['nextManualId'] = updated['revision'], updated['nextManualId']
+            edits['upserts'].update(updated['upserts'])
+            edits['deleted'] = sorted(set(edits['deleted']) | set(updated['deleted']))
+            for feature in features:
+                properties = feature['properties']
+                if properties['link_id'] in updated['deleted']:
+                    edits['deleted'] = sorted(set(edits['deleted']) | set(properties.get('merged_source_ids', [])))
+            features = merge_highway_sources(effective_sources(collection, edits), node_index)
         config = SplitConfig(max_link_length=max_length)
-        node_index = extract_node_index(ROOT / 'data/pbf/hainan-260922.osm.pbf', features)
         same_limit = float(previous.get('generation', {}).get('maxLinkLengthM', -1)) == max_length
         edited_lineages = {f['properties'].get('source_lineage_id') or f['properties']['link_id']
                            for f in features if f['properties'].get('manual_edit')}

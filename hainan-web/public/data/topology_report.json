@@ -1,22 +1,22 @@
 {
   "valid": true,
-  "links": 10691,
-  "relationships": 11171,
-  "internalRelationships": 6256,
-  "crossSourceRelationships": 4915,
+  "links": 10631,
+  "relationships": 11111,
+  "internalRelationships": 6300,
+  "crossSourceRelationships": 4811,
   "osmWaysFound": 4452,
   "osmNodesLoaded": 29422,
   "unknownDirectionLinks": [
-    "HN-UN-R-000384",
-    "HN-UN-R-000381",
-    "HN-UN-R-000399",
     "HN-UN-R-001476",
     "HN-UN-R-001028",
     "HN-UN-R-001027",
     "HN-UN-R-001025",
     "HN-UN-R-001024",
     "HN-UN-R-001680",
-    "HN-UN-R-001673"
+    "HN-UN-R-001673",
+    "HN-UN-R-000384",
+    "HN-UN-R-000381",
+    "HN-UN-R-000399"
   ],
   "unresolvedSourceEndpoints": [
     {
@@ -35,204 +35,282 @@
   "linksWithoutOutgoing": 249,
   "pendingLinks": [
     {
-      "linkId": "HN-UN-R-000519",
-      "sourceLinkId": "HN-SRC-001104",
+      "linkId": "HN-UN-R-001809",
+      "sourceLinkId": "HN-SRC-003860",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1103445216,
+          "osmNodeId": 12143430428,
           "wgs84": [
-            108.7176736,
-            18.7860655
+            110.3505171,
+            19.8905664
           ]
         },
         {
           "role": "incoming",
           "orientation": "reverse",
-          "osmNodeId": 1103445216,
+          "osmNodeId": 12143430428,
           "wgs84": [
-            108.7176736,
-            18.7860655
+            110.3505171,
+            19.8905664
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000751",
-      "sourceLinkId": "HN-SRC-001805",
+      "linkId": "HN-UN-R-000214",
+      "sourceLinkId": "HN-SRC-000386",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1103477770,
+          "osmNodeId": 1805577274,
           "wgs84": [
-            108.7280633,
-            19.1043167
+            109.7685842,
+            18.4033776
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000747",
-      "sourceLinkId": "HN-SRC-001791",
+      "linkId": "HN-UN-R-000213",
+      "sourceLinkId": "HN-SRC-000385",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "incoming",
           "orientation": "forward",
-          "osmNodeId": 13976606636,
+          "osmNodeId": 2923188858,
           "wgs84": [
-            108.7216612,
-            19.1034806
+            109.7696522,
+            18.4033553
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000752",
-      "sourceLinkId": "HN-SRC-001807",
+      "linkId": "HN-UN-R-001435",
+      "sourceLinkId": "HN-SRC-003147",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 13976606639,
+          "osmNodeId": 9498271980,
           "wgs84": [
-            108.721854,
-            19.1036009
+            110.343601,
+            19.6489923
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000760",
-      "sourceLinkId": "HN-SRC-001818",
+      "linkId": "HN-UN-R-001438",
+      "sourceLinkId": "HN-SRC-003150",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "incoming",
           "orientation": "forward",
-          "osmNodeId": 13976606664,
+          "osmNodeId": 9498271981,
           "wgs84": [
-            108.7281329,
-            19.1043252
+            110.3436166,
+            19.6490441
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000652",
-      "sourceLinkId": "HN-SRC-001494",
+      "linkId": "HN-UN-R-001369",
+      "sourceLinkId": "HN-SRC-003044",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1104500604,
+          "osmNodeId": 9498519144,
           "wgs84": [
-            108.6997944,
-            18.9557517
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 1104500604,
-          "wgs84": [
-            108.6997944,
-            18.9557517
+            110.13418,
+            19.6305375
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000442",
-      "sourceLinkId": "HN-SRC-000879",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1104508815,
-          "wgs84": [
-            108.7324689,
-            18.6678251
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000446",
-      "sourceLinkId": "HN-SRC-000886",
+      "linkId": "HN-UN-R-001372",
+      "sourceLinkId": "HN-SRC-003047",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "incoming",
           "orientation": "forward",
-          "osmNodeId": 1104508887,
+          "osmNodeId": 9498519151,
           "wgs84": [
-            108.7335153,
-            18.6676766
+            110.1347275,
+            19.6305962
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000325",
-      "sourceLinkId": "HN-SRC-000619",
+      "linkId": "HN-UN-R-001375",
+      "sourceLinkId": "HN-SRC-003049",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 3224847766,
+          "osmNodeId": 9498519207,
           "wgs84": [
-            110.0326197,
-            18.5335098
+            110.1366756,
+            19.630926
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-R-000525",
-      "sourceLinkId": "HN-SRC-001120",
+      "linkId": "HN-UN-R-001379",
+      "sourceLinkId": "HN-SRC-003052",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1108050785,
-          "wgs84": [
-            108.7142558,
-            18.7871231
-          ]
-        },
         {
           "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 1108050785,
+          "orientation": "forward",
+          "osmNodeId": 9498519212,
           "wgs84": [
-            108.7142558,
-            18.7871231
+            110.1371441,
+            19.631032
           ]
         }
       ]
     },
     {
-      "linkId": "HN-UN-M-000034",
-      "sourceLinkId": "HN-SRC-004388",
+      "linkId": "HN-UN-R-001487",
+      "sourceLinkId": "HN-SRC-003267",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1108194102,
+          "osmNodeId": 9498579403,
           "wgs84": [
-            110.3669743,
-            19.9956151
+            110.0015844,
+            19.6880826
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001495",
+      "sourceLinkId": "HN-SRC-003285",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9498579445,
+          "wgs84": [
+            110.001626,
+            19.6905453
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001498",
+      "sourceLinkId": "HN-SRC-003275",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498579446,
+          "wgs84": [
+            110.0016309,
+            19.6906558
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001486",
+      "sourceLinkId": "HN-SRC-003266",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9498579459,
+          "wgs84": [
+            110.0015872,
+            19.6879703
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000176",
+      "sourceLinkId": "HN-SRC-000271",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1991263245,
+          "wgs84": [
+            109.6883855,
+            18.3298408
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000429",
+      "sourceLinkId": "HN-SRC-000830",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2630231156,
+          "wgs84": [
+            108.7595201,
+            18.6198381
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000425",
+      "sourceLinkId": "HN-SRC-000825",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2630231151,
+          "wgs84": [
+            108.7595778,
+            18.6197388
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000400",
+      "sourceLinkId": "HN-SRC-000765",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3974753443,
+          "wgs84": [
+            110.1722631,
+            18.5870517
           ]
         }
       ]
@@ -249,6 +327,1025 @@
           "wgs84": [
             109.2457103,
             18.3211116
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000643",
+      "sourceLinkId": "HN-SRC-001468",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842607177,
+          "wgs84": [
+            109.5015356,
+            18.9486739
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000642",
+      "sourceLinkId": "HN-SRC-001467",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5842607189,
+          "wgs84": [
+            109.5015497,
+            18.9486393
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000637",
+      "sourceLinkId": "HN-SRC-001457",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5842607176,
+          "wgs84": [
+            109.5027682,
+            18.9462347
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000638",
+      "sourceLinkId": "HN-SRC-001458",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842607190,
+          "wgs84": [
+            109.5027307,
+            18.9462779
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000443",
+      "sourceLinkId": "HN-SRC-000880",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1104509157,
+          "wgs84": [
+            108.7336045,
+            18.6676633
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000038",
+      "sourceLinkId": "HN-SRC-000068",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9962129788,
+          "wgs84": [
+            109.2389583,
+            18.3168929
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000052",
+      "sourceLinkId": "HN-SRC-000087",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9962130122,
+          "wgs84": [
+            109.2359055,
+            18.3185523
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000032",
+      "sourceLinkId": "HN-SRC-000056",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1214894350,
+          "wgs84": [
+            109.2414915,
+            18.3164024
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000054",
+      "sourceLinkId": "HN-SRC-000089",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 627210849,
+          "wgs84": [
+            109.2381895,
+            18.3174488
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002077",
+      "sourceLinkId": "HN-SRC-004245",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9962157529,
+          "wgs84": [
+            110.2605412,
+            19.9465821
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002078",
+      "sourceLinkId": "HN-SRC-004246",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5368282320,
+          "wgs84": [
+            110.2605511,
+            19.9466443
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002047",
+      "sourceLinkId": "HN-SRC-004217",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3972333529,
+          "wgs84": [
+            110.259912,
+            19.9434611
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G9812-M-000647",
+      "sourceLinkId": "HN-SRC-004371",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9962154042,
+          "wgs84": [
+            110.4426229,
+            19.9848737
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G9812-M-000650",
+      "sourceLinkId": "HN-SRC-004375",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2242706823,
+          "wgs84": [
+            110.4425489,
+            19.9847975
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001492",
+      "sourceLinkId": "HN-SRC-003277",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2261066490,
+          "wgs84": [
+            110.3585497,
+            19.688986
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000904",
+      "sourceLinkId": "HN-SRC-002102",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11711236347,
+          "wgs84": [
+            110.4752744,
+            19.1959639
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000909",
+      "sourceLinkId": "HN-SRC-002111",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11711236356,
+          "wgs84": [
+            110.474053,
+            19.1972584
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002267",
+      "sourceLinkId": "HN-SRC-004426",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8891998108,
+          "wgs84": [
+            110.1663995,
+            20.0230198
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002266",
+      "sourceLinkId": "HN-SRC-004425",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8891998108,
+          "wgs84": [
+            110.1663995,
+            20.0230198
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002264",
+      "sourceLinkId": "HN-SRC-004423",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8891998107,
+          "wgs84": [
+            110.1645876,
+            20.023094
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002204",
+      "sourceLinkId": "HN-SRC-004346",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800053,
+          "wgs84": [
+            110.3703948,
+            19.9802121
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002215",
+      "sourceLinkId": "HN-SRC-004365",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2223007695,
+          "wgs84": [
+            110.3716681,
+            19.9804127
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002214",
+      "sourceLinkId": "HN-SRC-004363",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800070,
+          "wgs84": [
+            110.3636184,
+            19.9803717
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002205",
+      "sourceLinkId": "HN-SRC-004345",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10673800071,
+          "wgs84": [
+            110.3636125,
+            19.980203
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002213",
+      "sourceLinkId": "HN-SRC-004362",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800096,
+          "wgs84": [
+            110.3675149,
+            19.9803619
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002207",
+      "sourceLinkId": "HN-SRC-004354",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10673800097,
+          "wgs84": [
+            110.3675058,
+            19.9802036
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002212",
+      "sourceLinkId": "HN-SRC-004361",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10673800113,
+          "wgs84": [
+            110.3672752,
+            19.9803615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002206",
+      "sourceLinkId": "HN-SRC-004353",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800142,
+          "wgs84": [
+            110.3672722,
+            19.9802039
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000504",
+      "sourceLinkId": "HN-SRC-001051",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 6425663831,
+          "wgs84": [
+            109.4981793,
+            18.763929
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000533",
+      "sourceLinkId": "HN-SRC-001177",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896341621,
+          "wgs84": [
+            109.4377917,
+            18.7948861
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000531",
+      "sourceLinkId": "HN-SRC-001169",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896341623,
+          "wgs84": [
+            109.4384864,
+            18.7948404
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000349",
+      "sourceLinkId": "HN-SRC-000676",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896479213,
+          "wgs84": [
+            109.6883191,
+            18.549545
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000351",
+      "sourceLinkId": "HN-SRC-000678",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896479215,
+          "wgs84": [
+            109.6882662,
+            18.5496329
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000358",
+      "sourceLinkId": "HN-SRC-000685",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896479217,
+          "wgs84": [
+            109.6895629,
+            18.5502064
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000356",
+      "sourceLinkId": "HN-SRC-000683",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896479220,
+          "wgs84": [
+            109.6896059,
+            18.5501287
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000355",
+      "sourceLinkId": "HN-SRC-000682",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896479219,
+          "wgs84": [
+            109.6892378,
+            18.5500612
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000357",
+      "sourceLinkId": "HN-SRC-000684",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 6425661716,
+          "wgs84": [
+            109.6893511,
+            18.5501254
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000390",
+      "sourceLinkId": "HN-SRC-000733",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8357824978,
+          "wgs84": [
+            109.6630195,
+            18.5796545
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000388",
+      "sourceLinkId": "HN-SRC-000735",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896479320,
+          "wgs84": [
+            109.6630839,
+            18.5796138
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000389",
+      "sourceLinkId": "HN-SRC-000736",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8357824978,
+          "wgs84": [
+            109.6630195,
+            18.5796545
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000423",
+      "sourceLinkId": "HN-SRC-000803",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1429795546,
+          "wgs84": [
+            109.6505579,
+            18.606152
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1429795546,
+          "wgs84": [
+            109.6505579,
+            18.606152
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001285",
+      "sourceLinkId": "HN-SRC-002850",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002535,
+          "wgs84": [
+            110.7583052,
+            19.5653573
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G360+S22-M-000018",
+      "sourceLinkId": "HN-SRC-002849",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002535,
+          "wgs84": [
+            110.7583052,
+            19.5653573
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G360+S22-M-000017",
+      "sourceLinkId": "HN-SRC-002847",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002536,
+          "wgs84": [
+            110.7583354,
+            19.5652615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001282",
+      "sourceLinkId": "HN-SRC-002844",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002536,
+          "wgs84": [
+            110.7583354,
+            19.5652615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001320",
+      "sourceLinkId": "HN-SRC-002889",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002746,
+          "wgs84": [
+            110.6890334,
+            19.5749571
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001315",
+      "sourceLinkId": "HN-SRC-002887",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002752,
+          "wgs84": [
+            110.6886972,
+            19.5745762
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001306",
+      "sourceLinkId": "HN-SRC-002883",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002761,
+          "wgs84": [
+            110.6868162,
+            19.5725784
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001303",
+      "sourceLinkId": "HN-SRC-002880",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002769,
+          "wgs84": [
+            110.6863603,
+            19.5722165
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001363",
+      "sourceLinkId": "HN-SRC-003018",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900003742,
+          "wgs84": [
+            110.4879345,
+            19.621596
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001452",
+      "sourceLinkId": "HN-SRC-003206",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2288121962,
+          "wgs84": [
+            110.2621257,
+            19.6704584
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 2288121962,
+          "wgs84": [
+            110.2621257,
+            19.6704584
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001458",
+      "sourceLinkId": "HN-SRC-003213",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2288121967,
+          "wgs84": [
+            110.2635741,
+            19.673176
+          ]
+        },
+        {
+          "role": "outgoing",
+          "orientation": "reverse",
+          "osmNodeId": 2288121967,
+          "wgs84": [
+            110.2635741,
+            19.673176
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001478",
+      "sourceLinkId": "HN-SRC-003226",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900004622,
+          "wgs84": [
+            110.2064523,
+            19.6846323
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001477",
+      "sourceLinkId": "HN-SRC-003236",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2288076355,
+          "wgs84": [
+            110.2064342,
+            19.684563
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001662",
+      "sourceLinkId": "HN-SRC-003661",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10940554719,
+          "wgs84": [
+            109.7800538,
+            19.8300137
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001665",
+      "sourceLinkId": "HN-SRC-003664",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940554727,
+          "wgs84": [
+            109.7809736,
+            19.8324146
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001661",
+      "sourceLinkId": "HN-SRC-003660",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10940554728,
+          "wgs84": [
+            109.7810156,
+            19.8325612
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001660",
+      "sourceLinkId": "HN-SRC-003659",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940554737,
+          "wgs84": [
+            109.7800256,
+            19.8299476
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001622",
+      "sourceLinkId": "HN-SRC-003562",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2585485905,
+          "wgs84": [
+            109.8517687,
+            19.7913304
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001623",
+      "sourceLinkId": "HN-SRC-003563",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940555549,
+          "wgs84": [
+            109.8518025,
+            19.7913733
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001629",
+      "sourceLinkId": "HN-SRC-003572",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2585485909,
+          "wgs84": [
+            109.8536035,
+            19.7935123
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001631",
+      "sourceLinkId": "HN-SRC-003574",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940555566,
+          "wgs84": [
+            109.8536632,
+            19.7936036
           ]
         }
       ]
@@ -311,6 +1408,342 @@
       ]
     },
     {
+      "linkId": "HN-UN-R-001767",
+      "sourceLinkId": "HN-SRC-003793",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498553928,
+          "wgs84": [
+            109.7534501,
+            19.86784
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G360+S22-M-000689",
+      "sourceLinkId": "HN-SRC-003794",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498553928,
+          "wgs84": [
+            109.7534501,
+            19.86784
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001772",
+      "sourceLinkId": "HN-SRC-003809",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11155835503,
+          "wgs84": [
+            109.7516642,
+            19.8694875
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G360+S22-M-000690",
+      "sourceLinkId": "HN-SRC-003801",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 4740682680,
+          "wgs84": [
+            109.7525647,
+            19.8685794
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002287",
+      "sourceLinkId": "HN-SRC-004451",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11303348595,
+          "wgs84": [
+            110.1539955,
+            20.0500763
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002288",
+      "sourceLinkId": "HN-SRC-004452",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11303348638,
+          "wgs84": [
+            110.1531889,
+            20.05025
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002285",
+      "sourceLinkId": "HN-SRC-004449",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12653691287,
+          "wgs84": [
+            110.1528385,
+            20.0501615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001140",
+      "sourceLinkId": "HN-SRC-002613",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502477,
+          "wgs84": [
+            109.6056185,
+            19.4708336
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001141",
+      "sourceLinkId": "HN-SRC-002614",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364502490,
+          "wgs84": [
+            109.6056063,
+            19.4708844
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001148",
+      "sourceLinkId": "HN-SRC-002629",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502512,
+          "wgs84": [
+            109.6050196,
+            19.4733533
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001149",
+      "sourceLinkId": "HN-SRC-002620",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364502513,
+          "wgs84": [
+            109.6050064,
+            19.473411
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002112",
+      "sourceLinkId": "HN-SRC-004277",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11377236637,
+          "wgs84": [
+            110.5006751,
+            19.9506562
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002109",
+      "sourceLinkId": "HN-SRC-004274",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11377236702,
+          "wgs84": [
+            110.5007375,
+            19.9503969
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002108",
+      "sourceLinkId": "HN-SRC-004273",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8754235893,
+          "wgs84": [
+            110.5006726,
+            19.9497672
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002160",
+      "sourceLinkId": "HN-SRC-004312",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11377236756,
+          "wgs84": [
+            110.5110628,
+            19.9603555
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002157",
+      "sourceLinkId": "HN-SRC-004306",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11377236766,
+          "wgs84": [
+            110.510726,
+            19.9595904
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002158",
+      "sourceLinkId": "HN-SRC-004311",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11377236755,
+          "wgs84": [
+            110.5111525,
+            19.9603384
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001368",
+      "sourceLinkId": "HN-SRC-003039",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11443129935,
+          "wgs84": [
+            110.7228507,
+            19.6297466
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002278",
+      "sourceLinkId": "HN-SRC-004435",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 3164348680,
+          "wgs84": [
+            110.1618995,
+            20.0284052
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000908",
+      "sourceLinkId": "HN-SRC-002110",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11711236357,
+          "wgs84": [
+            110.4741045,
+            19.1971962
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002194",
+      "sourceLinkId": "HN-SRC-004344",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11803521977,
+          "wgs84": [
+            110.1842238,
+            19.9764432
+          ]
+        }
+      ]
+    },
+    {
       "linkId": "HN-UN-R-000318",
       "sourceLinkId": "HN-SRC-000606",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -322,6 +1755,895 @@
           "wgs84": [
             110.0347891,
             18.5311876
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002054",
+      "sourceLinkId": "HN-SRC-004222",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 3972333536,
+          "wgs84": [
+            110.2598771,
+            19.9437078
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002076",
+      "sourceLinkId": "HN-SRC-004252",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11949510556,
+          "wgs84": [
+            110.2605821,
+            19.9462633
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002079",
+      "sourceLinkId": "HN-SRC-004253",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11949510561,
+          "wgs84": [
+            110.2607101,
+            19.9468917
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000245",
+      "sourceLinkId": "HN-SRC-000462",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1805482159,
+          "wgs84": [
+            109.8495948,
+            18.4344953
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000366",
+      "sourceLinkId": "HN-SRC-000707",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12061479493,
+          "wgs84": [
+            110.1425708,
+            18.5696401
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000368",
+      "sourceLinkId": "HN-SRC-000709",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12061479494,
+          "wgs84": [
+            110.1422589,
+            18.5700237
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000374",
+      "sourceLinkId": "HN-SRC-000713",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12061479499,
+          "wgs84": [
+            110.1417086,
+            18.5708692
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000377",
+      "sourceLinkId": "HN-SRC-000715",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12061479507,
+          "wgs84": [
+            110.1414939,
+            18.5712116
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002262",
+      "sourceLinkId": "HN-SRC-004422",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8674224181,
+          "wgs84": [
+            110.1761677,
+            20.0212887
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002070",
+      "sourceLinkId": "HN-SRC-004247",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2218557446,
+          "wgs84": [
+            110.4332089,
+            19.9464575
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002175",
+      "sourceLinkId": "HN-SRC-004330",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 4739912982,
+          "wgs84": [
+            110.1681388,
+            19.9739081
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002173",
+      "sourceLinkId": "HN-SRC-004328",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11803521932,
+          "wgs84": [
+            110.166132,
+            19.9734266
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002188",
+      "sourceLinkId": "HN-SRC-004341",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8891998273,
+          "wgs84": [
+            110.1787717,
+            19.975412
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001908",
+      "sourceLinkId": "HN-SRC-004023",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1759977343,
+          "wgs84": [
+            110.1259987,
+            19.9339268
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001969",
+      "sourceLinkId": "HN-SRC-004098",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1759977674,
+          "wgs84": [
+            110.1262919,
+            19.9385352
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001791",
+      "sourceLinkId": "HN-SRC-003826",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364535255,
+          "wgs84": [
+            109.9089474,
+            19.874346
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001787",
+      "sourceLinkId": "HN-SRC-003824",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364535254,
+          "wgs84": [
+            109.9089427,
+            19.8742092
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001813",
+      "sourceLinkId": "HN-SRC-003864",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12143430475,
+          "wgs84": [
+            110.35027,
+            19.8906754
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001810",
+      "sourceLinkId": "HN-SRC-003861",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12143430476,
+          "wgs84": [
+            110.3508158,
+            19.8906442
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001808",
+      "sourceLinkId": "HN-SRC-003859",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12143430496,
+          "wgs84": [
+            110.3536616,
+            19.8903569
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001805",
+      "sourceLinkId": "HN-SRC-003858",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12143430498,
+          "wgs84": [
+            110.3530992,
+            19.8903943
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001099",
+      "sourceLinkId": "HN-SRC-002508",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3387204912,
+          "wgs84": [
+            110.0883959,
+            19.3958929
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000105",
+      "sourceLinkId": "HN-SRC-000170",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 7150141910,
+          "wgs84": [
+            109.5771488,
+            18.3215085
+          ]
+        },
+        {
+          "role": "outgoing",
+          "orientation": "reverse",
+          "osmNodeId": 7150141910,
+          "wgs84": [
+            109.5771488,
+            18.3215085
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000100",
+      "sourceLinkId": "HN-SRC-000163",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12147825587,
+          "wgs84": [
+            109.5767931,
+            18.3215325
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000102",
+      "sourceLinkId": "HN-SRC-000164",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12147825566,
+          "wgs84": [
+            109.5773122,
+            18.3213751
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001470",
+      "sourceLinkId": "HN-SRC-003231",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12148632273,
+          "wgs84": [
+            110.2059378,
+            19.6821308
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001465",
+      "sourceLinkId": "HN-SRC-003228",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9498271810,
+          "wgs84": [
+            110.2057715,
+            19.6813008
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001479",
+      "sourceLinkId": "HN-SRC-003242",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2288076357,
+          "wgs84": [
+            110.2066488,
+            19.6852758
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001476",
+      "sourceLinkId": "HN-SRC-003241",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001028",
+      "sourceLinkId": "HN-SRC-002353",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001027",
+      "sourceLinkId": "HN-SRC-002351",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001025",
+      "sourceLinkId": "HN-SRC-002349",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001024",
+      "sourceLinkId": "HN-SRC-002348",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001150",
+      "sourceLinkId": "HN-SRC-002637",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364502483,
+          "wgs84": [
+            109.6048945,
+            19.4739011
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001147",
+      "sourceLinkId": "HN-SRC-002636",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502482,
+          "wgs84": [
+            109.6051233,
+            19.4728996
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001142",
+      "sourceLinkId": "HN-SRC-002615",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12148716505,
+          "wgs84": [
+            109.6055065,
+            19.4712999
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001137",
+      "sourceLinkId": "HN-SRC-002610",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502481,
+          "wgs84": [
+            109.6057602,
+            19.4704153
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001108",
+      "sourceLinkId": "HN-SRC-002547",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12148716598,
+          "wgs84": [
+            109.6615858,
+            19.4263386
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001111",
+      "sourceLinkId": "HN-SRC-002548",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12148716599,
+          "wgs84": [
+            109.6622166,
+            19.4270079
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001121",
+      "sourceLinkId": "HN-SRC-002555",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12148716640,
+          "wgs84": [
+            109.6647403,
+            19.4287348
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001117",
+      "sourceLinkId": "HN-SRC-002553",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 6876441231,
+          "wgs84": [
+            109.6641059,
+            19.4283334
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001001",
+      "sourceLinkId": "HN-SRC-002308",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 7377090663,
+          "wgs84": [
+            109.7356443,
+            19.3072384
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000949",
+      "sourceLinkId": "HN-SRC-002154",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12148849167,
+          "wgs84": [
+            109.8385078,
+            19.2268416
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 12148849167,
+          "wgs84": [
+            109.8385078,
+            19.2268416
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002121",
+      "sourceLinkId": "HN-SRC-004289",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12150739243,
+          "wgs84": [
+            110.2464379,
+            19.9540969
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002122",
+      "sourceLinkId": "HN-SRC-004291",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12150739241,
+          "wgs84": [
+            110.2462806,
+            19.9541147
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000120",
+      "sourceLinkId": "HN-SRC-000199",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12150716168,
+          "wgs84": [
+            109.4897146,
+            18.3231467
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000121",
+      "sourceLinkId": "HN-SRC-000200",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12150716169,
+          "wgs84": [
+            109.4897966,
+            18.3231544
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001034",
+      "sourceLinkId": "HN-SRC-002361",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 7398494484,
+          "wgs84": [
+            109.4525156,
+            19.3225137
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 7398494484,
+          "wgs84": [
+            109.4525156,
+            19.3225137
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000772",
+      "sourceLinkId": "HN-SRC-001895",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12459139459,
+          "wgs84": [
+            110.3785113,
+            19.1261586
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000771",
+      "sourceLinkId": "HN-SRC-001894",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459139460,
+          "wgs84": [
+            110.378522,
+            19.126092
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000785",
+      "sourceLinkId": "HN-SRC-001904",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459139499,
+          "wgs84": [
+            110.3782585,
+            19.1287214
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000783",
+      "sourceLinkId": "HN-SRC-001902",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12459139521,
+          "wgs84": [
+            110.3782516,
+            19.1286479
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000766",
+      "sourceLinkId": "HN-SRC-001882",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459179843,
+          "wgs84": [
+            110.3291018,
+            19.1239866
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000765",
+      "sourceLinkId": "HN-SRC-001881",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842606097,
+          "wgs84": [
+            110.3291495,
+            19.1238888
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000782",
+      "sourceLinkId": "HN-SRC-001899",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459179881,
+          "wgs84": [
+            110.3279696,
+            19.1271255
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000773",
+      "sourceLinkId": "HN-SRC-001884",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842606101,
+          "wgs84": [
+            110.3279911,
+            19.1270557
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002242",
+      "sourceLinkId": "HN-SRC-004405",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12653691156,
+          "wgs84": [
+            110.1517964,
+            20.0128336
           ]
         }
       ]
@@ -386,6 +2708,118 @@
           "wgs84": [
             110.4363771,
             19.9438161
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-M-000057",
+      "sourceLinkId": "HN-SRC-004446",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12653691400,
+          "wgs84": [
+            110.153738,
+            20.044
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001115",
+      "sourceLinkId": "HN-SRC-002546",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13240439749,
+          "wgs84": [
+            110.6762596,
+            19.4297542
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001116",
+      "sourceLinkId": "HN-SRC-002552",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2632813568,
+          "wgs84": [
+            110.676124,
+            19.429824
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001125",
+      "sourceLinkId": "HN-SRC-002562",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13240439762,
+          "wgs84": [
+            110.6738977,
+            19.4304633
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001126",
+      "sourceLinkId": "HN-SRC-002564",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13240439783,
+          "wgs84": [
+            110.6738236,
+            19.4304813
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000903",
+      "sourceLinkId": "HN-SRC-002101",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13240462941,
+          "wgs84": [
+            110.475255,
+            19.1959504
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002255",
+      "sourceLinkId": "HN-SRC-004417",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13420664582,
+          "wgs84": [
+            110.2050411,
+            20.0209262
           ]
         }
       ]
@@ -461,6 +2895,658 @@
           "wgs84": [
             110.3560022,
             19.9273947
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002230",
+      "sourceLinkId": "HN-SRC-004390",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12653691060,
+          "wgs84": [
+            110.1660975,
+            20.0016919
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002240",
+      "sourceLinkId": "HN-SRC-004401",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1996762226,
+          "wgs84": [
+            110.1629205,
+            20.0087554
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-002241",
+      "sourceLinkId": "HN-SRC-004402",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12653691084,
+          "wgs84": [
+            110.1454205,
+            20.0099052
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-M-000048",
+      "sourceLinkId": "HN-SRC-004406",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13163834838,
+          "wgs84": [
+            110.1524406,
+            20.0206665
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000169",
+      "sourceLinkId": "HN-SRC-000264",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13587425384,
+          "wgs84": [
+            109.1765628,
+            18.3282986
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000162",
+      "sourceLinkId": "HN-SRC-000256",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2109252768,
+          "wgs84": [
+            109.1767267,
+            18.328564
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000135",
+      "sourceLinkId": "HN-SRC-000217",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13587425347,
+          "wgs84": [
+            109.1728111,
+            18.3238829
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000171",
+      "sourceLinkId": "HN-SRC-000266",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13587425406,
+          "wgs84": [
+            109.1759888,
+            18.3323042
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000180",
+      "sourceLinkId": "HN-SRC-000275",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13587425411,
+          "wgs84": [
+            109.1758886,
+            18.3321887
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000134",
+      "sourceLinkId": "HN-SRC-000216",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13587425413,
+          "wgs84": [
+            109.1730241,
+            18.3238498
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000298",
+      "sourceLinkId": "HN-SRC-000565",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13661524893,
+          "wgs84": [
+            110.0211783,
+            18.5202174
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000300",
+      "sourceLinkId": "HN-SRC-000567",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13661524894,
+          "wgs84": [
+            110.0217605,
+            18.5204425
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000301",
+      "sourceLinkId": "HN-SRC-000568",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13661524897,
+          "wgs84": [
+            110.0210592,
+            18.5207369
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000299",
+      "sourceLinkId": "HN-SRC-000566",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13661524898,
+          "wgs84": [
+            110.0207184,
+            18.5206258
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-S88-M-000046",
+      "sourceLinkId": "HN-SRC-003605",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8879817634,
+          "wgs84": [
+            109.2228492,
+            19.8059911
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-S88-M-000045",
+      "sourceLinkId": "HN-SRC-003603",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8879817633,
+          "wgs84": [
+            109.2230063,
+            19.8058095
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001680",
+      "sourceLinkId": "HN-SRC-003704",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001673",
+      "sourceLinkId": "HN-SRC-003686",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "HN-UN-R-001699",
+      "sourceLinkId": "HN-SRC-003732",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694809045,
+          "wgs84": [
+            109.3474077,
+            19.8422115
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001700",
+      "sourceLinkId": "HN-SRC-003733",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809021,
+          "wgs84": [
+            109.3475986,
+            19.8425817
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001722",
+      "sourceLinkId": "HN-SRC-003741",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809064,
+          "wgs84": [
+            109.347104,
+            19.8524343
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001723",
+      "sourceLinkId": "HN-SRC-003743",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694809029,
+          "wgs84": [
+            109.3473097,
+            19.8525879
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001710",
+      "sourceLinkId": "HN-SRC-003742",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809107,
+          "wgs84": [
+            109.3470176,
+            19.8471311
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001705",
+      "sourceLinkId": "HN-SRC-003738",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694809137,
+          "wgs84": [
+            109.3472638,
+            19.8461797
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001715",
+      "sourceLinkId": "HN-SRC-003744",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809138,
+          "wgs84": [
+            109.3472093,
+            19.8468812
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001663",
+      "sourceLinkId": "HN-SRC-003662",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5471318889,
+          "wgs84": [
+            109.410912,
+            19.8303317
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001664",
+      "sourceLinkId": "HN-SRC-003663",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694841870,
+          "wgs84": [
+            109.4109391,
+            19.8303487
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001667",
+      "sourceLinkId": "HN-SRC-003665",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694858802,
+          "wgs84": [
+            109.4133737,
+            19.8318631
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001668",
+      "sourceLinkId": "HN-SRC-003674",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694858803,
+          "wgs84": [
+            109.4134688,
+            19.8319179
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001642",
+      "sourceLinkId": "HN-SRC-003558",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694858869,
+          "wgs84": [
+            109.4711814,
+            19.794932
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001639",
+      "sourceLinkId": "HN-SRC-003581",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694858881,
+          "wgs84": [
+            109.4692548,
+            19.7948923
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001746",
+      "sourceLinkId": "HN-SRC-003774",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13695425974,
+          "wgs84": [
+            109.7922553,
+            19.8657244
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001747",
+      "sourceLinkId": "HN-SRC-003775",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13695425975,
+          "wgs84": [
+            109.7922804,
+            19.8658057
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001758",
+      "sourceLinkId": "HN-SRC-003790",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13695425980,
+          "wgs84": [
+            109.7925359,
+            19.8666314
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001763",
+      "sourceLinkId": "HN-SRC-003796",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13695425985,
+          "wgs84": [
+            109.7926231,
+            19.8669132
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001567",
+      "sourceLinkId": "HN-SRC-003425",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13974019591,
+          "wgs84": [
+            109.4360514,
+            19.7245213
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001339",
+      "sourceLinkId": "HN-SRC-002966",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 14119642575,
+          "wgs84": [
+            109.2902229,
+            19.6102464
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001338",
+      "sourceLinkId": "HN-SRC-002965",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 14119642571,
+          "wgs84": [
+            109.2902216,
+            19.6101945
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001350",
+      "sourceLinkId": "HN-SRC-002981",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 14119642584,
+          "wgs84": [
+            109.2907055,
+            19.6133203
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001348",
+      "sourceLinkId": "HN-SRC-002980",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 14119642609,
+          "wgs84": [
+            109.2906935,
+            19.6132527
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001156",
+      "sourceLinkId": "HN-SRC-002656",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 14123095526,
+          "wgs84": [
+            109.5624785,
+            19.4799159
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-001155",
+      "sourceLinkId": "HN-SRC-002648",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 14123095533,
+          "wgs84": [
+            109.5624846,
+            19.4799901
           ]
         }
       ]
@@ -1705,6 +4791,22 @@
       ]
     },
     {
+      "linkId": "HN-G9811-M-001998",
+      "sourceLinkId": "HN-SRC-004506",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2271196697,
+          "wgs84": [
+            110.2886836,
+            19.9500744
+          ]
+        }
+      ]
+    },
+    {
       "linkId": "HN-UN-R-001920",
       "sourceLinkId": "HN-SRC-004036",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -2043,8 +5145,8 @@
       ]
     },
     {
-      "linkId": "HN-G9811-M-001357",
-      "sourceLinkId": "HN-SRC-004209",
+      "linkId": "HN-G9811-M-001997",
+      "sourceLinkId": "HN-SRC-004507",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -2904,22 +6006,6 @@
           "wgs84": [
             110.2651469,
             19.9076032
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G9811-M-001358",
-      "sourceLinkId": "HN-SRC-004220",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2271196697,
-          "wgs84": [
-            110.2886836,
-            19.9500744
           ]
         }
       ]
@@ -5236,6 +8322,168 @@
       ]
     },
     {
+      "linkId": "HN-UN-R-000519",
+      "sourceLinkId": "HN-SRC-001104",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1103445216,
+          "wgs84": [
+            108.7176736,
+            18.7860655
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1103445216,
+          "wgs84": [
+            108.7176736,
+            18.7860655
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000751",
+      "sourceLinkId": "HN-SRC-001805",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1103477770,
+          "wgs84": [
+            108.7280633,
+            19.1043167
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000747",
+      "sourceLinkId": "HN-SRC-001791",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13976606636,
+          "wgs84": [
+            108.7216612,
+            19.1034806
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000752",
+      "sourceLinkId": "HN-SRC-001807",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13976606639,
+          "wgs84": [
+            108.721854,
+            19.1036009
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000760",
+      "sourceLinkId": "HN-SRC-001818",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13976606664,
+          "wgs84": [
+            108.7281329,
+            19.1043252
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000652",
+      "sourceLinkId": "HN-SRC-001494",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1104500604,
+          "wgs84": [
+            108.6997944,
+            18.9557517
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1104500604,
+          "wgs84": [
+            108.6997944,
+            18.9557517
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000442",
+      "sourceLinkId": "HN-SRC-000879",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1104508815,
+          "wgs84": [
+            108.7324689,
+            18.6678251
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000446",
+      "sourceLinkId": "HN-SRC-000886",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1104508887,
+          "wgs84": [
+            108.7335153,
+            18.6676766
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000325",
+      "sourceLinkId": "HN-SRC-000619",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3224847766,
+          "wgs84": [
+            110.0326197,
+            18.5335098
+          ]
+        }
+      ]
+    },
+    {
       "linkId": "HN-UN-R-000808",
       "sourceLinkId": "HN-SRC-001963",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -5263,6 +8511,47 @@
           "wgs84": [
             108.7818279,
             19.1528106
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-R-000525",
+      "sourceLinkId": "HN-SRC-001120",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1108050785,
+          "wgs84": [
+            108.7142558,
+            18.7871231
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1108050785,
+          "wgs84": [
+            108.7142558,
+            18.7871231
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-UN-M-000034",
+      "sourceLinkId": "HN-SRC-004388",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1108194102,
+          "wgs84": [
+            110.3669743,
+            19.9956151
           ]
         }
       ]
@@ -5423,3295 +8712,6 @@
           "wgs84": [
             109.4654877,
             19.5345871
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001809",
-      "sourceLinkId": "HN-SRC-003860",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12143430428,
-          "wgs84": [
-            110.3505171,
-            19.8905664
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 12143430428,
-          "wgs84": [
-            110.3505171,
-            19.8905664
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000214",
-      "sourceLinkId": "HN-SRC-000386",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1805577274,
-          "wgs84": [
-            109.7685842,
-            18.4033776
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000213",
-      "sourceLinkId": "HN-SRC-000385",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2923188858,
-          "wgs84": [
-            109.7696522,
-            18.4033553
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001435",
-      "sourceLinkId": "HN-SRC-003147",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498271980,
-          "wgs84": [
-            110.343601,
-            19.6489923
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001438",
-      "sourceLinkId": "HN-SRC-003150",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498271981,
-          "wgs84": [
-            110.3436166,
-            19.6490441
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001369",
-      "sourceLinkId": "HN-SRC-003044",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498519144,
-          "wgs84": [
-            110.13418,
-            19.6305375
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001372",
-      "sourceLinkId": "HN-SRC-003047",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498519151,
-          "wgs84": [
-            110.1347275,
-            19.6305962
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001375",
-      "sourceLinkId": "HN-SRC-003049",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498519207,
-          "wgs84": [
-            110.1366756,
-            19.630926
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001379",
-      "sourceLinkId": "HN-SRC-003052",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498519212,
-          "wgs84": [
-            110.1371441,
-            19.631032
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001487",
-      "sourceLinkId": "HN-SRC-003267",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498579403,
-          "wgs84": [
-            110.0015844,
-            19.6880826
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001495",
-      "sourceLinkId": "HN-SRC-003285",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498579445,
-          "wgs84": [
-            110.001626,
-            19.6905453
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001498",
-      "sourceLinkId": "HN-SRC-003275",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498579446,
-          "wgs84": [
-            110.0016309,
-            19.6906558
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001486",
-      "sourceLinkId": "HN-SRC-003266",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498579459,
-          "wgs84": [
-            110.0015872,
-            19.6879703
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000176",
-      "sourceLinkId": "HN-SRC-000271",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1991263245,
-          "wgs84": [
-            109.6883855,
-            18.3298408
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000429",
-      "sourceLinkId": "HN-SRC-000830",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2630231156,
-          "wgs84": [
-            108.7595201,
-            18.6198381
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000425",
-      "sourceLinkId": "HN-SRC-000825",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2630231151,
-          "wgs84": [
-            108.7595778,
-            18.6197388
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000400",
-      "sourceLinkId": "HN-SRC-000765",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 3974753443,
-          "wgs84": [
-            110.1722631,
-            18.5870517
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000643",
-      "sourceLinkId": "HN-SRC-001468",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842607177,
-          "wgs84": [
-            109.5015356,
-            18.9486739
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000642",
-      "sourceLinkId": "HN-SRC-001467",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5842607189,
-          "wgs84": [
-            109.5015497,
-            18.9486393
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000637",
-      "sourceLinkId": "HN-SRC-001457",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5842607176,
-          "wgs84": [
-            109.5027682,
-            18.9462347
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000638",
-      "sourceLinkId": "HN-SRC-001458",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842607190,
-          "wgs84": [
-            109.5027307,
-            18.9462779
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000443",
-      "sourceLinkId": "HN-SRC-000880",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1104509157,
-          "wgs84": [
-            108.7336045,
-            18.6676633
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000038",
-      "sourceLinkId": "HN-SRC-000068",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9962129788,
-          "wgs84": [
-            109.2389583,
-            18.3168929
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000052",
-      "sourceLinkId": "HN-SRC-000087",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9962130122,
-          "wgs84": [
-            109.2359055,
-            18.3185523
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000032",
-      "sourceLinkId": "HN-SRC-000056",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1214894350,
-          "wgs84": [
-            109.2414915,
-            18.3164024
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000054",
-      "sourceLinkId": "HN-SRC-000089",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 627210849,
-          "wgs84": [
-            109.2381895,
-            18.3174488
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002077",
-      "sourceLinkId": "HN-SRC-004245",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9962157529,
-          "wgs84": [
-            110.2605412,
-            19.9465821
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002078",
-      "sourceLinkId": "HN-SRC-004246",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5368282320,
-          "wgs84": [
-            110.2605511,
-            19.9466443
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002047",
-      "sourceLinkId": "HN-SRC-004217",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 3972333529,
-          "wgs84": [
-            110.259912,
-            19.9434611
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G9812-M-000647",
-      "sourceLinkId": "HN-SRC-004371",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9962154042,
-          "wgs84": [
-            110.4426229,
-            19.9848737
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G9812-M-000650",
-      "sourceLinkId": "HN-SRC-004375",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2242706823,
-          "wgs84": [
-            110.4425489,
-            19.9847975
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001492",
-      "sourceLinkId": "HN-SRC-003277",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2261066490,
-          "wgs84": [
-            110.3585497,
-            19.688986
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000904",
-      "sourceLinkId": "HN-SRC-002102",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11711236347,
-          "wgs84": [
-            110.4752744,
-            19.1959639
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000909",
-      "sourceLinkId": "HN-SRC-002111",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11711236356,
-          "wgs84": [
-            110.474053,
-            19.1972584
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002267",
-      "sourceLinkId": "HN-SRC-004426",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8891998108,
-          "wgs84": [
-            110.1663995,
-            20.0230198
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002266",
-      "sourceLinkId": "HN-SRC-004425",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8891998108,
-          "wgs84": [
-            110.1663995,
-            20.0230198
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002264",
-      "sourceLinkId": "HN-SRC-004423",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8891998107,
-          "wgs84": [
-            110.1645876,
-            20.023094
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002204",
-      "sourceLinkId": "HN-SRC-004346",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800053,
-          "wgs84": [
-            110.3703948,
-            19.9802121
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002215",
-      "sourceLinkId": "HN-SRC-004365",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2223007695,
-          "wgs84": [
-            110.3716681,
-            19.9804127
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002214",
-      "sourceLinkId": "HN-SRC-004363",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800070,
-          "wgs84": [
-            110.3636184,
-            19.9803717
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002205",
-      "sourceLinkId": "HN-SRC-004345",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10673800071,
-          "wgs84": [
-            110.3636125,
-            19.980203
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002213",
-      "sourceLinkId": "HN-SRC-004362",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800096,
-          "wgs84": [
-            110.3675149,
-            19.9803619
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002207",
-      "sourceLinkId": "HN-SRC-004354",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10673800097,
-          "wgs84": [
-            110.3675058,
-            19.9802036
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002212",
-      "sourceLinkId": "HN-SRC-004361",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10673800113,
-          "wgs84": [
-            110.3672752,
-            19.9803615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002206",
-      "sourceLinkId": "HN-SRC-004353",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800142,
-          "wgs84": [
-            110.3672722,
-            19.9802039
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000504",
-      "sourceLinkId": "HN-SRC-001051",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 6425663831,
-          "wgs84": [
-            109.4981793,
-            18.763929
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000533",
-      "sourceLinkId": "HN-SRC-001177",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896341621,
-          "wgs84": [
-            109.4377917,
-            18.7948861
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000531",
-      "sourceLinkId": "HN-SRC-001169",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896341623,
-          "wgs84": [
-            109.4384864,
-            18.7948404
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000349",
-      "sourceLinkId": "HN-SRC-000676",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896479213,
-          "wgs84": [
-            109.6883191,
-            18.549545
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000351",
-      "sourceLinkId": "HN-SRC-000678",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896479215,
-          "wgs84": [
-            109.6882662,
-            18.5496329
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000358",
-      "sourceLinkId": "HN-SRC-000685",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896479217,
-          "wgs84": [
-            109.6895629,
-            18.5502064
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000356",
-      "sourceLinkId": "HN-SRC-000683",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896479220,
-          "wgs84": [
-            109.6896059,
-            18.5501287
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000355",
-      "sourceLinkId": "HN-SRC-000682",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896479219,
-          "wgs84": [
-            109.6892378,
-            18.5500612
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000357",
-      "sourceLinkId": "HN-SRC-000684",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 6425661716,
-          "wgs84": [
-            109.6893511,
-            18.5501254
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000390",
-      "sourceLinkId": "HN-SRC-000733",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8357824978,
-          "wgs84": [
-            109.6630195,
-            18.5796545
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000388",
-      "sourceLinkId": "HN-SRC-000735",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896479320,
-          "wgs84": [
-            109.6630839,
-            18.5796138
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000389",
-      "sourceLinkId": "HN-SRC-000736",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8357824978,
-          "wgs84": [
-            109.6630195,
-            18.5796545
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000423",
-      "sourceLinkId": "HN-SRC-000803",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1429795546,
-          "wgs84": [
-            109.6505579,
-            18.606152
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 1429795546,
-          "wgs84": [
-            109.6505579,
-            18.606152
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001285",
-      "sourceLinkId": "HN-SRC-002850",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002535,
-          "wgs84": [
-            110.7583052,
-            19.5653573
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G360+S22-M-000018",
-      "sourceLinkId": "HN-SRC-002849",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002535,
-          "wgs84": [
-            110.7583052,
-            19.5653573
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G360+S22-M-000017",
-      "sourceLinkId": "HN-SRC-002847",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002536,
-          "wgs84": [
-            110.7583354,
-            19.5652615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001282",
-      "sourceLinkId": "HN-SRC-002844",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002536,
-          "wgs84": [
-            110.7583354,
-            19.5652615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001320",
-      "sourceLinkId": "HN-SRC-002889",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002746,
-          "wgs84": [
-            110.6890334,
-            19.5749571
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001315",
-      "sourceLinkId": "HN-SRC-002887",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002752,
-          "wgs84": [
-            110.6886972,
-            19.5745762
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001306",
-      "sourceLinkId": "HN-SRC-002883",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002761,
-          "wgs84": [
-            110.6868162,
-            19.5725784
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001303",
-      "sourceLinkId": "HN-SRC-002880",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002769,
-          "wgs84": [
-            110.6863603,
-            19.5722165
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001363",
-      "sourceLinkId": "HN-SRC-003018",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900003742,
-          "wgs84": [
-            110.4879345,
-            19.621596
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001452",
-      "sourceLinkId": "HN-SRC-003206",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2288121962,
-          "wgs84": [
-            110.2621257,
-            19.6704584
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 2288121962,
-          "wgs84": [
-            110.2621257,
-            19.6704584
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001458",
-      "sourceLinkId": "HN-SRC-003213",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2288121967,
-          "wgs84": [
-            110.2635741,
-            19.673176
-          ]
-        },
-        {
-          "role": "outgoing",
-          "orientation": "reverse",
-          "osmNodeId": 2288121967,
-          "wgs84": [
-            110.2635741,
-            19.673176
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001478",
-      "sourceLinkId": "HN-SRC-003226",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900004622,
-          "wgs84": [
-            110.2064523,
-            19.6846323
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001477",
-      "sourceLinkId": "HN-SRC-003236",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2288076355,
-          "wgs84": [
-            110.2064342,
-            19.684563
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001662",
-      "sourceLinkId": "HN-SRC-003661",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10940554719,
-          "wgs84": [
-            109.7800538,
-            19.8300137
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001665",
-      "sourceLinkId": "HN-SRC-003664",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940554727,
-          "wgs84": [
-            109.7809736,
-            19.8324146
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001661",
-      "sourceLinkId": "HN-SRC-003660",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10940554728,
-          "wgs84": [
-            109.7810156,
-            19.8325612
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001660",
-      "sourceLinkId": "HN-SRC-003659",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940554737,
-          "wgs84": [
-            109.7800256,
-            19.8299476
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001622",
-      "sourceLinkId": "HN-SRC-003562",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2585485905,
-          "wgs84": [
-            109.8517687,
-            19.7913304
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001623",
-      "sourceLinkId": "HN-SRC-003563",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940555549,
-          "wgs84": [
-            109.8518025,
-            19.7913733
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001629",
-      "sourceLinkId": "HN-SRC-003572",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2585485909,
-          "wgs84": [
-            109.8536035,
-            19.7935123
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001631",
-      "sourceLinkId": "HN-SRC-003574",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940555566,
-          "wgs84": [
-            109.8536632,
-            19.7936036
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001767",
-      "sourceLinkId": "HN-SRC-003793",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498553928,
-          "wgs84": [
-            109.7534501,
-            19.86784
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G360+S22-M-000689",
-      "sourceLinkId": "HN-SRC-003794",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498553928,
-          "wgs84": [
-            109.7534501,
-            19.86784
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001772",
-      "sourceLinkId": "HN-SRC-003809",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11155835503,
-          "wgs84": [
-            109.7516642,
-            19.8694875
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G360+S22-M-000690",
-      "sourceLinkId": "HN-SRC-003801",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 4740682680,
-          "wgs84": [
-            109.7525647,
-            19.8685794
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002287",
-      "sourceLinkId": "HN-SRC-004451",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11303348595,
-          "wgs84": [
-            110.1539955,
-            20.0500763
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002288",
-      "sourceLinkId": "HN-SRC-004452",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11303348638,
-          "wgs84": [
-            110.1531889,
-            20.05025
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002285",
-      "sourceLinkId": "HN-SRC-004449",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12653691287,
-          "wgs84": [
-            110.1528385,
-            20.0501615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001140",
-      "sourceLinkId": "HN-SRC-002613",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502477,
-          "wgs84": [
-            109.6056185,
-            19.4708336
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001141",
-      "sourceLinkId": "HN-SRC-002614",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364502490,
-          "wgs84": [
-            109.6056063,
-            19.4708844
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001148",
-      "sourceLinkId": "HN-SRC-002629",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502512,
-          "wgs84": [
-            109.6050196,
-            19.4733533
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001149",
-      "sourceLinkId": "HN-SRC-002620",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364502513,
-          "wgs84": [
-            109.6050064,
-            19.473411
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002112",
-      "sourceLinkId": "HN-SRC-004277",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11377236637,
-          "wgs84": [
-            110.5006751,
-            19.9506562
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002109",
-      "sourceLinkId": "HN-SRC-004274",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11377236702,
-          "wgs84": [
-            110.5007375,
-            19.9503969
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002108",
-      "sourceLinkId": "HN-SRC-004273",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8754235893,
-          "wgs84": [
-            110.5006726,
-            19.9497672
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002160",
-      "sourceLinkId": "HN-SRC-004312",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11377236756,
-          "wgs84": [
-            110.5110628,
-            19.9603555
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002157",
-      "sourceLinkId": "HN-SRC-004306",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11377236766,
-          "wgs84": [
-            110.510726,
-            19.9595904
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002158",
-      "sourceLinkId": "HN-SRC-004311",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11377236755,
-          "wgs84": [
-            110.5111525,
-            19.9603384
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001368",
-      "sourceLinkId": "HN-SRC-003039",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11443129935,
-          "wgs84": [
-            110.7228507,
-            19.6297466
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002278",
-      "sourceLinkId": "HN-SRC-004435",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 3164348680,
-          "wgs84": [
-            110.1618995,
-            20.0284052
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000908",
-      "sourceLinkId": "HN-SRC-002110",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11711236357,
-          "wgs84": [
-            110.4741045,
-            19.1971962
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002194",
-      "sourceLinkId": "HN-SRC-004344",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11803521977,
-          "wgs84": [
-            110.1842238,
-            19.9764432
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002054",
-      "sourceLinkId": "HN-SRC-004222",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 3972333536,
-          "wgs84": [
-            110.2598771,
-            19.9437078
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002076",
-      "sourceLinkId": "HN-SRC-004252",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11949510556,
-          "wgs84": [
-            110.2605821,
-            19.9462633
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002079",
-      "sourceLinkId": "HN-SRC-004253",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11949510561,
-          "wgs84": [
-            110.2607101,
-            19.9468917
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000245",
-      "sourceLinkId": "HN-SRC-000462",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1805482159,
-          "wgs84": [
-            109.8495948,
-            18.4344953
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000366",
-      "sourceLinkId": "HN-SRC-000707",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12061479493,
-          "wgs84": [
-            110.1425708,
-            18.5696401
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000368",
-      "sourceLinkId": "HN-SRC-000709",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12061479494,
-          "wgs84": [
-            110.1422589,
-            18.5700237
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000374",
-      "sourceLinkId": "HN-SRC-000713",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12061479499,
-          "wgs84": [
-            110.1417086,
-            18.5708692
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000377",
-      "sourceLinkId": "HN-SRC-000715",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12061479507,
-          "wgs84": [
-            110.1414939,
-            18.5712116
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002262",
-      "sourceLinkId": "HN-SRC-004422",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8674224181,
-          "wgs84": [
-            110.1761677,
-            20.0212887
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002070",
-      "sourceLinkId": "HN-SRC-004247",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2218557446,
-          "wgs84": [
-            110.4332089,
-            19.9464575
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002175",
-      "sourceLinkId": "HN-SRC-004330",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 4739912982,
-          "wgs84": [
-            110.1681388,
-            19.9739081
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002173",
-      "sourceLinkId": "HN-SRC-004328",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11803521932,
-          "wgs84": [
-            110.166132,
-            19.9734266
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002188",
-      "sourceLinkId": "HN-SRC-004341",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8891998273,
-          "wgs84": [
-            110.1787717,
-            19.975412
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001908",
-      "sourceLinkId": "HN-SRC-004023",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1759977343,
-          "wgs84": [
-            110.1259987,
-            19.9339268
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001969",
-      "sourceLinkId": "HN-SRC-004098",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1759977674,
-          "wgs84": [
-            110.1262919,
-            19.9385352
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001791",
-      "sourceLinkId": "HN-SRC-003826",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364535255,
-          "wgs84": [
-            109.9089474,
-            19.874346
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001787",
-      "sourceLinkId": "HN-SRC-003824",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364535254,
-          "wgs84": [
-            109.9089427,
-            19.8742092
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001813",
-      "sourceLinkId": "HN-SRC-003864",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12143430475,
-          "wgs84": [
-            110.35027,
-            19.8906754
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001810",
-      "sourceLinkId": "HN-SRC-003861",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12143430476,
-          "wgs84": [
-            110.3508158,
-            19.8906442
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001808",
-      "sourceLinkId": "HN-SRC-003859",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12143430496,
-          "wgs84": [
-            110.3536616,
-            19.8903569
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001805",
-      "sourceLinkId": "HN-SRC-003858",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12143430498,
-          "wgs84": [
-            110.3530992,
-            19.8903943
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001099",
-      "sourceLinkId": "HN-SRC-002508",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 3387204912,
-          "wgs84": [
-            110.0883959,
-            19.3958929
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000105",
-      "sourceLinkId": "HN-SRC-000170",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 7150141910,
-          "wgs84": [
-            109.5771488,
-            18.3215085
-          ]
-        },
-        {
-          "role": "outgoing",
-          "orientation": "reverse",
-          "osmNodeId": 7150141910,
-          "wgs84": [
-            109.5771488,
-            18.3215085
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000100",
-      "sourceLinkId": "HN-SRC-000163",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12147825587,
-          "wgs84": [
-            109.5767931,
-            18.3215325
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000102",
-      "sourceLinkId": "HN-SRC-000164",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12147825566,
-          "wgs84": [
-            109.5773122,
-            18.3213751
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001470",
-      "sourceLinkId": "HN-SRC-003231",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12148632273,
-          "wgs84": [
-            110.2059378,
-            19.6821308
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001465",
-      "sourceLinkId": "HN-SRC-003228",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498271810,
-          "wgs84": [
-            110.2057715,
-            19.6813008
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001479",
-      "sourceLinkId": "HN-SRC-003242",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2288076357,
-          "wgs84": [
-            110.2066488,
-            19.6852758
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001476",
-      "sourceLinkId": "HN-SRC-003241",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001028",
-      "sourceLinkId": "HN-SRC-002353",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001027",
-      "sourceLinkId": "HN-SRC-002351",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001025",
-      "sourceLinkId": "HN-SRC-002349",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001024",
-      "sourceLinkId": "HN-SRC-002348",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001150",
-      "sourceLinkId": "HN-SRC-002637",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364502483,
-          "wgs84": [
-            109.6048945,
-            19.4739011
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001147",
-      "sourceLinkId": "HN-SRC-002636",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502482,
-          "wgs84": [
-            109.6051233,
-            19.4728996
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001142",
-      "sourceLinkId": "HN-SRC-002615",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12148716505,
-          "wgs84": [
-            109.6055065,
-            19.4712999
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001137",
-      "sourceLinkId": "HN-SRC-002610",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502481,
-          "wgs84": [
-            109.6057602,
-            19.4704153
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001108",
-      "sourceLinkId": "HN-SRC-002547",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12148716598,
-          "wgs84": [
-            109.6615858,
-            19.4263386
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001111",
-      "sourceLinkId": "HN-SRC-002548",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12148716599,
-          "wgs84": [
-            109.6622166,
-            19.4270079
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001121",
-      "sourceLinkId": "HN-SRC-002555",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12148716640,
-          "wgs84": [
-            109.6647403,
-            19.4287348
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001117",
-      "sourceLinkId": "HN-SRC-002553",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 6876441231,
-          "wgs84": [
-            109.6641059,
-            19.4283334
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001001",
-      "sourceLinkId": "HN-SRC-002308",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 7377090663,
-          "wgs84": [
-            109.7356443,
-            19.3072384
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000949",
-      "sourceLinkId": "HN-SRC-002154",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12148849167,
-          "wgs84": [
-            109.8385078,
-            19.2268416
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 12148849167,
-          "wgs84": [
-            109.8385078,
-            19.2268416
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002121",
-      "sourceLinkId": "HN-SRC-004289",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12150739243,
-          "wgs84": [
-            110.2464379,
-            19.9540969
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002122",
-      "sourceLinkId": "HN-SRC-004291",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12150739241,
-          "wgs84": [
-            110.2462806,
-            19.9541147
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000120",
-      "sourceLinkId": "HN-SRC-000199",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12150716168,
-          "wgs84": [
-            109.4897146,
-            18.3231467
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000121",
-      "sourceLinkId": "HN-SRC-000200",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12150716169,
-          "wgs84": [
-            109.4897966,
-            18.3231544
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001034",
-      "sourceLinkId": "HN-SRC-002361",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 7398494484,
-          "wgs84": [
-            109.4525156,
-            19.3225137
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 7398494484,
-          "wgs84": [
-            109.4525156,
-            19.3225137
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000772",
-      "sourceLinkId": "HN-SRC-001895",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12459139459,
-          "wgs84": [
-            110.3785113,
-            19.1261586
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000771",
-      "sourceLinkId": "HN-SRC-001894",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459139460,
-          "wgs84": [
-            110.378522,
-            19.126092
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000785",
-      "sourceLinkId": "HN-SRC-001904",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459139499,
-          "wgs84": [
-            110.3782585,
-            19.1287214
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000783",
-      "sourceLinkId": "HN-SRC-001902",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12459139521,
-          "wgs84": [
-            110.3782516,
-            19.1286479
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000766",
-      "sourceLinkId": "HN-SRC-001882",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459179843,
-          "wgs84": [
-            110.3291018,
-            19.1239866
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000765",
-      "sourceLinkId": "HN-SRC-001881",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842606097,
-          "wgs84": [
-            110.3291495,
-            19.1238888
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000782",
-      "sourceLinkId": "HN-SRC-001899",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459179881,
-          "wgs84": [
-            110.3279696,
-            19.1271255
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000773",
-      "sourceLinkId": "HN-SRC-001884",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842606101,
-          "wgs84": [
-            110.3279911,
-            19.1270557
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002242",
-      "sourceLinkId": "HN-SRC-004405",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12653691156,
-          "wgs84": [
-            110.1517964,
-            20.0128336
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-M-000057",
-      "sourceLinkId": "HN-SRC-004446",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12653691400,
-          "wgs84": [
-            110.153738,
-            20.044
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001115",
-      "sourceLinkId": "HN-SRC-002546",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13240439749,
-          "wgs84": [
-            110.6762596,
-            19.4297542
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001116",
-      "sourceLinkId": "HN-SRC-002552",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2632813568,
-          "wgs84": [
-            110.676124,
-            19.429824
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001125",
-      "sourceLinkId": "HN-SRC-002562",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13240439762,
-          "wgs84": [
-            110.6738977,
-            19.4304633
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001126",
-      "sourceLinkId": "HN-SRC-002564",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13240439783,
-          "wgs84": [
-            110.6738236,
-            19.4304813
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000903",
-      "sourceLinkId": "HN-SRC-002101",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13240462941,
-          "wgs84": [
-            110.475255,
-            19.1959504
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002255",
-      "sourceLinkId": "HN-SRC-004417",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13420664582,
-          "wgs84": [
-            110.2050411,
-            20.0209262
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002230",
-      "sourceLinkId": "HN-SRC-004390",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12653691060,
-          "wgs84": [
-            110.1660975,
-            20.0016919
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002240",
-      "sourceLinkId": "HN-SRC-004401",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1996762226,
-          "wgs84": [
-            110.1629205,
-            20.0087554
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-002241",
-      "sourceLinkId": "HN-SRC-004402",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12653691084,
-          "wgs84": [
-            110.1454205,
-            20.0099052
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-M-000048",
-      "sourceLinkId": "HN-SRC-004406",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13163834838,
-          "wgs84": [
-            110.1524406,
-            20.0206665
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000169",
-      "sourceLinkId": "HN-SRC-000264",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13587425384,
-          "wgs84": [
-            109.1765628,
-            18.3282986
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000162",
-      "sourceLinkId": "HN-SRC-000256",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2109252768,
-          "wgs84": [
-            109.1767267,
-            18.328564
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000135",
-      "sourceLinkId": "HN-SRC-000217",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13587425347,
-          "wgs84": [
-            109.1728111,
-            18.3238829
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000171",
-      "sourceLinkId": "HN-SRC-000266",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13587425406,
-          "wgs84": [
-            109.1759888,
-            18.3323042
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000180",
-      "sourceLinkId": "HN-SRC-000275",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13587425411,
-          "wgs84": [
-            109.1758886,
-            18.3321887
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000134",
-      "sourceLinkId": "HN-SRC-000216",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13587425413,
-          "wgs84": [
-            109.1730241,
-            18.3238498
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000298",
-      "sourceLinkId": "HN-SRC-000565",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13661524893,
-          "wgs84": [
-            110.0211783,
-            18.5202174
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000300",
-      "sourceLinkId": "HN-SRC-000567",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13661524894,
-          "wgs84": [
-            110.0217605,
-            18.5204425
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000301",
-      "sourceLinkId": "HN-SRC-000568",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13661524897,
-          "wgs84": [
-            110.0210592,
-            18.5207369
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-000299",
-      "sourceLinkId": "HN-SRC-000566",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13661524898,
-          "wgs84": [
-            110.0207184,
-            18.5206258
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-S88-M-000046",
-      "sourceLinkId": "HN-SRC-003605",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8879817634,
-          "wgs84": [
-            109.2228492,
-            19.8059911
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-S88-M-000045",
-      "sourceLinkId": "HN-SRC-003603",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8879817633,
-          "wgs84": [
-            109.2230063,
-            19.8058095
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001680",
-      "sourceLinkId": "HN-SRC-003704",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001673",
-      "sourceLinkId": "HN-SRC-003686",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "HN-UN-R-001699",
-      "sourceLinkId": "HN-SRC-003732",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694809045,
-          "wgs84": [
-            109.3474077,
-            19.8422115
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001700",
-      "sourceLinkId": "HN-SRC-003733",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809021,
-          "wgs84": [
-            109.3475986,
-            19.8425817
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001722",
-      "sourceLinkId": "HN-SRC-003741",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809064,
-          "wgs84": [
-            109.347104,
-            19.8524343
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001723",
-      "sourceLinkId": "HN-SRC-003743",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694809029,
-          "wgs84": [
-            109.3473097,
-            19.8525879
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001710",
-      "sourceLinkId": "HN-SRC-003742",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809107,
-          "wgs84": [
-            109.3470176,
-            19.8471311
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001705",
-      "sourceLinkId": "HN-SRC-003738",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694809137,
-          "wgs84": [
-            109.3472638,
-            19.8461797
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001715",
-      "sourceLinkId": "HN-SRC-003744",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809138,
-          "wgs84": [
-            109.3472093,
-            19.8468812
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001663",
-      "sourceLinkId": "HN-SRC-003662",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5471318889,
-          "wgs84": [
-            109.410912,
-            19.8303317
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001664",
-      "sourceLinkId": "HN-SRC-003663",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694841870,
-          "wgs84": [
-            109.4109391,
-            19.8303487
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001667",
-      "sourceLinkId": "HN-SRC-003665",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694858802,
-          "wgs84": [
-            109.4133737,
-            19.8318631
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001668",
-      "sourceLinkId": "HN-SRC-003674",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694858803,
-          "wgs84": [
-            109.4134688,
-            19.8319179
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001642",
-      "sourceLinkId": "HN-SRC-003558",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694858869,
-          "wgs84": [
-            109.4711814,
-            19.794932
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001639",
-      "sourceLinkId": "HN-SRC-003581",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694858881,
-          "wgs84": [
-            109.4692548,
-            19.7948923
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001746",
-      "sourceLinkId": "HN-SRC-003774",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13695425974,
-          "wgs84": [
-            109.7922553,
-            19.8657244
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001747",
-      "sourceLinkId": "HN-SRC-003775",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13695425975,
-          "wgs84": [
-            109.7922804,
-            19.8658057
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001758",
-      "sourceLinkId": "HN-SRC-003790",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13695425980,
-          "wgs84": [
-            109.7925359,
-            19.8666314
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001763",
-      "sourceLinkId": "HN-SRC-003796",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13695425985,
-          "wgs84": [
-            109.7926231,
-            19.8669132
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001567",
-      "sourceLinkId": "HN-SRC-003425",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13974019591,
-          "wgs84": [
-            109.4360514,
-            19.7245213
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001339",
-      "sourceLinkId": "HN-SRC-002966",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 14119642575,
-          "wgs84": [
-            109.2902229,
-            19.6102464
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001338",
-      "sourceLinkId": "HN-SRC-002965",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 14119642571,
-          "wgs84": [
-            109.2902216,
-            19.6101945
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001350",
-      "sourceLinkId": "HN-SRC-002981",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 14119642584,
-          "wgs84": [
-            109.2907055,
-            19.6133203
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001348",
-      "sourceLinkId": "HN-SRC-002980",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 14119642609,
-          "wgs84": [
-            109.2906935,
-            19.6132527
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001156",
-      "sourceLinkId": "HN-SRC-002656",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 14123095526,
-          "wgs84": [
-            109.5624785,
-            19.4799159
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-UN-R-001155",
-      "sourceLinkId": "HN-SRC-002648",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 14123095533,
-          "wgs84": [
-            109.5624846,
-            19.4799901
           ]
         }
       ]

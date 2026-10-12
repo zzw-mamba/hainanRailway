@@ -1,22 +1,22 @@
 {
   "valid": true,
-  "links": 10691,
-  "relationships": 11171,
-  "internalRelationships": 6256,
-  "crossSourceRelationships": 4915,
+  "links": 10631,
+  "relationships": 11111,
+  "internalRelationships": 6300,
+  "crossSourceRelationships": 4811,
   "osmWaysFound": 4452,
   "osmNodesLoaded": 29422,
   "unknownDirectionLinks": [
-    "OSM_HN_200987015_529",
-    "OSM_HN_202157490_579",
-    "OSM_HN_394469818_1294",
     "OSM_HN_1312509680_3764",
     "OSM_HN_1312509681_3765",
     "OSM_HN_1312509682_3766",
     "OSM_HN_1312509683_3767",
     "OSM_HN_1312509684_3768",
     "OSM_HN_1494536249_4313",
-    "OSM_HN_1494536250_4314"
+    "OSM_HN_1494536250_4314",
+    "OSM_HN_200987015_529",
+    "OSM_HN_202157490_579",
+    "OSM_HN_394469818_1294"
   ],
   "unresolvedSourceEndpoints": [
     {
@@ -35,204 +35,282 @@
   "linksWithoutOutgoing": 249,
   "pendingLinks": [
     {
-      "linkId": "OSM_HN_95121895_5",
-      "sourceLinkId": "OSM_HN_95121895_5",
+      "linkId": "OSM_HN_1022323911_2744",
+      "sourceLinkId": "OSM_HN_1022323911_2744",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1103445216,
+          "osmNodeId": 12143430428,
           "wgs84": [
-            108.7176736,
-            18.7860655
+            110.3505171,
+            19.8905664
           ]
         },
         {
           "role": "incoming",
           "orientation": "reverse",
-          "osmNodeId": 1103445216,
+          "osmNodeId": 12143430428,
           "wgs84": [
-            108.7176736,
-            18.7860655
+            110.3505171,
+            19.8905664
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95124729_9",
-      "sourceLinkId": "OSM_HN_95124729_9",
+      "linkId": "OSM_HN_1028280037_2792",
+      "sourceLinkId": "OSM_HN_1028280037_2792",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1103477770,
+          "osmNodeId": 1805577274,
           "wgs84": [
-            108.7280633,
-            19.1043167
+            109.7685842,
+            18.4033776
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95124733_10__S001",
-      "sourceLinkId": "OSM_HN_95124733_10",
+      "linkId": "OSM_HN_1028280038_2793",
+      "sourceLinkId": "OSM_HN_1028280038_2793",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "incoming",
           "orientation": "forward",
-          "osmNodeId": 13976606636,
+          "osmNodeId": 2923188858,
           "wgs84": [
-            108.7216612,
-            19.1034806
+            109.7696522,
+            18.4033553
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95124742_11__S003",
-      "sourceLinkId": "OSM_HN_95124742_11",
+      "linkId": "OSM_HN_1030398430_2820",
+      "sourceLinkId": "OSM_HN_1030398430_2820",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 13976606639,
+          "osmNodeId": 9498271980,
           "wgs84": [
-            108.721854,
-            19.1036009
+            110.343601,
+            19.6489923
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95124746_12__S001",
-      "sourceLinkId": "OSM_HN_95124746_12",
+      "linkId": "OSM_HN_1030398431_2821",
+      "sourceLinkId": "OSM_HN_1030398431_2821",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "incoming",
           "orientation": "forward",
-          "osmNodeId": 13976606664,
+          "osmNodeId": 9498271981,
           "wgs84": [
-            108.7281329,
-            19.1043252
+            110.3436166,
+            19.6490441
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95211428_14",
-      "sourceLinkId": "OSM_HN_95211428_14",
+      "linkId": "OSM_HN_1030421169_2988",
+      "sourceLinkId": "OSM_HN_1030421169_2988",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1104500604,
+          "osmNodeId": 9498519144,
           "wgs84": [
-            108.6997944,
-            18.9557517
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 1104500604,
-          "wgs84": [
-            108.6997944,
-            18.9557517
+            110.13418,
+            19.6305375
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95212425_25",
-      "sourceLinkId": "OSM_HN_95212425_25",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1104508815,
-          "wgs84": [
-            108.7324689,
-            18.6678251
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_95212438_31__S001",
-      "sourceLinkId": "OSM_HN_95212438_31",
+      "linkId": "OSM_HN_1030421170_2989",
+      "sourceLinkId": "OSM_HN_1030421170_2989",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "incoming",
           "orientation": "forward",
-          "osmNodeId": 1104508887,
+          "osmNodeId": 9498519151,
           "wgs84": [
-            108.7335153,
-            18.6676766
+            110.1347275,
+            19.6305962
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95231744_48",
-      "sourceLinkId": "OSM_HN_95231744_48",
+      "linkId": "OSM_HN_1030421173_2992",
+      "sourceLinkId": "OSM_HN_1030421173_2992",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 3224847766,
+          "osmNodeId": 9498519207,
           "wgs84": [
-            110.0326197,
-            18.5335098
+            110.1366756,
+            19.630926
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95554982_59",
-      "sourceLinkId": "OSM_HN_95554982_59",
+      "linkId": "OSM_HN_1030421174_2993",
+      "sourceLinkId": "OSM_HN_1030421174_2993",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1108050785,
-          "wgs84": [
-            108.7142558,
-            18.7871231
-          ]
-        },
         {
           "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 1108050785,
+          "orientation": "forward",
+          "osmNodeId": 9498519212,
           "wgs84": [
-            108.7142558,
-            18.7871231
+            110.1371441,
+            19.631032
           ]
         }
       ]
     },
     {
-      "linkId": "OSM_HN_95569412_66",
-      "sourceLinkId": "OSM_HN_95569412_66",
+      "linkId": "OSM_HN_1030427430_3029",
+      "sourceLinkId": "OSM_HN_1030427430_3029",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
           "role": "outgoing",
           "orientation": "forward",
-          "osmNodeId": 1108194102,
+          "osmNodeId": 9498579403,
           "wgs84": [
-            110.3669743,
-            19.9956151
+            110.0015844,
+            19.6880826
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1030427431_3030",
+      "sourceLinkId": "OSM_HN_1030427431_3030",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9498579445,
+          "wgs84": [
+            110.001626,
+            19.6905453
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1030427432_3031__S002",
+      "sourceLinkId": "OSM_HN_1030427432_3031",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498579446,
+          "wgs84": [
+            110.0016309,
+            19.6906558
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1030427433_3032",
+      "sourceLinkId": "OSM_HN_1030427433_3032",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9498579459,
+          "wgs84": [
+            110.0015872,
+            19.6879703
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1030432769_3050",
+      "sourceLinkId": "OSM_HN_1030432769_3050",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1991263245,
+          "wgs84": [
+            109.6883855,
+            18.3298408
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1035768980_3063",
+      "sourceLinkId": "OSM_HN_1035768980_3063",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2630231156,
+          "wgs84": [
+            108.7595201,
+            18.6198381
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1035768981_3064",
+      "sourceLinkId": "OSM_HN_1035768981_3064",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2630231151,
+          "wgs84": [
+            108.7595778,
+            18.6197388
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1036304353_3069",
+      "sourceLinkId": "OSM_HN_1036304353_3069",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3974753443,
+          "wgs84": [
+            110.1722631,
+            18.5870517
           ]
         }
       ]
@@ -249,6 +327,1025 @@
           "wgs84": [
             109.2457103,
             18.3211116
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1058281860_3129",
+      "sourceLinkId": "OSM_HN_1058281860_3129",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842607177,
+          "wgs84": [
+            109.5015356,
+            18.9486739
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1058281861_3130",
+      "sourceLinkId": "OSM_HN_1058281861_3130",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5842607189,
+          "wgs84": [
+            109.5015497,
+            18.9486393
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1058281873_3136",
+      "sourceLinkId": "OSM_HN_1058281873_3136",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5842607176,
+          "wgs84": [
+            109.5027682,
+            18.9462347
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1058281876_3139",
+      "sourceLinkId": "OSM_HN_1058281876_3139",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842607190,
+          "wgs84": [
+            109.5027307,
+            18.9462779
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1064020652_3199",
+      "sourceLinkId": "OSM_HN_1064020652_3199",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1104509157,
+          "wgs84": [
+            108.7336045,
+            18.6676633
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087280298_3204",
+      "sourceLinkId": "OSM_HN_1087280298_3204",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9962129788,
+          "wgs84": [
+            109.2389583,
+            18.3168929
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087280300_3206",
+      "sourceLinkId": "OSM_HN_1087280300_3206",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9962130122,
+          "wgs84": [
+            109.2359055,
+            18.3185523
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087280302_3208",
+      "sourceLinkId": "OSM_HN_1087280302_3208",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1214894350,
+          "wgs84": [
+            109.2414915,
+            18.3164024
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087280313_3218",
+      "sourceLinkId": "OSM_HN_1087280313_3218",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 627210849,
+          "wgs84": [
+            109.2381895,
+            18.3174488
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087284291_3246__S001",
+      "sourceLinkId": "OSM_HN_1087284291_3246",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9962157529,
+          "wgs84": [
+            110.2605412,
+            19.9465821
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087284292_3247__S002",
+      "sourceLinkId": "OSM_HN_1087284292_3247",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5368282320,
+          "wgs84": [
+            110.2605511,
+            19.9466443
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087284293_3248",
+      "sourceLinkId": "OSM_HN_1087284293_3248",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3972333529,
+          "wgs84": [
+            110.259912,
+            19.9434611
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087285245_3249__S002",
+      "sourceLinkId": "OSM_HN_1087285245_3249",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9962154042,
+          "wgs84": [
+            110.4426229,
+            19.9848737
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087285256_3255__S001",
+      "sourceLinkId": "OSM_HN_1087285256_3255",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2242706823,
+          "wgs84": [
+            110.4425489,
+            19.9847975
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1087285354_3256",
+      "sourceLinkId": "OSM_HN_1087285354_3256",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2261066490,
+          "wgs84": [
+            110.3585497,
+            19.688986
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1117899017_3286",
+      "sourceLinkId": "OSM_HN_1117899017_3286",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11711236347,
+          "wgs84": [
+            110.4752744,
+            19.1959639
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1117899018_3287",
+      "sourceLinkId": "OSM_HN_1117899018_3287",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11711236356,
+          "wgs84": [
+            110.474053,
+            19.1972584
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1135457108_3295__S001",
+      "sourceLinkId": "OSM_HN_1135457108_3295",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8891998108,
+          "wgs84": [
+            110.1663995,
+            20.0230198
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1135457110_3297",
+      "sourceLinkId": "OSM_HN_1135457110_3297",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8891998108,
+          "wgs84": [
+            110.1663995,
+            20.0230198
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1135457111_3298",
+      "sourceLinkId": "OSM_HN_1135457111_3298",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8891998107,
+          "wgs84": [
+            110.1645876,
+            20.023094
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050509_3320__S002",
+      "sourceLinkId": "OSM_HN_1147050509_3320",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800053,
+          "wgs84": [
+            110.3703948,
+            19.9802121
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050510_3321__S001",
+      "sourceLinkId": "OSM_HN_1147050510_3321",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2223007695,
+          "wgs84": [
+            110.3716681,
+            19.9804127
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050511_3322__S002",
+      "sourceLinkId": "OSM_HN_1147050511_3322",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800070,
+          "wgs84": [
+            110.3636184,
+            19.9803717
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050512_3323__S001",
+      "sourceLinkId": "OSM_HN_1147050512_3323",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10673800071,
+          "wgs84": [
+            110.3636125,
+            19.980203
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050513_3324",
+      "sourceLinkId": "OSM_HN_1147050513_3324",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800096,
+          "wgs84": [
+            110.3675149,
+            19.9803619
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050514_3325",
+      "sourceLinkId": "OSM_HN_1147050514_3325",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10673800097,
+          "wgs84": [
+            110.3675058,
+            19.9802036
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050515_3326",
+      "sourceLinkId": "OSM_HN_1147050515_3326",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10673800113,
+          "wgs84": [
+            110.3672752,
+            19.9803615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1147050516_3327",
+      "sourceLinkId": "OSM_HN_1147050516_3327",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10673800142,
+          "wgs84": [
+            110.3672722,
+            19.9802039
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172751352_3337",
+      "sourceLinkId": "OSM_HN_1172751352_3337",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 6425663831,
+          "wgs84": [
+            109.4981793,
+            18.763929
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172751358_3338",
+      "sourceLinkId": "OSM_HN_1172751358_3338",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896341621,
+          "wgs84": [
+            109.4377917,
+            18.7948861
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172751398_3364",
+      "sourceLinkId": "OSM_HN_1172751398_3364",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896341623,
+          "wgs84": [
+            109.4384864,
+            18.7948404
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768265_3390",
+      "sourceLinkId": "OSM_HN_1172768265_3390",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896479213,
+          "wgs84": [
+            109.6883191,
+            18.549545
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768269_3394",
+      "sourceLinkId": "OSM_HN_1172768269_3394",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896479215,
+          "wgs84": [
+            109.6882662,
+            18.5496329
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768271_3396",
+      "sourceLinkId": "OSM_HN_1172768271_3396",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896479217,
+          "wgs84": [
+            109.6895629,
+            18.5502064
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768272_3397",
+      "sourceLinkId": "OSM_HN_1172768272_3397",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896479220,
+          "wgs84": [
+            109.6896059,
+            18.5501287
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768273_3398",
+      "sourceLinkId": "OSM_HN_1172768273_3398",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10896479219,
+          "wgs84": [
+            109.6892378,
+            18.5500612
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768274_3399__S001",
+      "sourceLinkId": "OSM_HN_1172768274_3399",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 6425661716,
+          "wgs84": [
+            109.6893511,
+            18.5501254
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768275_3400__S002",
+      "sourceLinkId": "OSM_HN_1172768275_3400",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8357824978,
+          "wgs84": [
+            109.6630195,
+            18.5796545
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768276_3401__S001",
+      "sourceLinkId": "OSM_HN_1172768276_3401",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10896479320,
+          "wgs84": [
+            109.6630839,
+            18.5796138
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768280_3403",
+      "sourceLinkId": "OSM_HN_1172768280_3403",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8357824978,
+          "wgs84": [
+            109.6630195,
+            18.5796545
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1172768284_3407__S002",
+      "sourceLinkId": "OSM_HN_1172768284_3407",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1429795546,
+          "wgs84": [
+            109.6505579,
+            18.606152
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1429795546,
+          "wgs84": [
+            109.6505579,
+            18.606152
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118827_3453__S001",
+      "sourceLinkId": "OSM_HN_1173118827_3453",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002535,
+          "wgs84": [
+            110.7583052,
+            19.5653573
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118842_3467",
+      "sourceLinkId": "OSM_HN_1173118842_3467",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002535,
+          "wgs84": [
+            110.7583052,
+            19.5653573
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118843_3468",
+      "sourceLinkId": "OSM_HN_1173118843_3468",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002536,
+          "wgs84": [
+            110.7583354,
+            19.5652615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118845_3469__S002",
+      "sourceLinkId": "OSM_HN_1173118845_3469",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002536,
+          "wgs84": [
+            110.7583354,
+            19.5652615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118860_3472",
+      "sourceLinkId": "OSM_HN_1173118860_3472",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002746,
+          "wgs84": [
+            110.6890334,
+            19.5749571
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118861_3473",
+      "sourceLinkId": "OSM_HN_1173118861_3473",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002752,
+          "wgs84": [
+            110.6886972,
+            19.5745762
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118862_3474",
+      "sourceLinkId": "OSM_HN_1173118862_3474",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900002761,
+          "wgs84": [
+            110.6868162,
+            19.5725784
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118863_3475",
+      "sourceLinkId": "OSM_HN_1173118863_3475",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002769,
+          "wgs84": [
+            110.6863603,
+            19.5722165
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173118939_3478",
+      "sourceLinkId": "OSM_HN_1173118939_3478",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10900003742,
+          "wgs84": [
+            110.4879345,
+            19.621596
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173119006_3494",
+      "sourceLinkId": "OSM_HN_1173119006_3494",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2288121962,
+          "wgs84": [
+            110.2621257,
+            19.6704584
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 2288121962,
+          "wgs84": [
+            110.2621257,
+            19.6704584
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173119027_3500",
+      "sourceLinkId": "OSM_HN_1173119027_3500",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2288121967,
+          "wgs84": [
+            110.2635741,
+            19.673176
+          ]
+        },
+        {
+          "role": "outgoing",
+          "orientation": "reverse",
+          "osmNodeId": 2288121967,
+          "wgs84": [
+            110.2635741,
+            19.673176
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173119053_3508__S003",
+      "sourceLinkId": "OSM_HN_1173119053_3508",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900004622,
+          "wgs84": [
+            110.2064523,
+            19.6846323
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1173119054_3509__S001",
+      "sourceLinkId": "OSM_HN_1173119054_3509",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2288076355,
+          "wgs84": [
+            110.2064342,
+            19.684563
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676933_3557",
+      "sourceLinkId": "OSM_HN_1177676933_3557",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10940554719,
+          "wgs84": [
+            109.7800538,
+            19.8300137
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676934_3558",
+      "sourceLinkId": "OSM_HN_1177676934_3558",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940554727,
+          "wgs84": [
+            109.7809736,
+            19.8324146
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676935_3559",
+      "sourceLinkId": "OSM_HN_1177676935_3559",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10940554728,
+          "wgs84": [
+            109.7810156,
+            19.8325612
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676936_3560",
+      "sourceLinkId": "OSM_HN_1177676936_3560",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940554737,
+          "wgs84": [
+            109.7800256,
+            19.8299476
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676975_3577",
+      "sourceLinkId": "OSM_HN_1177676975_3577",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2585485905,
+          "wgs84": [
+            109.8517687,
+            19.7913304
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676976_3578",
+      "sourceLinkId": "OSM_HN_1177676976_3578",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940555549,
+          "wgs84": [
+            109.8518025,
+            19.7913733
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676977_3579",
+      "sourceLinkId": "OSM_HN_1177676977_3579",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2585485909,
+          "wgs84": [
+            109.8536035,
+            19.7935123
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1177676978_3580__S001",
+      "sourceLinkId": "OSM_HN_1177676978_3580",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 10940555566,
+          "wgs84": [
+            109.8536632,
+            19.7936036
           ]
         }
       ]
@@ -311,6 +1408,342 @@
       ]
     },
     {
+      "linkId": "OSM_HN_1203470610_3581__S002",
+      "sourceLinkId": "OSM_HN_1203470610_3581",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498553928,
+          "wgs84": [
+            109.7534501,
+            19.86784
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1203470613_3584",
+      "sourceLinkId": "OSM_HN_1203470613_3584",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498553928,
+          "wgs84": [
+            109.7534501,
+            19.86784
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1203470646_3594",
+      "sourceLinkId": "OSM_HN_1203470646_3594",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11155835503,
+          "wgs84": [
+            109.7516642,
+            19.8694875
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1203470652_3595",
+      "sourceLinkId": "OSM_HN_1203470652_3595",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 4740682680,
+          "wgs84": [
+            109.7525647,
+            19.8685794
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1219880689_3605",
+      "sourceLinkId": "OSM_HN_1219880689_3605",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11303348595,
+          "wgs84": [
+            110.1539955,
+            20.0500763
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1219880695_3606",
+      "sourceLinkId": "OSM_HN_1219880695_3606",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11303348638,
+          "wgs84": [
+            110.1531889,
+            20.05025
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1219880697_3608",
+      "sourceLinkId": "OSM_HN_1219880697_3608",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12653691287,
+          "wgs84": [
+            110.1528385,
+            20.0501615
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1225470503_3622__S003",
+      "sourceLinkId": "OSM_HN_1225470503_3622",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502477,
+          "wgs84": [
+            109.6056185,
+            19.4708336
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1225470507_3623__S001",
+      "sourceLinkId": "OSM_HN_1225470507_3623",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364502490,
+          "wgs84": [
+            109.6056063,
+            19.4708844
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1225470508_3624__S003",
+      "sourceLinkId": "OSM_HN_1225470508_3624",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502512,
+          "wgs84": [
+            109.6050196,
+            19.4733533
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1225470509_3625__S001",
+      "sourceLinkId": "OSM_HN_1225470509_3625",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364502513,
+          "wgs84": [
+            109.6050064,
+            19.473411
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1226894533_3648__S002",
+      "sourceLinkId": "OSM_HN_1226894533_3648",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11377236637,
+          "wgs84": [
+            110.5006751,
+            19.9506562
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1226894534_3649",
+      "sourceLinkId": "OSM_HN_1226894534_3649",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11377236702,
+          "wgs84": [
+            110.5007375,
+            19.9503969
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1226894535_3650",
+      "sourceLinkId": "OSM_HN_1226894535_3650",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8754235893,
+          "wgs84": [
+            110.5006726,
+            19.9497672
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1226894540_3652",
+      "sourceLinkId": "OSM_HN_1226894540_3652",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11377236756,
+          "wgs84": [
+            110.5110628,
+            19.9603555
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1226894541_3653__S001",
+      "sourceLinkId": "OSM_HN_1226894541_3653",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11377236766,
+          "wgs84": [
+            110.510726,
+            19.9595904
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1226894546_3655",
+      "sourceLinkId": "OSM_HN_1226894546_3655",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11377236755,
+          "wgs84": [
+            110.5111525,
+            19.9603384
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1233261227_3656__S001",
+      "sourceLinkId": "OSM_HN_1233261227_3656",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11443129935,
+          "wgs84": [
+            110.7228507,
+            19.6297466
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1237835631_3657",
+      "sourceLinkId": "OSM_HN_1237835631_3657",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 3164348680,
+          "wgs84": [
+            110.1618995,
+            20.0284052
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1259693494_3659",
+      "sourceLinkId": "OSM_HN_1259693494_3659",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11711236357,
+          "wgs84": [
+            110.4741045,
+            19.1971962
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1271032186_3660",
+      "sourceLinkId": "OSM_HN_1271032186_3660",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11803521977,
+          "wgs84": [
+            110.1842238,
+            19.9764432
+          ]
+        }
+      ]
+    },
+    {
       "linkId": "OSM_HN_127761694_134__S002",
       "sourceLinkId": "OSM_HN_127761694_134",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -322,6 +1755,895 @@
           "wgs84": [
             110.0347891,
             18.5311876
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1288596649_3664",
+      "sourceLinkId": "OSM_HN_1288596649_3664",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 3972333536,
+          "wgs84": [
+            110.2598771,
+            19.9437078
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1288596650_3665",
+      "sourceLinkId": "OSM_HN_1288596650_3665",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11949510556,
+          "wgs84": [
+            110.2605821,
+            19.9462633
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1288596651_3666",
+      "sourceLinkId": "OSM_HN_1288596651_3666",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11949510561,
+          "wgs84": [
+            110.2607101,
+            19.9468917
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302300856_3668",
+      "sourceLinkId": "OSM_HN_1302300856_3668",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1805482159,
+          "wgs84": [
+            109.8495948,
+            18.4344953
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302300858_3669",
+      "sourceLinkId": "OSM_HN_1302300858_3669",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12061479493,
+          "wgs84": [
+            110.1425708,
+            18.5696401
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302300859_3670",
+      "sourceLinkId": "OSM_HN_1302300859_3670",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12061479494,
+          "wgs84": [
+            110.1422589,
+            18.5700237
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302300860_3671",
+      "sourceLinkId": "OSM_HN_1302300860_3671",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12061479499,
+          "wgs84": [
+            110.1417086,
+            18.5708692
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302300861_3672",
+      "sourceLinkId": "OSM_HN_1302300861_3672",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12061479507,
+          "wgs84": [
+            110.1414939,
+            18.5712116
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302340462_3675",
+      "sourceLinkId": "OSM_HN_1302340462_3675",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8674224181,
+          "wgs84": [
+            110.1761677,
+            20.0212887
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1302963124_3694",
+      "sourceLinkId": "OSM_HN_1302963124_3694",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2218557446,
+          "wgs84": [
+            110.4332089,
+            19.9464575
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1303312862_3700",
+      "sourceLinkId": "OSM_HN_1303312862_3700",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 4739912982,
+          "wgs84": [
+            110.1681388,
+            19.9739081
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1303312863_3701",
+      "sourceLinkId": "OSM_HN_1303312863_3701",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11803521932,
+          "wgs84": [
+            110.166132,
+            19.9734266
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1303312867_3704",
+      "sourceLinkId": "OSM_HN_1303312867_3704",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8891998273,
+          "wgs84": [
+            110.1787717,
+            19.975412
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311579851_3733",
+      "sourceLinkId": "OSM_HN_1311579851_3733",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1759977343,
+          "wgs84": [
+            110.1259987,
+            19.9339268
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311579852_3734",
+      "sourceLinkId": "OSM_HN_1311579852_3734",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1759977674,
+          "wgs84": [
+            110.1262919,
+            19.9385352
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311862820_3735",
+      "sourceLinkId": "OSM_HN_1311862820_3735",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364535255,
+          "wgs84": [
+            109.9089474,
+            19.874346
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311862821_3736",
+      "sourceLinkId": "OSM_HN_1311862821_3736",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364535254,
+          "wgs84": [
+            109.9089427,
+            19.8742092
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311920157_3738",
+      "sourceLinkId": "OSM_HN_1311920157_3738",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12143430475,
+          "wgs84": [
+            110.35027,
+            19.8906754
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311920158_3739",
+      "sourceLinkId": "OSM_HN_1311920158_3739",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12143430476,
+          "wgs84": [
+            110.3508158,
+            19.8906442
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311920161_3742",
+      "sourceLinkId": "OSM_HN_1311920161_3742",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12143430496,
+          "wgs84": [
+            110.3536616,
+            19.8903569
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1311920162_3743",
+      "sourceLinkId": "OSM_HN_1311920162_3743",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12143430498,
+          "wgs84": [
+            110.3530992,
+            19.8903943
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312090243_3755",
+      "sourceLinkId": "OSM_HN_1312090243_3755",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3387204912,
+          "wgs84": [
+            110.0883959,
+            19.3958929
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312438480_3756",
+      "sourceLinkId": "OSM_HN_1312438480_3756",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 7150141910,
+          "wgs84": [
+            109.5771488,
+            18.3215085
+          ]
+        },
+        {
+          "role": "outgoing",
+          "orientation": "reverse",
+          "osmNodeId": 7150141910,
+          "wgs84": [
+            109.5771488,
+            18.3215085
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312438483_3757",
+      "sourceLinkId": "OSM_HN_1312438483_3757",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12147825587,
+          "wgs84": [
+            109.5767931,
+            18.3215325
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312438484_3758",
+      "sourceLinkId": "OSM_HN_1312438484_3758",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12147825566,
+          "wgs84": [
+            109.5773122,
+            18.3213751
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312509677_3761",
+      "sourceLinkId": "OSM_HN_1312509677_3761",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12148632273,
+          "wgs84": [
+            110.2059378,
+            19.6821308
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312509678_3762",
+      "sourceLinkId": "OSM_HN_1312509678_3762",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 9498271810,
+          "wgs84": [
+            110.2057715,
+            19.6813008
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312509679_3763",
+      "sourceLinkId": "OSM_HN_1312509679_3763",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2288076357,
+          "wgs84": [
+            110.2066488,
+            19.6852758
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312509680_3764",
+      "sourceLinkId": "OSM_HN_1312509680_3764",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1312509681_3765",
+      "sourceLinkId": "OSM_HN_1312509681_3765",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1312509682_3766",
+      "sourceLinkId": "OSM_HN_1312509682_3766",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1312509683_3767",
+      "sourceLinkId": "OSM_HN_1312509683_3767",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1312509684_3768",
+      "sourceLinkId": "OSM_HN_1312509684_3768",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1312511305_3769",
+      "sourceLinkId": "OSM_HN_1312511305_3769",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 11364502483,
+          "wgs84": [
+            109.6048945,
+            19.4739011
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511306_3770",
+      "sourceLinkId": "OSM_HN_1312511306_3770",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502482,
+          "wgs84": [
+            109.6051233,
+            19.4728996
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511307_3771",
+      "sourceLinkId": "OSM_HN_1312511307_3771",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12148716505,
+          "wgs84": [
+            109.6055065,
+            19.4712999
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511308_3772",
+      "sourceLinkId": "OSM_HN_1312511308_3772",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 11364502481,
+          "wgs84": [
+            109.6057602,
+            19.4704153
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511345_3805",
+      "sourceLinkId": "OSM_HN_1312511345_3805",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12148716598,
+          "wgs84": [
+            109.6615858,
+            19.4263386
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511346_3806",
+      "sourceLinkId": "OSM_HN_1312511346_3806",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12148716599,
+          "wgs84": [
+            109.6622166,
+            19.4270079
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511347_3807",
+      "sourceLinkId": "OSM_HN_1312511347_3807",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12148716640,
+          "wgs84": [
+            109.6647403,
+            19.4287348
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511348_3808",
+      "sourceLinkId": "OSM_HN_1312511348_3808",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 6876441231,
+          "wgs84": [
+            109.6641059,
+            19.4283334
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312511721_3809",
+      "sourceLinkId": "OSM_HN_1312511721_3809",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 7377090663,
+          "wgs84": [
+            109.7356443,
+            19.3072384
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312527058_3893__S003",
+      "sourceLinkId": "OSM_HN_1312527058_3893",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12148849167,
+          "wgs84": [
+            109.8385078,
+            19.2268416
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 12148849167,
+          "wgs84": [
+            109.8385078,
+            19.2268416
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312710277_3910",
+      "sourceLinkId": "OSM_HN_1312710277_3910",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12150739243,
+          "wgs84": [
+            110.2464379,
+            19.9540969
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312710279_3912",
+      "sourceLinkId": "OSM_HN_1312710279_3912",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12150739241,
+          "wgs84": [
+            110.2462806,
+            19.9541147
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312714517_3913",
+      "sourceLinkId": "OSM_HN_1312714517_3913",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12150716168,
+          "wgs84": [
+            109.4897146,
+            18.3231467
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1312714518_3914",
+      "sourceLinkId": "OSM_HN_1312714518_3914",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12150716169,
+          "wgs84": [
+            109.4897966,
+            18.3231544
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1320167077_3915",
+      "sourceLinkId": "OSM_HN_1320167077_3915",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 7398494484,
+          "wgs84": [
+            109.4525156,
+            19.3225137
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 7398494484,
+          "wgs84": [
+            109.4525156,
+            19.3225137
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346902817_3935",
+      "sourceLinkId": "OSM_HN_1346902817_3935",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12459139459,
+          "wgs84": [
+            110.3785113,
+            19.1261586
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346902818_3936__S002",
+      "sourceLinkId": "OSM_HN_1346902818_3936",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459139460,
+          "wgs84": [
+            110.378522,
+            19.126092
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346902819_3937__S002",
+      "sourceLinkId": "OSM_HN_1346902819_3937",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459139499,
+          "wgs84": [
+            110.3782585,
+            19.1287214
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346902820_3938",
+      "sourceLinkId": "OSM_HN_1346902820_3938",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12459139521,
+          "wgs84": [
+            110.3782516,
+            19.1286479
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346908693_4003",
+      "sourceLinkId": "OSM_HN_1346908693_4003",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459179843,
+          "wgs84": [
+            110.3291018,
+            19.1239866
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346908695_4004__S001",
+      "sourceLinkId": "OSM_HN_1346908695_4004",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842606097,
+          "wgs84": [
+            110.3291495,
+            19.1238888
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346908697_4005__S002",
+      "sourceLinkId": "OSM_HN_1346908697_4005",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12459179881,
+          "wgs84": [
+            110.3279696,
+            19.1271255
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1346908698_4006__S001",
+      "sourceLinkId": "OSM_HN_1346908698_4006",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 5842606101,
+          "wgs84": [
+            110.3279911,
+            19.1270557
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1366341760_4051",
+      "sourceLinkId": "OSM_HN_1366341760_4051",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12653691156,
+          "wgs84": [
+            110.1517964,
+            20.0128336
           ]
         }
       ]
@@ -386,6 +2708,118 @@
           "wgs84": [
             110.4363771,
             19.9438161
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1432137371_4108",
+      "sourceLinkId": "OSM_HN_1432137371_4108",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12653691400,
+          "wgs84": [
+            110.153738,
+            20.044
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1442974811_4109__S002",
+      "sourceLinkId": "OSM_HN_1442974811_4109",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13240439749,
+          "wgs84": [
+            110.6762596,
+            19.4297542
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1442974812_4110__S001",
+      "sourceLinkId": "OSM_HN_1442974812_4110",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 2632813568,
+          "wgs84": [
+            110.676124,
+            19.429824
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1442974813_4111__S001",
+      "sourceLinkId": "OSM_HN_1442974813_4111",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13240439762,
+          "wgs84": [
+            110.6738977,
+            19.4304633
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1442974814_4112__S002",
+      "sourceLinkId": "OSM_HN_1442974814_4112",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13240439783,
+          "wgs84": [
+            110.6738236,
+            19.4304813
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1442975478_4113",
+      "sourceLinkId": "OSM_HN_1442975478_4113",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13240462941,
+          "wgs84": [
+            110.475255,
+            19.1959504
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1463069264_4117",
+      "sourceLinkId": "OSM_HN_1463069264_4117",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13420664582,
+          "wgs84": [
+            110.2050411,
+            20.0209262
           ]
         }
       ]
@@ -461,6 +2895,658 @@
           "wgs84": [
             110.3560022,
             19.9273947
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1472512705_4215",
+      "sourceLinkId": "OSM_HN_1472512705_4215",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 12653691060,
+          "wgs84": [
+            110.1660975,
+            20.0016919
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1472512707_4216",
+      "sourceLinkId": "OSM_HN_1472512707_4216",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1996762226,
+          "wgs84": [
+            110.1629205,
+            20.0087554
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1472512712_4221",
+      "sourceLinkId": "OSM_HN_1472512712_4221",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 12653691084,
+          "wgs84": [
+            110.1454205,
+            20.0099052
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1472512713_4222",
+      "sourceLinkId": "OSM_HN_1472512713_4222",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13163834838,
+          "wgs84": [
+            110.1524406,
+            20.0206665
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1481449158_4255__S002",
+      "sourceLinkId": "OSM_HN_1481449158_4255",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13587425384,
+          "wgs84": [
+            109.1765628,
+            18.3282986
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1481449165_4260",
+      "sourceLinkId": "OSM_HN_1481449165_4260",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2109252768,
+          "wgs84": [
+            109.1767267,
+            18.328564
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1481449168_4263",
+      "sourceLinkId": "OSM_HN_1481449168_4263",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13587425347,
+          "wgs84": [
+            109.1728111,
+            18.3238829
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1481449172_4267",
+      "sourceLinkId": "OSM_HN_1481449172_4267",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13587425406,
+          "wgs84": [
+            109.1759888,
+            18.3323042
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1481449173_4268",
+      "sourceLinkId": "OSM_HN_1481449173_4268",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13587425411,
+          "wgs84": [
+            109.1758886,
+            18.3321887
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1481449176_4271",
+      "sourceLinkId": "OSM_HN_1481449176_4271",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13587425413,
+          "wgs84": [
+            109.1730241,
+            18.3238498
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1490565324_4279",
+      "sourceLinkId": "OSM_HN_1490565324_4279",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13661524893,
+          "wgs84": [
+            110.0211783,
+            18.5202174
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1490565326_4280",
+      "sourceLinkId": "OSM_HN_1490565326_4280",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13661524894,
+          "wgs84": [
+            110.0217605,
+            18.5204425
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1490565327_4281",
+      "sourceLinkId": "OSM_HN_1490565327_4281",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13661524897,
+          "wgs84": [
+            110.0210592,
+            18.5207369
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1490565329_4282",
+      "sourceLinkId": "OSM_HN_1490565329_4282",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13661524898,
+          "wgs84": [
+            110.0207184,
+            18.5206258
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494536207_4285__S006",
+      "sourceLinkId": "OSM_HN_1494536207_4285",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8879817634,
+          "wgs84": [
+            109.2228492,
+            19.8059911
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494536208_4286__S001",
+      "sourceLinkId": "OSM_HN_1494536208_4286",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 8879817633,
+          "wgs84": [
+            109.2230063,
+            19.8058095
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494536249_4313",
+      "sourceLinkId": "OSM_HN_1494536249_4313",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1494536250_4314",
+      "sourceLinkId": "OSM_HN_1494536250_4314",
+      "reason": "unknownDirection",
+      "missingConnections": []
+    },
+    {
+      "linkId": "OSM_HN_1494541070_4319__S003",
+      "sourceLinkId": "OSM_HN_1494541070_4319",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694809045,
+          "wgs84": [
+            109.3474077,
+            19.8422115
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494541071_4320__S001",
+      "sourceLinkId": "OSM_HN_1494541071_4320",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809021,
+          "wgs84": [
+            109.3475986,
+            19.8425817
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494541073_4322__S001",
+      "sourceLinkId": "OSM_HN_1494541073_4322",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809064,
+          "wgs84": [
+            109.347104,
+            19.8524343
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494541074_4323__S004",
+      "sourceLinkId": "OSM_HN_1494541074_4323",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694809029,
+          "wgs84": [
+            109.3473097,
+            19.8525879
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494541079_4328",
+      "sourceLinkId": "OSM_HN_1494541079_4328",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809107,
+          "wgs84": [
+            109.3470176,
+            19.8471311
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494541080_4329",
+      "sourceLinkId": "OSM_HN_1494541080_4329",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694809137,
+          "wgs84": [
+            109.3472638,
+            19.8461797
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494541082_4331",
+      "sourceLinkId": "OSM_HN_1494541082_4331",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694809138,
+          "wgs84": [
+            109.3472093,
+            19.8468812
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494547133_4346__S002",
+      "sourceLinkId": "OSM_HN_1494547133_4346",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 5471318889,
+          "wgs84": [
+            109.410912,
+            19.8303317
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494547134_4347",
+      "sourceLinkId": "OSM_HN_1494547134_4347",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694841870,
+          "wgs84": [
+            109.4109391,
+            19.8303487
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494547139_4348__S002",
+      "sourceLinkId": "OSM_HN_1494547139_4348",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694858802,
+          "wgs84": [
+            109.4133737,
+            19.8318631
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494547140_4349__S001",
+      "sourceLinkId": "OSM_HN_1494547140_4349",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694858803,
+          "wgs84": [
+            109.4134688,
+            19.8319179
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494547179_4365__S003",
+      "sourceLinkId": "OSM_HN_1494547179_4365",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13694858869,
+          "wgs84": [
+            109.4711814,
+            19.794932
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494547180_4366__S001",
+      "sourceLinkId": "OSM_HN_1494547180_4366",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13694858881,
+          "wgs84": [
+            109.4692548,
+            19.7948923
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494616675_4388",
+      "sourceLinkId": "OSM_HN_1494616675_4388",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13695425974,
+          "wgs84": [
+            109.7922553,
+            19.8657244
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494616676_4389",
+      "sourceLinkId": "OSM_HN_1494616676_4389",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13695425975,
+          "wgs84": [
+            109.7922804,
+            19.8658057
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494616677_4390",
+      "sourceLinkId": "OSM_HN_1494616677_4390",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13695425980,
+          "wgs84": [
+            109.7925359,
+            19.8666314
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1494616678_4391",
+      "sourceLinkId": "OSM_HN_1494616678_4391",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13695425985,
+          "wgs84": [
+            109.7926231,
+            19.8669132
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1533439709_4398",
+      "sourceLinkId": "OSM_HN_1533439709_4398",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13974019591,
+          "wgs84": [
+            109.4360514,
+            19.7245213
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1552035711_4421__S001",
+      "sourceLinkId": "OSM_HN_1552035711_4421",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 14119642575,
+          "wgs84": [
+            109.2902229,
+            19.6102464
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1552035712_4422__S002",
+      "sourceLinkId": "OSM_HN_1552035712_4422",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 14119642571,
+          "wgs84": [
+            109.2902216,
+            19.6101945
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1552035715_4423",
+      "sourceLinkId": "OSM_HN_1552035715_4423",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 14119642584,
+          "wgs84": [
+            109.2907055,
+            19.6133203
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1552035716_4424",
+      "sourceLinkId": "OSM_HN_1552035716_4424",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 14119642609,
+          "wgs84": [
+            109.2906935,
+            19.6132527
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1552333654_4435",
+      "sourceLinkId": "OSM_HN_1552333654_4435",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 14123095526,
+          "wgs84": [
+            109.5624785,
+            19.4799159
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_1552333655_4436__S002",
+      "sourceLinkId": "OSM_HN_1552333655_4436",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 14123095533,
+          "wgs84": [
+            109.5624846,
+            19.4799901
           ]
         }
       ]
@@ -1705,6 +4791,22 @@
       ]
     },
     {
+      "linkId": "MERGED_HN_343677e176166f668357__S013",
+      "sourceLinkId": "MERGED_HN_343677e176166f668357",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 2271196697,
+          "wgs84": [
+            110.2886836,
+            19.9500744
+          ]
+        }
+      ]
+    },
+    {
       "linkId": "OSM_HN_220068431_974__S002",
       "sourceLinkId": "OSM_HN_220068431_974",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -2043,8 +5145,8 @@
       ]
     },
     {
-      "linkId": "OSM_HN_305272841_1067__S001",
-      "sourceLinkId": "OSM_HN_305272841_1067",
+      "linkId": "MERGED_HN_473a4f8a57b7e644ec12__S001",
+      "sourceLinkId": "MERGED_HN_473a4f8a57b7e644ec12",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -2904,22 +6006,6 @@
           "wgs84": [
             110.2651469,
             19.9076032
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_394223498_1278__S003",
-      "sourceLinkId": "OSM_HN_394223498_1278",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2271196697,
-          "wgs84": [
-            110.2886836,
-            19.9500744
           ]
         }
       ]
@@ -5236,6 +8322,168 @@
       ]
     },
     {
+      "linkId": "OSM_HN_95121895_5",
+      "sourceLinkId": "OSM_HN_95121895_5",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1103445216,
+          "wgs84": [
+            108.7176736,
+            18.7860655
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1103445216,
+          "wgs84": [
+            108.7176736,
+            18.7860655
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95124729_9",
+      "sourceLinkId": "OSM_HN_95124729_9",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1103477770,
+          "wgs84": [
+            108.7280633,
+            19.1043167
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95124733_10__S001",
+      "sourceLinkId": "OSM_HN_95124733_10",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13976606636,
+          "wgs84": [
+            108.7216612,
+            19.1034806
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95124742_11__S003",
+      "sourceLinkId": "OSM_HN_95124742_11",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 13976606639,
+          "wgs84": [
+            108.721854,
+            19.1036009
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95124746_12__S001",
+      "sourceLinkId": "OSM_HN_95124746_12",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 13976606664,
+          "wgs84": [
+            108.7281329,
+            19.1043252
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95211428_14",
+      "sourceLinkId": "OSM_HN_95211428_14",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1104500604,
+          "wgs84": [
+            108.6997944,
+            18.9557517
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1104500604,
+          "wgs84": [
+            108.6997944,
+            18.9557517
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95212425_25",
+      "sourceLinkId": "OSM_HN_95212425_25",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1104508815,
+          "wgs84": [
+            108.7324689,
+            18.6678251
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95212438_31__S001",
+      "sourceLinkId": "OSM_HN_95212438_31",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "incoming",
+          "orientation": "forward",
+          "osmNodeId": 1104508887,
+          "wgs84": [
+            108.7335153,
+            18.6676766
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95231744_48",
+      "sourceLinkId": "OSM_HN_95231744_48",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 3224847766,
+          "wgs84": [
+            110.0326197,
+            18.5335098
+          ]
+        }
+      ]
+    },
+    {
       "linkId": "OSM_HN_953381136_2634__S002",
       "sourceLinkId": "OSM_HN_953381136_2634",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -5263,6 +8511,47 @@
           "wgs84": [
             108.7818279,
             19.1528106
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95554982_59",
+      "sourceLinkId": "OSM_HN_95554982_59",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1108050785,
+          "wgs84": [
+            108.7142558,
+            18.7871231
+          ]
+        },
+        {
+          "role": "incoming",
+          "orientation": "reverse",
+          "osmNodeId": 1108050785,
+          "wgs84": [
+            108.7142558,
+            18.7871231
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "OSM_HN_95569412_66",
+      "sourceLinkId": "OSM_HN_95569412_66",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 1108194102,
+          "wgs84": [
+            110.3669743,
+            19.9956151
           ]
         }
       ]
@@ -5423,3295 +8712,6 @@
           "wgs84": [
             109.4654877,
             19.5345871
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1022323911_2744",
-      "sourceLinkId": "OSM_HN_1022323911_2744",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12143430428,
-          "wgs84": [
-            110.3505171,
-            19.8905664
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 12143430428,
-          "wgs84": [
-            110.3505171,
-            19.8905664
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1028280037_2792",
-      "sourceLinkId": "OSM_HN_1028280037_2792",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1805577274,
-          "wgs84": [
-            109.7685842,
-            18.4033776
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1028280038_2793",
-      "sourceLinkId": "OSM_HN_1028280038_2793",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2923188858,
-          "wgs84": [
-            109.7696522,
-            18.4033553
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030398430_2820",
-      "sourceLinkId": "OSM_HN_1030398430_2820",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498271980,
-          "wgs84": [
-            110.343601,
-            19.6489923
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030398431_2821",
-      "sourceLinkId": "OSM_HN_1030398431_2821",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498271981,
-          "wgs84": [
-            110.3436166,
-            19.6490441
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030421169_2988",
-      "sourceLinkId": "OSM_HN_1030421169_2988",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498519144,
-          "wgs84": [
-            110.13418,
-            19.6305375
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030421170_2989",
-      "sourceLinkId": "OSM_HN_1030421170_2989",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498519151,
-          "wgs84": [
-            110.1347275,
-            19.6305962
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030421173_2992",
-      "sourceLinkId": "OSM_HN_1030421173_2992",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498519207,
-          "wgs84": [
-            110.1366756,
-            19.630926
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030421174_2993",
-      "sourceLinkId": "OSM_HN_1030421174_2993",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498519212,
-          "wgs84": [
-            110.1371441,
-            19.631032
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030427430_3029",
-      "sourceLinkId": "OSM_HN_1030427430_3029",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498579403,
-          "wgs84": [
-            110.0015844,
-            19.6880826
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030427431_3030",
-      "sourceLinkId": "OSM_HN_1030427431_3030",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498579445,
-          "wgs84": [
-            110.001626,
-            19.6905453
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030427432_3031__S002",
-      "sourceLinkId": "OSM_HN_1030427432_3031",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498579446,
-          "wgs84": [
-            110.0016309,
-            19.6906558
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030427433_3032",
-      "sourceLinkId": "OSM_HN_1030427433_3032",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498579459,
-          "wgs84": [
-            110.0015872,
-            19.6879703
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1030432769_3050",
-      "sourceLinkId": "OSM_HN_1030432769_3050",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1991263245,
-          "wgs84": [
-            109.6883855,
-            18.3298408
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1035768980_3063",
-      "sourceLinkId": "OSM_HN_1035768980_3063",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2630231156,
-          "wgs84": [
-            108.7595201,
-            18.6198381
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1035768981_3064",
-      "sourceLinkId": "OSM_HN_1035768981_3064",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2630231151,
-          "wgs84": [
-            108.7595778,
-            18.6197388
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1036304353_3069",
-      "sourceLinkId": "OSM_HN_1036304353_3069",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 3974753443,
-          "wgs84": [
-            110.1722631,
-            18.5870517
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1058281860_3129",
-      "sourceLinkId": "OSM_HN_1058281860_3129",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842607177,
-          "wgs84": [
-            109.5015356,
-            18.9486739
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1058281861_3130",
-      "sourceLinkId": "OSM_HN_1058281861_3130",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5842607189,
-          "wgs84": [
-            109.5015497,
-            18.9486393
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1058281873_3136",
-      "sourceLinkId": "OSM_HN_1058281873_3136",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5842607176,
-          "wgs84": [
-            109.5027682,
-            18.9462347
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1058281876_3139",
-      "sourceLinkId": "OSM_HN_1058281876_3139",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842607190,
-          "wgs84": [
-            109.5027307,
-            18.9462779
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1064020652_3199",
-      "sourceLinkId": "OSM_HN_1064020652_3199",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1104509157,
-          "wgs84": [
-            108.7336045,
-            18.6676633
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087280298_3204",
-      "sourceLinkId": "OSM_HN_1087280298_3204",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9962129788,
-          "wgs84": [
-            109.2389583,
-            18.3168929
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087280300_3206",
-      "sourceLinkId": "OSM_HN_1087280300_3206",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9962130122,
-          "wgs84": [
-            109.2359055,
-            18.3185523
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087280302_3208",
-      "sourceLinkId": "OSM_HN_1087280302_3208",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1214894350,
-          "wgs84": [
-            109.2414915,
-            18.3164024
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087280313_3218",
-      "sourceLinkId": "OSM_HN_1087280313_3218",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 627210849,
-          "wgs84": [
-            109.2381895,
-            18.3174488
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087284291_3246__S001",
-      "sourceLinkId": "OSM_HN_1087284291_3246",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9962157529,
-          "wgs84": [
-            110.2605412,
-            19.9465821
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087284292_3247__S002",
-      "sourceLinkId": "OSM_HN_1087284292_3247",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5368282320,
-          "wgs84": [
-            110.2605511,
-            19.9466443
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087284293_3248",
-      "sourceLinkId": "OSM_HN_1087284293_3248",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 3972333529,
-          "wgs84": [
-            110.259912,
-            19.9434611
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087285245_3249__S002",
-      "sourceLinkId": "OSM_HN_1087285245_3249",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9962154042,
-          "wgs84": [
-            110.4426229,
-            19.9848737
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087285256_3255__S001",
-      "sourceLinkId": "OSM_HN_1087285256_3255",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2242706823,
-          "wgs84": [
-            110.4425489,
-            19.9847975
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1087285354_3256",
-      "sourceLinkId": "OSM_HN_1087285354_3256",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2261066490,
-          "wgs84": [
-            110.3585497,
-            19.688986
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1117899017_3286",
-      "sourceLinkId": "OSM_HN_1117899017_3286",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11711236347,
-          "wgs84": [
-            110.4752744,
-            19.1959639
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1117899018_3287",
-      "sourceLinkId": "OSM_HN_1117899018_3287",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11711236356,
-          "wgs84": [
-            110.474053,
-            19.1972584
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1135457108_3295__S001",
-      "sourceLinkId": "OSM_HN_1135457108_3295",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8891998108,
-          "wgs84": [
-            110.1663995,
-            20.0230198
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1135457110_3297",
-      "sourceLinkId": "OSM_HN_1135457110_3297",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8891998108,
-          "wgs84": [
-            110.1663995,
-            20.0230198
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1135457111_3298",
-      "sourceLinkId": "OSM_HN_1135457111_3298",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8891998107,
-          "wgs84": [
-            110.1645876,
-            20.023094
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050509_3320__S002",
-      "sourceLinkId": "OSM_HN_1147050509_3320",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800053,
-          "wgs84": [
-            110.3703948,
-            19.9802121
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050510_3321__S001",
-      "sourceLinkId": "OSM_HN_1147050510_3321",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2223007695,
-          "wgs84": [
-            110.3716681,
-            19.9804127
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050511_3322__S002",
-      "sourceLinkId": "OSM_HN_1147050511_3322",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800070,
-          "wgs84": [
-            110.3636184,
-            19.9803717
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050512_3323__S001",
-      "sourceLinkId": "OSM_HN_1147050512_3323",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10673800071,
-          "wgs84": [
-            110.3636125,
-            19.980203
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050513_3324",
-      "sourceLinkId": "OSM_HN_1147050513_3324",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800096,
-          "wgs84": [
-            110.3675149,
-            19.9803619
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050514_3325",
-      "sourceLinkId": "OSM_HN_1147050514_3325",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10673800097,
-          "wgs84": [
-            110.3675058,
-            19.9802036
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050515_3326",
-      "sourceLinkId": "OSM_HN_1147050515_3326",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10673800113,
-          "wgs84": [
-            110.3672752,
-            19.9803615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1147050516_3327",
-      "sourceLinkId": "OSM_HN_1147050516_3327",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10673800142,
-          "wgs84": [
-            110.3672722,
-            19.9802039
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172751352_3337",
-      "sourceLinkId": "OSM_HN_1172751352_3337",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 6425663831,
-          "wgs84": [
-            109.4981793,
-            18.763929
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172751358_3338",
-      "sourceLinkId": "OSM_HN_1172751358_3338",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896341621,
-          "wgs84": [
-            109.4377917,
-            18.7948861
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172751398_3364",
-      "sourceLinkId": "OSM_HN_1172751398_3364",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896341623,
-          "wgs84": [
-            109.4384864,
-            18.7948404
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768265_3390",
-      "sourceLinkId": "OSM_HN_1172768265_3390",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896479213,
-          "wgs84": [
-            109.6883191,
-            18.549545
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768269_3394",
-      "sourceLinkId": "OSM_HN_1172768269_3394",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896479215,
-          "wgs84": [
-            109.6882662,
-            18.5496329
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768271_3396",
-      "sourceLinkId": "OSM_HN_1172768271_3396",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896479217,
-          "wgs84": [
-            109.6895629,
-            18.5502064
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768272_3397",
-      "sourceLinkId": "OSM_HN_1172768272_3397",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896479220,
-          "wgs84": [
-            109.6896059,
-            18.5501287
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768273_3398",
-      "sourceLinkId": "OSM_HN_1172768273_3398",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10896479219,
-          "wgs84": [
-            109.6892378,
-            18.5500612
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768274_3399__S001",
-      "sourceLinkId": "OSM_HN_1172768274_3399",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 6425661716,
-          "wgs84": [
-            109.6893511,
-            18.5501254
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768275_3400__S002",
-      "sourceLinkId": "OSM_HN_1172768275_3400",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8357824978,
-          "wgs84": [
-            109.6630195,
-            18.5796545
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768276_3401__S001",
-      "sourceLinkId": "OSM_HN_1172768276_3401",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10896479320,
-          "wgs84": [
-            109.6630839,
-            18.5796138
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768280_3403",
-      "sourceLinkId": "OSM_HN_1172768280_3403",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8357824978,
-          "wgs84": [
-            109.6630195,
-            18.5796545
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1172768284_3407__S002",
-      "sourceLinkId": "OSM_HN_1172768284_3407",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1429795546,
-          "wgs84": [
-            109.6505579,
-            18.606152
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 1429795546,
-          "wgs84": [
-            109.6505579,
-            18.606152
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118827_3453__S001",
-      "sourceLinkId": "OSM_HN_1173118827_3453",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002535,
-          "wgs84": [
-            110.7583052,
-            19.5653573
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118842_3467",
-      "sourceLinkId": "OSM_HN_1173118842_3467",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002535,
-          "wgs84": [
-            110.7583052,
-            19.5653573
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118843_3468",
-      "sourceLinkId": "OSM_HN_1173118843_3468",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002536,
-          "wgs84": [
-            110.7583354,
-            19.5652615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118845_3469__S002",
-      "sourceLinkId": "OSM_HN_1173118845_3469",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002536,
-          "wgs84": [
-            110.7583354,
-            19.5652615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118860_3472",
-      "sourceLinkId": "OSM_HN_1173118860_3472",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002746,
-          "wgs84": [
-            110.6890334,
-            19.5749571
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118861_3473",
-      "sourceLinkId": "OSM_HN_1173118861_3473",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002752,
-          "wgs84": [
-            110.6886972,
-            19.5745762
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118862_3474",
-      "sourceLinkId": "OSM_HN_1173118862_3474",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900002761,
-          "wgs84": [
-            110.6868162,
-            19.5725784
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118863_3475",
-      "sourceLinkId": "OSM_HN_1173118863_3475",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002769,
-          "wgs84": [
-            110.6863603,
-            19.5722165
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118939_3478",
-      "sourceLinkId": "OSM_HN_1173118939_3478",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10900003742,
-          "wgs84": [
-            110.4879345,
-            19.621596
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173119006_3494",
-      "sourceLinkId": "OSM_HN_1173119006_3494",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2288121962,
-          "wgs84": [
-            110.2621257,
-            19.6704584
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 2288121962,
-          "wgs84": [
-            110.2621257,
-            19.6704584
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173119027_3500",
-      "sourceLinkId": "OSM_HN_1173119027_3500",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2288121967,
-          "wgs84": [
-            110.2635741,
-            19.673176
-          ]
-        },
-        {
-          "role": "outgoing",
-          "orientation": "reverse",
-          "osmNodeId": 2288121967,
-          "wgs84": [
-            110.2635741,
-            19.673176
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173119053_3508__S003",
-      "sourceLinkId": "OSM_HN_1173119053_3508",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900004622,
-          "wgs84": [
-            110.2064523,
-            19.6846323
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173119054_3509__S001",
-      "sourceLinkId": "OSM_HN_1173119054_3509",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2288076355,
-          "wgs84": [
-            110.2064342,
-            19.684563
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676933_3557",
-      "sourceLinkId": "OSM_HN_1177676933_3557",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10940554719,
-          "wgs84": [
-            109.7800538,
-            19.8300137
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676934_3558",
-      "sourceLinkId": "OSM_HN_1177676934_3558",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940554727,
-          "wgs84": [
-            109.7809736,
-            19.8324146
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676935_3559",
-      "sourceLinkId": "OSM_HN_1177676935_3559",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10940554728,
-          "wgs84": [
-            109.7810156,
-            19.8325612
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676936_3560",
-      "sourceLinkId": "OSM_HN_1177676936_3560",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940554737,
-          "wgs84": [
-            109.7800256,
-            19.8299476
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676975_3577",
-      "sourceLinkId": "OSM_HN_1177676975_3577",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2585485905,
-          "wgs84": [
-            109.8517687,
-            19.7913304
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676976_3578",
-      "sourceLinkId": "OSM_HN_1177676976_3578",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940555549,
-          "wgs84": [
-            109.8518025,
-            19.7913733
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676977_3579",
-      "sourceLinkId": "OSM_HN_1177676977_3579",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2585485909,
-          "wgs84": [
-            109.8536035,
-            19.7935123
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1177676978_3580__S001",
-      "sourceLinkId": "OSM_HN_1177676978_3580",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 10940555566,
-          "wgs84": [
-            109.8536632,
-            19.7936036
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1203470610_3581__S002",
-      "sourceLinkId": "OSM_HN_1203470610_3581",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498553928,
-          "wgs84": [
-            109.7534501,
-            19.86784
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1203470613_3584",
-      "sourceLinkId": "OSM_HN_1203470613_3584",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498553928,
-          "wgs84": [
-            109.7534501,
-            19.86784
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1203470646_3594",
-      "sourceLinkId": "OSM_HN_1203470646_3594",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11155835503,
-          "wgs84": [
-            109.7516642,
-            19.8694875
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1203470652_3595",
-      "sourceLinkId": "OSM_HN_1203470652_3595",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 4740682680,
-          "wgs84": [
-            109.7525647,
-            19.8685794
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1219880689_3605",
-      "sourceLinkId": "OSM_HN_1219880689_3605",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11303348595,
-          "wgs84": [
-            110.1539955,
-            20.0500763
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1219880695_3606",
-      "sourceLinkId": "OSM_HN_1219880695_3606",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11303348638,
-          "wgs84": [
-            110.1531889,
-            20.05025
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1219880697_3608",
-      "sourceLinkId": "OSM_HN_1219880697_3608",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12653691287,
-          "wgs84": [
-            110.1528385,
-            20.0501615
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1225470503_3622__S003",
-      "sourceLinkId": "OSM_HN_1225470503_3622",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502477,
-          "wgs84": [
-            109.6056185,
-            19.4708336
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1225470507_3623__S001",
-      "sourceLinkId": "OSM_HN_1225470507_3623",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364502490,
-          "wgs84": [
-            109.6056063,
-            19.4708844
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1225470508_3624__S003",
-      "sourceLinkId": "OSM_HN_1225470508_3624",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502512,
-          "wgs84": [
-            109.6050196,
-            19.4733533
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1225470509_3625__S001",
-      "sourceLinkId": "OSM_HN_1225470509_3625",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364502513,
-          "wgs84": [
-            109.6050064,
-            19.473411
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1226894533_3648__S002",
-      "sourceLinkId": "OSM_HN_1226894533_3648",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11377236637,
-          "wgs84": [
-            110.5006751,
-            19.9506562
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1226894534_3649",
-      "sourceLinkId": "OSM_HN_1226894534_3649",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11377236702,
-          "wgs84": [
-            110.5007375,
-            19.9503969
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1226894535_3650",
-      "sourceLinkId": "OSM_HN_1226894535_3650",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8754235893,
-          "wgs84": [
-            110.5006726,
-            19.9497672
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1226894540_3652",
-      "sourceLinkId": "OSM_HN_1226894540_3652",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11377236756,
-          "wgs84": [
-            110.5110628,
-            19.9603555
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1226894541_3653__S001",
-      "sourceLinkId": "OSM_HN_1226894541_3653",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11377236766,
-          "wgs84": [
-            110.510726,
-            19.9595904
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1226894546_3655",
-      "sourceLinkId": "OSM_HN_1226894546_3655",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11377236755,
-          "wgs84": [
-            110.5111525,
-            19.9603384
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1233261227_3656__S001",
-      "sourceLinkId": "OSM_HN_1233261227_3656",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11443129935,
-          "wgs84": [
-            110.7228507,
-            19.6297466
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1237835631_3657",
-      "sourceLinkId": "OSM_HN_1237835631_3657",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 3164348680,
-          "wgs84": [
-            110.1618995,
-            20.0284052
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1259693494_3659",
-      "sourceLinkId": "OSM_HN_1259693494_3659",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11711236357,
-          "wgs84": [
-            110.4741045,
-            19.1971962
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1271032186_3660",
-      "sourceLinkId": "OSM_HN_1271032186_3660",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11803521977,
-          "wgs84": [
-            110.1842238,
-            19.9764432
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1288596649_3664",
-      "sourceLinkId": "OSM_HN_1288596649_3664",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 3972333536,
-          "wgs84": [
-            110.2598771,
-            19.9437078
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1288596650_3665",
-      "sourceLinkId": "OSM_HN_1288596650_3665",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11949510556,
-          "wgs84": [
-            110.2605821,
-            19.9462633
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1288596651_3666",
-      "sourceLinkId": "OSM_HN_1288596651_3666",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11949510561,
-          "wgs84": [
-            110.2607101,
-            19.9468917
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302300856_3668",
-      "sourceLinkId": "OSM_HN_1302300856_3668",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 1805482159,
-          "wgs84": [
-            109.8495948,
-            18.4344953
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302300858_3669",
-      "sourceLinkId": "OSM_HN_1302300858_3669",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12061479493,
-          "wgs84": [
-            110.1425708,
-            18.5696401
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302300859_3670",
-      "sourceLinkId": "OSM_HN_1302300859_3670",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12061479494,
-          "wgs84": [
-            110.1422589,
-            18.5700237
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302300860_3671",
-      "sourceLinkId": "OSM_HN_1302300860_3671",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12061479499,
-          "wgs84": [
-            110.1417086,
-            18.5708692
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302300861_3672",
-      "sourceLinkId": "OSM_HN_1302300861_3672",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12061479507,
-          "wgs84": [
-            110.1414939,
-            18.5712116
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302340462_3675",
-      "sourceLinkId": "OSM_HN_1302340462_3675",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8674224181,
-          "wgs84": [
-            110.1761677,
-            20.0212887
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1302963124_3694",
-      "sourceLinkId": "OSM_HN_1302963124_3694",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2218557446,
-          "wgs84": [
-            110.4332089,
-            19.9464575
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1303312862_3700",
-      "sourceLinkId": "OSM_HN_1303312862_3700",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 4739912982,
-          "wgs84": [
-            110.1681388,
-            19.9739081
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1303312863_3701",
-      "sourceLinkId": "OSM_HN_1303312863_3701",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11803521932,
-          "wgs84": [
-            110.166132,
-            19.9734266
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1303312867_3704",
-      "sourceLinkId": "OSM_HN_1303312867_3704",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8891998273,
-          "wgs84": [
-            110.1787717,
-            19.975412
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311579851_3733",
-      "sourceLinkId": "OSM_HN_1311579851_3733",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1759977343,
-          "wgs84": [
-            110.1259987,
-            19.9339268
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311579852_3734",
-      "sourceLinkId": "OSM_HN_1311579852_3734",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1759977674,
-          "wgs84": [
-            110.1262919,
-            19.9385352
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311862820_3735",
-      "sourceLinkId": "OSM_HN_1311862820_3735",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364535255,
-          "wgs84": [
-            109.9089474,
-            19.874346
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311862821_3736",
-      "sourceLinkId": "OSM_HN_1311862821_3736",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364535254,
-          "wgs84": [
-            109.9089427,
-            19.8742092
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311920157_3738",
-      "sourceLinkId": "OSM_HN_1311920157_3738",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12143430475,
-          "wgs84": [
-            110.35027,
-            19.8906754
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311920158_3739",
-      "sourceLinkId": "OSM_HN_1311920158_3739",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12143430476,
-          "wgs84": [
-            110.3508158,
-            19.8906442
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311920161_3742",
-      "sourceLinkId": "OSM_HN_1311920161_3742",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12143430496,
-          "wgs84": [
-            110.3536616,
-            19.8903569
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1311920162_3743",
-      "sourceLinkId": "OSM_HN_1311920162_3743",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12143430498,
-          "wgs84": [
-            110.3530992,
-            19.8903943
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312090243_3755",
-      "sourceLinkId": "OSM_HN_1312090243_3755",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 3387204912,
-          "wgs84": [
-            110.0883959,
-            19.3958929
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312438480_3756",
-      "sourceLinkId": "OSM_HN_1312438480_3756",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 7150141910,
-          "wgs84": [
-            109.5771488,
-            18.3215085
-          ]
-        },
-        {
-          "role": "outgoing",
-          "orientation": "reverse",
-          "osmNodeId": 7150141910,
-          "wgs84": [
-            109.5771488,
-            18.3215085
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312438483_3757",
-      "sourceLinkId": "OSM_HN_1312438483_3757",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12147825587,
-          "wgs84": [
-            109.5767931,
-            18.3215325
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312438484_3758",
-      "sourceLinkId": "OSM_HN_1312438484_3758",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12147825566,
-          "wgs84": [
-            109.5773122,
-            18.3213751
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312509677_3761",
-      "sourceLinkId": "OSM_HN_1312509677_3761",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12148632273,
-          "wgs84": [
-            110.2059378,
-            19.6821308
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312509678_3762",
-      "sourceLinkId": "OSM_HN_1312509678_3762",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 9498271810,
-          "wgs84": [
-            110.2057715,
-            19.6813008
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312509679_3763",
-      "sourceLinkId": "OSM_HN_1312509679_3763",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2288076357,
-          "wgs84": [
-            110.2066488,
-            19.6852758
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312509680_3764",
-      "sourceLinkId": "OSM_HN_1312509680_3764",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1312509681_3765",
-      "sourceLinkId": "OSM_HN_1312509681_3765",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1312509682_3766",
-      "sourceLinkId": "OSM_HN_1312509682_3766",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1312509683_3767",
-      "sourceLinkId": "OSM_HN_1312509683_3767",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1312509684_3768",
-      "sourceLinkId": "OSM_HN_1312509684_3768",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1312511305_3769",
-      "sourceLinkId": "OSM_HN_1312511305_3769",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 11364502483,
-          "wgs84": [
-            109.6048945,
-            19.4739011
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511306_3770",
-      "sourceLinkId": "OSM_HN_1312511306_3770",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502482,
-          "wgs84": [
-            109.6051233,
-            19.4728996
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511307_3771",
-      "sourceLinkId": "OSM_HN_1312511307_3771",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12148716505,
-          "wgs84": [
-            109.6055065,
-            19.4712999
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511308_3772",
-      "sourceLinkId": "OSM_HN_1312511308_3772",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 11364502481,
-          "wgs84": [
-            109.6057602,
-            19.4704153
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511345_3805",
-      "sourceLinkId": "OSM_HN_1312511345_3805",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12148716598,
-          "wgs84": [
-            109.6615858,
-            19.4263386
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511346_3806",
-      "sourceLinkId": "OSM_HN_1312511346_3806",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12148716599,
-          "wgs84": [
-            109.6622166,
-            19.4270079
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511347_3807",
-      "sourceLinkId": "OSM_HN_1312511347_3807",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12148716640,
-          "wgs84": [
-            109.6647403,
-            19.4287348
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511348_3808",
-      "sourceLinkId": "OSM_HN_1312511348_3808",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 6876441231,
-          "wgs84": [
-            109.6641059,
-            19.4283334
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312511721_3809",
-      "sourceLinkId": "OSM_HN_1312511721_3809",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 7377090663,
-          "wgs84": [
-            109.7356443,
-            19.3072384
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312527058_3893__S003",
-      "sourceLinkId": "OSM_HN_1312527058_3893",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12148849167,
-          "wgs84": [
-            109.8385078,
-            19.2268416
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 12148849167,
-          "wgs84": [
-            109.8385078,
-            19.2268416
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312710277_3910",
-      "sourceLinkId": "OSM_HN_1312710277_3910",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12150739243,
-          "wgs84": [
-            110.2464379,
-            19.9540969
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312710279_3912",
-      "sourceLinkId": "OSM_HN_1312710279_3912",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12150739241,
-          "wgs84": [
-            110.2462806,
-            19.9541147
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312714517_3913",
-      "sourceLinkId": "OSM_HN_1312714517_3913",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12150716168,
-          "wgs84": [
-            109.4897146,
-            18.3231467
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1312714518_3914",
-      "sourceLinkId": "OSM_HN_1312714518_3914",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12150716169,
-          "wgs84": [
-            109.4897966,
-            18.3231544
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1320167077_3915",
-      "sourceLinkId": "OSM_HN_1320167077_3915",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 7398494484,
-          "wgs84": [
-            109.4525156,
-            19.3225137
-          ]
-        },
-        {
-          "role": "incoming",
-          "orientation": "reverse",
-          "osmNodeId": 7398494484,
-          "wgs84": [
-            109.4525156,
-            19.3225137
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346902817_3935",
-      "sourceLinkId": "OSM_HN_1346902817_3935",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12459139459,
-          "wgs84": [
-            110.3785113,
-            19.1261586
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346902818_3936__S002",
-      "sourceLinkId": "OSM_HN_1346902818_3936",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459139460,
-          "wgs84": [
-            110.378522,
-            19.126092
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346902819_3937__S002",
-      "sourceLinkId": "OSM_HN_1346902819_3937",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459139499,
-          "wgs84": [
-            110.3782585,
-            19.1287214
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346902820_3938",
-      "sourceLinkId": "OSM_HN_1346902820_3938",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12459139521,
-          "wgs84": [
-            110.3782516,
-            19.1286479
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346908693_4003",
-      "sourceLinkId": "OSM_HN_1346908693_4003",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459179843,
-          "wgs84": [
-            110.3291018,
-            19.1239866
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346908695_4004__S001",
-      "sourceLinkId": "OSM_HN_1346908695_4004",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842606097,
-          "wgs84": [
-            110.3291495,
-            19.1238888
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346908697_4005__S002",
-      "sourceLinkId": "OSM_HN_1346908697_4005",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12459179881,
-          "wgs84": [
-            110.3279696,
-            19.1271255
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1346908698_4006__S001",
-      "sourceLinkId": "OSM_HN_1346908698_4006",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 5842606101,
-          "wgs84": [
-            110.3279911,
-            19.1270557
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1366341760_4051",
-      "sourceLinkId": "OSM_HN_1366341760_4051",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12653691156,
-          "wgs84": [
-            110.1517964,
-            20.0128336
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1432137371_4108",
-      "sourceLinkId": "OSM_HN_1432137371_4108",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12653691400,
-          "wgs84": [
-            110.153738,
-            20.044
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1442974811_4109__S002",
-      "sourceLinkId": "OSM_HN_1442974811_4109",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13240439749,
-          "wgs84": [
-            110.6762596,
-            19.4297542
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1442974812_4110__S001",
-      "sourceLinkId": "OSM_HN_1442974812_4110",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 2632813568,
-          "wgs84": [
-            110.676124,
-            19.429824
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1442974813_4111__S001",
-      "sourceLinkId": "OSM_HN_1442974813_4111",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13240439762,
-          "wgs84": [
-            110.6738977,
-            19.4304633
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1442974814_4112__S002",
-      "sourceLinkId": "OSM_HN_1442974814_4112",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13240439783,
-          "wgs84": [
-            110.6738236,
-            19.4304813
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1442975478_4113",
-      "sourceLinkId": "OSM_HN_1442975478_4113",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13240462941,
-          "wgs84": [
-            110.475255,
-            19.1959504
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1463069264_4117",
-      "sourceLinkId": "OSM_HN_1463069264_4117",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13420664582,
-          "wgs84": [
-            110.2050411,
-            20.0209262
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1472512705_4215",
-      "sourceLinkId": "OSM_HN_1472512705_4215",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 12653691060,
-          "wgs84": [
-            110.1660975,
-            20.0016919
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1472512707_4216",
-      "sourceLinkId": "OSM_HN_1472512707_4216",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 1996762226,
-          "wgs84": [
-            110.1629205,
-            20.0087554
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1472512712_4221",
-      "sourceLinkId": "OSM_HN_1472512712_4221",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 12653691084,
-          "wgs84": [
-            110.1454205,
-            20.0099052
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1472512713_4222",
-      "sourceLinkId": "OSM_HN_1472512713_4222",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13163834838,
-          "wgs84": [
-            110.1524406,
-            20.0206665
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1481449158_4255__S002",
-      "sourceLinkId": "OSM_HN_1481449158_4255",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13587425384,
-          "wgs84": [
-            109.1765628,
-            18.3282986
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1481449165_4260",
-      "sourceLinkId": "OSM_HN_1481449165_4260",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 2109252768,
-          "wgs84": [
-            109.1767267,
-            18.328564
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1481449168_4263",
-      "sourceLinkId": "OSM_HN_1481449168_4263",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13587425347,
-          "wgs84": [
-            109.1728111,
-            18.3238829
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1481449172_4267",
-      "sourceLinkId": "OSM_HN_1481449172_4267",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13587425406,
-          "wgs84": [
-            109.1759888,
-            18.3323042
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1481449173_4268",
-      "sourceLinkId": "OSM_HN_1481449173_4268",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13587425411,
-          "wgs84": [
-            109.1758886,
-            18.3321887
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1481449176_4271",
-      "sourceLinkId": "OSM_HN_1481449176_4271",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13587425413,
-          "wgs84": [
-            109.1730241,
-            18.3238498
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1490565324_4279",
-      "sourceLinkId": "OSM_HN_1490565324_4279",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13661524893,
-          "wgs84": [
-            110.0211783,
-            18.5202174
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1490565326_4280",
-      "sourceLinkId": "OSM_HN_1490565326_4280",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13661524894,
-          "wgs84": [
-            110.0217605,
-            18.5204425
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1490565327_4281",
-      "sourceLinkId": "OSM_HN_1490565327_4281",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13661524897,
-          "wgs84": [
-            110.0210592,
-            18.5207369
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1490565329_4282",
-      "sourceLinkId": "OSM_HN_1490565329_4282",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13661524898,
-          "wgs84": [
-            110.0207184,
-            18.5206258
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494536207_4285__S006",
-      "sourceLinkId": "OSM_HN_1494536207_4285",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8879817634,
-          "wgs84": [
-            109.2228492,
-            19.8059911
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494536208_4286__S001",
-      "sourceLinkId": "OSM_HN_1494536208_4286",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 8879817633,
-          "wgs84": [
-            109.2230063,
-            19.8058095
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494536249_4313",
-      "sourceLinkId": "OSM_HN_1494536249_4313",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1494536250_4314",
-      "sourceLinkId": "OSM_HN_1494536250_4314",
-      "reason": "unknownDirection",
-      "missingConnections": []
-    },
-    {
-      "linkId": "OSM_HN_1494541070_4319__S003",
-      "sourceLinkId": "OSM_HN_1494541070_4319",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694809045,
-          "wgs84": [
-            109.3474077,
-            19.8422115
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494541071_4320__S001",
-      "sourceLinkId": "OSM_HN_1494541071_4320",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809021,
-          "wgs84": [
-            109.3475986,
-            19.8425817
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494541073_4322__S001",
-      "sourceLinkId": "OSM_HN_1494541073_4322",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809064,
-          "wgs84": [
-            109.347104,
-            19.8524343
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494541074_4323__S004",
-      "sourceLinkId": "OSM_HN_1494541074_4323",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694809029,
-          "wgs84": [
-            109.3473097,
-            19.8525879
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494541079_4328",
-      "sourceLinkId": "OSM_HN_1494541079_4328",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809107,
-          "wgs84": [
-            109.3470176,
-            19.8471311
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494541080_4329",
-      "sourceLinkId": "OSM_HN_1494541080_4329",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694809137,
-          "wgs84": [
-            109.3472638,
-            19.8461797
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494541082_4331",
-      "sourceLinkId": "OSM_HN_1494541082_4331",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694809138,
-          "wgs84": [
-            109.3472093,
-            19.8468812
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494547133_4346__S002",
-      "sourceLinkId": "OSM_HN_1494547133_4346",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 5471318889,
-          "wgs84": [
-            109.410912,
-            19.8303317
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494547134_4347",
-      "sourceLinkId": "OSM_HN_1494547134_4347",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694841870,
-          "wgs84": [
-            109.4109391,
-            19.8303487
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494547139_4348__S002",
-      "sourceLinkId": "OSM_HN_1494547139_4348",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694858802,
-          "wgs84": [
-            109.4133737,
-            19.8318631
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494547140_4349__S001",
-      "sourceLinkId": "OSM_HN_1494547140_4349",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694858803,
-          "wgs84": [
-            109.4134688,
-            19.8319179
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494547179_4365__S003",
-      "sourceLinkId": "OSM_HN_1494547179_4365",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13694858869,
-          "wgs84": [
-            109.4711814,
-            19.794932
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494547180_4366__S001",
-      "sourceLinkId": "OSM_HN_1494547180_4366",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13694858881,
-          "wgs84": [
-            109.4692548,
-            19.7948923
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494616675_4388",
-      "sourceLinkId": "OSM_HN_1494616675_4388",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13695425974,
-          "wgs84": [
-            109.7922553,
-            19.8657244
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494616676_4389",
-      "sourceLinkId": "OSM_HN_1494616676_4389",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13695425975,
-          "wgs84": [
-            109.7922804,
-            19.8658057
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494616677_4390",
-      "sourceLinkId": "OSM_HN_1494616677_4390",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13695425980,
-          "wgs84": [
-            109.7925359,
-            19.8666314
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494616678_4391",
-      "sourceLinkId": "OSM_HN_1494616678_4391",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 13695425985,
-          "wgs84": [
-            109.7926231,
-            19.8669132
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1533439709_4398",
-      "sourceLinkId": "OSM_HN_1533439709_4398",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 13974019591,
-          "wgs84": [
-            109.4360514,
-            19.7245213
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1552035711_4421__S001",
-      "sourceLinkId": "OSM_HN_1552035711_4421",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 14119642575,
-          "wgs84": [
-            109.2902229,
-            19.6102464
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1552035712_4422__S002",
-      "sourceLinkId": "OSM_HN_1552035712_4422",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 14119642571,
-          "wgs84": [
-            109.2902216,
-            19.6101945
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1552035715_4423",
-      "sourceLinkId": "OSM_HN_1552035715_4423",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 14119642584,
-          "wgs84": [
-            109.2907055,
-            19.6133203
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1552035716_4424",
-      "sourceLinkId": "OSM_HN_1552035716_4424",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 14119642609,
-          "wgs84": [
-            109.2906935,
-            19.6132527
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1552333654_4435",
-      "sourceLinkId": "OSM_HN_1552333654_4435",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "incoming",
-          "orientation": "forward",
-          "osmNodeId": 14123095526,
-          "wgs84": [
-            109.5624785,
-            19.4799159
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1552333655_4436__S002",
-      "sourceLinkId": "OSM_HN_1552333655_4436",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 14123095533,
-          "wgs84": [
-            109.5624846,
-            19.4799901
           ]
         }
       ]

@@ -25,6 +25,14 @@ def way_id(feature):
         return None
 
 
+def way_ids(feature):
+    values = feature['properties'].get('osm_way_ids')
+    if values is not None:
+        return {int(value) for value in values}
+    identifier = way_id(feature)
+    return {identifier} if identifier is not None else set()
+
+
 @dataclass
 class NodeIndex:
     way_nodes: dict
@@ -40,13 +48,14 @@ class NodeIndex:
             self.by_way[way] = positions
 
     def node_at(self, feature, point):
-        nodes = self.by_way.get(way_id(feature), {}).get(coordinate_key(point), set())
+        nodes = set().union(*(self.by_way.get(way, {}).get(coordinate_key(point), set())
+                              for way in way_ids(feature)))
         return next(iter(nodes)) if len(nodes) == 1 else None
 
 
 def extract_node_index(pbf_path, features):
     """Two streaming passes: selected Way refs, then only their Node coordinates."""
-    wanted_ways = {way_id(f) for f in features} - {None}
+    wanted_ways = set().union(*(way_ids(feature) for feature in features))
     way_nodes = {}
     for kind, block in _read_blocks(Path(pbf_path)):
         if kind != 'OSMData':

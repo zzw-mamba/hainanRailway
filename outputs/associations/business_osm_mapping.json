@@ -371,15 +371,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001341",
-        "osmLinkId": "OSM_HN_219237978_968__S005",
+        "linkId": "HN-G9811-M-001983",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S008",
         "fromFraction": 0.59095,
         "toFraction": 1.0,
         "overlapM": 170.75
       },
       {
-        "linkId": "HN-G9811-M-001339",
-        "osmLinkId": "OSM_HN_219237978_968__S006",
+        "linkId": "HN-G9811-M-001981",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S009",
         "fromFraction": 0.0,
         "toFraction": 0.325556,
         "overlapM": 135.92
@@ -484,15 +484,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001347",
-        "osmLinkId": "OSM_HN_219237978_968__S002",
-        "fromFraction": 0.794352,
+        "linkId": "HN-G9811-M-001989",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S005",
+        "fromFraction": 0.829283,
         "toFraction": 1.0,
         "overlapM": 78.86
       },
       {
-        "linkId": "HN-G9811-M-001345",
-        "osmLinkId": "OSM_HN_219237978_968__S003",
+        "linkId": "HN-G9811-M-001987",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S006",
         "fromFraction": 0.0,
         "toFraction": 0.500468,
         "overlapM": 208.95
@@ -815,22 +815,22 @@
         "overlapM": 23.93
       },
       {
-        "linkId": "HN-G9811-M-001313",
-        "osmLinkId": "OSM_HN_1366519645_4058__S001",
+        "linkId": "HN-G9811-M-001959",
+        "osmLinkId": "MERGED_HN_3730f80af2e454649938__S001",
         "fromFraction": 0.0,
         "toFraction": 1.0,
         "overlapM": 393.42
       },
       {
-        "linkId": "HN-G9811-M-001315",
-        "osmLinkId": "OSM_HN_1366519645_4058__S002",
+        "linkId": "HN-G9811-M-001961",
+        "osmLinkId": "MERGED_HN_3730f80af2e454649938__S002",
         "fromFraction": 0.0,
         "toFraction": 1.0,
         "overlapM": 393.49
       },
       {
-        "linkId": "HN-G9811-M-001317",
-        "osmLinkId": "OSM_HN_1366519645_4058__S003",
+        "linkId": "HN-G9811-M-001963",
+        "osmLinkId": "MERGED_HN_3730f80af2e454649938__S003",
         "fromFraction": 0.0,
         "toFraction": 0.178138,
         "overlapM": 70.11
@@ -1069,15 +1069,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001345",
-        "osmLinkId": "OSM_HN_219237978_968__S003",
+        "linkId": "HN-G9811-M-001987",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S006",
         "fromFraction": 0.499638,
         "toFraction": 1.0,
         "overlapM": 208.91
       },
       {
-        "linkId": "HN-G9811-M-001343",
-        "osmLinkId": "OSM_HN_219237978_968__S004",
+        "linkId": "HN-G9811-M-001985",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S007",
         "fromFraction": 0.0,
         "toFraction": 0.194562,
         "overlapM": 81.22
@@ -1337,8 +1337,8 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001333",
-        "osmLinkId": "OSM_HN_219237978_968__S009",
+        "linkId": "HN-G9811-M-001975",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S012",
         "fromFraction": 0.122946,
         "toFraction": 0.917589,
         "overlapM": 331.99
@@ -1605,15 +1605,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001339",
-        "osmLinkId": "OSM_HN_219237978_968__S006",
+        "linkId": "HN-G9811-M-001981",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S009",
         "fromFraction": 0.979193,
         "toFraction": 1.0,
         "overlapM": 8.69
       },
       {
-        "linkId": "HN-G9811-M-001337",
-        "osmLinkId": "OSM_HN_219237978_968__S007",
+        "linkId": "HN-G9811-M-001979",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S010",
         "fromFraction": 0.0,
         "toFraction": 0.698807,
         "overlapM": 291.81
@@ -2417,15 +2417,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001335",
-        "osmLinkId": "OSM_HN_219237978_968__S008",
+        "linkId": "HN-G9811-M-001977",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S011",
         "fromFraction": 0.381892,
         "toFraction": 1.0,
         "overlapM": 258.19
       },
       {
-        "linkId": "HN-G9811-M-001333",
-        "osmLinkId": "OSM_HN_219237978_968__S009",
+        "linkId": "HN-G9811-M-001975",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S012",
         "fromFraction": 0.0,
         "toFraction": 0.098526,
         "overlapM": 41.16
@@ -2948,22 +2948,22 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001317",
-        "osmLinkId": "OSM_HN_1366519645_4058__S003",
+        "linkId": "HN-G9811-M-001963",
+        "osmLinkId": "MERGED_HN_3730f80af2e454649938__S003",
         "fromFraction": 0.185993,
         "toFraction": 1.0,
         "overlapM": 320.39
       },
       {
-        "linkId": "HN-G9811-M-001319",
-        "osmLinkId": "OSM_HN_1366519645_4058__S004",
+        "linkId": "HN-G9811-M-001965",
+        "osmLinkId": "MERGED_HN_3730f80af2e454649938__S004",
         "fromFraction": 0.0,
         "toFraction": 1.0,
         "overlapM": 393.67
       },
       {
-        "linkId": "HN-G9811-M-001321",
-        "osmLinkId": "OSM_HN_1366519645_4058__S005",
+        "linkId": "HN-G9811-M-001967",
+        "osmLinkId": "MERGED_HN_3730f80af2e454649938__S005",
         "fromFraction": 0.0,
         "toFraction": 0.772626,
         "overlapM": 304.23
@@ -3397,15 +3397,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001337",
-        "osmLinkId": "OSM_HN_219237978_968__S007",
+        "linkId": "HN-G9811-M-001979",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S010",
         "fromFraction": 0.704219,
         "toFraction": 1.0,
         "overlapM": 123.51
       },
       {
-        "linkId": "HN-G9811-M-001335",
-        "osmLinkId": "OSM_HN_219237978_968__S008",
+        "linkId": "HN-G9811-M-001977",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S011",
         "fromFraction": 0.0,
         "toFraction": 0.371805,
         "overlapM": 155.3
@@ -5174,8 +5174,8 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001339",
-        "osmLinkId": "OSM_HN_219237978_968__S006",
+        "linkId": "HN-G9811-M-001981",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S009",
         "fromFraction": 0.319685,
         "toFraction": 0.979748,
         "overlapM": 275.58
@@ -6123,18 +6123,18 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001316",
-        "osmLinkId": "OSM_HN_1366519647_4060__S005",
-        "fromFraction": 0.082345,
+        "linkId": "HN-G9811-M-001962",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S005",
+        "fromFraction": 0.149133,
         "toFraction": 1.0,
-        "overlapM": 409.87
+        "overlapM": 393.76
       },
       {
-        "linkId": "HN-G9811-M-001314",
-        "osmLinkId": "OSM_HN_1366519647_4060__S006",
+        "linkId": "HN-G9811-M-001960",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S006",
         "fromFraction": 0.0,
         "toFraction": 1.0,
-        "overlapM": 446.56
+        "overlapM": 462.68
       },
       {
         "linkId": "HN-G9811-M-001312",
@@ -6545,8 +6545,8 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001343",
-        "osmLinkId": "OSM_HN_219237978_968__S004",
+        "linkId": "HN-G9811-M-001985",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S007",
         "fromFraction": 0.210744,
         "toFraction": 0.868127,
         "overlapM": 274.43
@@ -6818,32 +6818,25 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001322",
-        "osmLinkId": "OSM_HN_1366519647_4060__S002",
-        "fromFraction": 0.86119,
+        "linkId": "HN-G9811-M-001966",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S003",
+        "fromFraction": 0.005307,
         "toFraction": 1.0,
-        "overlapM": 62.05
+        "overlapM": 460.57
       },
       {
-        "linkId": "HN-G9811-M-001320",
-        "osmLinkId": "OSM_HN_1366519647_4060__S003",
+        "linkId": "HN-G9811-M-001964",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S004",
         "fromFraction": 0.0,
         "toFraction": 1.0,
-        "overlapM": 446.89
+        "overlapM": 462.93
       },
       {
-        "linkId": "HN-G9811-M-001318",
-        "osmLinkId": "OSM_HN_1366519647_4060__S004",
+        "linkId": "HN-G9811-M-001962",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S005",
         "fromFraction": 0.0,
-        "toFraction": 1.0,
-        "overlapM": 446.8
-      },
-      {
-        "linkId": "HN-G9811-M-001316",
-        "osmLinkId": "OSM_HN_1366519647_4060__S005",
-        "fromFraction": 0.0,
-        "toFraction": 0.059721,
-        "overlapM": 26.67
+        "toFraction": 0.127297,
+        "overlapM": 58.91
       }
     ],
     "startStakeNum": "K4+673",
@@ -6853,7 +6846,7 @@
     "startDistanceM": 9.23,
     "endDistanceM": 0.61,
     "gantryDistancesM": [
-      1.4530112804205344
+      1.4528161698797075
     ],
     "reason": "directedSpatialPath",
     "roadGroup": {
@@ -7712,8 +7705,8 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001331",
-        "osmLinkId": "OSM_HN_219237978_968__S011",
+        "linkId": "HN-G9811-M-001973",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S014",
         "fromFraction": 0.110416,
         "toFraction": 1.0,
         "overlapM": 35.61
@@ -7726,25 +7719,18 @@
         "overlapM": 80.01
       },
       {
-        "linkId": "HN-G9811-M-001327",
-        "osmLinkId": "OSM_HN_730828849_1795",
+        "linkId": "HN-G9811-M-001970",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S001",
         "fromFraction": 0.0,
         "toFraction": 1.0,
-        "overlapM": 96.75
+        "overlapM": 463.08
       },
       {
-        "linkId": "HN-G9811-M-001324",
-        "osmLinkId": "OSM_HN_1366519647_4060__S001",
+        "linkId": "HN-G9811-M-001968",
+        "osmLinkId": "MERGED_HN_539f936489a690074c9b__S002",
         "fromFraction": 0.0,
-        "toFraction": 1.0,
-        "overlapM": 446.96
-      },
-      {
-        "linkId": "HN-G9811-M-001322",
-        "osmLinkId": "OSM_HN_1366519647_4060__S002",
-        "fromFraction": 0.0,
-        "toFraction": 0.838448,
-        "overlapM": 374.77
+        "toFraction": 0.983356,
+        "overlapM": 455.4
       }
     ],
     "startStakeNum": "K4+492",
@@ -7825,15 +7811,15 @@
     "status": "matched",
     "osmSegments": [
       {
-        "linkId": "HN-G9811-M-001343",
-        "osmLinkId": "OSM_HN_219237978_968__S004",
+        "linkId": "HN-G9811-M-001985",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S007",
         "fromFraction": 0.876364,
         "toFraction": 1.0,
         "overlapM": 51.61
       },
       {
-        "linkId": "HN-G9811-M-001341",
-        "osmLinkId": "OSM_HN_219237978_968__S005",
+        "linkId": "HN-G9811-M-001983",
+        "osmLinkId": "MERGED_HN_473a4f8a57b7e644ec12__S008",
         "fromFraction": 0.0,
         "toFraction": 0.578743,
         "overlapM": 241.58

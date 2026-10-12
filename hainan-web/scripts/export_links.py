@@ -48,7 +48,7 @@ def export_links(snapshot):
         feature = {'type': 'Feature', 'properties': deepcopy(road['properties']),
                    'geometry': deepcopy(road['geometry'])}
         properties = feature['properties']
-        for key in ('id', 'osm_link_id', 'osm_source_link_id'):
+        for key in ('id', 'osm_way_ids', 'merged_source_ids', 'osm_link_id', 'osm_source_link_id'):
             properties.pop(key, None)
         if 'topology' in properties:
             for key in ('startNode', 'endNode', 'startOsmNodeId', 'endOsmNodeId'):

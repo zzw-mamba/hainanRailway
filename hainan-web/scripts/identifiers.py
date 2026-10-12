@@ -139,6 +139,7 @@ def assign_ids(features, relationships, registry_path, previous_features=None):
                   'osm_link_id': original, 'osm_source_link_id': original_source})
         mapping.append({'linkId': p['link_id'], 'sourceLinkId': p['source_link_id'],
                         'osmLinkId': original, 'osmSourceLinkId': original_source, 'osmWayId': p.get('id'),
+                        'osmWayIds': p.get('osm_way_ids') or ([p['id']] if p.get('id') is not None else []),
                         'ref': p.get('ref', ''), 'highway': p.get('highway'), 'segmentIndex': p.get('segment_index')})
     relationships[:] = migrated
     registry_path.parent.mkdir(parents=True, exist_ok=True)

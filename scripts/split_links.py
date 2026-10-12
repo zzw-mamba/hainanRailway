@@ -15,6 +15,7 @@ from link_splitting import (
     validate_split_result,
 )
 from osm_topology import extract_node_index, junction_cuts, build_topology
+from merge_highway import merge_highway_sources
 
 
 def read_json(path: Path) -> Any:
@@ -56,7 +57,7 @@ def write_json(path: Path, value: Any) -> None:
 
 def write_mapping_csv(path: Path, mapping: list[dict[str, Any]]) -> None:
     with path.open("w", encoding="utf-8-sig", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=["source_link_id", "input_link_id", "segment_link_ids", "forced_split_points_m", "skipped"])
+        writer = csv.DictWriter(stream, fieldnames=["source_link_id", "input_link_id", "segment_link_ids", "forced_split_points_m", "skipped"], lineterminator="\n")
         writer.writeheader()
         for row in mapping:
             writer.writerow({
@@ -97,6 +98,8 @@ def main() -> int:
         }
         config = SplitConfig(**{**config.__dict__, **{key: value for key, value in overrides.items() if value is not None}, "skip_already_split": not args.resplit_existing})
         node_index = extract_node_index(args.osm_pbf, features) if args.osm_pbf else None
+        if node_index:
+            features = merge_highway_sources(features, node_index)
         result = split_links(features, relationships, config, args.link_id_field,
                              junction_cuts(features, node_index, config.metric_mode) if node_index else None)
         if args.rename_link_id:

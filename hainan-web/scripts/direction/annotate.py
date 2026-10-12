@@ -81,7 +81,11 @@ def infer_g98(roads, routes):
     if not route:
         return {}, []
     way_ids = {member['id'] for member in route['members'] if member['type'] == 1}
-    candidates = [feature for feature in roads if feature['properties'].get('id') in way_ids and feature['properties'].get('highway') == 'motorway' and str(feature['properties'].get('oneway')) in ('yes', '-1') and len(coordinates(feature)) >= 2]
+    candidates = [feature for feature in roads
+                  if (set(feature['properties'].get('osm_way_ids') or [feature['properties'].get('id')]) & way_ids)
+                  and feature['properties'].get('highway') == 'motorway'
+                  and str(feature['properties'].get('oneway')) in ('yes', '-1')
+                  and len(coordinates(feature)) >= 2]
     adjacency, incoming, outgoing = defaultdict(list), Counter(), Counter()
     for index, feature in enumerate(candidates):
         points = travel_coordinates(feature)
@@ -149,7 +153,8 @@ def annotate(roads, routes):
             if props.get('highway') == 'motorway_link' and not bidirectional:
                 reason = '匝道需结合接入主线及出入属性确定上下行，暂不推断。'
             annotation = {'code': None, 'status': 'bidirectional' if bidirectional else 'unconfirmed', 'label': '双向（上下行未区分）' if bidirectional else '上下行待确认', 'basis': reason}
-        headings = sorted(heading_index.get(props.get('id'), set()))
+        headings = sorted(set().union(*(heading_index.get(way, set()) for way in
+                                        (props.get('osm_way_ids') or [props.get('id')]))))
         if headings:
             annotation = {**annotation, 'osmRouteHeadings': headings}
         props['direction_annotation'] = annotation
