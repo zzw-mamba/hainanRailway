@@ -26,6 +26,10 @@ def prepare(split_dir=None, output_dir=OUT, identifier_dir=None, report_dir=None
     identifier_dir.mkdir(parents=True, exist_ok=True)
     print('正在标注上下行…', flush=True)
     roads = json.loads((split_dir / 'links.geojson').read_text(encoding='utf-8'))
+    for feature in roads['features']:
+        properties = feature['properties']
+        if properties.get('ref') == 'G9811' and properties.get('name') == '海乐高速':
+            properties['name'] = '海三高速'
     routes = extract_routes(ROOT / 'data' / 'pbf' / 'hainan-260922.osm.pbf')
     direction_summary = annotate(roads['features'], routes)
     for collection in [roads]:

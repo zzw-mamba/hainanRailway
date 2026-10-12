@@ -113,6 +113,8 @@ def main() -> int:
 
     # OSM 原始坐标通常为 WGS84；保留原始 OSM 字段，并生成便于后续分析的稳定路链编号。
     roads = roads.reset_index(drop=True)
+    if {"ref", "name"}.issubset(roads.columns):
+        roads.loc[(roads["ref"] == "G9811") & (roads["name"] == "海乐高速"), "name"] = "海三高速"
     source_id = roads["id"].astype(str) if "id" in roads.columns else roads.index.astype(str)
     roads.insert(0, "link_id", args.link_id_prefix + "_" + source_id + "_" + roads.index.astype(str))
     roads["source"] = "OpenStreetMap"
