@@ -15,7 +15,7 @@ from link_splitting import (
     validate_split_result,
 )
 from osm_topology import extract_node_index, junction_cuts, build_topology
-from merge_highway import merge_highway_sources
+from merge_highway import merge_highway_sources, annotate_merged_children
 
 
 def read_json(path: Path) -> Any:
@@ -102,6 +102,8 @@ def main() -> int:
             features = merge_highway_sources(features, node_index)
         result = split_links(features, relationships, config, args.link_id_field,
                              junction_cuts(features, node_index, config.metric_mode) if node_index else None)
+        if node_index:
+            annotate_merged_children(result.features, features)
         if args.rename_link_id:
             result.features, result.relationships = rename_link_id(
                 result.features, result.relationships, *args.rename_link_id, args.link_id_field,

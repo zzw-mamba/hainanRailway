@@ -1,9 +1,9 @@
 {
   "valid": true,
-  "links": 10631,
-  "relationships": 11111,
-  "internalRelationships": 6300,
-  "crossSourceRelationships": 4811,
+  "links": 9003,
+  "relationships": 9483,
+  "internalRelationships": 7231,
+  "crossSourceRelationships": 2252,
   "osmWaysFound": 4452,
   "osmNodesLoaded": 29422,
   "unknownDirectionLinks": [
@@ -119,6 +119,22 @@
           "wgs84": [
             110.3436166,
             19.6490441
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G360+S22-M-001562",
+      "sourceLinkId": "HN-SRC-004578",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498553928,
+          "wgs84": [
+            109.7534501,
+            19.86784
           ]
         }
       ]
@@ -524,8 +540,8 @@
       ]
     },
     {
-      "linkId": "HN-G9812-M-000647",
-      "sourceLinkId": "HN-SRC-004371",
+      "linkId": "HN-G9812-M-001608",
+      "sourceLinkId": "HN-SRC-004604",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -540,8 +556,8 @@
       ]
     },
     {
-      "linkId": "HN-G9812-M-000650",
-      "sourceLinkId": "HN-SRC-004375",
+      "linkId": "HN-G9812-M-001609",
+      "sourceLinkId": "HN-SRC-004603",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -1013,8 +1029,8 @@
       ]
     },
     {
-      "linkId": "HN-G360+S22-M-000018",
-      "sourceLinkId": "HN-SRC-002849",
+      "linkId": "HN-G360+S22-M-001048",
+      "sourceLinkId": "HN-SRC-004575",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -1024,22 +1040,6 @@
           "wgs84": [
             110.7583052,
             19.5653573
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-G360+S22-M-000017",
-      "sourceLinkId": "HN-SRC-002847",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002536,
-          "wgs84": [
-            110.7583354,
-            19.5652615
           ]
         }
       ]
@@ -1424,22 +1424,6 @@
       ]
     },
     {
-      "linkId": "HN-G360+S22-M-000689",
-      "sourceLinkId": "HN-SRC-003794",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498553928,
-          "wgs84": [
-            109.7534501,
-            19.86784
-          ]
-        }
-      ]
-    },
-    {
       "linkId": "HN-UN-R-001772",
       "sourceLinkId": "HN-SRC-003809",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -1456,8 +1440,8 @@
       ]
     },
     {
-      "linkId": "HN-G360+S22-M-000690",
-      "sourceLinkId": "HN-SRC-003801",
+      "linkId": "HN-G360+S22-M-001563",
+      "sourceLinkId": "HN-SRC-004574",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -1467,6 +1451,22 @@
           "wgs84": [
             109.7525647,
             19.8685794
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-G360+S22-M-001049",
+      "sourceLinkId": "HN-SRC-004574",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002536,
+          "wgs84": [
+            110.7583354,
+            19.5652615
           ]
         }
       ]
@@ -3124,24 +3124,8 @@
       ]
     },
     {
-      "linkId": "HN-S88-M-000046",
-      "sourceLinkId": "HN-SRC-003605",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8879817634,
-          "wgs84": [
-            109.2228492,
-            19.8059911
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "HN-S88-M-000045",
-      "sourceLinkId": "HN-SRC-003603",
+      "linkId": "HN-S88-M-000331",
+      "sourceLinkId": "HN-SRC-004584",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -3371,6 +3355,22 @@
           "wgs84": [
             109.4692548,
             19.7948923
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "HN-S88-M-000332",
+      "sourceLinkId": "HN-SRC-004583",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8879817634,
+          "wgs84": [
+            109.2228492,
+            19.8059911
           ]
         }
       ]
@@ -5145,8 +5145,8 @@
       ]
     },
     {
-      "linkId": "HN-G9811-M-001997",
-      "sourceLinkId": "HN-SRC-004507",
+      "linkId": "HN-G9811-M-003058",
+      "sourceLinkId": "HN-SRC-004582",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {

@@ -1,9 +1,9 @@
 {
   "valid": true,
-  "links": 10631,
-  "relationships": 11111,
-  "internalRelationships": 6300,
-  "crossSourceRelationships": 4811,
+  "links": 9003,
+  "relationships": 9483,
+  "internalRelationships": 7231,
+  "crossSourceRelationships": 2252,
   "osmWaysFound": 4452,
   "osmNodesLoaded": 29422,
   "unknownDirectionLinks": [
@@ -119,6 +119,22 @@
           "wgs84": [
             110.3436166,
             19.6490441
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "MERGED_HN_31cb6c2263f50febe386__S196",
+      "sourceLinkId": "MERGED_HN_31cb6c2263f50febe386",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 9498553928,
+          "wgs84": [
+            109.7534501,
+            19.86784
           ]
         }
       ]
@@ -524,8 +540,8 @@
       ]
     },
     {
-      "linkId": "OSM_HN_1087285245_3249__S002",
-      "sourceLinkId": "OSM_HN_1087285245_3249",
+      "linkId": "MERGED_HN_62609de86633ffc1c6c9__S002",
+      "sourceLinkId": "MERGED_HN_62609de86633ffc1c6c9",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -540,8 +556,8 @@
       ]
     },
     {
-      "linkId": "OSM_HN_1087285256_3255__S001",
-      "sourceLinkId": "OSM_HN_1087285256_3255",
+      "linkId": "MERGED_HN_eab43aeede2c87000d0a__S001",
+      "sourceLinkId": "MERGED_HN_eab43aeede2c87000d0a",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -1013,8 +1029,8 @@
       ]
     },
     {
-      "linkId": "OSM_HN_1173118842_3467",
-      "sourceLinkId": "OSM_HN_1173118842_3467",
+      "linkId": "MERGED_HN_8a4fed8b12d61383b3a0__S001",
+      "sourceLinkId": "MERGED_HN_8a4fed8b12d61383b3a0",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -1024,22 +1040,6 @@
           "wgs84": [
             110.7583052,
             19.5653573
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1173118843_3468",
-      "sourceLinkId": "OSM_HN_1173118843_3468",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 10900002536,
-          "wgs84": [
-            110.7583354,
-            19.5652615
           ]
         }
       ]
@@ -1424,22 +1424,6 @@
       ]
     },
     {
-      "linkId": "OSM_HN_1203470613_3584",
-      "sourceLinkId": "OSM_HN_1203470613_3584",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 9498553928,
-          "wgs84": [
-            109.7534501,
-            19.86784
-          ]
-        }
-      ]
-    },
-    {
       "linkId": "OSM_HN_1203470646_3594",
       "sourceLinkId": "OSM_HN_1203470646_3594",
       "reason": "networkBoundaryOrUnresolvedConnection",
@@ -1456,8 +1440,8 @@
       ]
     },
     {
-      "linkId": "OSM_HN_1203470652_3595",
-      "sourceLinkId": "OSM_HN_1203470652_3595",
+      "linkId": "MERGED_HN_65b5f037f0ce864d885c__S001",
+      "sourceLinkId": "MERGED_HN_65b5f037f0ce864d885c",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -1467,6 +1451,22 @@
           "wgs84": [
             109.7525647,
             19.8685794
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "MERGED_HN_65b5f037f0ce864d885c__S264",
+      "sourceLinkId": "MERGED_HN_65b5f037f0ce864d885c",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 10900002536,
+          "wgs84": [
+            110.7583354,
+            19.5652615
           ]
         }
       ]
@@ -3124,24 +3124,8 @@
       ]
     },
     {
-      "linkId": "OSM_HN_1494536207_4285__S006",
-      "sourceLinkId": "OSM_HN_1494536207_4285",
-      "reason": "networkBoundaryOrUnresolvedConnection",
-      "missingConnections": [
-        {
-          "role": "outgoing",
-          "orientation": "forward",
-          "osmNodeId": 8879817634,
-          "wgs84": [
-            109.2228492,
-            19.8059911
-          ]
-        }
-      ]
-    },
-    {
-      "linkId": "OSM_HN_1494536208_4286__S001",
-      "sourceLinkId": "OSM_HN_1494536208_4286",
+      "linkId": "MERGED_HN_5f73f2b393866df588d7__S001",
+      "sourceLinkId": "MERGED_HN_5f73f2b393866df588d7",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {
@@ -3371,6 +3355,22 @@
           "wgs84": [
             109.4692548,
             19.7948923
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "MERGED_HN_39280e22feaea5667d49__S084",
+      "sourceLinkId": "MERGED_HN_39280e22feaea5667d49",
+      "reason": "networkBoundaryOrUnresolvedConnection",
+      "missingConnections": [
+        {
+          "role": "outgoing",
+          "orientation": "forward",
+          "osmNodeId": 8879817634,
+          "wgs84": [
+            109.2228492,
+            19.8059911
           ]
         }
       ]
@@ -5145,8 +5145,8 @@
       ]
     },
     {
-      "linkId": "MERGED_HN_473a4f8a57b7e644ec12__S001",
-      "sourceLinkId": "MERGED_HN_473a4f8a57b7e644ec12",
+      "linkId": "MERGED_HN_f94211103fda4a85604e__S001",
+      "sourceLinkId": "MERGED_HN_f94211103fda4a85604e",
       "reason": "networkBoundaryOrUnresolvedConnection",
       "missingConnections": [
         {

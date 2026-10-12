@@ -50,6 +50,9 @@ def export_links(snapshot):
         properties = feature['properties']
         for key in ('id', 'osm_way_ids', 'merged_source_ids', 'osm_link_id', 'osm_source_link_id'):
             properties.pop(key, None)
+        for section in properties.get('source_sections', []):
+            section.pop('source_link_id', None)
+            section.pop('osm_way_ids', None)
         if 'topology' in properties:
             for key in ('startNode', 'endNode', 'startOsmNodeId', 'endOsmNodeId'):
                 properties['topology'].pop(key, None)

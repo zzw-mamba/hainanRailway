@@ -1,12 +1,12 @@
 {
-  "inferredUp": 1667,
-  "inferredDown": 1666,
-  "unconfirmed": 7055,
+  "inferredUp": 1377,
+  "inferredDown": 1379,
+  "unconfirmed": 6024,
   "bidirectional": 79,
   "components": [
     {
       "component": 1,
-      "links": 1667,
+      "links": 1377,
       "windingRadians": -6.262726,
       "unbranched": true,
       "accepted": true,
@@ -14,7 +14,7 @@
     },
     {
       "component": 2,
-      "links": 1666,
+      "links": 1379,
       "windingRadians": 6.263404,
       "unbranched": true,
       "accepted": true,
@@ -32,6 +32,6 @@
     }
   ],
   "note": "上下行标注为派生推断；未使用业务 direction=UP/DOWN 字段。仅覆盖通过拓扑检查的G98环线主线，不能直接套用其他路线或匝道。",
-  "businessMatchedUp": 91,
-  "businessMatchedDown": 73
+  "businessMatchedUp": 81,
+  "businessMatchedDown": 63
 }

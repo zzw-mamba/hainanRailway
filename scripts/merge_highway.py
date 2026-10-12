@@ -4,11 +4,12 @@ from collections import defaultdict
 from copy import deepcopy
 import hashlib
 
-from link_splitting import geometry_to_coordinates
+from link_splitting import MeasuredLine, geometry_to_coordinates
 from osm_topology import coordinate_key
 
-MERGE_FIELDS = ('name', 'lanes', 'maxspeed', 'surface', 'bridge', 'tunnel',
-                'access', 'motor_vehicle', 'motorroad')
+SOURCE_ONLY_FIELDS = {'link_id', 'id', 'length', 'length_m', 'start_lng', 'start_lat',
+                      'end_lng', 'end_lat', 'timestamp', 'version', 'tags', 'osm_type',
+                      'source_link_id', 'segment_index'}
 
 
 def _way_ids(feature):
@@ -24,7 +25,8 @@ def merge_highway_sources(features, index):
 
     A selected OSM node used by a third road is a junction and remains a cut.
     Roads without a confirmed OSM endpoint, unnamed routes, ramps and edited
-    roads are left separate. Original source IDs and Way IDs remain traceable.
+    roads are left separate. Changing source attributes do not break the route
+    chain; their intervals are retained so each child can report its provenance.
     """
     features = list(features)
     replaced = {source for feature in features
@@ -58,8 +60,6 @@ def merge_highway_sources(features, index):
             if (eligible(before) and eligible(after)
                     and endpoints[before][1] == node and endpoints[after][0] == node
                     and features[before]['properties']['ref'] == features[after]['properties']['ref']
-                    and all(features[before]['properties'].get(field) == features[after]['properties'].get(field)
-                            for field in MERGE_FIELDS)
                     and coordinate_key(geometry_to_coordinates(features[before]['geometry'])[-1])
                     == coordinate_key(geometry_to_coordinates(features[after]['geometry'])[0])):
                 successors[before] = after
@@ -90,12 +90,82 @@ def merge_highway_sources(features, index):
         identifier = 'MERGED_HN_' + hashlib.sha256('\0'.join(source_ids).encode()).hexdigest()[:20]
         feature = deepcopy(members[0])
         coordinates = [list(point) for point in geometry_to_coordinates(feature['geometry'])]
+        sections = []
+        position = 0.0
+        for member in members:
+            length = MeasuredLine.from_geometry(member['geometry']).length
+            properties = member['properties']
+            sections.append({'source_link_id': properties['link_id'],
+                             'osm_way_ids': _way_ids(member),
+                             'start_m': position, 'end_m': position + length,
+                             'attributes': {key: deepcopy(value) for key, value in properties.items()
+                                            if key not in SOURCE_ONLY_FIELDS and value is not None}})
+            position += length
         for member in members[1:]:
             coordinates.extend([list(point) for point in geometry_to_coordinates(member['geometry'])[1:]])
         feature['geometry'] = {'type': 'LineString', 'coordinates': coordinates}
+        # A merged source may cross an attribute change. Avoid claiming the
+        # first Way's bridge, lanes or other values describe the entire chain.
+        keys = set().union(*(section['attributes'] for section in sections))
+        for key in keys:
+            values = [section['attributes'].get(key) for section in sections]
+            if all(value == values[0] for value in values):
+                feature['properties'][key] = values[0]
+            else:
+                feature['properties'].pop(key, None)
         for field in ('id', 'timestamp', 'version', 'tags', 'osm_type'):
             feature['properties'].pop(field, None)
         feature['properties'].update({'link_id': identifier, 'merged_source_ids': source_ids,
-                                      'osm_way_ids': way_ids})
+                                      'osm_way_ids': way_ids, 'source_sections': sections})
         merged.append(feature)
     return merged
+
+
+def annotate_merged_children(children, sources):
+    """Assign each child only the source attributes of the geometry it covers."""
+    source_by_id = {feature['properties']['link_id']: feature for feature in sources}
+    by_source = defaultdict(list)
+    for child in children:
+        by_source[child['properties'].get('source_link_id')].append(child)
+    for source_id, group in by_source.items():
+        source = source_by_id.get(source_id)
+        if not source:
+            continue
+        if source['properties'].get('manual_edit'):
+            for child in group:
+                child['properties'].pop('merged_source_ids', None)
+                child['properties'].pop('source_sections', None)
+            continue
+        sections = source['properties'].get('source_sections')
+        if not sections:
+            continue
+        cursor = 0.0
+        for child in sorted(group, key=lambda item: item['properties'].get('segment_index', 1)):
+            length = MeasuredLine.from_geometry(child['geometry']).length
+            start, end = cursor, cursor + length
+            cursor = end
+            covered = [(section, min(end, section['end_m']) - max(start, section['start_m']))
+                       for section in sections if min(end, section['end_m']) - max(start, section['start_m']) > 1e-5]
+            if not covered:
+                raise ValueError(f'{source_id}: child has no original source section')
+            properties = child['properties']
+            properties.pop('merged_source_ids', None)
+            properties['osm_way_ids'] = list(dict.fromkeys(
+                way for section, _ in covered for way in section['osm_way_ids']))
+            keys = set().union(*(section['attributes'] for section, _ in covered))
+            varying = set()
+            for key in keys:
+                values = [section['attributes'].get(key) for section, _ in covered]
+                if all(value == values[0] for value in values):
+                    properties[key] = values[0]
+                else:
+                    properties.pop(key, None)
+                    varying.add(key)
+            if len(covered) > 1:
+                properties['source_sections'] = [
+                    {'source_link_id': section['source_link_id'], 'osm_way_ids': section['osm_way_ids'],
+                     'overlap_m': round(overlap, 3),
+                     'attributes': {key: section['attributes'].get(key) for key in sorted(varying)}}
+                    for section, overlap in covered]
+            else:
+                properties.pop('source_sections', None)

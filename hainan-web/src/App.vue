@@ -11,17 +11,18 @@ let toastTimer
 const PAGE_SIZE=40
 const fmt=n=>new Intl.NumberFormat('zh-CN').format(n)
 const tagged=v=>v!=null&&String(v)!==''&&String(v)!=='no'
+const hasStructure=(properties,field)=>tagged(properties[field])||properties.source_sections?.some(section=>tagged(section.attributes?.[field]))||false
 const roads=computed(()=>data.value?.roads||[])
 const routes=computed(()=>[...new Set(roads.value.map(f=>f.properties.ref).filter(Boolean))].sort())
-const mapRoads=computed(()=>roads.value.filter(f=>{const p=f.properties;return(roadType.value==='all'||p.highway===roadType.value)&&(route.value==='all'||p.ref===route.value)&&(structure.value==='all'||tagged(p[structure.value]))&&(direction.value==='all'||p.direction_annotation?.code===direction.value||p.direction_annotation?.status===direction.value)}))
+const mapRoads=computed(()=>roads.value.filter(f=>{const p=f.properties;return(roadType.value==='all'||p.highway===roadType.value)&&(route.value==='all'||p.ref===route.value)&&(structure.value==='all'||hasStructure(p,structure.value))&&(direction.value==='all'||p.direction_annotation?.code===direction.value||p.direction_annotation?.status===direction.value)}))
 const visibleRoads=computed(()=>{const q=query.value.trim().toLowerCase();return q?mapRoads.value.filter(f=>{const p=f.properties;return[p.name,p.ref,p.link_id,p.source_link_id,p.osm_link_id,p.osm_source_link_id,...(p.business_association?.matches||[]).flatMap(m=>[m.businessLinkId,m.unitId,m.unitName,m.startStakeNum,m.endStakeNum])].some(v=>String(v||'').toLowerCase().includes(q))}):mapRoads.value})
 const list=visibleRoads
 const pages=computed(()=>Math.max(1,Math.ceil(list.value.length/PAGE_SIZE)))
 const pageItems=computed(()=>list.value.slice((page.value-1)*PAGE_SIZE,page.value*PAGE_SIZE))
 const filteredLength=computed(()=>mapRoads.value.reduce((sum,f)=>sum+Number(f.properties.length_m||0),0)/1000)
 const mainCount=computed(()=>roads.value.filter(f=>f.properties.highway==='motorway').length)
-const bridgeCount=computed(()=>roads.value.filter(f=>tagged(f.properties.bridge)).length)
-const tunnelCount=computed(()=>roads.value.filter(f=>tagged(f.properties.tunnel)).length)
+const bridgeCount=computed(()=>roads.value.filter(f=>hasStructure(f.properties,'bridge')).length)
+const tunnelCount=computed(()=>roads.value.filter(f=>hasStructure(f.properties,'tunnel')).length)
 const properties=computed(()=>selected.value?.properties||{})
 const pointCoordinateSystem=ref('WGS84')
 const gisPoints=computed(()=>{

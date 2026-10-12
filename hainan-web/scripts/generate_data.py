@@ -15,7 +15,7 @@ from link_splitting import SplitConfig, split_links, validate_split_result
 from split_links import read_features, write_json, write_mapping_csv
 from osm_topology import extract_node_index, junction_cuts, build_topology
 from source_edits import apply_edit, effective_sources, preferred_cuts, read_edits
-from merge_highway import merge_highway_sources
+from merge_highway import merge_highway_sources, annotate_merged_children
 
 
 MIN_LENGTH_M = 100
@@ -90,6 +90,7 @@ def _regenerate(max_length, output_root, edit_operation=None, publish=True):
         preferred = preferred_cuts(features, previous_roads, edited_lineages) if same_limit and edited_lineages else {}
         result = split_links(features, config=config, forced_split_points_by_link=junction_cuts(features, node_index),
                              preferred_split_points_by_link=preferred)
+        annotate_merged_children(result.features, features)
         result.relationships, topology_report = build_topology(result.features, node_index)
         if not topology_report['valid']:
             raise ValueError('拓扑校验失败：仍有共享 OSM 节点未切分')

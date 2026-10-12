@@ -6,10 +6,10 @@
 
 | 项目 | 当前值 |
 |---|---:|
-| 路链要素 `features` | 10,631 条 |
-| 合并后待切分源链 `generation.sourceLinks` | 4,349 条 |
-| 有向连通关系 | 11,111 条 |
-| 高速主线路链 | 8,278 条 |
+| 路链要素 `features` | 9,003 条 |
+| 合并后待切分源链 `generation.sourceLinks` | 1,790 条 |
+| 有向连通关系 | 9,483 条 |
+| 高速主线路链 | 6,650 条 |
 | 高速匝道路链 | 2,353 条 |
 | 单条路链的 GIS 点数 | 2–40 个 |
 | 最大拆分长度配置 | 500 m |
@@ -61,6 +61,7 @@ features: [
 | `properties.length_m` | 数值 | 当前拆分路链沿折线计算的长度，单位米。 |
 | `properties.gis_point_count` | 整数 | 当前路链 GIS 点数，等于 `gis_points.length`。 |
 | `properties.gis_points` | 对象数组 | 这条路链的**全部** GIS 点，按折线顺序列出 `index`、`longitude`、`latitude`。 |
+| `properties.source_sections` | 对象数组，可缺失 | 合并后路链跨越多个原始道路段时，列出各段在本路链中的覆盖长度和源属性；原始 OSM 编号不写入本导出文件。 |
 | `properties.start_lng/start_lat` | 数值 | 第一个 GIS 点的经纬度。 |
 | `properties.end_lng/end_lat` | 数值 | 最后一个 GIS 点的经纬度。 |
 | `properties.oneway` | 字符串，可缺失 | `yes` 顺坐标方向单行、`-1` 逆坐标方向单行、`no` 双向；缺失时不要自行推断。 |
@@ -76,11 +77,11 @@ features: [
 
 导出时先检查路段自身的 `name`。明确含“高速”的名称直接写入 `highway_name`，依据记为 `路段名称`。对于缺少明确高速名称但带有 `ref` 的路段，仅当同一编号的已命名**主线**中某一高速名称至少出现 10 次，且占该编号所有已命名主线的 95% 以上，才按路线补齐，并记为 `同路线主线名称推定`。其余 `highway_name` 为 `null`，依据记为 `待确认`。
 
-当前有 7,505 条来自路段自身名称，531 条按同路线主线名称推定，2,595 条待确认。项目将 `G9811` 原数据中的旧称统一显示为“海三高速”。大量匝道没有 `name` 或 `ref`，不会仅因为空间上靠近某条主线就填入高速名称。
+当前有 6,063 条来自路段自身名称，426 条按同路线主线名称推定，2,514 条待确认。项目将 `G9811` 原数据中的旧称统一显示为“海三高速”。大量匝道没有 `name` 或 `ref`，不会仅因为空间上靠近某条主线就填入高速名称。
 
 ### 上下行标注
 
-`direction_annotation.code` 为 `UP`、`DOWN` 或空；`direction_annotation.status` 表示标注状态。当前状态包括 `inferred`（G98 主线推断）、`business_matched`（接口空间关联）、`unconfirmed` 和 `bidirectional`。`direction_label` 是便于展示的中文文字；它不是另一套独立方向数据。当前有 1,667 条上行推断、1,666 条下行推断、164 条采用接口空间关联方向、79 条双向，其余 7,055 条待确认。推断和空间关联都不应被当作已现场核实的运营方向，详情见[上下行标注依据](direction_notes.md)。
+`direction_annotation.code` 为 `UP`、`DOWN` 或空；`direction_annotation.status` 表示标注状态。当前状态包括 `inferred`（G98 主线推断）、`business_matched`（接口空间关联）、`unconfirmed` 和 `bidirectional`。`direction_label` 是便于展示的中文文字；它不是另一套独立方向数据。当前有 1,377 条上行推断、1,379 条下行推断、144 条采用接口空间关联方向、79 条双向，其余 6,024 条待确认。推断和空间关联都不应被当作已现场核实的运营方向，详情见[上下行标注依据](direction_notes.md)。
 
 ## 内嵌连通关系
 
@@ -111,15 +112,15 @@ features: [
 | `basis` | 连接建立的依据：`osm_shared_node` 表示共享 OSM 节点，`same_source_split` 表示同一原链的连续拆分段。 |
 | `source_link_id` | 内部拆分关系所属的项目原链编号；跨原链关系通常不包含此字段。 |
 
-当前 11,111 条关系中，6,300 条为内部连接，4,811 条为跨合并源链连接。每条非终止关系会分别出现在起始路链的 `outgoing` 和目标路链的 `incoming`；统计关系总数时**只汇总一侧**，否则会重复计数。`previous_link_ids` 和 `next_link_ids` 是便于查找的去重编号列表；需要通行方向、关系类型或依据时应读取完整的 `relationships`。
+当前 9,483 条关系中，7,231 条为内部连接，2,252 条为跨合并源链连接。每条非终止关系会分别出现在起始路链的 `outgoing` 和目标路链的 `incoming`；统计关系总数时**只汇总一侧**，否则会重复计数。`previous_link_ids` 和 `next_link_ids` 是便于查找的去重编号列表；需要通行方向、关系类型或依据时应读取完整的 `relationships`。
 
 关系表示当前高速主线与匝道集合内、依据源数据确认的有向连接。它没有包含所有普通道路、OSM 转向限制或车辆类别限制，不能直接当作完整导航路由表。被移除的原始 OSM 节点 ID 不在本导出文件中。
 
 ## 其他可选属性
 
-部分要素还包含 `lanes`（车道数）、`maxspeed`（限速）、`surface`（路面）、`bridge`（桥梁）、`tunnel`（隧道）等源属性。这些字段只在源数据有值时出现；缺失不等于“无”或“0”。`source` 标识 OpenStreetMap 或本地编辑来源，`manual_edit` 仅在已手动编辑的源链上出现。`timestamp`、`version`、`tags` 等为源数据元信息，不能当作此文件的导出时间。
+部分要素还包含 `lanes`（车道数）、`maxspeed`（限速）、`surface`（路面）、`bridge`（桥梁）、`tunnel`（隧道）等源属性。这些字段只在路链覆盖范围内取值一致时直接写在顶层；跨原始段且属性不同的路链，应查看 `source_sections[].attributes`，其中 `overlap_m` 表示对应源段在当前路链内的覆盖长度。缺失不等于“无”或“0”。`source` 标识 OpenStreetMap 或本地编辑来源，`manual_edit` 仅在已手动编辑的源链上出现。`timestamp`、`version`、`tags` 等为源数据元信息，不能当作此文件的导出时间。
 
-通过空间检查的 231 条路链带有 `business_association`，可读取 `coverage`、`matches` 中的业务路链编号、收费单元名称、重叠长度、起终桩号及方向等。它是空间匹配结果，并非全部路链都有业务桩号；`coverage` 小于 1 时尤其不能把业务桩号直接当作本段完整的起终桩号。关联方法和限制见[接口关联依据](association_notes.md)。
+通过空间检查的 207 条路链带有 `business_association`，可读取 `coverage`、`matches` 中的业务路链编号、收费单元名称、重叠长度、起终桩号及方向等。它是空间匹配结果，并非全部路链都有业务桩号；`coverage` 小于 1 时尤其不能把业务桩号直接当作本段完整的起终桩号。关联方法和限制见[接口关联依据](association_notes.md)。
 
 本文件移除了原始 `id`、OSM 派生道路 ID、OSM 节点 ID 及路线关系 ID；`link_id`、`source_link_id` 和业务接口编号继续保留，因为它们分别用于识别路链、关联原链和追溯收费业务数据。
 
