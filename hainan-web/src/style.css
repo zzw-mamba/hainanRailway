@@ -20,6 +20,10 @@
 
 .legend-line.selected{background:#ffbb48}
 
+.loading-progress{margin:0 15px 6px;padding:9px 10px;border-radius:6px;background:#f3f8f4;color:#426958;font-size:10px;line-height:1.5;display:flex;flex-wrap:wrap;justify-content:space-between;gap:5px}
+.loading-progress progress{width:100%;height:5px;accent-color:#237d68}
+.loading-progress button{color:#237d68;text-decoration:underline;padding:0}
+
 .detail-title{padding:14px 18px 12px}.detail-title h3{font-size:16px;margin:0 0 8px}.id-block{margin-bottom:14px;padding:9px 10px}
 .detail-metrics{margin-bottom:14px}.detail-metrics .direction-value{font-size:12px;line-height:1.6}
 .compact-details{margin-top:8px;font-size:10px}.compact-details summary{color:#819787;cursor:pointer;font-size:10px}.compact-details dl{margin-top:10px}.compact-details .business-id{display:block;margin-top:10px;font-size:10px}

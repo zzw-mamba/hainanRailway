@@ -1,4 +1,5 @@
 node_modules/
 dist/
+public/data/stream/
 .env.local
 wrangler.jsonc

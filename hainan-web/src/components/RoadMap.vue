@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
-const props = defineProps({ roads: Array, selected: Object, endpoints: Boolean, arrows: Boolean })
+const props = defineProps({ roads: Array, extent: Array, selected: Object, endpoints: Boolean, arrows: Boolean })
 const emit = defineEmits(['select', 'ready'])
 const host = ref(null), canvas = ref(null), hover = ref(null), engine = ref('路网视图'), zoomLevel = ref(8)
 let map, observer, frame, width = 1, height = 1, scale = 1, center = [0, 0], dragging, moved = false, destroyed = false
@@ -21,9 +21,11 @@ function bounds(features) {
   for (const f of features) for (const part of geometry(f)) for (const [x,y] of part) { minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y) }
   return [minX,minY,maxX,maxY]
 }
-function fit(features = props.roads) {
-  if (!features.length) return
-  const [x1,y1,x2,y2] = bounds(features)
+function fit(features = props.roads, useFullExtent = false) {
+  if (!features.length && !props.extent) return
+  const [x1,y1,x2,y2] = props.extent && (useFullExtent || !features.length)
+    ? (() => { const [west,south,east,north]=props.extent; const [left,top]=mercator([west,north]),[right,bottom]=mercator([east,south]); return [left,top,right,bottom] })()
+    : bounds(features)
   center = [(x1+x2)/2,(y1+y2)/2]
   scale = Math.min((width-110)/Math.max(x2-x1,0.00003),(height-110)/Math.max(y2-y1,0.00003))
   scale = Math.max(256*2**6,Math.min(256*2**17,scale))
@@ -104,10 +106,10 @@ function loadAMap(){
   sdkScript=document.createElement('script');sdkScript.src=`https://webapi.amap.com/maps?v=2.0&key=${encodeURIComponent(__AMAP_KEY__)}`
   sdkTimer=setTimeout(()=>{if(!online)engine.value='路网视图 · 高德未连接'},12000)
   sdkScript.onerror=()=>{engine.value='路网视图 · 高德未连接'}
-  sdkScript.onload=()=>{if(destroyed||!window.AMap)return;try{map=new window.AMap.Map(host.value.querySelector('.basemap'),{viewMode:'2D',zoom:8,center:[109.7,19.2],mapStyle:'amap://styles/whitesmoke',pitch:0,rotation:0,rotateEnable:false,pitchEnable:false,showLabel:true});online=true;engine.value='高德地图 · GCJ-02';cache=new WeakMap();clearTimeout(sdkTimer);map.on('mapmove',schedule);map.on('zoomchange',schedule);map.on('complete',schedule);fit();schedule()}catch{engine.value='路网视图 · 高德未连接'}}
+  sdkScript.onload=()=>{if(destroyed||!window.AMap)return;try{map=new window.AMap.Map(host.value.querySelector('.basemap'),{viewMode:'2D',zoom:8,center:[109.7,19.2],mapStyle:'amap://styles/whitesmoke',pitch:0,rotation:0,rotateEnable:false,pitchEnable:false,showLabel:true});online=true;engine.value='高德地图 · GCJ-02';cache=new WeakMap();clearTimeout(sdkTimer);map.on('mapmove',schedule);map.on('zoomchange',schedule);map.on('complete',schedule);fit([],true);schedule()}catch{engine.value='路网视图 · 高德未连接'}}
   document.head.appendChild(sdkScript)
 }
-onMounted(()=>{observer=new ResizeObserver(resize);observer.observe(host.value);resize();fit();host.value.addEventListener('wheel',wheel,{passive:false});loadAMap()})
+onMounted(()=>{observer=new ResizeObserver(resize);observer.observe(host.value);resize();fit([],true);host.value.addEventListener('wheel',wheel,{passive:false});loadAMap()})
 onBeforeUnmount(()=>{destroyed=true;observer?.disconnect();cancelAnimationFrame(frame);clearTimeout(sdkTimer);map?.destroy();sdkScript?.remove();host.value?.removeEventListener('wheel',wheel)})
 watch(()=>[props.roads,props.selected,props.endpoints,props.arrows],schedule)
 defineExpose({fit,zoom})
