@@ -7,7 +7,7 @@
 `scripts/run_link_pipeline.py` 将本项目已有的 PBF 提取、路链拆分与高德 HTML 生成脚本串成一条流程。先在 `.env` 中配置 `AMAP_KEY`，处理 PBF 还需安装 `pyrosm geopandas pandas`：
 
 ```bash
-python3 -m pip install pyrosm geopandas pandas
+python3 -m pip install -r requirements.txt
 python3 scripts/run_link_pipeline.py \
   --input data/pbf/guangdong-260921.osm.pbf \
   --output-dir outputs/link_pipeline \
@@ -50,7 +50,7 @@ python3 scripts/process_guangdong_pbf.py --pbf ./另一个文件.osm.pbf --outpu
 ```
 
 ```bash
-python3 -m pip install pyrosm geopandas pandas
+python3 -m pip install -r requirements.txt
 python3 scripts/process_guangdong_pbf.py
 ```
 

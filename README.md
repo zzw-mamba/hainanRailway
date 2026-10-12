@@ -37,7 +37,7 @@ npm --prefix hainan-web run dev
 
 ## 处理路链
 
-PBF 提取需要 `pyrosm geopandas pandas`，高德 HTML 生成需要在根目录 `.env` 中配置 `AMAP_KEY`。已有 GeoJSON 可直接进入拆分流程。
+PBF 提取需要先运行 `python3 -m pip install -r requirements.txt`，高德 HTML 生成需要在根目录 `.env` 中配置 `AMAP_KEY`。已有 GeoJSON 可直接进入拆分流程；网页本地生成服务只使用 Python 标准库，Node 依赖由 `hainan-web/package.json` 管理。
 
 ```bash
 python3 scripts/run_link_pipeline.py \

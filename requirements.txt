@@ -1,0 +1,5 @@
+# Python dependencies for extracting roads from raw OSM PBF files.
+# The local link-generation service itself uses only the Python standard library.
+pyrosm
+geopandas
+pandas
