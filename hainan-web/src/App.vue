@@ -2,11 +2,6 @@
 import { ref, shallowRef, computed, onMounted, watch, nextTick, onBeforeUnmount } from 'vue'
 import RoadMap from './components/RoadMap.vue'
 const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),selected=shallowRef(null),page=ref(1),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
-const maxLength=ref(500),generating=ref(false),generationMessage=ref(''),generationError=ref(''),generationAvailable=ref(null)
-const editor=ref(null),editError=ref('')
-const validMaxLength=computed(()=>Number.isFinite(Number(maxLength.value))&&Number(maxLength.value)>=100&&Number(maxLength.value)<=10000)
-let generationTimer,activeJobId,disposed=false
-let editFocus=null
 let toastTimer
 const PAGE_SIZE=40
 const fmt=n=>new Intl.NumberFormat('zh-CN').format(n)
@@ -59,82 +54,11 @@ async function copyGisPoints(){
   try{await navigator.clipboard.writeText(lines.join('\n'));notify(`已复制 ${gisPoints.value.length} 个 ${pointCoordinateSystem.value} 坐标点`)}
   catch{notify('当前浏览器无法复制坐标，请手动选择列表内容')}
 }
-async function load(focus=null){error.value='';try{const response=await fetch(`${import.meta.env.BASE_URL}data/hainan.json`,{cache:'no-store'});if(!response.ok)throw new Error(`HTTP ${response.status}`);const payload=await response.json();const id=focus?.linkId||selected.value?.properties.link_id;data.value=payload;selected.value=payload.roads.find(f=>f.properties.link_id===id)||null;if(!selected.value&&focus?.sourceId){const siblings=payload.roads.filter(f=>f.properties.osm_source_link_id===focus.sourceId);selected.value=siblings[0]||null}page.value=1;maxLength.value=payload.generation?.maxLinkLengthM||500}catch(e){error.value=`海南数据加载失败：${e.message}`;throw e}}
-async function generationRequest(options,endpoint='generation'){const response=await fetch(`${import.meta.env.BASE_URL}api/${endpoint}`,options);const body=await response.json();if(!response.ok)throw new Error(body.error||'本地生成服务暂不可用');return body}
-async function checkGeneration(){
-  if(disposed)return
-  try{
-    const job=await generationRequest();generationAvailable.value=true
-    if(disposed)return
-    if(job.status==='running'){
-      activeJobId=job.id;generating.value=true;generationMessage.value=job.message
-      generationTimer=setTimeout(checkGeneration,1200)
-    }else if(activeJobId===job.id){
-      if(job.status==='done'){
-        await load(editFocus);generationMessage.value=`已生成 ${fmt(roads.value.length)} 条路链`;notify(editFocus?'路链编辑已保存，路网已更新':'新路网已生成并更新到地图');editFocus=null
-      }else if(job.status==='failed'){generationError.value=job.message;editError.value=job.message;generationMessage.value='';editFocus=null}
-      activeJobId=null;generating.value=false
-    }else if(generating.value){
-      generating.value=false;activeJobId=null;generationError.value='生成服务已重启，请重新生成'
-    }
-  }catch(e){generating.value=false;generationError.value=activeJobId?`状态读取失败：${e.message}，可刷新页面查看进度`:'请通过本地 dev 或 preview 服务使用实时生成';generationAvailable.value=false}
-}
-async function generate(){
-  if(!validMaxLength.value||generating.value)return
-  generationError.value='';generating.value=true;generationMessage.value='正在启动生成…'
-  try{
-    const job=await generationRequest({method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({maxLinkLengthM:Number(maxLength.value)})})
-    activeJobId=job.id;generationMessage.value=job.message;clearTimeout(generationTimer);if(!disposed)generationTimer=setTimeout(checkGeneration,1000)
-  }catch(e){generating.value=false;generationError.value=e.message}
-}
-function openEditor(action){
-  editError.value=''
-  if(action==='add'){
-    editor.value={action,name:'',ref:'',highway:'motorway',oneway:'yes',lanes:'',maxspeed:'',coordinates:''}
-    return
-  }
-  if(!selected.value)return
-  const p=selected.value.properties
-  editor.value={action,linkId:p.link_id,sourceId:p.osm_source_link_id,
-    name:p.name||'',ref:p.ref||'',highway:p.highway||'motorway',oneway:p.oneway||'yes',
-    lanes:String(p.lanes||''),maxspeed:String(p.maxspeed||''),
-    coordinates:selected.value.geometry.coordinates.map(point=>point.join(', ')).join('\n')}
-}
-function parseEditorCoordinates(value){
-  const lines=value.trim().split(/\r?\n/).map(line=>line.trim()).filter(Boolean)
-  if(lines.length<2)throw new Error('至少输入两个 WGS84 GIS 点，每行“经度, 纬度”')
-  return lines.map((line,index)=>{
-    const values=line.replace(/[\[\]]/g,'').split(/[\s,，]+/).filter(Boolean).map(Number)
-    if(values.length!==2||values.some(v=>!Number.isFinite(v)))throw new Error(`第 ${index+1} 行坐标格式错误`)
-    return values
-  })
-}
-async function submitEdit(){
-  if(!editor.value||generating.value)return
-  editError.value=''
-  const form=editor.value
-  let body
-  try{
-    body={action:form.action,linkId:form.linkId,maxLinkLengthM:Number(data.value.generation?.maxLinkLengthM||500)}
-    if(form.action!=='delete'){
-      body.properties={name:form.name,ref:form.ref,highway:form.highway,oneway:form.oneway,
-        lanes:form.lanes,maxspeed:form.maxspeed}
-      body.coordinates=parseEditorCoordinates(form.coordinates)
-    }
-  }catch(e){editError.value=e.message;return}
-  generating.value=true;generationError.value='';generationMessage.value='正在保存路链编辑…'
-  editFocus=form.action==='add'?null:{sourceId:form.sourceId,linkId:form.action==='delete'?null:form.linkId}
-  try{
-    const job=await generationRequest({method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify(body)},'link-edit')
-    activeJobId=job.id;generationMessage.value=job.message;editor.value=null
-    clearTimeout(generationTimer);if(!disposed)generationTimer=setTimeout(checkGeneration,1000)
-  }catch(e){generating.value=false;generationMessage.value='';editError.value=e.message;editFocus=null}
-}
+async function load(){error.value='';try{const response=await fetch(`${import.meta.env.BASE_URL}data/hainan.json`,{cache:'no-store'});if(!response.ok)throw new Error(`HTTP ${response.status}`);const payload=await response.json();const id=selected.value?.properties.link_id;data.value=payload;selected.value=payload.roads.find(f=>f.properties.link_id===id)||null;page.value=1}catch(e){error.value=`海南数据加载失败：${e.message}`;throw e}}
 watch([query,roadType,route,structure,direction],()=>{page.value=1})
 watch(selected,()=>{pointCoordinateSystem.value='WGS84'})
-onMounted(async()=>{try{await load()}catch{};if(!disposed)checkGeneration()})
-onBeforeUnmount(()=>{disposed=true;clearTimeout(generationTimer);clearTimeout(toastTimer)})
+onMounted(async()=>{try{await load()}catch{}})
+onBeforeUnmount(()=>{clearTimeout(toastTimer)})
 </script>
 
 <template>
@@ -143,14 +67,7 @@ onBeforeUnmount(()=>{disposed=true;clearTimeout(generationTimer);clearTimeout(to
     <template v-else>
       <main class="workspace">
         <aside class="explorer">
-          <div class="section-title"><h2>路网资源</h2><div class="resource-heading-actions"><button class="add-link-button" :disabled="generationAvailable!==true||generating" @click="openEditor('add')">＋ 添加路链</button><span class="count-pill">{{ fmt(list.length) }}</span></div></div>
-          <form class="generation-control" @submit.prevent="generate">
-            <label for="max-link-length">路链最大长度</label>
-            <div class="generation-input"><input id="max-link-length" v-model.number="maxLength" type="number" min="100" max="10000" step="any" required :disabled="generating"><span>m</span><button type="submit" :disabled="generating||!validMaxLength||generationAvailable!==true">{{ generating?'生成中…':'重新生成' }}</button></div>
-            <small v-if="!generating">当前 {{ data.generation?.maxLinkLengthM || 500 }} m · 可设 100–10,000 m</small>
-            <p v-if="generating||generationMessage" class="generation-status" role="status"><i v-if="generating" class="generation-spinner"></i>{{ generationMessage }}</p>
-            <p v-if="generationError" class="generation-error" role="alert">{{ generationError }}</p>
-          </form>
+          <div class="section-title"><h2>路网资源</h2><span class="count-pill">{{ fmt(list.length) }}</span></div>
           <div class="filters"><label class="search"><span>⌕</span><input v-model="query" placeholder="搜索路名、路链编号或桩号" aria-label="搜索路网"><button v-if="query" aria-label="清除搜索" @click="query=''">×</button><kbd v-else>搜索</kbd></label>
             <div class="filter-grid"><label>道路类型<select v-model="roadType"><option value="all">全部类型</option><option value="motorway">高速主线</option><option value="motorway_link">高速匝道</option></select></label><label>路线编号<select v-model="route"><option value="all">全部路线</option><option v-for="r in routes" :key="r" :value="r">{{ r }}</option></select></label><label>道路结构<select v-model="structure"><option value="all">全部结构</option><option value="bridge">桥梁</option><option value="tunnel">隧道</option></select></label><label>上下行<select v-model="direction"><option value="all">全部方向</option><option value="UP">上行</option><option value="DOWN">下行</option><option value="unconfirmed">待确认</option><option value="bidirectional">双向</option></select></label></div>
           </div>
@@ -170,7 +87,6 @@ onBeforeUnmount(()=>{disposed=true;clearTimeout(generationTimer);clearTimeout(to
             <div class="detail-title"><h3>{{ properties.name || (properties.highway==='motorway'?'未命名高速主线':'未命名高速匝道') }}</h3><span v-if="properties.ref" class="route-tag">{{ properties.ref }}</span><span class="type-tag">{{ properties.highway==='motorway'?'高速主线':'高速匝道' }}</span></div>
             <div class="id-block"><label>路链编号</label><button title="复制编号" @click="copyId">{{ properties.link_id }} <span>⧉</span></button></div>
             <div class="detail-metrics"><div><small>长度</small><strong>{{ Number(properties.length_m).toFixed(1) }}<span> m</span></strong></div><div><small>上下行</small><strong class="direction-value">{{ properties.direction_annotation?.label || '待确认' }}</strong></div></div>
-            <div v-if="generationAvailable===true" class="link-edit-actions"><button :disabled="generating" @click="openEditor('update')">编辑本段</button><button class="delete-link-button" :disabled="generating" @click="openEditor('delete')">删除本段</button></div>
             <div v-if="properties.business_association" class="detail-section api-association"><h4>接口关联 <span>{{ associatedLinks.length }} 条</span></h4><p class="detail-note">覆盖本段 {{ (properties.business_association.coverage*100).toFixed(0) }}% · 空间匹配待复核</p>
               <p v-if="properties.business_association.directionStatus==='conflict'" class="association-warning">接口方向存在冲突，未采用接口上下行。</p>
               <article v-for="link in associatedLinks" :key="link.id" class="business-link"><p>{{ link.match.unitName }}</p><p class="stake-range">{{ link.startStakeNum || '未提供桩号' }} → {{ link.endStakeNum || '未提供桩号' }}</p>
@@ -194,18 +110,6 @@ onBeforeUnmount(()=>{disposed=true;clearTimeout(generationTimer);clearTimeout(to
         </aside>
       </main>
       <footer class="page-footer"><span>海南自由流项目 <b>/</b> 路链数据探索平台</span><span>本地数据快照 · 非实时交通数据 <i>© OpenStreetMap contributors</i></span></footer>
-      <div v-if="editor" class="modal-backdrop" @click.self="editor=null"><section class="link-editor-modal" role="dialog" aria-modal="true" aria-labelledby="link-editor-title"><button class="close-button" aria-label="关闭路链编辑" @click="editor=null">×</button>
-        <h2 id="link-editor-title">{{ editor.action==='add'?'添加路链':editor.action==='delete'?'删除选中路链':'编辑选中路链' }}</h2>
-        <p v-if="editor.linkId" class="editor-target">{{ editor.linkId }}</p>
-        <template v-if="editor.action==='delete'"><p class="editor-note">仅删除当前选中的拆分段。保存后会重算相邻段、连通关系与编号；原始 OSM 数据保留。</p><div class="editor-footer"><button @click="editor=null">取消</button><button class="editor-danger" :disabled="generating" @click="submitEdit">确认删除本段</button></div></template>
-        <form v-else @submit.prevent="submitEdit"><p class="editor-note">坐标使用 WGS84，每行一个“经度, 纬度”。编辑现有路链时须保留本段起点与终点；名称、路线及通行属性将同步到所属原链。</p>
-          <div class="editor-fields"><label>道路名称<input v-model="editor.name" maxlength="120" placeholder="例如：海南环线高速"></label><label>路线编号<input v-model="editor.ref" maxlength="120" placeholder="例如：G98"></label><label>道路类型<select v-model="editor.highway"><option value="motorway">高速主线</option><option value="motorway_link">高速匝道</option></select></label><label>通行方向<select v-model="editor.oneway"><option value="yes">正向单行</option><option value="-1">反向单行</option><option value="no">双向</option></select></label><label>车道数<input v-model="editor.lanes" maxlength="120"></label><label>限速<input v-model="editor.maxspeed" maxlength="120"></label></div>
-          <label class="editor-coordinates">GIS 点（WGS84）<textarea v-model="editor.coordinates" rows="9" spellcheck="false" placeholder="110.0341221, 18.5324053&#10;110.0354483, 18.5337118" required></textarea></label>
-          <p v-if="editError" class="generation-error" role="alert">{{ editError }}</p>
-          <div class="editor-footer"><button type="button" @click="editor=null">取消</button><button type="submit" :disabled="generating">{{ editor.action==='add'?'添加并重新拆分':'保存并重新拆分' }}</button></div>
-        </form>
-        <p v-if="editor.action==='delete'&&editError" class="generation-error" role="alert">{{ editError }}</p>
-      </section></div>
       <div v-if="showValidation" class="modal-backdrop" @click.self="showValidation=false"><section class="validation-modal" role="dialog" aria-modal="true" aria-labelledby="validation-title"><button class="close-button" aria-label="关闭校验报告" @click="showValidation=false">×</button><span class="eyebrow">DATA VALIDATION</span><h2 id="validation-title">海南路链校验报告</h2><div class="validation-result">{{ data.validation.valid?'✓ 校验通过':'! 存在校验问题' }}</div><dl><dt>检查路链</dt><dd>{{ fmt(data.validation.checkedLinks) }} 条</dd><dt>原始路链</dt><dd>{{ fmt(data.validation.checkedSources) }} 条</dd><dt>OSM 有向关系</dt><dd>{{ fmt(data.relationships.length) }} 条</dd><dt>错误</dt><dd>{{ data.validation.errors.length }}</dd><dt>警告</dt><dd>{{ data.validation.warnings.length }}</dd></dl><p>当前快照的拆分校验报告，涵盖长度、ID、连续性、长度守恒及关系引用检查。</p><pre v-if="data.validation.errors.length || data.validation.warnings.length">{{ JSON.stringify({errors:data.validation.errors,warnings:data.validation.warnings},null,2) }}</pre><button class="locate-button" @click="showValidation=false">返回路网探索</button></section></div>
       <div v-if="toast" class="toast" role="status">✓ {{ toast }}</div>
     </template>
