@@ -1,0 +1,37 @@
+{
+  "inferredUp": 1672,
+  "inferredDown": 1676,
+  "unconfirmed": 7099,
+  "bidirectional": 79,
+  "components": [
+    {
+      "component": 1,
+      "links": 1676,
+      "windingRadians": 6.263404,
+      "unbranched": true,
+      "accepted": true,
+      "inferredDirection": "DOWN"
+    },
+    {
+      "component": 2,
+      "links": 1672,
+      "windingRadians": -6.262726,
+      "unbranched": true,
+      "accepted": true,
+      "inferredDirection": "UP"
+    }
+  ],
+  "sources": [
+    {
+      "title": "海南交通集团：G98 K294+038（三亚往乐东）上行记录",
+      "url": "https://www.hainanjk.com/wx/NewsList.aspx?Page=76&cId=23&tx="
+    },
+    {
+      "title": "OSM 路线关系字段定义",
+      "url": "https://wiki.openstreetmap.org/wiki/Relation:route"
+    }
+  ],
+  "note": "上下行标注为派生推断；未使用业务 direction=UP/DOWN 字段。仅覆盖通过拓扑检查的G98环线主线，不能直接套用其他路线或匝道。",
+  "businessMatchedUp": 92,
+  "businessMatchedDown": 73
+}

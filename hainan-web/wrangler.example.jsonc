@@ -1,0 +1,11 @@
+{
+  // Replace this with the exact name of your existing Cloudflare Worker.
+  "name": "replace-with-your-worker-name",
+  "main": "./public/_worker.js",
+  "compatibility_date": "2026-10-09",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/_AMapService/*"]
+  }
+}

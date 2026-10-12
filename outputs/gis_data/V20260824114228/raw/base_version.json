@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "currentNumber": 0,
+    "currentVersion": "V20260824114228",
+    "nextNumber": null,
+    "nextUseTime": null,
+    "nextVersion": null,
+    "verUseTime": "2026-08-25T00:00:00"
+  }
+}

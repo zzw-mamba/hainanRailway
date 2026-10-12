@@ -1,0 +1,29 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Frontend build and dependencies
+node_modules/
+dist/
+
+# Operating system files
+.DS_Store
+
+# Oversized raw data; download separately when processing Guangdong.
+data/pbf/guangdong-260921.osm.pbf
+
+# Generated legacy HTML embeds local AMap credentials.
+outputs/hainan/links_amap.html
+
+# Local protocol reference is not part of the public demo.
+docs/基础数据与感知数据通信协议V1.0.pdf
+
+# Local generation lock.
+outputs/.web-generation.lock

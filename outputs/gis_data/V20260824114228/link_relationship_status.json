@@ -1,0 +1,10 @@
+{
+  "status": "available",
+  "method": "BDS_LINKREL_LIST",
+  "count": 275,
+  "directionCounts": {
+    "DOWN": 141,
+    "UP": 134
+  },
+  "downloadedAt": "2026-10-08T08:25:02.932623+00:00"
+}

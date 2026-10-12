@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_roads",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"link_id": "MAIN", "name": "样例主线", "highway": "motorway", "oneway": "yes"},
+      "geometry": {"type": "LineString", "coordinates": [[109.0, 19.0], [109.01, 19.0], [109.02, 19.0]]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"link_id": "RAMP", "name": "样例匝道", "highway": "motorway_link", "oneway": "yes"},
+      "geometry": {"type": "LineString", "coordinates": [[109.01, 19.0], [109.01, 19.004]]}
+    }
+  ]
+}

@@ -1,0 +1,1257 @@
+{
+  "type": "FeatureCollection",
+  "name": "gantry",
+  "coordinateReference": "GCJ-02 (gantry confirmed; unit/link coordinate reference to verify)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461014",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001001010010",
+        "lat": "19.750616",
+        "linkId": "G98114600100101006",
+        "lng": "110.177774",
+        "name": "美向—永发主线门架-A07",
+        "stakeNum": "K26+700",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.177774,
+          19.750616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461004",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000310010",
+        "lat": "19.908465",
+        "linkId": "G98114600100031001",
+        "lng": "110.268975",
+        "name": "永兴上行匝道入口门架-Z01",
+        "stakeNum": "DK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.268975,
+          19.908465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461002",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000120010",
+        "lat": "19.930116",
+        "linkId": "G98114600100012007",
+        "lng": "110.282898",
+        "name": "丘海—永兴主线门架-A02",
+        "stakeNum": "K4+310",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.282898,
+          19.930116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461017",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001001210010",
+        "lat": "19.734328",
+        "linkId": "G98114600100121001",
+        "lng": "110.170548",
+        "name": "永发匝道门架-Z07",
+        "stakeNum": "EK0+050",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.170548,
+          19.734328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2043-06-30",
+        "gantryHex": "461039",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001030420010",
+        "lat": "19.43705",
+        "linkId": "G98114600103042002",
+        "lng": "110.096076",
+        "name": "屯昌服务区海口方向出口门架",
+        "stakeNum": "",
+        "startTime": "2026-06-08",
+        "tollIntervals": "G981146001030420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.096076,
+          19.43705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46100D",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001000710010",
+        "lat": "19.803344",
+        "linkId": "G98114600100071009",
+        "lng": "110.201602",
+        "name": "美安—美向主线门架-A05",
+        "stakeNum": "K19+700",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.201602,
+          19.803344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461007",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001000410010",
+        "lat": "19.901049",
+        "linkId": "G98114600100041003",
+        "lng": "110.259758",
+        "name": "永兴—美安主线门架-A03",
+        "stakeNum": "K5+400",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.259758,
+          19.901049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461029",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001001710010",
+        "lat": "19.657",
+        "linkId": "G98114600100171005",
+        "lng": "110.155571",
+        "name": "侍郎—新吴主线门架-A11",
+        "stakeNum": "K39+100",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.155571,
+          19.657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461035",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001002020020",
+        "lat": "19.511897",
+        "linkId": "G98114600100202002",
+        "lng": "110.100895",
+        "name": "新吴—文儒主线门架-A13",
+        "stakeNum": "K53+430",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.100895,
+          19.511897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461012",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000820010",
+        "lat": "19.790702",
+        "linkId": "G98114600100082003",
+        "lng": "110.197164",
+        "name": "美向匝道门架-Z06",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.197164,
+          19.790702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2045-06-30",
+        "gantryHex": "461040",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001030520010",
+        "lat": "19.437066",
+        "linkId": "G98114600103052001",
+        "lng": "110.096107",
+        "name": "屯昌服务区海口方向入口口门架",
+        "stakeNum": "",
+        "startTime": "2026-06-30",
+        "tollIntervals": "G981146001030520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.096107,
+          19.437066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461027",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001001820010",
+        "lat": "19.629493",
+        "linkId": "G98114600100182001",
+        "lng": "110.141344",
+        "name": "新吴匝道门架-Z14",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.141344,
+          19.629493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46102D",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001002120010",
+        "lat": "19.505922",
+        "linkId": "G98114600100212003",
+        "lng": "110.100164",
+        "name": "文儒匝道门架-Z12",
+        "stakeNum": "DK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.100164,
+          19.505922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461009",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000510010",
+        "lat": "19.871018",
+        "linkId": "G98114600100051003",
+        "lng": "110.229322",
+        "name": "美安匝道门架-Z03",
+        "stakeNum": "DK0+040",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000510",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.229322,
+          19.871018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2026-06-30",
+        "gantryHex": "46101D",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001001510010",
+        "lat": "19.692894",
+        "linkId": "G98114600103031001",
+        "lng": "110.156891",
+        "name": "冲尾—侍郎枢纽主线门架",
+        "stakeNum": "K90+300",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001510|G981146001030310|G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.156891,
+          19.692894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461016",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001001110010",
+        "lat": "19.734337",
+        "linkId": "G98114600100111003",
+        "lng": "110.170496",
+        "name": "永发匝道门架-Z07",
+        "stakeNum": "EK0+050",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.170496,
+          19.734337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46100B",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000520010",
+        "lat": "19.869384",
+        "linkId": "G98114600100052003",
+        "lng": "110.231191",
+        "name": "美安匝道门架-Z04",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.231191,
+          19.869384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461025",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001001810010",
+        "lat": "19.629137",
+        "linkId": "G98114600100181003",
+        "lng": "110.138808",
+        "name": "新吴匝道门架-Z13",
+        "stakeNum": "DK0+080",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.138808,
+          19.629137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46102C",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001002210010",
+        "lat": "19.507451",
+        "linkId": "G98114600100221001",
+        "lng": "110.098049",
+        "name": "文儒匝道门架-Z11",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.098049,
+          19.507451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2041-06-30",
+        "gantryHex": "461032",
+        "gantryStatus": 2,
+        "gantryType": 3,
+        "id": "G981146001002310020",
+        "lat": "19.439677",
+        "linkId": "G98114600100231010",
+        "lng": "110.096376",
+        "name": "服务区入口门架-F04",
+        "stakeNum": "",
+        "startTime": "2026-06-05",
+        "tollIntervals": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.096376,
+          19.439677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46101B",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001001320010",
+        "lat": "19.707793",
+        "linkId": "G98114600100132004",
+        "lng": "110.167846",
+        "name": "侍郎—永发主线门架-A10",
+        "stakeNum": "K27+990",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.167846,
+          19.707793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461008",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001000420010",
+        "lat": "19.900991",
+        "linkId": "G98114600100042005",
+        "lng": "110.259831",
+        "name": "美安—永兴主线收费单元",
+        "stakeNum": "K5+430",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.259831,
+          19.900991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461031",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001002320010",
+        "lat": "19.411752",
+        "linkId": "G98114600100232002",
+        "lng": "110.096152",
+        "name": "屯昌主线门架-A16",
+        "stakeNum": "K63+400",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002320|G981146001002520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.096152,
+          19.411752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461013",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000920010",
+        "lat": "19.790749",
+        "linkId": "G98114600100092001",
+        "lng": "110.197122",
+        "name": "美向匝道门架-Z06",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.197122,
+          19.790749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2040-06-27",
+        "gantryHex": "461033",
+        "gantryStatus": 2,
+        "gantryType": 3,
+        "id": "G981146001002310030",
+        "lat": "19.435378",
+        "linkId": "G98114600100231010",
+        "lng": "110.094085",
+        "name": "服务区出口门架-F05",
+        "stakeNum": "",
+        "startTime": "2026-06-05",
+        "tollIntervals": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.094085,
+          19.435378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461018",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001001120010",
+        "lat": "19.733268",
+        "linkId": "G98114600100112003",
+        "lng": "110.172922",
+        "name": "永发匝道门架-Z08",
+        "stakeNum": "FK0+040",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.172922,
+          19.733268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46102E",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001002220010",
+        "lat": "19.505933",
+        "linkId": "G98114600100222001",
+        "lng": "110.100118",
+        "name": "文儒匝道门架-Z12",
+        "stakeNum": "DK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.100118,
+          19.505933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2039-06-30",
+        "gantryHex": "461038",
+        "gantryStatus": 2,
+        "gantryType": 3,
+        "id": "G981146001030620020",
+        "lat": "19.438271",
+        "linkId": "G98114600103062004",
+        "lng": "110.096132",
+        "name": "屯昌服务区海口方向出口门架",
+        "stakeNum": "",
+        "startTime": "2026-06-08",
+        "tollIntervals": "G981146001030620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.096132,
+          19.438271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2038-06-30",
+        "gantryHex": "461037",
+        "gantryStatus": 2,
+        "gantryType": 3,
+        "id": "G981146001030620010",
+        "lat": "19.435221",
+        "linkId": "G98114600103062002",
+        "lng": "110.094525",
+        "name": "屯昌服务区海口方向入口门架",
+        "stakeNum": "",
+        "startTime": "2026-06-09",
+        "tollIntervals": "G981146001030620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.094525,
+          19.435221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46102B",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001002110010",
+        "lat": "19.507464",
+        "linkId": "G98114600100211003",
+        "lng": "110.097991",
+        "name": "文儒匝道门架-Z11",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.097991,
+          19.507464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2026-06-30",
+        "gantryHex": "461019",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001001220010",
+        "lat": "19.73328",
+        "linkId": "G98114600100122001",
+        "lng": "110.17285",
+        "name": "永发匝道门架-Z08",
+        "stakeNum": "FK0+040",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.17285,
+          19.73328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46100A",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000610010",
+        "lat": "19.87099",
+        "linkId": "G98114600100061001",
+        "lng": "110.229404",
+        "name": "美安匝道门架-Z03",
+        "stakeNum": "DK0+040",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.229404,
+          19.87099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461006",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000320010",
+        "lat": "19.905406",
+        "linkId": "G98114600100032001",
+        "lng": "110.26918",
+        "name": "永兴匝道门架-Z02",
+        "stakeNum": "DK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.26918,
+          19.905406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46100E",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001000720010",
+        "lat": "19.803283",
+        "linkId": "G98114600100072002",
+        "lng": "110.201782",
+        "name": "美向—美安主线门架-A06",
+        "stakeNum": "K19+700",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.201782,
+          19.803283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46102A",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001001720010",
+        "lat": "19.656906",
+        "linkId": "G98114600100172004",
+        "lng": "110.155714",
+        "name": "新吴—侍郎主线门架-A12",
+        "stakeNum": "K39+130",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.155714,
+          19.656906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461036",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001002310010",
+        "lat": "19.411736",
+        "linkId": "G98114600100231013",
+        "lng": "110.096049",
+        "name": "屯昌主线门架-A15",
+        "stakeNum": "K63+370",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002310|G981146001002410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.096049,
+          19.411736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46101A",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001001310010",
+        "lat": "19.707826",
+        "linkId": "G98114600100131004",
+        "lng": "110.167735",
+        "name": "永发—侍郎主线门架-A09",
+        "stakeNum": "K27+960",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.167735,
+          19.707826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461010",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000810010",
+        "lat": "19.792392",
+        "linkId": "G98114600100081003",
+        "lng": "110.19527",
+        "name": "美向匝道门架-Z05",
+        "stakeNum": "DK0+050",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.19527,
+          19.792392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2026-06-30",
+        "gantryHex": "461021",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001001520010",
+        "lat": "19.690888",
+        "linkId": "G98114600103032001",
+        "lng": "110.173632",
+        "name": "侍郎枢纽—长安主线门架",
+        "stakeNum": "K92+700",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001030320|G981146001001520|G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.173632,
+          19.690888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2026-06-30",
+        "gantryHex": "46101C",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001001410010",
+        "lat": "19.693039",
+        "linkId": "G98114600103011003",
+        "lng": "110.156927",
+        "name": "冲尾—侍郎枢纽主线门架",
+        "stakeNum": "K90+270",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001410|G981146001030110|G981146001030220|G981146001001420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.156927,
+          19.693039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "46100C",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000620010",
+        "lat": "19.869423",
+        "linkId": "G98114600100062001",
+        "lng": "110.231142",
+        "name": "美安匝道门架-Z04",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.231142,
+          19.869423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461028",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001001920010",
+        "lat": "19.629502",
+        "linkId": "G98114600100192004",
+        "lng": "110.141259",
+        "name": "新吴匝道门架-Z14",
+        "stakeNum": "AK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.141259,
+          19.629502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2026-06-06",
+        "gantryHex": "461034",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001002010010",
+        "lat": "19.511925",
+        "linkId": "G98114600100201015",
+        "lng": "110.100785",
+        "name": "新吴—文儒主线门架-A13",
+        "stakeNum": "K53+400",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.100785,
+          19.511925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461026",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001001910010",
+        "lat": "19.629139",
+        "linkId": "G98114600100191001",
+        "lng": "110.138882",
+        "name": "新吴匝道门架-Z13",
+        "stakeNum": "DK0+080",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.138882,
+          19.629139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461001",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000110010",
+        "lat": "19.930148",
+        "linkId": "G98114600100011002",
+        "lng": "110.282756",
+        "name": "丘海—永兴主线门架-A01",
+        "stakeNum": "K4+280",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.282756,
+          19.930148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461003",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000210010",
+        "lat": "19.90852",
+        "linkId": "G98114600100021003",
+        "lng": "110.269005",
+        "name": "永兴上行匝道出口门架-Z01",
+        "stakeNum": "AK0+050",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.269005,
+          19.90852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461011",
+        "gantryStatus": 2,
+        "gantryType": 1,
+        "id": "G981146001000910010",
+        "lat": "19.792371",
+        "linkId": "G98114600100091001",
+        "lng": "110.195305",
+        "name": "美向匝道门架-Z05",
+        "stakeNum": "DK0+050",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.195305,
+          19.792371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461015",
+        "gantryStatus": 2,
+        "gantryType": 0,
+        "id": "G981146001001020010",
+        "lat": "19.750562",
+        "linkId": "G98114600100102003",
+        "lng": "110.177883",
+        "name": "永发—美向主线门架-A08",
+        "stakeNum": "K26+730",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.177883,
+          19.750562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2026-06-30",
+        "gantryHex": "461020",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001001420010",
+        "lat": "19.690766",
+        "linkId": "G98114600103012003",
+        "lng": "110.173632",
+        "name": "侍郎枢纽—长安主线门架",
+        "stakeNum": "K92+670",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001001420|G981146001030120|G981146001030210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.173632,
+          19.690766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endTime": "2066-06-06",
+        "gantryHex": "461005",
+        "gantryStatus": 2,
+        "gantryType": 2,
+        "id": "G981146001000220010",
+        "lat": "19.905337",
+        "linkId": "G98114600100022003",
+        "lng": "110.269162",
+        "name": "永兴匝道门架-Z02",
+        "stakeNum": "DK0+060",
+        "startTime": "2026-06-06",
+        "tollIntervals": "G981146001000220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.269162,
+          19.905337
+        ]
+      }
+    }
+  ]
+}

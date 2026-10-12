@@ -1,0 +1,13 @@
+{
+  "version": "V20260824114228",
+  "downloadedAt": "2026-10-08T08:25:02.932623+00:00",
+  "coordinateReference": "GCJ-02 confirmed for gantry; verify unit/link before mixing with WGS84 data.",
+  "counts": {
+    "gantry": 50,
+    "unit": 58,
+    "link": 279,
+    "link_relationship": 275
+  },
+  "linkRelationshipFetched": true,
+  "validationErrors": []
+}

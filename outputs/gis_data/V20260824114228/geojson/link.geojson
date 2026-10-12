@@ -1,0 +1,7819 @@
+{
+  "type": "FeatureCollection",
+  "name": "link",
+  "coordinateReference": "GCJ-02 (gantry confirmed; unit/link coordinate reference to verify)",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.860552",
+        "endLng": "110.223039",
+        "endStakeNum": "K6+860",
+        "id": "G98114600100072009",
+        "length": 902,
+        "startLat": "19.853498",
+        "startLng": "110.218058",
+        "startStakeNum": "K8+290",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.218058,
+            19.853498
+          ],
+          [
+            110.223039,
+            19.860552
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.87101",
+        "endLng": "110.229296",
+        "endStakeNum": "",
+        "id": "G98114600100051003",
+        "length": 100,
+        "startLat": "19.871639",
+        "startLng": "110.229871",
+        "startStakeNum": "DK0+040",
+        "unitId": "G981146001000510",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.229871,
+            19.871639
+          ],
+          [
+            110.229296,
+            19.87101
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.912608",
+        "endLng": "110.274497",
+        "endStakeNum": "K4+303",
+        "id": "G98114600100012003",
+        "length": 294,
+        "startLat": "19.91009",
+        "startLng": "110.272418",
+        "startStakeNum": "K4+305",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.272418,
+            19.91009
+          ],
+          [
+            110.274497,
+            19.912608
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.456727",
+        "endLng": "110.09031",
+        "endStakeNum": "",
+        "id": "G98114600103072004",
+        "length": 1000,
+        "startLat": "19.450461",
+        "startLng": "110.094663",
+        "startStakeNum": "K57+265",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.094663,
+            19.450461
+          ],
+          [
+            110.09031,
+            19.456727
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.795056",
+        "endLng": "110.19802",
+        "endStakeNum": "K19+700",
+        "id": "G98114600100071010",
+        "length": 944,
+        "startLat": "19.802892699999997",
+        "startLng": "110.2014786",
+        "startStakeNum": "K18+270",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.2014786,
+            19.802892699999997
+          ],
+          [
+            110.19802,
+            19.795056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.869129",
+        "endLng": "110.229852",
+        "endStakeNum": "AK0+060",
+        "id": "G98114600100062002",
+        "length": 58,
+        "startLat": "19.86877",
+        "startLng": "110.230401",
+        "startStakeNum": "K2+745",
+        "unitId": "G981146001000620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.230401,
+            19.86877
+          ],
+          [
+            110.229852,
+            19.869129
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.663253",
+        "endLng": "110.161089",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172005",
+        "length": 856,
+        "startLat": "19.657793",
+        "startLng": "110.156671",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.156671,
+            19.657793
+          ],
+          [
+            110.161089,
+            19.663253
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.518889",
+        "endLng": "110.103679",
+        "endStakeNum": "K38+357",
+        "id": "G98114600100201014",
+        "length": 949,
+        "startLat": "19.527107",
+        "startLng": "110.107084",
+        "startStakeNum": "K37+615",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.107084,
+            19.527107
+          ],
+          [
+            110.103679,
+            19.518889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.405413",
+        "endLng": "110.096688",
+        "endStakeNum": "K62+658",
+        "id": "G98114600100231013",
+        "length": 904,
+        "startLat": "19.413456142857143",
+        "startLng": "110.09580485714287",
+        "startStakeNum": "K61+946",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09580485714287,
+            19.413456142857143
+          ],
+          [
+            110.096688,
+            19.405413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.907533",
+        "endLng": "110.269588",
+        "endStakeNum": "k100",
+        "id": "G98114600100031003",
+        "length": 63,
+        "startLat": "19.908221",
+        "startLng": "110.269911",
+        "startStakeNum": "k100",
+        "unitId": "G981146001000310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.269911,
+            19.908221
+          ],
+          [
+            110.269588,
+            19.907533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.921341",
+        "endLng": "110.279493",
+        "endStakeNum": "K4+295",
+        "id": "G98114600100011005",
+        "length": 289,
+        "startLat": "19.923945",
+        "startLng": "110.280449",
+        "startStakeNum": "K4+292",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.280449,
+            19.923945
+          ],
+          [
+            110.279493,
+            19.921341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.444223",
+        "endLng": "110.097503",
+        "endStakeNum": "",
+        "id": "G98114600103072002",
+        "length": 200,
+        "startLat": "19.441396",
+        "startLng": "110.097266",
+        "startStakeNum": "",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.097266,
+            19.441396
+          ],
+          [
+            110.097503,
+            19.444223
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.791027",
+        "endLng": "110.196038",
+        "endStakeNum": "",
+        "id": "G98114600100092003",
+        "length": 50,
+        "startLat": "19.790462",
+        "startLng": "110.195938",
+        "startStakeNum": "",
+        "unitId": "G981146001000920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.195938,
+            19.790462
+          ],
+          [
+            110.196038,
+            19.791027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691063",
+        "endLng": "110.16445",
+        "endStakeNum": "K27+738",
+        "id": "G98114600100132001",
+        "length": 947,
+        "startLat": "19.687584",
+        "startLng": "110.164479",
+        "startStakeNum": "K27+990",
+        "unitId": "G981146001001320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164479,
+            19.687584
+          ],
+          [
+            110.16445,
+            19.691063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.931319",
+        "endLng": "110.283267",
+        "endStakeNum": "K4+283",
+        "id": "G98114600100011001",
+        "length": 289,
+        "startLat": "19.933695",
+        "startLng": "110.284351",
+        "startStakeNum": "K4+280",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.284351,
+            19.933695
+          ],
+          [
+            110.283267,
+            19.931319
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690384",
+        "endLng": "110.163862",
+        "endStakeNum": "DK14+020",
+        "id": "G98114600100151001",
+        "length": 153,
+        "startLat": "19.691327",
+        "startLng": "110.162808",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001510",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.162808,
+            19.691327
+          ],
+          [
+            110.163862,
+            19.690384
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.721425",
+        "endLng": "110.170929",
+        "endStakeNum": "K27+204",
+        "id": "G98114600100131002",
+        "length": 905,
+        "startLat": "19.733792",
+        "startLng": "110.171668",
+        "startStakeNum": "K26+952",
+        "unitId": "G981146001001310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171668,
+            19.733792
+          ],
+          [
+            110.170929,
+            19.721425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.507394",
+        "endLng": "110.097964",
+        "endStakeNum": "",
+        "id": "G98114600100211003",
+        "length": 100,
+        "startLat": "19.508668",
+        "startLng": "110.098284",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001002110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.098284,
+            19.508668
+          ],
+          [
+            110.097964,
+            19.507394
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.802892699999997",
+        "endLng": "110.2014786",
+        "endStakeNum": "K18+270",
+        "id": "G98114600100071009",
+        "length": 944,
+        "startLat": "19.810729",
+        "startLng": "110.204087",
+        "startStakeNum": "K16+840",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.204087,
+            19.810729
+          ],
+          [
+            110.2014786,
+            19.802892699999997
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.434111",
+        "endLng": "110.093728",
+        "endStakeNum": "K60+521",
+        "id": "G98114600100231010",
+        "length": 904,
+        "startLat": "19.440365",
+        "startLng": "110.096852",
+        "startStakeNum": "K59+809",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.096852,
+            19.440365
+          ],
+          [
+            110.093728,
+            19.434111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.397459",
+        "endLng": "110.095307",
+        "endStakeNum": "",
+        "id": "G98114600100252003",
+        "length": 100,
+        "startLat": "19.396453",
+        "startLng": "110.09513",
+        "startStakeNum": "",
+        "unitId": "G981146001002520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09513,
+            19.396453
+          ],
+          [
+            110.095307,
+            19.397459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.53534",
+        "endLng": "110.107589",
+        "endStakeNum": "K36+872",
+        "id": "G98114600100201012",
+        "length": 949,
+        "startLat": "19.543742",
+        "startLng": "110.108046",
+        "startStakeNum": "K36+129",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.108046,
+            19.543742
+          ],
+          [
+            110.107589,
+            19.53534
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.543894",
+        "endLng": "110.107972",
+        "endStakeNum": "K36+129",
+        "id": "G98114600100201011",
+        "length": 949,
+        "startLat": "19.55177",
+        "startLng": "110.1111",
+        "startStakeNum": "K35+387",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.1111,
+            19.55177
+          ],
+          [
+            110.107972,
+            19.543894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.897014",
+        "endLng": "110.253551",
+        "endStakeNum": "K4+683",
+        "id": "G98114600100042004",
+        "length": 953,
+        "startLat": "19.891103",
+        "startLng": "110.246832",
+        "startStakeNum": "K4+870",
+        "unitId": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.246832,
+            19.891103
+          ],
+          [
+            110.253551,
+            19.897014
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.596344",
+        "endLng": "110.122123",
+        "endStakeNum": "K30+961",
+        "id": "G98114600100202011",
+        "length": 989,
+        "startLat": "19.587639",
+        "startLng": "110.121106",
+        "startStakeNum": "K31+703",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.121106,
+            19.587639
+          ],
+          [
+            110.122123,
+            19.596344
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.5047",
+        "endLng": "110.099835",
+        "endStakeNum": "DK0+060",
+        "id": "G98114600100222001",
+        "length": 142,
+        "startLat": "19.50594",
+        "startLng": "110.100117",
+        "startStakeNum": "K39+130",
+        "unitId": "G981146001002220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.100117,
+            19.50594
+          ],
+          [
+            110.099835,
+            19.5047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.818642",
+        "endLng": "110.205886",
+        "endStakeNum": "K15+410",
+        "id": "G98114600100071007",
+        "length": 944,
+        "startLat": "19.826568",
+        "startLng": "110.207717",
+        "startStakeNum": "K13+980",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.207717,
+            19.826568
+          ],
+          [
+            110.205886,
+            19.818642
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.68869",
+        "endLng": "110.164398",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171002",
+        "length": 951,
+        "startLat": "19.692626",
+        "startLng": "110.164556",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164556,
+            19.692626
+          ],
+          [
+            110.164398,
+            19.68869
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.908676",
+        "endLng": "110.269455",
+        "endStakeNum": "AK0+050",
+        "id": "G98114600100021002",
+        "length": 204,
+        "startLat": "19.908744",
+        "startLng": "110.270631",
+        "startStakeNum": "K2+180",
+        "unitId": "G981146001000210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.270631,
+            19.908744
+          ],
+          [
+            110.269455,
+            19.908676
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.705505",
+        "endLng": "110.166877",
+        "endStakeNum": "K27+708",
+        "id": "G98114600100131004",
+        "length": 905,
+        "startLat": "19.71324",
+        "startLng": "110.169443",
+        "startStakeNum": "K27+456",
+        "unitId": "G981146001001310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.169443,
+            19.71324
+          ],
+          [
+            110.166877,
+            19.705505
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.928897",
+        "endLng": "110.282254",
+        "endStakeNum": "K4+286",
+        "id": "G98114600100011002",
+        "length": 289,
+        "startLat": "19.931318",
+        "startLng": "110.283278",
+        "startStakeNum": "K4+283",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.283278,
+            19.931318
+          ],
+          [
+            110.282254,
+            19.928897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.737681",
+        "endLng": "110.172417",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100101007",
+        "length": 988,
+        "startLat": "19.746317",
+        "startLng": "110.175526",
+        "startStakeNum": "K27+780",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.175526,
+            19.746317
+          ],
+          [
+            110.172417,
+            19.737681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.695307",
+        "endLng": "110.164759",
+        "endStakeNum": "",
+        "id": "G98114600100152003",
+        "length": 100,
+        "startLat": "19.693839",
+        "startLng": "110.164941",
+        "startStakeNum": "K27+990",
+        "unitId": "G981146001001520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164941,
+            19.693839
+          ],
+          [
+            110.164759,
+            19.695307
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.908643",
+        "endLng": "110.269504",
+        "endStakeNum": "K100",
+        "id": "G98114600100031001",
+        "length": 100,
+        "startLat": "19.908383",
+        "startLng": "110.268852",
+        "startStakeNum": "K100",
+        "unitId": "G981146001000310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.268852,
+            19.908383
+          ],
+          [
+            110.269504,
+            19.908643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.733886",
+        "endLng": "110.17167",
+        "endStakeNum": "",
+        "id": "G98114600100121003",
+        "length": 50,
+        "startLat": "19.735021",
+        "startLng": "110.171617",
+        "startStakeNum": "K26+700",
+        "unitId": "G981146001001210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171617,
+            19.735021
+          ],
+          [
+            110.17167,
+            19.733886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.587527",
+        "endLng": "110.121076",
+        "endStakeNum": "K31+703",
+        "id": "G98114600100202010",
+        "length": 989,
+        "startLat": "19.578739",
+        "startLng": "110.114216",
+        "startStakeNum": "K32+446",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.114216,
+            19.578739
+          ],
+          [
+            110.121076,
+            19.587527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.693839",
+        "endLng": "110.164941",
+        "endStakeNum": "K27+990",
+        "id": "G98114600100152002",
+        "length": 139,
+        "startLat": "19.692975",
+        "startLng": "110.165601",
+        "startStakeNum": "AK14+025",
+        "unitId": "G981146001001520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.165601,
+            19.692975
+          ],
+          [
+            110.164941,
+            19.693839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.421883",
+        "endLng": "110.093948",
+        "endStakeNum": "K61+099",
+        "id": "G98114600100232003",
+        "length": 897,
+        "startLat": "19.413995",
+        "startLng": "110.095568",
+        "startStakeNum": "K61+866",
+        "unitId": "G981146001002320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.095568,
+            19.413995
+          ],
+          [
+            110.093948,
+            19.421883
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.909881",
+        "endLng": "110.272075",
+        "endStakeNum": "K4+310",
+        "id": "G98114600100011010",
+        "length": 289,
+        "startLat": "19.912204",
+        "startLng": "110.274068",
+        "startStakeNum": "K4+307",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.274068,
+            19.912204
+          ],
+          [
+            110.272075,
+            19.909881
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.86662",
+        "endLng": "110.22762",
+        "endStakeNum": "K5+430",
+        "id": "G98114600100072010",
+        "length": 902,
+        "startLat": "19.860582",
+        "startLng": "110.223065",
+        "startStakeNum": "K6+860",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.223065,
+            19.860582
+          ],
+          [
+            110.22762,
+            19.86662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.733075",
+        "endLng": "110.171611",
+        "endStakeNum": "K26+810",
+        "id": "G98114600100102001",
+        "length": 985,
+        "startLat": "19.729692",
+        "startLng": "110.171271",
+        "startStakeNum": "K27+990",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171271,
+            19.729692
+          ],
+          [
+            110.171611,
+            19.733075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.51569",
+        "endLng": "110.102329",
+        "endStakeNum": "K37+645",
+        "id": "G98114600100202002",
+        "length": 989,
+        "startLat": "19.5054",
+        "startLng": "110.098844",
+        "startStakeNum": "K38+387",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.098844,
+            19.5054
+          ],
+          [
+            110.102329,
+            19.51569
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692897",
+        "endLng": "110.164525",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171001",
+        "length": 951,
+        "startLat": "19.697571",
+        "startLng": "110.164957",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164957,
+            19.697571
+          ],
+          [
+            110.164525,
+            19.692897
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.628953",
+        "endLng": "110.140048",
+        "endStakeNum": "K28+703",
+        "id": "G98114600100201001",
+        "length": 949,
+        "startLat": "19.633352",
+        "startLng": "110.139988",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139988,
+            19.633352
+          ],
+          [
+            110.140048,
+            19.628953
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.908445",
+        "endLng": "110.26882",
+        "endStakeNum": "",
+        "id": "G98114600100021003",
+        "length": 0,
+        "startLat": "19.908682",
+        "startLng": "110.269425",
+        "startStakeNum": "AK0+050",
+        "unitId": "G981146001000210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.269425,
+            19.908682
+          ],
+          [
+            110.26882,
+            19.908445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.853525",
+        "endLng": "110.218079",
+        "endStakeNum": "K8+290",
+        "id": "G98114600100072008",
+        "length": 902,
+        "startLat": "19.846274",
+        "startLng": "110.214224",
+        "startStakeNum": "K9+720",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.214224,
+            19.846274
+          ],
+          [
+            110.218079,
+            19.853525
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.506862",
+        "endLng": "110.099024",
+        "endStakeNum": "",
+        "id": "G98114600100221003",
+        "length": 50,
+        "startLat": "19.508614",
+        "startLng": "110.09922",
+        "startStakeNum": "",
+        "unitId": "G981146001002210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09922,
+            19.508614
+          ],
+          [
+            110.099024,
+            19.506862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.904228",
+        "endLng": "110.265456",
+        "endStakeNum": "K4+310",
+        "id": "G98114600100042006",
+        "length": 953,
+        "startLat": "19.901957",
+        "startLng": "110.261721",
+        "startStakeNum": "K4+497",
+        "unitId": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.261721,
+            19.901957
+          ],
+          [
+            110.265456,
+            19.904228
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.916674",
+        "endLng": "110.277177",
+        "endStakeNum": "K4+301",
+        "id": "G98114600100011007",
+        "length": 289,
+        "startLat": "19.91907",
+        "startLng": "110.278505",
+        "startStakeNum": "K4+298",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.278505,
+            19.91907
+          ],
+          [
+            110.277177,
+            19.916674
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.810807",
+        "endLng": "110.204089",
+        "endStakeNum": "K16+840",
+        "id": "G98114600100071008",
+        "length": 944,
+        "startLat": "19.818492",
+        "startLng": "110.205867",
+        "startStakeNum": "K15+410",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.205867,
+            19.818492
+          ],
+          [
+            110.204089,
+            19.810807
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690771",
+        "endLng": "110.173475",
+        "endStakeNum": "K91+270",
+        "id": "G98114600103021005",
+        "length": 230,
+        "startLat": "19.691641",
+        "startLng": "110.166083",
+        "startStakeNum": "K91+070",
+        "unitId": "G981146001030210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.166083,
+            19.691641
+          ],
+          [
+            110.173475,
+            19.690771
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.450397",
+        "endLng": "110.094663",
+        "endStakeNum": "K57+265",
+        "id": "G98114600103072003",
+        "length": 897,
+        "startLat": "19.444352",
+        "startLng": "110.097477",
+        "startStakeNum": "K58+032",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.097477,
+            19.444352
+          ],
+          [
+            110.094663,
+            19.450397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.63067",
+        "endLng": "110.138996",
+        "endStakeNum": "DK0+080",
+        "id": "G98114600100181002",
+        "length": 100,
+        "startLat": "19.631637",
+        "startLng": "110.139696",
+        "startStakeNum": "K14+020",
+        "unitId": "G981146001001810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139696,
+            19.631637
+          ],
+          [
+            110.138996,
+            19.63067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.871918",
+        "endLng": "110.231088",
+        "endStakeNum": "DK2+720",
+        "id": "G98114600100051001",
+        "length": 230,
+        "startLat": "19.873604",
+        "startLng": "110.232737",
+        "startStakeNum": "K5+400",
+        "unitId": "G981146001000510",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.232737,
+            19.873604
+          ],
+          [
+            110.231088,
+            19.871918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.43434",
+        "endLng": "110.093621",
+        "endStakeNum": "",
+        "id": "G98114600100231017",
+        "length": 100,
+        "startLat": "19.436876",
+        "startLng": "110.094547",
+        "startStakeNum": "",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.094547,
+            19.436876
+          ],
+          [
+            110.093621,
+            19.43434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.629102",
+        "endLng": "110.140016",
+        "endStakeNum": "",
+        "id": "G98114600100191003",
+        "length": 100,
+        "startLat": "19.630549",
+        "startLng": "110.139735",
+        "startStakeNum": "",
+        "unitId": "G981146001001910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139735,
+            19.630549
+          ],
+          [
+            110.140016,
+            19.629102
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.630554",
+        "endLng": "110.139065",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100191001",
+        "length": 128,
+        "startLat": "19.628977",
+        "startLng": "110.138878",
+        "startStakeNum": "DK0+080",
+        "unitId": "G981146001001910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.138878,
+            19.628977
+          ],
+          [
+            110.139065,
+            19.630554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.695681",
+        "endLng": "110.164741",
+        "endStakeNum": "K27+486",
+        "id": "G98114600100132002",
+        "length": 947,
+        "startLat": "19.691289",
+        "startLng": "110.164392",
+        "startStakeNum": "K27+738",
+        "unitId": "G981146001001320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164392,
+            19.691289
+          ],
+          [
+            110.164741,
+            19.695681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.873478",
+        "endLng": "110.232683",
+        "endStakeNum": "K5+400",
+        "id": "G98114600100041006",
+        "length": 968,
+        "startLat": "19.8801",
+        "startLng": "110.237796",
+        "startStakeNum": "K5+218",
+        "unitId": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.237796,
+            19.8801
+          ],
+          [
+            110.232683,
+            19.873478
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.790102",
+        "endLng": "110.196644",
+        "endStakeNum": "K19+730",
+        "id": "G98114600100092001",
+        "length": 119,
+        "startLat": "19.790789",
+        "startLng": "110.197145",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001000920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.197145,
+            19.790789
+          ],
+          [
+            110.196644,
+            19.790102
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.732338",
+        "endLng": "110.172595",
+        "endStakeNum": "FK0+040",
+        "id": "G98114600100112002",
+        "length": 124,
+        "startLat": "19.731545",
+        "startLng": "110.171662",
+        "startStakeNum": "K13+385",
+        "unitId": "G981146001001120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171662,
+            19.731545
+          ],
+          [
+            110.172595,
+            19.732338
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691359",
+        "endLng": "110.162828",
+        "endStakeNum": "K90+870",
+        "id": "G98114600103031003",
+        "length": 207,
+        "startLat": "19.692147",
+        "startLng": "110.160995",
+        "startStakeNum": "K90+670",
+        "unitId": "G981146001030310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.160995,
+            19.692147
+          ],
+          [
+            110.162828,
+            19.691359
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.630572",
+        "endLng": "110.139712",
+        "endStakeNum": "",
+        "id": "G98114600100191002",
+        "length": 100,
+        "startLat": "19.630586",
+        "startLng": "110.139107",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139107,
+            19.630586
+          ],
+          [
+            110.139712,
+            19.630572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.871639",
+        "endLng": "110.229871",
+        "endStakeNum": "DK0+040",
+        "id": "G98114600100051002",
+        "length": 230,
+        "startLat": "19.87193",
+        "startLng": "110.231066",
+        "startStakeNum": "K2+720",
+        "unitId": "G981146001000510",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.231066,
+            19.87193
+          ],
+          [
+            110.229871,
+            19.871639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.729673",
+        "endLng": "110.171277",
+        "endStakeNum": "K26+730",
+        "id": "G98114600100132005",
+        "length": 947,
+        "startLat": "19.720661",
+        "startLng": "110.170939",
+        "startStakeNum": "K26+982",
+        "unitId": "G981146001001320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.170939,
+            19.720661
+          ],
+          [
+            110.171277,
+            19.729673
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.508614",
+        "endLng": "110.09922",
+        "endStakeNum": "",
+        "id": "G98114600100221002",
+        "length": 50,
+        "startLat": "19.508739",
+        "startLng": "110.098499",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001002210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.098499,
+            19.508739
+          ],
+          [
+            110.09922,
+            19.508614
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.733062",
+        "endLng": "110.171701",
+        "endStakeNum": "",
+        "id": "G98114600100122003",
+        "length": 50,
+        "startLat": "19.7324",
+        "startLng": "110.171935",
+        "startStakeNum": "",
+        "unitId": "G981146001001220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171935,
+            19.7324
+          ],
+          [
+            110.171701,
+            19.733062
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.437061",
+        "endLng": "110.09605",
+        "endStakeNum": "K63+500",
+        "id": "G98114600103042002",
+        "length": 100,
+        "startLat": "19.435791",
+        "startLng": "110.095458",
+        "startStakeNum": "K63+400",
+        "unitId": "G981146001030420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.095458,
+            19.435791
+          ],
+          [
+            110.09605,
+            19.437061
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.504473",
+        "endLng": "110.099573",
+        "endStakeNum": "",
+        "id": "G98114600100222002",
+        "length": 50,
+        "startLat": "19.5047",
+        "startLng": "110.099835",
+        "startStakeNum": "DK0+060",
+        "unitId": "G981146001002220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099835,
+            19.5047
+          ],
+          [
+            110.099573,
+            19.504473
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.908221",
+        "endLng": "110.269911",
+        "endStakeNum": "k100",
+        "id": "G98114600100031002",
+        "length": 80,
+        "startLat": "19.908643",
+        "startLng": "110.269504",
+        "startStakeNum": "K100",
+        "unitId": "G981146001000310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.269504,
+            19.908643
+          ],
+          [
+            110.269911,
+            19.908221
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.670997",
+        "endLng": "110.163892",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171003",
+        "length": 951,
+        "startLat": "19.688386",
+        "startLng": "110.164419",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164419,
+            19.688386
+          ],
+          [
+            110.163892,
+            19.670997
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.695091",
+        "endLng": "110.164319",
+        "endStakeNum": "DK14+020",
+        "id": "G98114600100141001",
+        "length": 239,
+        "startLat": "19.697555",
+        "startLng": "110.164895",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164895,
+            19.697555
+          ],
+          [
+            110.164319,
+            19.695091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.439305",
+        "endLng": "110.09649",
+        "endStakeNum": "K58+798",
+        "id": "G98114600103062001",
+        "length": 897,
+        "startLat": "19.434376",
+        "startLng": "110.093892",
+        "startStakeNum": "K59+565",
+        "unitId": "G981146001030620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.093892,
+            19.434376
+          ],
+          [
+            110.09649,
+            19.439305
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.509526",
+        "endLng": "110.099496",
+        "endStakeNum": "AK19+580",
+        "id": "G98114600100211001",
+        "length": 231,
+        "startLat": "19.5109",
+        "startLng": "110.100336",
+        "startStakeNum": "K39+100",
+        "unitId": "G981146001002110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.100336,
+            19.5109
+          ],
+          [
+            110.099496,
+            19.509526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.551835",
+        "endLng": "110.111183",
+        "endStakeNum": "K35+387",
+        "id": "G98114600100201010",
+        "length": 949,
+        "startLat": "19.559556",
+        "startLng": "110.112729",
+        "startStakeNum": "K34+644",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.112729,
+            19.559556
+          ],
+          [
+            110.111183,
+            19.551835
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.868291",
+        "endLng": "110.229131",
+        "endStakeNum": "AK2+745",
+        "id": "G98114600100052001",
+        "length": 247,
+        "startLat": "19.866572",
+        "startLng": "110.227627",
+        "startStakeNum": "K5+430",
+        "unitId": "G981146001000520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.227627,
+            19.866572
+          ],
+          [
+            110.229131,
+            19.868291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.430139",
+        "endLng": "110.092562",
+        "endStakeNum": "K60+332",
+        "id": "G98114600100232004",
+        "length": 897,
+        "startLat": "19.42195",
+        "startLng": "110.093926",
+        "startStakeNum": "K61+099",
+        "unitId": "G981146001002320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.093926,
+            19.42195
+          ],
+          [
+            110.092562,
+            19.430139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.912283",
+        "endLng": "110.274119",
+        "endStakeNum": "K4+307",
+        "id": "G98114600100011009",
+        "length": 289,
+        "startLat": "19.91447",
+        "startLng": "110.275784",
+        "startStakeNum": "K4+304",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.275784,
+            19.91447
+          ],
+          [
+            110.274119,
+            19.912283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.429675",
+        "endLng": "110.092608",
+        "endStakeNum": "K61+234",
+        "id": "G98114600100231011",
+        "length": 904,
+        "startLat": "19.433957",
+        "startLng": "110.093747",
+        "startStakeNum": "K60+521",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.093747,
+            19.433957
+          ],
+          [
+            110.092608,
+            19.429675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.829844",
+        "endLng": "110.208692",
+        "endStakeNum": "K12+580",
+        "id": "G98114600100072005",
+        "length": 902,
+        "startLat": "19.821587",
+        "startLng": "110.206863",
+        "startStakeNum": "K14+010",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.206863,
+            19.821587
+          ],
+          [
+            110.208692,
+            19.829844
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692941",
+        "endLng": "110.16563",
+        "endStakeNum": "K14+025",
+        "id": "G98114600100152001",
+        "length": 239,
+        "startLat": "19.691978",
+        "startLng": "110.167568",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001001520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.167568,
+            19.691978
+          ],
+          [
+            110.16563,
+            19.692941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.906612",
+        "endLng": "110.268739",
+        "endStakeNum": "",
+        "id": "G98114600100032003",
+        "length": 100,
+        "startLat": "19.905717",
+        "startLng": "110.267882",
+        "startStakeNum": "DK0+060",
+        "unitId": "G981146001000320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.267882,
+            19.905717
+          ],
+          [
+            110.268739,
+            19.906612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.790462",
+        "endLng": "110.195938",
+        "endStakeNum": "",
+        "id": "G98114600100092002",
+        "length": 50,
+        "startLat": "19.790102",
+        "startLng": "110.196644",
+        "startStakeNum": "K19+730",
+        "unitId": "G981146001000920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.196644,
+            19.790102
+          ],
+          [
+            110.195938,
+            19.790462
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.733801",
+        "endLng": "110.171731",
+        "endStakeNum": "K26+952",
+        "id": "G98114600100131001",
+        "length": 905,
+        "startLat": "19.73766",
+        "startLng": "110.172449",
+        "startStakeNum": "K26+700",
+        "unitId": "G981146001001310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.172449,
+            19.73766
+          ],
+          [
+            110.171731,
+            19.733801
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.69277",
+        "endLng": "110.164393",
+        "endStakeNum": "",
+        "id": "G98114600100161006",
+        "length": 100,
+        "startLat": "19.69341",
+        "startLng": "110.164324",
+        "startStakeNum": "",
+        "unitId": "G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164324,
+            19.69341
+          ],
+          [
+            110.164393,
+            19.69277
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.791485",
+        "endLng": "110.196125",
+        "endStakeNum": "K26+880",
+        "id": "G98114600100101001",
+        "length": 988,
+        "startLat": "19.795045",
+        "startLng": "110.198",
+        "startStakeNum": "K26+700",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.198,
+            19.795045
+          ],
+          [
+            110.196125,
+            19.791485
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.553986",
+        "endLng": "110.112088",
+        "endStakeNum": "K34+674",
+        "id": "G98114600100202006",
+        "length": 989,
+        "startLat": "19.544913",
+        "startLng": "110.108323",
+        "startStakeNum": "K35+417",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.108323,
+            19.544913
+          ],
+          [
+            110.112088,
+            19.553986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.439256",
+        "endLng": "110.096511",
+        "endStakeNum": "",
+        "id": "G98114600103062004",
+        "length": 50,
+        "startLat": "19.437378",
+        "startLng": "110.095768",
+        "startStakeNum": "",
+        "unitId": "G981146001030620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.095768,
+            19.437378
+          ],
+          [
+            110.096511,
+            19.439256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.762401",
+        "endLng": "110.185561",
+        "endStakeNum": "K23+270",
+        "id": "G98114600100102004",
+        "length": 985,
+        "startLat": "19.752861",
+        "startLng": "110.179272",
+        "startStakeNum": "K24+450",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.179272,
+            19.752861
+          ],
+          [
+            110.185561,
+            19.762401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.505285",
+        "endLng": "110.09884",
+        "endStakeNum": "K38+387",
+        "id": "G98114600100202001",
+        "length": 989,
+        "startLat": "19.502664",
+        "startLng": "110.098733",
+        "startStakeNum": "K39+130",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.098733,
+            19.502664
+          ],
+          [
+            110.09884,
+            19.505285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.735168",
+        "endLng": "110.170878",
+        "endStakeNum": "K13+375",
+        "id": "G98114600100121001",
+        "length": 62,
+        "startLat": "19.734066",
+        "startLng": "110.170525",
+        "startStakeNum": "EK0+050",
+        "unitId": "G981146001001210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.170525,
+            19.734066
+          ],
+          [
+            110.170878,
+            19.735168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.790059",
+        "endLng": "110.196717",
+        "endStakeNum": "AK0+060",
+        "id": "G98114600100082002",
+        "length": 117,
+        "startLat": "19.789436",
+        "startLng": "110.195527",
+        "startStakeNum": "K9+895",
+        "unitId": "G981146001000820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.195527,
+            19.789436
+          ],
+          [
+            110.196717,
+            19.790059
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.69341",
+        "endLng": "110.164324",
+        "endStakeNum": "",
+        "id": "G98114600100161005",
+        "length": 100,
+        "startLat": "19.693835",
+        "startLng": "110.163664",
+        "startStakeNum": "",
+        "unitId": "G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163664,
+            19.693835
+          ],
+          [
+            110.164324,
+            19.69341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.821608",
+        "endLng": "110.206761",
+        "endStakeNum": "K14+010",
+        "id": "G98114600100072004",
+        "length": 902,
+        "startLat": "19.813909",
+        "startLng": "110.204995",
+        "startStakeNum": "K15+440",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.204995,
+            19.813909
+          ],
+          [
+            110.206761,
+            19.821608
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.908754",
+        "endLng": "110.270632",
+        "endStakeNum": "AK2+180",
+        "id": "G98114600100021001",
+        "length": 204,
+        "startLat": "19.909854",
+        "startLng": "110.271962",
+        "startStakeNum": "K4+310",
+        "unitId": "G981146001000210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.271962,
+            19.909854
+          ],
+          [
+            110.270632,
+            19.908754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.901937",
+        "endLng": "110.261767",
+        "endStakeNum": "K4+497",
+        "id": "G98114600100042005",
+        "length": 953,
+        "startLat": "19.896947",
+        "startLng": "110.253651",
+        "startStakeNum": "K4+683",
+        "unitId": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.253651,
+            19.896947
+          ],
+          [
+            110.261767,
+            19.901937
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.628978",
+        "endLng": "110.138835",
+        "endStakeNum": "",
+        "id": "G98114600100181003",
+        "length": 120,
+        "startLat": "19.630556",
+        "startLng": "110.138915",
+        "startStakeNum": "DK0+080",
+        "unitId": "G981146001001810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.138915,
+            19.630556
+          ],
+          [
+            110.138835,
+            19.628978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692611",
+        "endLng": "110.165156",
+        "endStakeNum": "K93+200",
+        "id": "G98114600103022002",
+        "length": 143,
+        "startLat": "19.691597",
+        "startLng": "110.166307",
+        "startStakeNum": "K92+950",
+        "unitId": "G981146001030220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.166307,
+            19.691597
+          ],
+          [
+            110.165156,
+            19.692611
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.629783",
+        "endLng": "110.140091",
+        "endStakeNum": "K27+990",
+        "id": "G98114600100202015",
+        "length": 989,
+        "startLat": "19.620138",
+        "startLng": "110.139651",
+        "startStakeNum": "K28+733",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139651,
+            19.620138
+          ],
+          [
+            110.140091,
+            19.629783
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.633316",
+        "endLng": "110.13995",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171008",
+        "length": 951,
+        "startLat": "19.641656",
+        "startLng": "110.141902",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.141902,
+            19.641656
+          ],
+          [
+            110.13995,
+            19.633316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.441396",
+        "endLng": "110.097266",
+        "endStakeNum": "",
+        "id": "G98114600103072001",
+        "length": 200,
+        "startLat": "19.439323",
+        "startLng": "110.096528",
+        "startStakeNum": "",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.096528,
+            19.439323
+          ],
+          [
+            110.097266,
+            19.441396
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.928885",
+        "endLng": "110.282423",
+        "endStakeNum": "K4+296",
+        "id": "G98114600100012006",
+        "length": 1000,
+        "startLat": "19.922171",
+        "startLng": "110.279923",
+        "startStakeNum": "K4+298",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.279923,
+            19.922171
+          ],
+          [
+            110.282423,
+            19.928885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.791088",
+        "endLng": "110.196004",
+        "endStakeNum": "K18+300",
+        "id": "G98114600100072001",
+        "length": 902,
+        "startLat": "19.787835",
+        "startLng": "110.194476",
+        "startStakeNum": "K19+730",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.194476,
+            19.787835
+          ],
+          [
+            110.196004,
+            19.791088
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692358",
+        "endLng": "110.163457",
+        "endStakeNum": "K93+450",
+        "id": "G98114600103022003",
+        "length": 243,
+        "startLat": "19.692608",
+        "startLng": "110.165027",
+        "startStakeNum": "K93+200",
+        "unitId": "G981146001030220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.165027,
+            19.692608
+          ],
+          [
+            110.163457,
+            19.692358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690625",
+        "endLng": "110.165728",
+        "endStakeNum": "",
+        "id": "G98114600100162003",
+        "length": 50,
+        "startLat": "19.691193",
+        "startLng": "110.165235",
+        "startStakeNum": "K27+990",
+        "unitId": "G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.165235,
+            19.691193
+          ],
+          [
+            110.165728,
+            19.690625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.641668",
+        "endLng": "110.141704",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172002",
+        "length": 856,
+        "startLat": "19.63297",
+        "startLng": "110.140064",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.140064,
+            19.63297
+          ],
+          [
+            110.141704,
+            19.641668
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.79263",
+        "endLng": "110.196435",
+        "endStakeNum": "",
+        "id": "G98114600100091002",
+        "length": 56,
+        "startLat": "19.792934",
+        "startLng": "110.19575",
+        "startStakeNum": "DK0+050",
+        "unitId": "G981146001000910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.19575,
+            19.792934
+          ],
+          [
+            110.196435,
+            19.79263
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.752663",
+        "endLng": "110.179076",
+        "endStakeNum": "K24+450",
+        "id": "G98114600100102003",
+        "length": 985,
+        "startLat": "19.743974",
+        "startLng": "110.174495",
+        "startStakeNum": "K25+630",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.174495,
+            19.743974
+          ],
+          [
+            110.179076,
+            19.752663
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.69189",
+        "endLng": "110.162686",
+        "endStakeNum": "K90+670",
+        "id": "G98114600103021002",
+        "length": 100,
+        "startLat": "19.692633",
+        "startLng": "110.162489",
+        "startStakeNum": "K90+470",
+        "unitId": "G981146001030210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.162489,
+            19.692633
+          ],
+          [
+            110.162686,
+            19.69189
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.618922",
+        "endLng": "110.139416",
+        "endStakeNum": "K29+445",
+        "id": "G98114600100201002",
+        "length": 949,
+        "startLat": "19.628908",
+        "startLng": "110.140075",
+        "startStakeNum": "K28+703",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.140075,
+            19.628908
+          ],
+          [
+            110.139416,
+            19.618922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.914496",
+        "endLng": "110.275815",
+        "endStakeNum": "K4+304",
+        "id": "G98114600100011008",
+        "length": 289,
+        "startLat": "19.916665",
+        "startLng": "110.27715",
+        "startStakeNum": "K4+301",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.27715,
+            19.916665
+          ],
+          [
+            110.275815,
+            19.914496
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.583436",
+        "endLng": "110.118664",
+        "endStakeNum": "K33+159",
+        "id": "G98114600100201007",
+        "length": 949,
+        "startLat": "19.59005",
+        "startLng": "110.121831",
+        "startStakeNum": "K32+416",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.121831,
+            19.59005
+          ],
+          [
+            110.118664,
+            19.583436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.693835",
+        "endLng": "110.163664",
+        "endStakeNum": "",
+        "id": "G98114600100161004",
+        "length": 100,
+        "startLat": "19.693367",
+        "startLng": "110.163194",
+        "startStakeNum": "DK0+080",
+        "unitId": "G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163194,
+            19.693367
+          ],
+          [
+            110.163664,
+            19.693835
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692805",
+        "endLng": "110.161369",
+        "endStakeNum": "K90+370",
+        "id": "G98114600103011001",
+        "length": 196,
+        "startLat": "19.693555",
+        "startLng": "110.162856",
+        "startStakeNum": "K90+270",
+        "unitId": "G981146001030110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.162856,
+            19.693555
+          ],
+          [
+            110.161369,
+            19.692805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692887",
+        "endLng": "110.158898",
+        "endStakeNum": "K90+470",
+        "id": "G98114600103011002",
+        "length": 196,
+        "startLat": "19.692787",
+        "startLng": "110.161285",
+        "startStakeNum": "K90+370",
+        "unitId": "G981146001030110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.161285,
+            19.692787
+          ],
+          [
+            110.158898,
+            19.692887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.577268",
+        "endLng": "110.113458",
+        "endStakeNum": "K33+901",
+        "id": "G98114600100201008",
+        "length": 949,
+        "startLat": "19.583725",
+        "startLng": "110.118604",
+        "startStakeNum": "K33+159",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.118604,
+            19.583725
+          ],
+          [
+            110.113458,
+            19.577268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.761401",
+        "endLng": "110.184833",
+        "endStakeNum": "K27+420",
+        "id": "G98114600100101004",
+        "length": 988,
+        "startLat": "19.769851",
+        "startLng": "110.188487",
+        "startStakeNum": "K27+240",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.188487,
+            19.769851
+          ],
+          [
+            110.184833,
+            19.761401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.630886",
+        "endLng": "110.141215",
+        "endStakeNum": "AK14+025",
+        "id": "G98114600100182001",
+        "length": 178,
+        "startLat": "19.629556",
+        "startLng": "110.141353",
+        "startStakeNum": "K27+990",
+        "unitId": "G981146001001820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.141353,
+            19.629556
+          ],
+          [
+            110.141215,
+            19.630886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.882604",
+        "endLng": "110.239762",
+        "endStakeNum": "K5+057",
+        "id": "G98114600100042002",
+        "length": 953,
+        "startLat": "19.870066",
+        "startLng": "110.230182",
+        "startStakeNum": "K5+243",
+        "unitId": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.230182,
+            19.870066
+          ],
+          [
+            110.239762,
+            19.882604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.693655",
+        "endLng": "110.162954",
+        "endStakeNum": "DK0+080",
+        "id": "G98114600100141002",
+        "length": 239,
+        "startLat": "19.695155",
+        "startLng": "110.164312",
+        "startStakeNum": "K14+020",
+        "unitId": "G981146001001410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164312,
+            19.695155
+          ],
+          [
+            110.162954,
+            19.693655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.452329",
+        "endLng": "110.092408",
+        "endStakeNum": "K58+385",
+        "id": "G98114600100231007",
+        "length": 904,
+        "startLat": "19.460547",
+        "startLng": "110.09024",
+        "startStakeNum": "K57+673",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09024,
+            19.460547
+          ],
+          [
+            110.092408,
+            19.452329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.687481",
+        "endLng": "110.164482",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172008",
+        "length": 856,
+        "startLat": "19.680577",
+        "startLng": "110.16454",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.16454,
+            19.680577
+          ],
+          [
+            110.164482,
+            19.687481
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690374",
+        "endLng": "110.166051",
+        "endStakeNum": "K27+990",
+        "id": "G98114600100142002",
+        "length": 163,
+        "startLat": "19.68946",
+        "startLng": "110.165197",
+        "startStakeNum": "AK14+025",
+        "unitId": "G981146001001420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.165197,
+            19.68946
+          ],
+          [
+            110.166051,
+            19.690374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.905083",
+        "endLng": "110.267193",
+        "endStakeNum": "DK2+185",
+        "id": "G98114600100022001",
+        "length": 193,
+        "startLat": "19.904247",
+        "startLng": "110.26561",
+        "startStakeNum": "K4+310",
+        "unitId": "G981146001000220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.26561,
+            19.904247
+          ],
+          [
+            110.267193,
+            19.905083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.486798",
+        "endLng": "110.093589",
+        "endStakeNum": "K55+536",
+        "id": "G98114600100231003",
+        "length": 904,
+        "startLat": "19.494764",
+        "startLng": "110.097213",
+        "startStakeNum": "K54+824",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.097213,
+            19.494764
+          ],
+          [
+            110.093589,
+            19.486798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.598249",
+        "endLng": "110.122429",
+        "endStakeNum": "K31+673",
+        "id": "G98114600100201005",
+        "length": 949,
+        "startLat": "19.602601",
+        "startLng": "110.12461",
+        "startStakeNum": "K30+931",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.12461,
+            19.602601
+          ],
+          [
+            110.122429,
+            19.598249
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.735885",
+        "endLng": "110.17178",
+        "endStakeNum": "EK13+375",
+        "id": "G98114600100111001",
+        "length": 226,
+        "startLat": "19.737682",
+        "startLng": "110.172405",
+        "startStakeNum": "K26+700",
+        "unitId": "G981146001001110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.172405,
+            19.737682
+          ],
+          [
+            110.17178,
+            19.735885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.85946",
+        "endLng": "110.221963",
+        "endStakeNum": "K8+260",
+        "id": "G98114600100071002",
+        "length": 943,
+        "startLat": "19.870225",
+        "startLng": "110.23026",
+        "startStakeNum": "K6+830",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.23026,
+            19.870225
+          ],
+          [
+            110.221963,
+            19.85946
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.528027",
+        "endLng": "110.107359",
+        "endStakeNum": "K36+902",
+        "id": "G98114600100202003",
+        "length": 989,
+        "startLat": "19.51578",
+        "startLng": "110.102427",
+        "startStakeNum": "K37+645",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.102427,
+            19.51578
+          ],
+          [
+            110.107359,
+            19.528027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.7324",
+        "endLng": "110.171935",
+        "endStakeNum": "",
+        "id": "G98114600100122002",
+        "length": 50,
+        "startLat": "19.732387",
+        "startLng": "110.172516",
+        "startStakeNum": "K26+730",
+        "unitId": "G981146001001220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.172516,
+            19.732387
+          ],
+          [
+            110.171935,
+            19.7324
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.578675",
+        "endLng": "110.114203",
+        "endStakeNum": "K32+446",
+        "id": "G98114600100202009",
+        "length": 989,
+        "startLat": "19.571574",
+        "startLng": "110.112817",
+        "startStakeNum": "K33+189",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.112817,
+            19.571574
+          ],
+          [
+            110.114203,
+            19.578675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.688302",
+        "endLng": "110.164317",
+        "endStakeNum": "DK0+080",
+        "id": "G98114600100151002",
+        "length": 153,
+        "startLat": "19.69027",
+        "startLng": "110.163934",
+        "startStakeNum": "K14+020",
+        "unitId": "G981146001001510",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163934,
+            19.69027
+          ],
+          [
+            110.164317,
+            19.688302
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.871671",
+        "endLng": "110.23002",
+        "endStakeNum": "DK0+040",
+        "id": "G98114600100061001",
+        "length": 100,
+        "startLat": "19.870961",
+        "startLng": "110.229384",
+        "startStakeNum": "K5+400",
+        "unitId": "G981146001000610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.229384,
+            19.870961
+          ],
+          [
+            110.23002,
+            19.871671
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.769936",
+        "endLng": "110.188599",
+        "endStakeNum": "K27+240",
+        "id": "G98114600100101003",
+        "length": 988,
+        "startLat": "19.778607",
+        "startLng": "110.190969",
+        "startStakeNum": "K27+060",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.190969,
+            19.778607
+          ],
+          [
+            110.188599,
+            19.769936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.510943",
+        "endLng": "110.10036",
+        "endStakeNum": "K39+100",
+        "id": "G98114600100201015",
+        "length": 949,
+        "startLat": "19.518957",
+        "startLng": "110.103654",
+        "startStakeNum": "K38+357",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.103654,
+            19.518957
+          ],
+          [
+            110.10036,
+            19.510943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.436876",
+        "endLng": "110.094547",
+        "endStakeNum": "",
+        "id": "G98114600100231016",
+        "length": 100,
+        "startLat": "19.43833",
+        "startLng": "110.095439",
+        "startStakeNum": "",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.095439,
+            19.43833
+          ],
+          [
+            110.094547,
+            19.436876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.438341",
+        "endLng": "110.095459",
+        "endStakeNum": "",
+        "id": "G98114600100231015",
+        "length": 100,
+        "startLat": "19.440481",
+        "startLng": "110.096778",
+        "startStakeNum": "",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.096778,
+            19.440481
+          ],
+          [
+            110.095459,
+            19.438341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.705696",
+        "endLng": "110.166952",
+        "endStakeNum": "K27+234",
+        "id": "G98114600100132003",
+        "length": 947,
+        "startLat": "19.695571",
+        "startLng": "110.164784",
+        "startStakeNum": "K27+486",
+        "unitId": "G981146001001320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164784,
+            19.695571
+          ],
+          [
+            110.166952,
+            19.705696
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.631578",
+        "endLng": "110.139677",
+        "endStakeNum": "DK14+020",
+        "id": "G98114600100181001",
+        "length": 247,
+        "startLat": "19.633289",
+        "startLng": "110.139936",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139936,
+            19.633289
+          ],
+          [
+            110.139677,
+            19.631578
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.732387",
+        "endLng": "110.172516",
+        "endStakeNum": "K26+730",
+        "id": "G98114600100122001",
+        "length": 126,
+        "startLat": "19.733421",
+        "startLng": "110.172868",
+        "startStakeNum": "FK0+040",
+        "unitId": "G981146001001220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.172868,
+            19.733421
+          ],
+          [
+            110.172516,
+            19.732387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.834447",
+        "endLng": "110.209611",
+        "endStakeNum": "K12+550",
+        "id": "G98114600100071005",
+        "length": 944,
+        "startLat": "19.843355",
+        "startLng": "110.212655",
+        "startStakeNum": "K11+120",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.212655,
+            19.843355
+          ],
+          [
+            110.209611,
+            19.834447
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.680527",
+        "endLng": "110.164451",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172007",
+        "length": 856,
+        "startLat": "19.670034",
+        "startLng": "110.163872",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163872,
+            19.670034
+          ],
+          [
+            110.164451,
+            19.680527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.395467",
+        "endLng": "110.093904",
+        "endStakeNum": "K63+370",
+        "id": "G98114600100241002",
+        "length": 112,
+        "startLat": "19.396338",
+        "startLng": "110.094442",
+        "startStakeNum": "K63+370",
+        "unitId": "G981146001002410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.094442,
+            19.396338
+          ],
+          [
+            110.093904,
+            19.395467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.843426",
+        "endLng": "110.212655",
+        "endStakeNum": "K11+120",
+        "id": "G98114600100071004",
+        "length": 944,
+        "startLat": "19.851196",
+        "startLng": "110.216469",
+        "startStakeNum": "K9+690",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.216469,
+            19.851196
+          ],
+          [
+            110.212655,
+            19.843426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692995",
+        "endLng": "110.157231",
+        "endStakeNum": "",
+        "id": "G98114600103022005",
+        "length": 200,
+        "startLat": "19.692441",
+        "startLng": "110.161297",
+        "startStakeNum": "K93+700",
+        "unitId": "G981146001030220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.161297,
+            19.692441
+          ],
+          [
+            110.157231,
+            19.692995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691967",
+        "endLng": "110.167644",
+        "endStakeNum": "K93+700",
+        "id": "G98114600103032002",
+        "length": 300,
+        "startLat": "19.691408000000003",
+        "startLng": "110.17055400000001",
+        "startStakeNum": "K93+200",
+        "unitId": "G981146001030320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.17055400000001,
+            19.691408000000003
+          ],
+          [
+            110.167644,
+            19.691967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.69271",
+        "endLng": "110.162494",
+        "endStakeNum": "K90+470",
+        "id": "G98114600103021001",
+        "length": 100,
+        "startLat": "19.693485",
+        "startLng": "110.16287",
+        "startStakeNum": "K90+270",
+        "unitId": "G981146001030210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.16287,
+            19.693485
+          ],
+          [
+            110.162494,
+            19.69271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.869939",
+        "endLng": "110.23014",
+        "endStakeNum": "",
+        "id": "G98114600100062003",
+        "length": 50,
+        "startLat": "19.869129",
+        "startLng": "110.229852",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001000620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.229852,
+            19.869129
+          ],
+          [
+            110.23014,
+            19.869939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.435778",
+        "endLng": "110.094868",
+        "endStakeNum": "",
+        "id": "G98114600103062002",
+        "length": 50,
+        "startLat": "19.434471",
+        "startLng": "110.093985",
+        "startStakeNum": "K58+798",
+        "unitId": "G981146001030620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.093985,
+            19.434471
+          ],
+          [
+            110.094868,
+            19.435778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.460528",
+        "endLng": "110.090249",
+        "endStakeNum": "K57+673",
+        "id": "G98114600100231006",
+        "length": 904,
+        "startLat": "19.468746",
+        "startLng": "110.091158",
+        "startStakeNum": "K56+961",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.091158,
+            19.468746
+          ],
+          [
+            110.090249,
+            19.460528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.693063",
+        "endLng": "110.156681",
+        "endStakeNum": "K90+570",
+        "id": "G98114600103011003",
+        "length": 196,
+        "startLat": "19.692846",
+        "startLng": "110.158983",
+        "startStakeNum": "K90+470",
+        "unitId": "G981146001030110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.158983,
+            19.692846
+          ],
+          [
+            110.156681,
+            19.693063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.648725",
+        "endLng": "110.147008",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171006",
+        "length": 951,
+        "startLat": "19.654311",
+        "startLng": "110.152796",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.152796,
+            19.654311
+          ],
+          [
+            110.147008,
+            19.648725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.813936",
+        "endLng": "110.204994",
+        "endStakeNum": "K15+440",
+        "id": "G98114600100072003",
+        "length": 902,
+        "startLat": "19.806264",
+        "startLng": "110.202798",
+        "startStakeNum": "K16+870",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.202798,
+            19.806264
+          ],
+          [
+            110.204994,
+            19.813936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691174",
+        "endLng": "110.167474",
+        "endStakeNum": "K93+033",
+        "id": "G98114600103012001",
+        "length": 256,
+        "startLat": "19.690467",
+        "startLng": "110.166154",
+        "startStakeNum": "K92+700",
+        "unitId": "G981146001030120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.166154,
+            19.690467
+          ],
+          [
+            110.167474,
+            19.691174
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.495261",
+        "endLng": "110.097479",
+        "endStakeNum": "K54+197",
+        "id": "G98114600103072008",
+        "length": 897,
+        "startLat": "19.487462",
+        "startLng": "110.094054",
+        "startStakeNum": "K54+964",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.094054,
+            19.487462
+          ],
+          [
+            110.097479,
+            19.495261
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.870515",
+        "endLng": "110.230407",
+        "endStakeNum": "",
+        "id": "G98114600100061003",
+        "length": 1000,
+        "startLat": "19.871346",
+        "startLng": "110.23065",
+        "startStakeNum": "",
+        "unitId": "G981146001000610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.23065,
+            19.871346
+          ],
+          [
+            110.230407,
+            19.870515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692771",
+        "endLng": "110.164899",
+        "endStakeNum": "DK18+667",
+        "id": "G98114600100161001",
+        "length": 112,
+        "startLat": "19.691864",
+        "startLng": "110.167608",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.167608,
+            19.691864
+          ],
+          [
+            110.164899,
+            19.692771
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.713268",
+        "endLng": "110.169539",
+        "endStakeNum": "K27+456",
+        "id": "G98114600100131003",
+        "length": 905,
+        "startLat": "19.721421",
+        "startLng": "110.170927",
+        "startStakeNum": "K27+204",
+        "unitId": "G981146001001310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.170927,
+            19.721421
+          ],
+          [
+            110.169539,
+            19.713268
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.720628",
+        "endLng": "110.170973",
+        "endStakeNum": "K26+982",
+        "id": "G98114600100132004",
+        "length": 947,
+        "startLat": "19.705707",
+        "startLng": "110.167108",
+        "startStakeNum": "K27+234",
+        "unitId": "G981146001001320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.167108,
+            19.705707
+          ],
+          [
+            110.170973,
+            19.720628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.602772",
+        "endLng": "110.124594",
+        "endStakeNum": "K30+931",
+        "id": "G98114600100201004",
+        "length": 949,
+        "startLat": "19.61339",
+        "startLng": "110.136039",
+        "startStakeNum": "K30+188",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.136039,
+            19.61339
+          ],
+          [
+            110.124594,
+            19.602772
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.440518",
+        "endLng": "110.096905",
+        "endStakeNum": "K59+809",
+        "id": "G98114600100231009",
+        "length": 904,
+        "startLat": "19.44594042857143",
+        "startLng": "110.09733057142857",
+        "startStakeNum": "K59+097",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09733057142857,
+            19.44594042857143
+          ],
+          [
+            110.096905,
+            19.440518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.502658",
+        "endLng": "110.098724",
+        "endStakeNum": "K53+430",
+        "id": "G98114600103072009",
+        "length": 897,
+        "startLat": "19.495252",
+        "startLng": "110.097554",
+        "startStakeNum": "K54+197",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.097554,
+            19.495252
+          ],
+          [
+            110.098724,
+            19.502658
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.771176",
+        "endLng": "110.189193",
+        "endStakeNum": "K22+090",
+        "id": "G98114600100102005",
+        "length": 985,
+        "startLat": "19.762401",
+        "startLng": "110.185556",
+        "startStakeNum": "K23+270",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.185556,
+            19.762401
+          ],
+          [
+            110.189193,
+            19.771176
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.69109",
+        "endLng": "110.163889",
+        "endStakeNum": "K14+025",
+        "id": "G98114600100162001",
+        "length": 85,
+        "startLat": "19.691344",
+        "startLng": "110.162902",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.162902,
+            19.691344
+          ],
+          [
+            110.163889,
+            19.69109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.880208",
+        "endLng": "110.237857",
+        "endStakeNum": "K5+218",
+        "id": "G98114600100041005",
+        "length": 968,
+        "startLat": "19.890529",
+        "startLng": "110.246136",
+        "startStakeNum": "K5+037",
+        "unitId": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.246136,
+            19.890529
+          ],
+          [
+            110.237857,
+            19.880208
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.562348",
+        "endLng": "110.112806",
+        "endStakeNum": "K33+931",
+        "id": "G98114600100202007",
+        "length": 989,
+        "startLat": "19.554043",
+        "startLng": "110.112005",
+        "startStakeNum": "K34+674",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.112005,
+            19.554043
+          ],
+          [
+            110.112806,
+            19.562348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.630824",
+        "endLng": "110.141127",
+        "endStakeNum": "",
+        "id": "G98114600100192003",
+        "length": 60,
+        "startLat": "19.631022",
+        "startLng": "110.140677",
+        "startStakeNum": "K27+990",
+        "unitId": "G981146001001920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.140677,
+            19.631022
+          ],
+          [
+            110.141127,
+            19.630824
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.919079",
+        "endLng": "110.27848",
+        "endStakeNum": "K4+298",
+        "id": "G98114600100011006",
+        "length": 289,
+        "startLat": "19.921368",
+        "startLng": "110.279481",
+        "startStakeNum": "K4+295",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.279481,
+            19.921368
+          ],
+          [
+            110.27848,
+            19.919079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.503795",
+        "endLng": "110.099064",
+        "endStakeNum": "K19+595",
+        "id": "G98114600100212001",
+        "length": 200,
+        "startLat": "19.502611",
+        "startLng": "110.098771",
+        "startStakeNum": "DK0+060",
+        "unitId": "G981146001002120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.098771,
+            19.502611
+          ],
+          [
+            110.099064,
+            19.503795
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.792934",
+        "endLng": "110.19575",
+        "endStakeNum": "DK0+050",
+        "id": "G98114600100091001",
+        "length": 100,
+        "startLat": "19.792066",
+        "startLng": "110.195141",
+        "startStakeNum": "K19+700",
+        "unitId": "G981146001000910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.195141,
+            19.792066
+          ],
+          [
+            110.19575,
+            19.792934
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.905383",
+        "endLng": "110.269292",
+        "endStakeNum": "",
+        "id": "G98114600100022003",
+        "length": 100,
+        "startLat": "19.905008",
+        "startLng": "110.268318",
+        "startStakeNum": "DK0+060",
+        "unitId": "G981146001000220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.268318,
+            19.905008
+          ],
+          [
+            110.269292,
+            19.905383
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.93365",
+        "endLng": "110.284459",
+        "endStakeNum": "K4+294",
+        "id": "G98114600100012007",
+        "length": 1000,
+        "startLat": "19.928892",
+        "startLng": "110.282421",
+        "startStakeNum": "K4+296",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.282421,
+            19.928892
+          ],
+          [
+            110.284459,
+            19.93365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.631026",
+        "endLng": "110.140667",
+        "endStakeNum": "K27+990",
+        "id": "G98114600100192002",
+        "length": 60,
+        "startLat": "19.630752",
+        "startLng": "110.140267",
+        "startStakeNum": "AK14+025",
+        "unitId": "G981146001001920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.140267,
+            19.630752
+          ],
+          [
+            110.140667,
+            19.631026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692518",
+        "endLng": "110.159313",
+        "endStakeNum": "K90+470",
+        "id": "G98114600103031001",
+        "length": 207,
+        "startLat": "19.692952",
+        "startLng": "110.15669",
+        "startStakeNum": "K90+270",
+        "unitId": "G981146001030310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.15669,
+            19.692952
+          ],
+          [
+            110.159313,
+            19.692518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691345",
+        "endLng": "110.163369",
+        "endStakeNum": "K90+870",
+        "id": "G98114600103021003",
+        "length": 100,
+        "startLat": "19.691882",
+        "startLng": "110.162733",
+        "startStakeNum": "K90+670",
+        "unitId": "G981146001030210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.162733,
+            19.691882
+          ],
+          [
+            110.163369,
+            19.691345
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.792959",
+        "endLng": "110.195776",
+        "endStakeNum": "DK0+050",
+        "id": "G98114600100081002",
+        "length": 100,
+        "startLat": "19.793457",
+        "startLng": "110.196912",
+        "startStakeNum": "K9+875",
+        "unitId": "G981146001000810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.196912,
+            19.793457
+          ],
+          [
+            110.195776,
+            19.792959
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.870048",
+        "endLng": "110.230172",
+        "endStakeNum": "K5+243",
+        "id": "G98114600100042001",
+        "length": 953,
+        "startLat": "19.866722",
+        "startLng": "110.227618",
+        "startStakeNum": "K5+430",
+        "unitId": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.227618,
+            19.866722
+          ],
+          [
+            110.230172,
+            19.870048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.870203",
+        "endLng": "110.230249",
+        "endStakeNum": "K6+830",
+        "id": "G98114600100071001",
+        "length": 943,
+        "startLat": "19.873423",
+        "startLng": "110.232606",
+        "startStakeNum": "K5+400",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.232606,
+            19.873423
+          ],
+          [
+            110.230249,
+            19.870203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.397214",
+        "endLng": "110.095042",
+        "endStakeNum": "K63+370",
+        "id": "G98114600100231014",
+        "length": 904,
+        "startLat": "19.405257",
+        "startLng": "110.096678",
+        "startStakeNum": "K62+658",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.096678,
+            19.405257
+          ],
+          [
+            110.095042,
+            19.397214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.792",
+        "endLng": "110.196314",
+        "endStakeNum": "",
+        "id": "G98114600100091003",
+        "length": 100,
+        "startLat": "19.79263",
+        "startLng": "110.196435",
+        "startStakeNum": "",
+        "unitId": "G981146001000910",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.196435,
+            19.79263
+          ],
+          [
+            110.196314,
+            19.792
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.657767",
+        "endLng": "110.156643",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172004",
+        "length": 856,
+        "startLat": "19.651262",
+        "startLng": "110.149888",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.149888,
+            19.651262
+          ],
+          [
+            110.156643,
+            19.657767
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.6976",
+        "endLng": "110.164919",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100131005",
+        "length": 905,
+        "startLat": "19.705494",
+        "startLng": "110.166875",
+        "startStakeNum": "K27+708",
+        "unitId": "G981146001001310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.166875,
+            19.705494
+          ],
+          [
+            110.164919,
+            19.6976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.693367",
+        "endLng": "110.163194",
+        "endStakeNum": "DK0+080",
+        "id": "G98114600100161003",
+        "length": 112,
+        "startLat": "19.692788",
+        "startLng": "110.163528",
+        "startStakeNum": "K9+373",
+        "unitId": "G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163528,
+            19.692788
+          ],
+          [
+            110.163194,
+            19.693367
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.478055",
+        "endLng": "110.090453",
+        "endStakeNum": "K56+249",
+        "id": "G98114600100231004",
+        "length": 904,
+        "startLat": "19.486682",
+        "startLng": "110.093552",
+        "startStakeNum": "K55+536",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.093552,
+            19.486682
+          ],
+          [
+            110.090453,
+            19.478055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.91631",
+        "endLng": "110.277155",
+        "endStakeNum": "K4+301",
+        "id": "G98114600100012004",
+        "length": 294,
+        "startLat": "19.91261",
+        "startLng": "110.274492",
+        "startStakeNum": "K4+303",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.274492,
+            19.91261
+          ],
+          [
+            110.277155,
+            19.91631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.905067",
+        "endLng": "110.268316",
+        "endStakeNum": "DK2+185",
+        "id": "G98114600100032001",
+        "length": 70,
+        "startLat": "19.905435",
+        "startLng": "110.269229",
+        "startStakeNum": "K4+310",
+        "unitId": "G981146001000320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.269229,
+            19.905435
+          ],
+          [
+            110.268316,
+            19.905067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.733352",
+        "endLng": "110.172927",
+        "endStakeNum": "",
+        "id": "G98114600100112003",
+        "length": 100,
+        "startLat": "19.732338",
+        "startLng": "110.172595",
+        "startStakeNum": "FK0+040",
+        "unitId": "G981146001001120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.172595,
+            19.732338
+          ],
+          [
+            110.172927,
+            19.733352
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.504659",
+        "endLng": "110.099903",
+        "endStakeNum": "K39+130",
+        "id": "G98114600100212002",
+        "length": 100,
+        "startLat": "19.50379",
+        "startLng": "110.099069",
+        "startStakeNum": "DK19+595",
+        "unitId": "G981146001002120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099069,
+            19.50379
+          ],
+          [
+            110.099903,
+            19.504659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.869358",
+        "endLng": "110.231184",
+        "endStakeNum": "",
+        "id": "G98114600100052003",
+        "length": 100,
+        "startLat": "19.868641",
+        "startLng": "110.230243",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001000520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.230243,
+            19.868641
+          ],
+          [
+            110.231184,
+            19.869358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690204",
+        "endLng": "110.165418",
+        "endStakeNum": "",
+        "id": "G98114600100162004",
+        "length": 50,
+        "startLat": "19.690625",
+        "startLng": "110.165728",
+        "startStakeNum": "",
+        "unitId": "G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.165728,
+            19.690625
+          ],
+          [
+            110.165418,
+            19.690204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691028",
+        "endLng": "110.171114",
+        "endStakeNum": "K93+367",
+        "id": "G98114600103012002",
+        "length": 256,
+        "startLat": "19.691171",
+        "startLng": "110.167505",
+        "startStakeNum": "K93+033",
+        "unitId": "G981146001030120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.167505,
+            19.691171
+          ],
+          [
+            110.171114,
+            19.691028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.806198",
+        "endLng": "110.202871",
+        "endStakeNum": "K16+870",
+        "id": "G98114600100072002",
+        "length": 902,
+        "startLat": "19.791153",
+        "startLng": "110.196046",
+        "startStakeNum": "K18+300",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.196046,
+            19.791153
+          ],
+          [
+            110.202871,
+            19.806198
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.396453",
+        "endLng": "110.09513",
+        "endStakeNum": "",
+        "id": "G98114600100252002",
+        "length": 100,
+        "startLat": "19.395474",
+        "startLng": "110.095451",
+        "startStakeNum": "K63+400",
+        "unitId": "G981146001002520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.095451,
+            19.395474
+          ],
+          [
+            110.09513,
+            19.396453
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.826688",
+        "endLng": "110.207777",
+        "endStakeNum": "K13+980",
+        "id": "G98114600100071006",
+        "length": 944,
+        "startLat": "19.834399",
+        "startLng": "110.209615",
+        "startStakeNum": "K12+550",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.209615,
+            19.834399
+          ],
+          [
+            110.207777,
+            19.826688
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.868757",
+        "endLng": "110.230415",
+        "endStakeNum": "AK2+745",
+        "id": "G98114600100062001",
+        "length": 58,
+        "startLat": "19.869461",
+        "startLng": "110.231153",
+        "startStakeNum": "K5+430",
+        "unitId": "G981146001000620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.231153,
+            19.869461
+          ],
+          [
+            110.230415,
+            19.868757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.414003",
+        "endLng": "110.095722",
+        "endStakeNum": "K61+866",
+        "id": "G98114600100232002",
+        "length": 897,
+        "startLat": "19.405953",
+        "startLng": "110.096706",
+        "startStakeNum": "K62+633",
+        "unitId": "G981146001002320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.096706,
+            19.405953
+          ],
+          [
+            110.095722,
+            19.414003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.527247",
+        "endLng": "110.107126",
+        "endStakeNum": "K37+615",
+        "id": "G98114600100201013",
+        "length": 949,
+        "startLat": "19.535291",
+        "startLng": "110.107687",
+        "startStakeNum": "K36+872",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.107687,
+            19.535291
+          ],
+          [
+            110.107126,
+            19.527247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.44594042857143",
+        "endLng": "110.09733057142857",
+        "endStakeNum": "K59+097",
+        "id": "G98114600100231008",
+        "length": 904,
+        "startLat": "19.452324",
+        "startLng": "110.092633",
+        "startStakeNum": "K58+385",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.092633,
+            19.452324
+          ],
+          [
+            110.09733057142857,
+            19.44594042857143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692441",
+        "endLng": "110.161297",
+        "endStakeNum": "K93+700",
+        "id": "G98114600103022004",
+        "length": 243,
+        "startLat": "19.69235",
+        "startLng": "110.163406",
+        "startStakeNum": "K93+450",
+        "unitId": "G981146001030220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163406,
+            19.69235
+          ],
+          [
+            110.161297,
+            19.692441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.746337",
+        "endLng": "110.175501",
+        "endStakeNum": "K27+780",
+        "id": "G98114600100101006",
+        "length": 988,
+        "startLat": "19.753916",
+        "startLng": "110.179931",
+        "startStakeNum": "K27+600",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.179931,
+            19.753916
+          ],
+          [
+            110.175501,
+            19.746337
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.890523",
+        "endLng": "110.24613",
+        "endStakeNum": "K5+037",
+        "id": "G98114600100041004",
+        "length": 968,
+        "startLat": "19.897119",
+        "startLng": "110.253422",
+        "startStakeNum": "K4+855",
+        "unitId": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.253422,
+            19.897119
+          ],
+          [
+            110.24613,
+            19.890523
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.505289",
+        "endLng": "110.098923",
+        "endStakeNum": "",
+        "id": "G98114600100222004",
+        "length": 100,
+        "startLat": "19.504563",
+        "startLng": "110.099135",
+        "startStakeNum": "",
+        "unitId": "G981146001002220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099135,
+            19.504563
+          ],
+          [
+            110.098923,
+            19.505289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.661656",
+        "endLng": "110.15984",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171004",
+        "length": 951,
+        "startLat": "19.67093",
+        "startLng": "110.163845",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163845,
+            19.67093
+          ],
+          [
+            110.15984,
+            19.661656
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.778614",
+        "endLng": "110.190979",
+        "endStakeNum": "K27+060",
+        "id": "G98114600100101002",
+        "length": 988,
+        "startLat": "19.791371",
+        "startLng": "110.196115",
+        "startStakeNum": "K26+880",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.196115,
+            19.791371
+          ],
+          [
+            110.190979,
+            19.778614
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.651245",
+        "endLng": "110.149822",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172003",
+        "length": 856,
+        "startLat": "19.642177",
+        "startLng": "110.14206",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.14206,
+            19.642177
+          ],
+          [
+            110.149822,
+            19.651245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.612434",
+        "endLng": "110.135083",
+        "endStakeNum": "K29+475",
+        "id": "G98114600100202013",
+        "length": 989,
+        "startLat": "19.603257",
+        "startLng": "110.125102",
+        "startStakeNum": "K30+218",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.125102,
+            19.603257
+          ],
+          [
+            110.135083,
+            19.612434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.632507",
+        "endLng": "110.140143",
+        "endStakeNum": "",
+        "id": "G98114600100182003",
+        "length": 100,
+        "startLat": "19.63161",
+        "startLng": "110.14056",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001001820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.14056,
+            19.63161
+          ],
+          [
+            110.140143,
+            19.632507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.395474",
+        "endLng": "110.095451",
+        "endStakeNum": "K63+400",
+        "id": "G98114600100252001",
+        "length": 100,
+        "startLat": "19.39477",
+        "startLng": "110.096098",
+        "startStakeNum": "K63+400",
+        "unitId": "G981146001002520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.096098,
+            19.39477
+          ],
+          [
+            110.095451,
+            19.395474
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.63161",
+        "endLng": "110.14056",
+        "endStakeNum": "AK0+060",
+        "id": "G98114600100182002",
+        "length": 178,
+        "startLat": "19.630885",
+        "startLng": "110.141192",
+        "startStakeNum": "K14+025",
+        "unitId": "G981146001001820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.141192,
+            19.630885
+          ],
+          [
+            110.14056,
+            19.63161
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.891263",
+        "endLng": "110.246755",
+        "endStakeNum": "K4+870",
+        "id": "G98114600100042003",
+        "length": 953,
+        "startLat": "19.882544",
+        "startLng": "110.239807",
+        "startStakeNum": "K5+057",
+        "unitId": "G981146001000420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.239807,
+            19.882544
+          ],
+          [
+            110.246755,
+            19.891263
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.910102",
+        "endLng": "110.27246",
+        "endStakeNum": "K4+305",
+        "id": "G98114600100012002",
+        "length": 294,
+        "startLat": "19.906628",
+        "startLng": "110.268697",
+        "startStakeNum": "K4+308",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.268697,
+            19.906628
+          ],
+          [
+            110.27246,
+            19.910102
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.787733",
+        "endLng": "110.194443",
+        "endStakeNum": "K19+730",
+        "id": "G98114600100102007",
+        "length": 985,
+        "startLat": "19.779481",
+        "startLng": "110.191372",
+        "startStakeNum": "K20+910",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.191372,
+            19.779481
+          ],
+          [
+            110.194443,
+            19.787733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.906597",
+        "endLng": "110.268679",
+        "endStakeNum": "K4+308",
+        "id": "G98114600100012001",
+        "length": 294,
+        "startLat": "19.904221",
+        "startLng": "110.265483",
+        "startStakeNum": "K4+310",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.265483,
+            19.904221
+          ],
+          [
+            110.268679,
+            19.906597
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.437275",
+        "endLng": "110.09602",
+        "endStakeNum": "",
+        "id": "G98114600103052001",
+        "length": 50,
+        "startLat": "19.437061",
+        "startLng": "110.09609",
+        "startStakeNum": "",
+        "unitId": "G981146001030520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09609,
+            19.437061
+          ],
+          [
+            110.09602,
+            19.437275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.477656",
+        "endLng": "110.09026",
+        "endStakeNum": "K55+731",
+        "id": "G98114600103072006",
+        "length": 897,
+        "startLat": "19.46485",
+        "startLng": "110.091326",
+        "startStakeNum": "K56+498",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.091326,
+            19.46485
+          ],
+          [
+            110.09026,
+            19.477656
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.487477",
+        "endLng": "110.09399",
+        "endStakeNum": "K54+964",
+        "id": "G98114600103072007",
+        "length": 897,
+        "startLat": "19.477781",
+        "startLng": "110.090394",
+        "startStakeNum": "K55+731",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.090394,
+            19.477781
+          ],
+          [
+            110.09399,
+            19.487477
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.926523",
+        "endLng": "110.281339",
+        "endStakeNum": "K4+289",
+        "id": "G98114600100011003",
+        "length": 289,
+        "startLat": "19.928834",
+        "startLng": "110.282249",
+        "startStakeNum": "K4+286",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.282249,
+            19.928834
+          ],
+          [
+            110.281339,
+            19.926523
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.434273",
+        "endLng": "110.093836",
+        "endStakeNum": "K59+565",
+        "id": "G98114600100232005",
+        "length": 897,
+        "startLat": "19.430334",
+        "startLng": "110.092663",
+        "startStakeNum": "K60+332",
+        "unitId": "G981146001002320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.092663,
+            19.430334
+          ],
+          [
+            110.093836,
+            19.434273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.871346",
+        "endLng": "110.23065",
+        "endStakeNum": "",
+        "id": "G98114600100061002",
+        "length": 80,
+        "startLat": "19.871671",
+        "startLng": "110.23002",
+        "startStakeNum": "DK0+040",
+        "unitId": "G981146001000610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.23002,
+            19.871671
+          ],
+          [
+            110.23065,
+            19.871346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.508683",
+        "endLng": "110.098305",
+        "endStakeNum": "AK0+060",
+        "id": "G98114600100211002",
+        "length": 131,
+        "startLat": "19.509504",
+        "startLng": "110.099478",
+        "startStakeNum": "K19+580",
+        "unitId": "G981146001002110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099478,
+            19.509504
+          ],
+          [
+            110.098305,
+            19.508683
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.6916",
+        "endLng": "110.165839",
+        "endStakeNum": "K91+070",
+        "id": "G98114600103021004",
+        "length": 230,
+        "startLat": "19.691314",
+        "startLng": "110.163495",
+        "startStakeNum": "K90+870",
+        "unitId": "G981146001030210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163495,
+            19.691314
+          ],
+          [
+            110.165839,
+            19.6916
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.868641",
+        "endLng": "110.230243",
+        "endStakeNum": "AK0+060",
+        "id": "G98114600100052002",
+        "length": 247,
+        "startLat": "19.868268",
+        "startLng": "110.229166",
+        "startStakeNum": "K2+745",
+        "unitId": "G981146001000520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.229166,
+            19.868268
+          ],
+          [
+            110.230243,
+            19.868641
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.508739",
+        "endLng": "110.098499",
+        "endStakeNum": "AK0+060",
+        "id": "G98114600100221001",
+        "length": 137,
+        "startLat": "19.507326",
+        "startLng": "110.097972",
+        "startStakeNum": "K39+100",
+        "unitId": "G981146001002210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.097972,
+            19.507326
+          ],
+          [
+            110.098499,
+            19.508739
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.629527",
+        "endLng": "110.141264",
+        "endStakeNum": "",
+        "id": "G98114600100192004",
+        "length": 100,
+        "startLat": "19.630822",
+        "startLng": "110.141141",
+        "startStakeNum": "",
+        "unitId": "G981146001001920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.141141,
+            19.630822
+          ],
+          [
+            110.141264,
+            19.629527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.790717",
+        "endLng": "110.197151",
+        "endStakeNum": "",
+        "id": "G98114600100082003",
+        "length": 100,
+        "startLat": "19.790059",
+        "startLng": "110.196729",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001000820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.196729,
+            19.790059
+          ],
+          [
+            110.197151,
+            19.790717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692146",
+        "endLng": "110.161066",
+        "endStakeNum": "K90+670",
+        "id": "G98114600103031002",
+        "length": 207,
+        "startLat": "19.692508",
+        "startLng": "110.159377",
+        "startStakeNum": "K90+470",
+        "unitId": "G981146001030310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.159377,
+            19.692508
+          ],
+          [
+            110.161066,
+            19.692146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.897163",
+        "endLng": "110.253509",
+        "endStakeNum": "K4+855",
+        "id": "G98114600100041003",
+        "length": 968,
+        "startLat": "19.901867",
+        "startLng": "110.261435",
+        "startStakeNum": "K4+673",
+        "unitId": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.261435,
+            19.901867
+          ],
+          [
+            110.253509,
+            19.897163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.536619",
+        "endLng": "110.107741",
+        "endStakeNum": "K36+159",
+        "id": "G98114600100202004",
+        "length": 989,
+        "startLat": "19.52815",
+        "startLng": "110.107346",
+        "startStakeNum": "K36+902",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.107346,
+            19.52815
+          ],
+          [
+            110.107741,
+            19.536619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.753921",
+        "endLng": "110.179939",
+        "endStakeNum": "K27+600",
+        "id": "G98114600100101005",
+        "length": 988,
+        "startLat": "19.761423",
+        "startLng": "110.184827",
+        "startStakeNum": "K27+420",
+        "unitId": "G981146001001010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.184827,
+            19.761423
+          ],
+          [
+            110.179939,
+            19.753921
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.603094",
+        "endLng": "110.12487",
+        "endStakeNum": "K30+218",
+        "id": "G98114600100202012",
+        "length": 989,
+        "startLat": "19.59641",
+        "startLng": "110.122274",
+        "startStakeNum": "K30+961",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.122274,
+            19.59641
+          ],
+          [
+            110.12487,
+            19.603094
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.613484",
+        "endLng": "110.13616",
+        "endStakeNum": "K30+188",
+        "id": "G98114600100201003",
+        "length": 949,
+        "startLat": "19.619005",
+        "startLng": "110.139406",
+        "startStakeNum": "K29+445",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.139406,
+            19.619005
+          ],
+          [
+            110.13616,
+            19.613484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.793455",
+        "endLng": "110.196925",
+        "endStakeNum": "DK9+875",
+        "id": "G98114600100081001",
+        "length": 224,
+        "startLat": "19.795069",
+        "startLng": "110.197953",
+        "startStakeNum": "K19+700",
+        "unitId": "G981146001000810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.197953,
+            19.795069
+          ],
+          [
+            110.196925,
+            19.793455
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.792199",
+        "endLng": "110.195146",
+        "endStakeNum": "",
+        "id": "G98114600100081003",
+        "length": 120,
+        "startLat": "19.792959",
+        "startLng": "110.195776",
+        "startStakeNum": "DK0+050",
+        "unitId": "G981146001000810",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.195776,
+            19.792959
+          ],
+          [
+            110.195146,
+            19.792199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.620077",
+        "endLng": "110.139731",
+        "endStakeNum": "K28+733",
+        "id": "G98114600100202014",
+        "length": 989,
+        "startLat": "19.612323",
+        "startLng": "110.13503",
+        "startStakeNum": "K29+475",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.13503,
+            19.612323
+          ],
+          [
+            110.139731,
+            19.620077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.905022",
+        "endLng": "110.268313",
+        "endStakeNum": "DK0+060",
+        "id": "G98114600100022002",
+        "length": 193,
+        "startLat": "19.905072",
+        "startLng": "110.267266",
+        "startStakeNum": "K2+185",
+        "unitId": "G981146001000220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.267266,
+            19.905072
+          ],
+          [
+            110.268313,
+            19.905022
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.413456142857143",
+        "endLng": "110.09580485714287",
+        "endStakeNum": "K61+946",
+        "id": "G98114600100231012",
+        "length": 904,
+        "startLat": "19.429247",
+        "startLng": "110.092644",
+        "startStakeNum": "K61+234",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.092644,
+            19.429247
+          ],
+          [
+            110.09580485714287,
+            19.413456142857143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.590166",
+        "endLng": "110.121767",
+        "endStakeNum": "K32+416",
+        "id": "G98114600100201006",
+        "length": 949,
+        "startLat": "19.598179",
+        "startLng": "110.122519",
+        "startStakeNum": "K31+673",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.122519,
+            19.598179
+          ],
+          [
+            110.121767,
+            19.590166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.846292",
+        "endLng": "110.214132",
+        "endStakeNum": "K9+720",
+        "id": "G98114600100072007",
+        "length": 902,
+        "startLat": "19.837952",
+        "startLng": "110.210844",
+        "startStakeNum": "K11+150",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.210844,
+            19.837952
+          ],
+          [
+            110.214132,
+            19.846292
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.692819",
+        "endLng": "110.163533",
+        "endStakeNum": "DK9+373",
+        "id": "G98114600100161002",
+        "length": 112,
+        "startLat": "19.69274",
+        "startLng": "110.164899",
+        "startStakeNum": "K18+667",
+        "unitId": "G981146001001610",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164899,
+            19.69274
+          ],
+          [
+            110.163533,
+            19.692819
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.641793",
+        "endLng": "110.141829",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171007",
+        "length": 951,
+        "startLat": "19.648727",
+        "startLng": "110.146982",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.146982,
+            19.648727
+          ],
+          [
+            110.141829,
+            19.641793
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.669989",
+        "endLng": "110.163825",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172006",
+        "length": 856,
+        "startLat": "19.663302",
+        "startLng": "110.161098",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.161098,
+            19.663302
+          ],
+          [
+            110.163825,
+            19.669989
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.735069",
+        "endLng": "110.171609",
+        "endStakeNum": "K26+700",
+        "id": "G98114600100121002",
+        "length": 62,
+        "startLat": "19.735183",
+        "startLng": "110.170881",
+        "startStakeNum": "EK13+375",
+        "unitId": "G981146001001210",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.170881,
+            19.735183
+          ],
+          [
+            110.171609,
+            19.735069
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.905717",
+        "endLng": "110.267882",
+        "endStakeNum": "DK0+060",
+        "id": "G98114600100032002",
+        "length": 70,
+        "startLat": "19.905076",
+        "startLng": "110.268306",
+        "startStakeNum": "K2+185",
+        "unitId": "G981146001000320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.268306,
+            19.905076
+          ],
+          [
+            110.267882,
+            19.905717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.544851",
+        "endLng": "110.108194",
+        "endStakeNum": "K35+417",
+        "id": "G98114600100202005",
+        "length": 989,
+        "startLat": "19.536659",
+        "startLng": "110.107721",
+        "startStakeNum": "K36+159",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.107721,
+            19.536659
+          ],
+          [
+            110.108194,
+            19.544851
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.630749",
+        "endLng": "110.140266",
+        "endStakeNum": "K14+025",
+        "id": "G98114600100192001",
+        "length": 60,
+        "startLat": "19.629608",
+        "startLng": "110.140113",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001001920",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.140113,
+            19.629608
+          ],
+          [
+            110.140266,
+            19.630749
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690762",
+        "endLng": "110.173664",
+        "endStakeNum": "K93+700",
+        "id": "G98114600103012003",
+        "length": 256,
+        "startLat": "19.691026",
+        "startLng": "110.171107",
+        "startStakeNum": "K93+367",
+        "unitId": "G981146001030120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171107,
+            19.691026
+          ],
+          [
+            110.173664,
+            19.690762
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.743628",
+        "endLng": "110.174342",
+        "endStakeNum": "K25+630",
+        "id": "G98114600100102002",
+        "length": 985,
+        "startLat": "19.733282",
+        "startLng": "110.171597",
+        "startStakeNum": "K26+810",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171597,
+            19.733282
+          ],
+          [
+            110.174342,
+            19.743628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.571592",
+        "endLng": "110.112859",
+        "endStakeNum": "K33+189",
+        "id": "G98114600100202008",
+        "length": 989,
+        "startLat": "19.562333",
+        "startLng": "110.112685",
+        "startStakeNum": "K33+931",
+        "unitId": "G981146001002020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.112685,
+            19.562333
+          ],
+          [
+            110.112859,
+            19.571592
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.731535",
+        "endLng": "110.171658",
+        "endStakeNum": "FK13+385",
+        "id": "G98114600100112001",
+        "length": 224,
+        "startLat": "19.729691",
+        "startLng": "110.171323",
+        "startStakeNum": "K26+730",
+        "unitId": "G981146001001120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171323,
+            19.729691
+          ],
+          [
+            110.171658,
+            19.731535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.789424",
+        "endLng": "110.19548",
+        "endStakeNum": "AK9+895",
+        "id": "G98114600100082001",
+        "length": 217,
+        "startLat": "19.787778",
+        "startLng": "110.194487",
+        "startStakeNum": "K19+730",
+        "unitId": "G981146001000820",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.194487,
+            19.787778
+          ],
+          [
+            110.19548,
+            19.789424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691408000000003",
+        "endLng": "110.17055400000001",
+        "endStakeNum": "K93+200",
+        "id": "G98114600103032001",
+        "length": 300,
+        "startLat": "19.690895",
+        "startLng": "110.173701",
+        "startStakeNum": "K92+700",
+        "unitId": "G981146001030320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.173701,
+            19.690895
+          ],
+          [
+            110.17055400000001,
+            19.691408000000003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.435791",
+        "endLng": "110.095458",
+        "endStakeNum": "K63+400",
+        "id": "G98114600103042001",
+        "length": 50,
+        "startLat": "19.435777",
+        "startLng": "110.094904",
+        "startStakeNum": "K63+400",
+        "unitId": "G981146001030420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.094904,
+            19.435777
+          ],
+          [
+            110.095458,
+            19.435791
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.437369",
+        "endLng": "110.095801",
+        "endStakeNum": "",
+        "id": "G98114600103052002",
+        "length": 50,
+        "startLat": "19.437275",
+        "startLng": "110.09602",
+        "startStakeNum": "",
+        "unitId": "G981146001030520",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09602,
+            19.437275
+          ],
+          [
+            110.095801,
+            19.437369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.901884",
+        "endLng": "110.261537",
+        "endStakeNum": "K4+673",
+        "id": "G98114600100041002",
+        "length": 968,
+        "startLat": "19.90735",
+        "startLng": "110.26951",
+        "startStakeNum": "K4+492",
+        "unitId": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.26951,
+            19.90735
+          ],
+          [
+            110.261537,
+            19.901884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.505943",
+        "endLng": "110.100153",
+        "endStakeNum": "",
+        "id": "G98114600100212003",
+        "length": 100,
+        "startLat": "19.504659",
+        "startLng": "110.099903",
+        "startStakeNum": "K39+130",
+        "unitId": "G981146001002120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099903,
+            19.504659
+          ],
+          [
+            110.100153,
+            19.505943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.396338",
+        "endLng": "110.094442",
+        "endStakeNum": "K63+370",
+        "id": "G98114600100241001",
+        "length": 112,
+        "startLat": "19.397209",
+        "startLng": "110.09498",
+        "startStakeNum": "K63+370",
+        "unitId": "G981146001002410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.09498,
+            19.397209
+          ],
+          [
+            110.094442,
+            19.396338
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.923975",
+        "endLng": "110.280507",
+        "endStakeNum": "K4+292",
+        "id": "G98114600100011004",
+        "length": 289,
+        "startLat": "19.926492",
+        "startLng": "110.281334",
+        "startStakeNum": "K4+289",
+        "unitId": "G981146001000110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.281334,
+            19.926492
+          ],
+          [
+            110.280507,
+            19.923975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.632986",
+        "endLng": "110.140067",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100172001",
+        "length": 856,
+        "startLat": "19.629767",
+        "startLng": "110.140093",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.140093,
+            19.629767
+          ],
+          [
+            110.140067,
+            19.632986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.559572",
+        "endLng": "110.112713",
+        "endStakeNum": "K34+644",
+        "id": "G98114600100201009",
+        "length": 949,
+        "startLat": "19.576777",
+        "startLng": "110.113411",
+        "startStakeNum": "K33+901",
+        "unitId": "G981146001002010",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.113411,
+            19.576777
+          ],
+          [
+            110.112713,
+            19.559572
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.921963",
+        "endLng": "110.27983",
+        "endStakeNum": "K4+298",
+        "id": "G98114600100012005",
+        "length": 294,
+        "startLat": "19.916404",
+        "startLng": "110.27726",
+        "startStakeNum": "K4+301",
+        "unitId": "G981146001000120",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.27726,
+            19.916404
+          ],
+          [
+            110.27983,
+            19.921963
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691193",
+        "endLng": "110.165235",
+        "endStakeNum": "K27+990",
+        "id": "G98114600100162002",
+        "length": 85,
+        "startLat": "19.691108",
+        "startLng": "110.163953",
+        "startStakeNum": "AK14+025",
+        "unitId": "G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.163953,
+            19.691108
+          ],
+          [
+            110.165235,
+            19.691193
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.851354",
+        "endLng": "110.21659",
+        "endStakeNum": "K9+690",
+        "id": "G98114600100071003",
+        "length": 943,
+        "startLat": "19.859366",
+        "startLng": "110.221981",
+        "startStakeNum": "K8+260",
+        "unitId": "G981146001000710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.221981,
+            19.859366
+          ],
+          [
+            110.21659,
+            19.851354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691571",
+        "endLng": "110.16632",
+        "endStakeNum": "K92+950",
+        "id": "G98114600103022001",
+        "length": 143,
+        "startLat": "19.690574",
+        "startLng": "110.166129",
+        "startStakeNum": "K92+700",
+        "unitId": "G981146001030220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.166129,
+            19.690574
+          ],
+          [
+            110.16632,
+            19.691571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.494871",
+        "endLng": "110.097303",
+        "endStakeNum": "K54+824",
+        "id": "G98114600100231002",
+        "length": 904,
+        "startLat": "19.506844",
+        "startLng": "110.099024",
+        "startStakeNum": "K54+112",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099024,
+            19.506844
+          ],
+          [
+            110.097303,
+            19.494871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.837982",
+        "endLng": "110.210877",
+        "endStakeNum": "K11+150",
+        "id": "G98114600100072006",
+        "length": 902,
+        "startLat": "19.829732",
+        "startLng": "110.208762",
+        "startStakeNum": "K12+580",
+        "unitId": "G981146001000720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.208762,
+            19.829732
+          ],
+          [
+            110.210877,
+            19.837982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.504563",
+        "endLng": "110.099135",
+        "endStakeNum": "",
+        "id": "G98114600100222003",
+        "length": 50,
+        "startLat": "19.504487",
+        "startLng": "110.099554",
+        "startStakeNum": "",
+        "unitId": "G981146001002220",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099554,
+            19.504487
+          ],
+          [
+            110.099135,
+            19.504563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.506863",
+        "endLng": "110.099046",
+        "endStakeNum": "K54+112",
+        "id": "G98114600100231001",
+        "length": 904,
+        "startLat": "19.510909",
+        "startLng": "110.100382",
+        "startStakeNum": "K53+400",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.100382,
+            19.510909
+          ],
+          [
+            110.099046,
+            19.506863
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.468804",
+        "endLng": "110.091184",
+        "endStakeNum": "K56+961",
+        "id": "G98114600100231005",
+        "length": 904,
+        "startLat": "19.478",
+        "startLng": "110.090334",
+        "startStakeNum": "K56+249",
+        "unitId": "G981146001002310",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.090334,
+            19.478
+          ],
+          [
+            110.091184,
+            19.468804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.734214",
+        "endLng": "110.170483",
+        "endStakeNum": "",
+        "id": "G98114600100111003",
+        "length": 100,
+        "startLat": "19.735151",
+        "startLng": "110.170775",
+        "startStakeNum": "EK0+050",
+        "unitId": "G981146001001110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.170775,
+            19.735151
+          ],
+          [
+            110.170483,
+            19.734214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.907419",
+        "endLng": "110.269562",
+        "endStakeNum": "K4+492",
+        "id": "G98114600100041001",
+        "length": 968,
+        "startLat": "19.909881",
+        "startLng": "110.272056",
+        "startStakeNum": "K4+310",
+        "unitId": "G981146001000410",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.272056,
+            19.909881
+          ],
+          [
+            110.269562,
+            19.907419
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.735151",
+        "endLng": "110.170775",
+        "endStakeNum": "EK0+050",
+        "id": "G98114600100111002",
+        "length": 126,
+        "startLat": "19.735874",
+        "startLng": "110.171789",
+        "startStakeNum": "K13+375",
+        "unitId": "G981146001001110",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.171789,
+            19.735874
+          ],
+          [
+            110.170775,
+            19.735151
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.40591",
+        "endLng": "110.096833",
+        "endStakeNum": "K62+633",
+        "id": "G98114600100232001",
+        "length": 897,
+        "startLat": "19.397488",
+        "startLng": "110.095313",
+        "startStakeNum": "K63+400",
+        "unitId": "G981146001002320",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.095313,
+            19.397488
+          ],
+          [
+            110.096833,
+            19.40591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.689511",
+        "endLng": "110.165179",
+        "endStakeNum": "K14+025",
+        "id": "G98114600100142001",
+        "length": 163,
+        "startLat": "19.687577",
+        "startLng": "110.164542",
+        "startStakeNum": "AK0+060",
+        "unitId": "G981146001001420",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164542,
+            19.687577
+          ],
+          [
+            110.165179,
+            19.689511
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.779402",
+        "endLng": "110.191358",
+        "endStakeNum": "K20+910",
+        "id": "G98114600100102006",
+        "length": 985,
+        "startLat": "19.77123",
+        "startLng": "110.189076",
+        "startStakeNum": "K22+090",
+        "unitId": "G981146001001020",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.189076,
+            19.77123
+          ],
+          [
+            110.191358,
+            19.779402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.437378",
+        "endLng": "110.095768",
+        "endStakeNum": "",
+        "id": "G98114600103062003",
+        "length": 50,
+        "startLat": "19.435774",
+        "startLng": "110.094873",
+        "startStakeNum": "",
+        "unitId": "G981146001030620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.094873,
+            19.435774
+          ],
+          [
+            110.095768,
+            19.437378
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.691105",
+        "endLng": "110.164524",
+        "endStakeNum": "",
+        "id": "G98114600100162006",
+        "length": 50,
+        "startLat": "19.690362",
+        "startLng": "110.164688",
+        "startStakeNum": "",
+        "unitId": "G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.164688,
+            19.690362
+          ],
+          [
+            110.164524,
+            19.691105
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.65433",
+        "endLng": "110.152813",
+        "endStakeNum": "K27+960",
+        "id": "G98114600100171005",
+        "length": 951,
+        "startLat": "19.661707",
+        "startLng": "110.159747",
+        "startStakeNum": "K27+960",
+        "unitId": "G981146001001710",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.159747,
+            19.661707
+          ],
+          [
+            110.152813,
+            19.65433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.464871",
+        "endLng": "110.091207",
+        "endStakeNum": "K56+498",
+        "id": "G98114600103072005",
+        "length": 897,
+        "startLat": "19.456807",
+        "startLng": "110.090333",
+        "startStakeNum": "K57+265",
+        "unitId": "G981146001030720",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.090333,
+            19.456807
+          ],
+          [
+            110.091207,
+            19.464871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "endLat": "19.690362",
+        "endLng": "110.164688",
+        "endStakeNum": "",
+        "id": "G98114600100162005",
+        "length": 0,
+        "startLat": "19.690172",
+        "startLng": "110.165379",
+        "startStakeNum": "",
+        "unitId": "G981146001001620",
+        "version": "V20260824114228"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.165379,
+            19.690172
+          ],
+          [
+            110.164688,
+            19.690362
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "source_pbf": "/Users/mambaweizzw/Desktop/实验室/海南自由流项目/路链处理/pbf/hainan-260922.osm.pbf",
+  "way_count": {
+    "motorway": 2783,
+    "motorway_link": 1669
+  },
+  "structural_fields": [
+    "Way.id",
+    "Way.refs (节点引用)",
+    "Way.info (可选元数据)"
+  ],
+  "tags": {
+    "motorway": [
+      {
+        "key": "alt_name",
+        "ways": 34,
+        "top_values": [
+          [
+            "兰海高速",
+            34
+          ]
+        ]
+      },
+      {
+        "key": "bridge",
+        "ways": 1292,
+        "top_values": [
+          [
+            "yes",
+            1265
+          ],
+          [
+            "viaduct",
+            27
+          ]
+        ]
+      },
+      {
+        "key": "covered",
+        "ways": 4,
+        "top_values": [
+          [
+            "yes",
+            4
+          ]
+        ]
+      },
+      {
+        "key": "embankment",
+        "ways": 129,
+        "top_values": [
+          [
+            "yes",
+            127
+          ],
+          [
+            "no",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "fixme",
+        "ways": 64,
+        "top_values": [
+          [
+            "more precise mapping",
+            35
+          ],
+          [
+            "retrace",
+            29
+          ]
+        ]
+      },
+      {
+        "key": "highway",
+        "ways": 2783,
+        "top_values": [
+          [
+            "motorway",
+            2783
+          ]
+        ]
+      },
+      {
+        "key": "lanes",
+        "ways": 1965,
+        "top_values": [
+          [
+            "2",
+            1891
+          ],
+          [
+            "4",
+            65
+          ],
+          [
+            "3",
+            9
+          ]
+        ]
+      },
+      {
+        "key": "layer",
+        "ways": 1346,
+        "top_values": [
+          [
+            "1",
+            1284
+          ],
+          [
+            "-1",
+            52
+          ],
+          [
+            "2",
+            10
+          ]
+        ]
+      },
+      {
+        "key": "maxspeed",
+        "ways": 271,
+        "top_values": [
+          [
+            "120",
+            221
+          ],
+          [
+            "100",
+            50
+          ]
+        ]
+      },
+      {
+        "key": "motorroad",
+        "ways": 22,
+        "top_values": [
+          [
+            "yes",
+            22
+          ]
+        ]
+      },
+      {
+        "key": "name",
+        "ways": 2586,
+        "top_values": [
+          [
+            "海南环线高速",
+            906
+          ],
+          [
+            "万洋高速",
+            331
+          ],
+          [
+            "文临高速",
+            279
+          ],
+          [
+            "海三高速",
+            235
+          ],
+          [
+            "海琼高速",
+            165
+          ]
+        ]
+      },
+      {
+        "key": "name:en",
+        "ways": 1197,
+        "top_values": [
+          [
+            "Hainan Ring Expressway",
+            909
+          ],
+          [
+            "Shanhai Expressway",
+            124
+          ],
+          [
+            "Danbai Expressway",
+            91
+          ],
+          [
+            "Shenhai Expressway",
+            34
+          ],
+          [
+            "Haikou Airport Expressway",
+            15
+          ]
+        ]
+      },
+      {
+        "key": "name:nan",
+        "ways": 2,
+        "top_values": [
+          [
+            "Hái-lâm Khoân-sòaⁿ Ko-sok",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name:nan-Hans",
+        "ways": 2,
+        "top_values": [
+          [
+            "海南环线高速",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name:nan-Latn-pehoeji",
+        "ways": 2,
+        "top_values": [
+          [
+            "Hái-lâm Khoân-sòaⁿ Ko-sok",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name:nan-Latn-tailo",
+        "ways": 2,
+        "top_values": [
+          [
+            "Hái-lâm Khuân-suànn Ko-sok",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name:zh",
+        "ways": 953,
+        "top_values": [
+          [
+            "海南环线高速",
+            909
+          ],
+          [
+            "沈海高速",
+            34
+          ],
+          [
+            "海口联络线",
+            4
+          ],
+          [
+            "琼州大道",
+            2
+          ],
+          [
+            "东线高速",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name:zh-Hans",
+        "ways": 2,
+        "top_values": [
+          [
+            "海南环线高速",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name:zh-Hant",
+        "ways": 990,
+        "top_values": [
+          [
+            "海南環線高速",
+            906
+          ],
+          [
+            "中會高速",
+            50
+          ],
+          [
+            "瀋海高速",
+            34
+          ]
+        ]
+      },
+      {
+        "key": "note",
+        "ways": 85,
+        "top_values": [
+          [
+            "full expressway",
+            26
+          ],
+          [
+            "these pieces are only mapped for technical reasons to provide a junction between sections where the motorway has been mapped with one / two ways.",
+            26
+          ],
+          [
+            "Only draft, from low bing res pics",
+            19
+          ],
+          [
+            "Only draft, no high res pictures available",
+            10
+          ],
+          [
+            "name tag should be verified and ref should be checked.",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "old_name",
+        "ways": 19,
+        "top_values": [
+          [
+            "海口绕城高速",
+            19
+          ]
+        ]
+      },
+      {
+        "key": "old_name:en",
+        "ways": 9,
+        "top_values": [
+          [
+            "Hainan Ring Expressway",
+            9
+          ]
+        ]
+      },
+      {
+        "key": "old_ref",
+        "ways": 27,
+        "top_values": [
+          [
+            "G1501",
+            19
+          ],
+          [
+            "S21",
+            8
+          ]
+        ]
+      },
+      {
+        "key": "oneway",
+        "ways": 2783,
+        "top_values": [
+          [
+            "yes",
+            2775
+          ],
+          [
+            "no",
+            8
+          ]
+        ]
+      },
+      {
+        "key": "ref",
+        "ways": 2756,
+        "top_values": [
+          [
+            "G98",
+            907
+          ],
+          [
+            "G9811",
+            476
+          ],
+          [
+            "G9813",
+            331
+          ],
+          [
+            "S22;G360",
+            279
+          ],
+          [
+            "G9812",
+            168
+          ]
+        ]
+      },
+      {
+        "key": "source",
+        "ways": 898,
+        "top_values": [
+          [
+            "bing",
+            283
+          ],
+          [
+            "Bing",
+            264
+          ],
+          [
+            "survey",
+            219
+          ],
+          [
+            "Bing;Bing (extremely LoRes)",
+            49
+          ],
+          [
+            "GPS",
+            29
+          ]
+        ]
+      },
+      {
+        "key": "source:geometry",
+        "ways": 90,
+        "top_values": [
+          [
+            "Bing",
+            90
+          ]
+        ]
+      },
+      {
+        "key": "start_date",
+        "ways": 79,
+        "top_values": [
+          [
+            "2024-12-28",
+            50
+          ],
+          [
+            "2022-12-28",
+            29
+          ]
+        ]
+      },
+      {
+        "key": "surface",
+        "ways": 1147,
+        "top_values": [
+          [
+            "asphalt",
+            1147
+          ]
+        ]
+      },
+      {
+        "key": "toll",
+        "ways": 624,
+        "top_values": [
+          [
+            "no",
+            610
+          ],
+          [
+            "yes",
+            14
+          ]
+        ]
+      },
+      {
+        "key": "tunnel",
+        "ways": 54,
+        "top_values": [
+          [
+            "yes",
+            54
+          ]
+        ]
+      },
+      {
+        "key": "tunnel:name",
+        "ways": 2,
+        "top_values": [
+          [
+            "南田隧道",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "wikipedia",
+        "ways": 36,
+        "top_values": [
+          [
+            "en:Haikou−Wenchang Expressway",
+            19
+          ],
+          [
+            "en:Haiwen expressway",
+            13
+          ],
+          [
+            "en:G9812 Haikou–Qionghai Expressway",
+            4
+          ]
+        ]
+      }
+    ],
+    "motorway_link": [
+      {
+        "key": "access",
+        "ways": 3,
+        "top_values": [
+          [
+            "no",
+            3
+          ]
+        ]
+      },
+      {
+        "key": "bridge",
+        "ways": 323,
+        "top_values": [
+          [
+            "yes",
+            321
+          ],
+          [
+            "viaduct",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "construction",
+        "ways": 6,
+        "top_values": [
+          [
+            "motorway_link",
+            6
+          ]
+        ]
+      },
+      {
+        "key": "destination",
+        "ways": 32,
+        "top_values": [
+          [
+            "五指山;海棠湾",
+            6
+          ],
+          [
+            "三亚",
+            3
+          ],
+          [
+            "火车站",
+            3
+          ],
+          [
+            "文昌",
+            3
+          ],
+          [
+            "尖峰;佛罗",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "destination:ref",
+        "ways": 33,
+        "top_values": [
+          [
+            "G9811",
+            9
+          ],
+          [
+            "G98",
+            6
+          ],
+          [
+            "S26",
+            6
+          ],
+          [
+            "G224",
+            4
+          ],
+          [
+            "G9812",
+            3
+          ]
+        ]
+      },
+      {
+        "key": "destination:street",
+        "ways": 3,
+        "top_values": [
+          [
+            "观澜湖大道;Mission Hills Avenue",
+            2
+          ],
+          [
+            "清水湾大道",
+            1
+          ]
+        ]
+      },
+      {
+        "key": "disused:highway",
+        "ways": 1,
+        "top_values": [
+          [
+            "motorway_link",
+            1
+          ]
+        ]
+      },
+      {
+        "key": "embankment",
+        "ways": 35,
+        "top_values": [
+          [
+            "yes",
+            31
+          ],
+          [
+            "right",
+            4
+          ]
+        ]
+      },
+      {
+        "key": "foot",
+        "ways": 4,
+        "top_values": [
+          [
+            "yes",
+            4
+          ]
+        ]
+      },
+      {
+        "key": "highway",
+        "ways": 1669,
+        "top_values": [
+          [
+            "motorway_link",
+            1669
+          ]
+        ]
+      },
+      {
+        "key": "junction:ref",
+        "ways": 2,
+        "top_values": [
+          [
+            "486",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "lanes",
+        "ways": 277,
+        "top_values": [
+          [
+            "1",
+            147
+          ],
+          [
+            "2",
+            127
+          ],
+          [
+            "3",
+            3
+          ]
+        ]
+      },
+      {
+        "key": "layer",
+        "ways": 337,
+        "top_values": [
+          [
+            "1",
+            313
+          ],
+          [
+            "2",
+            20
+          ],
+          [
+            "-1",
+            4
+          ]
+        ]
+      },
+      {
+        "key": "maxspeed",
+        "ways": 6,
+        "top_values": [
+          [
+            "40",
+            2
+          ],
+          [
+            "60",
+            2
+          ],
+          [
+            "80",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "name",
+        "ways": 7,
+        "top_values": [
+          [
+            "山海高速",
+            6
+          ],
+          [
+            "G98",
+            1
+          ]
+        ]
+      },
+      {
+        "key": "name:en",
+        "ways": 6,
+        "top_values": [
+          [
+            "Shanhai Expressway",
+            6
+          ]
+        ]
+      },
+      {
+        "key": "note",
+        "ways": 1,
+        "top_values": [
+          [
+            "end of high res pics",
+            1
+          ]
+        ]
+      },
+      {
+        "key": "old_ref",
+        "ways": 2,
+        "top_values": [
+          [
+            "G223",
+            2
+          ]
+        ]
+      },
+      {
+        "key": "oneway",
+        "ways": 1659,
+        "top_values": [
+          [
+            "yes",
+            1606
+          ],
+          [
+            "no",
+            53
+          ]
+        ]
+      },
+      {
+        "key": "ref",
+        "ways": 32,
+        "top_values": [
+          [
+            "G98",
+            19
+          ],
+          [
+            "G9811",
+            7
+          ],
+          [
+            "S10",
+            6
+          ]
+        ]
+      },
+      {
+        "key": "source",
+        "ways": 172,
+        "top_values": [
+          [
+            "Bing",
+            93
+          ],
+          [
+            "bing",
+            71
+          ],
+          [
+            "Mapbox",
+            4
+          ],
+          [
+            "Bing Sat",
+            3
+          ],
+          [
+            "bing;survey",
+            1
+          ]
+        ]
+      },
+      {
+        "key": "source:geometry",
+        "ways": 57,
+        "top_values": [
+          [
+            "Bing",
+            57
+          ]
+        ]
+      },
+      {
+        "key": "start_date",
+        "ways": 33,
+        "top_values": [
+          [
+            "2024-12-28",
+            33
+          ]
+        ]
+      },
+      {
+        "key": "surface",
+        "ways": 102,
+        "top_values": [
+          [
+            "asphalt",
+            101
+          ],
+          [
+            "concrete",
+            1
+          ]
+        ]
+      },
+      {
+        "key": "toll",
+        "ways": 13,
+        "top_values": [
+          [
+            "no",
+            13
+          ]
+        ]
+      },
+      {
+        "key": "tunnel",
+        "ways": 4,
+        "top_values": [
+          [
+            "yes",
+            4
+          ]
+        ]
+      }
+    ]
+  },
+  "info_fields": {
+    "motorway": {
+      "version": 2783,
+      "timestamp": 2783,
+      "changeset": 2783,
+      "uid": 2783,
+      "user_sid": 2783
+    },
+    "motorway_link": {
+      "version": 1669,
+      "timestamp": 1669,
+      "changeset": 1669,
+      "uid": 1669,
+      "user_sid": 1669
+    }
+  }
+}

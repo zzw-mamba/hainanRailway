@@ -1,0 +1,40 @@
+{
+  "schema": "hainan-source-edits/v1",
+  "revision": 1,
+  "nextManualId": 2,
+  "upserts": {
+    "USR_HN_000001": {
+      "type": "Feature",
+      "properties": {
+        "link_id": "USR_HN_000001",
+        "source": "本地编辑",
+        "coordinate_system": "EPSG:4326 (WGS84)",
+        "highway": "motorway",
+        "oneway": "yes",
+        "manual_edit": true,
+        "ref": "G98",
+        "name": "示例路链",
+        "maxspeed": "120",
+        "lanes": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.02,
+            19.0
+          ],
+          [
+            110.0206,
+            19.0003
+          ],
+          [
+            110.0212,
+            19.0005
+          ]
+        ]
+      }
+    }
+  },
+  "deleted": []
+}
