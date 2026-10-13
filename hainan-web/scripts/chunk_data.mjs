@@ -1,15 +1,24 @@
 import { readFile, mkdir, readdir, rm, writeFile } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
+import { gzipSync } from 'node:zlib'
 
 const source = new URL('../public/data/hainan.json', import.meta.url)
 const output = new URL('../public/data/stream/', import.meta.url)
 const chunkSize = 750
-const payload = JSON.parse(await readFile(source, 'utf8'))
+const raw = await readFile(source)
+const payload = JSON.parse(raw.toString('utf8'))
 await mkdir(output, { recursive: true })
 for (const name of await readdir(output)) {
-  if (/^(roads-\d+|relationships|manifest)\.json$/.test(name)) await rm(new URL(name, output))
+  if (/^(roads-\d+|relationships|manifest)\.json(\.gz)?$/.test(name)) await rm(new URL(name, output))
 }
 
-const writeJson = (name, value) => writeFile(new URL(name, output), JSON.stringify(value))
+async function writeJson(name, value) {
+  const content = Buffer.from(JSON.stringify(value))
+  await Promise.all([
+    writeFile(new URL(name, output), content),
+    writeFile(new URL(`${name}.gz`, output), gzipSync(content, { level: 9 })),
+  ])
+}
 const chunks = []
 for (let start = 0; start < payload.roads.length; start += chunkSize) {
   const name = `roads-${String(chunks.length + 1).padStart(3, '0')}.json`
@@ -35,5 +44,6 @@ await writeJson('manifest.json', {
   relationshipCount: relationships.length,
   roadChunks: chunks,
   extent,
+  snapshotId: createHash('sha256').update(raw).digest('hex').slice(0, 16),
 })
 console.log(`Prepared ${roads.length} roads in ${chunks.length} chunks`)

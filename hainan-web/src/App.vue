@@ -56,7 +56,25 @@ async function copyGisPoints(){
   try{await navigator.clipboard.writeText(lines.join('\n'));notify(`已复制 ${gisPoints.value.length} 个 ${pointCoordinateSystem.value} 坐标点`)}
   catch{notify('当前浏览器无法复制坐标，请手动选择列表内容')}
 }
-async function fetchJson(path){const response=await fetch(`${import.meta.env.BASE_URL}data/stream/${path}`,{cache:'no-store'});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);return response.json()}
+async function fetchJson(path,version=''){
+  const compressed=typeof DecompressionStream!=='undefined'
+  const asset=compressed?`${path}.gz`:path
+  const url=`${import.meta.env.BASE_URL}data/stream/${asset}${version?`?v=${version}`:''}`
+  for(let attempt=0;attempt<3;attempt++){
+    try{
+      const response=await fetch(url,{cache:version?'default':'no-store'})
+      if(!response.ok)throw new Error(`HTTP ${response.status}`)
+      if(!compressed)return response.json()
+      const bytes=new Uint8Array(await response.arrayBuffer())
+      // Some hosts serve .gz with Content-Encoding, so the browser has already expanded it.
+      if(bytes[0]!==0x1f||bytes[1]!==0x8b)return JSON.parse(new TextDecoder().decode(bytes))
+      return new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).json()
+    }catch(e){
+      if(attempt===2)throw new Error(`${path}: ${e.message}`)
+      await new Promise(resolve=>setTimeout(resolve,400*(attempt+1)))
+    }
+  }
+}
 async function load(){
   const sequence=++loadSequence
   error.value='';loadError.value='';loadingRoads.value=true;loadingRelations.value=false
@@ -68,12 +86,12 @@ async function load(){
     selected.value=null;page.value=1
     for(let start=0;start<roadChunks.length;){
       const batchSize=start===0?1:3
-      const groups=await Promise.all(roadChunks.slice(start,start+batchSize).map(fetchJson))
+      const groups=await Promise.all(roadChunks.slice(start,start+batchSize).map(name=>fetchJson(name,manifest.snapshotId)))
       if(sequence!==loadSequence)return
       data.value={...data.value,roads:[...data.value.roads,...groups.flat()]}
       if(start===0){
         loadingRelations.value=true
-        fetchJson('relationships.json').then(relationships=>{
+        fetchJson('relationships.json',manifest.snapshotId).then(relationships=>{
           if(sequence===loadSequence)data.value={...data.value,relationships}
         }).catch(e=>{if(sequence===loadSequence)loadError.value=`连通关系加载失败：${e.message}`})
           .finally(()=>{if(sequence===loadSequence)loadingRelations.value=false})
