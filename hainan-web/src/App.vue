@@ -144,8 +144,8 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
         </aside>
         <section class="map-panel"><div class="map-heading"><div><i class="tiny-dot"></i><h2>海南高速路网</h2><span>可交互地图</span></div><button @click="map?.fit()">⌖ 全域视图</button></div>
           <RoadMap ref="map" :roads="mapRoads" :extent="data.extent" :section-by-link="sectionByLink" :selected-section-key="selectedSectionKey" :endpoints="endpoints" :arrows="arrows" @select="selectSectionFromFeature" @ready="mapState=$event" />
-          <div class="layer-control"><span>图层</span><label><input v-model="endpoints" type="checkbox">路链端点</label><label><input v-model="arrows" type="checkbox">方向箭头</label></div>
-          <div class="map-legend"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>段内第 {{ index+1 }} 色</span><span><i class="legend-line selected"></i>选中路段</span><span><i class="legend-dot start"></i>起点</span><span><i class="legend-dot end"></i>终点</span><span><i class="legend-dot purple"></i>共用端点</span></div>
+          <div v-if="selectedSection" class="layer-control"><span>图层</span><label><input v-model="endpoints" type="checkbox">路链端点</label><label><input v-model="arrows" type="checkbox">方向箭头</label></div>
+          <div v-if="selectedSection" class="map-legend"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>段内第 {{ index+1 }} 色</span><span><i class="legend-line selected"></i>选中路段边缘</span><span><i class="legend-dot start"></i>起点</span><span><i class="legend-dot end"></i>终点</span><span><i class="legend-dot purple"></i>共用端点</span></div>
           <div class="map-footer"><span><i class="tiny-dot"></i>显示 {{ fmt(mapRoads.length) }} 条路链 · {{ filteredLength.toFixed(1) }} km</span><span>缩放 {{ mapState.zoom }} · 拖动平移 / 滚轮缩放</span></div>
         </section>
         <aside class="detail-panel">
@@ -178,7 +178,7 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
             <div class="detail-title"><span class="section-kind">{{ selectedSection.kind==='pilot'?'先导段':'非先导段' }}</span><h3>{{ selectedSection.name }}</h3></div>
             <div class="id-block"><label>{{ selectedSection.kind==='pilot'?'先导业务路链编号':'原链编号' }}</label><strong>{{ selectedSection.id }}</strong></div>
             <div class="detail-metrics"><div><small>路链数量</small><strong>{{ selectedSection.roads.length }}</strong></div><div><small>合计长度</small><strong>{{ selectedSection.lengthM.toFixed(1) }}<span> m</span></strong></div></div>
-            <div class="detail-section"><h4>段内路链</h4><p class="detail-note">路链依次使用四种颜色循环；当前路段整体以第五种颜色高亮。点击路链可查看详细属性。</p>
+            <div class="detail-section"><h4>段内路链</h4><p class="detail-note">段内路链依次使用四种颜色循环，并以第五种颜色描边高亮。仅显示当前路段的端点与方向箭头。点击路链可查看详细属性。</p>
               <div class="section-link-list"><button v-for="feature in selectedSection.roads" :key="feature.properties.link_id" class="section-link" @click="selectLink(feature,true)"><i :style="{background:LINK_COLORS[sectionByLink.get(feature.properties.link_id)?.colorIndex||0]}"></i><span>{{ feature.properties.link_id }}<small>第 {{ feature.properties.segment_index }} 段 · {{ Number(feature.properties.length_m).toFixed(1) }} m</small></span><b>›</b></button></div>
             </div>
             <p class="detail-note section-rule">先导段按重叠长度最大的业务路链归组；非先导段按原链编号归组。</p>
