@@ -2,7 +2,7 @@
 import { ref, shallowRef, computed, onMounted, watch, nextTick, onBeforeUnmount } from 'vue'
 import RoadMap from './components/RoadMap.vue'
 import { buildRoadSections, LINK_COLORS } from './roadSections.js'
-const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),selected=shallowRef(null),selectedSectionKey=ref(null),page=ref(1),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
+const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),selected=shallowRef(null),selectedSectionKey=ref(null),sectionLinkPage=ref(1),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
 const loadingRoads=ref(false),loadError=ref(''),loadingRelations=ref(false)
 let loadSequence=0
 let toastTimer
@@ -17,12 +17,15 @@ const visibleRoads=computed(()=>{const q=query.value.trim().toLowerCase();return
 const sectionModel=computed(()=>buildRoadSections(roads.value))
 const sectionByLink=computed(()=>sectionModel.value.byLink)
 const selectedSection=computed(()=>sectionModel.value.sections.get(selectedSectionKey.value)||null)
+const displayRoads=computed(()=>selectedSectionKey.value?roads.value:mapRoads.value)
 const list=computed(()=>{
   const keys=new Set(visibleRoads.value.map(feature=>sectionByLink.value.get(feature.properties.link_id)?.sectionKey))
-  return [...sectionModel.value.sections.values()].filter(section=>keys.has(section.key))
+  return ['pilot','ordinary'].map(key=>sectionModel.value.sections.get(key)).filter(section=>section&&keys.has(section.key))
 })
-const pages=computed(()=>Math.max(1,Math.ceil(list.value.length/PAGE_SIZE)))
-const pageItems=computed(()=>list.value.slice((page.value-1)*PAGE_SIZE,page.value*PAGE_SIZE))
+const visibleLinkIds=computed(()=>new Set(visibleRoads.value.map(feature=>feature.properties.link_id)))
+const sectionLinks=computed(()=>selectedSection.value?.roads.filter(feature=>visibleLinkIds.value.has(feature.properties.link_id))||[])
+const sectionLinkPages=computed(()=>Math.max(1,Math.ceil(sectionLinks.value.length/PAGE_SIZE)))
+const sectionLinkPageItems=computed(()=>sectionLinks.value.slice((sectionLinkPage.value-1)*PAGE_SIZE,sectionLinkPage.value*PAGE_SIZE))
 const filteredLength=computed(()=>mapRoads.value.reduce((sum,f)=>sum+Number(f.properties.length_m||0),0)/1000)
 const mainCount=computed(()=>roads.value.filter(f=>f.properties.highway==='motorway').length)
 const bridgeCount=computed(()=>roads.value.filter(f=>hasStructure(f.properties,'bridge')).length)
@@ -52,12 +55,12 @@ function compareHighway(ref){reset();const features=roads.value.filter(f=>f.prop
 function locateAssociations(){reset();const features=roads.value.filter(f=>f.properties.business_association);nextTick(()=>map.value?.fit(features))}
 function locateBusiness(id){const features=roads.value.filter(f=>f.properties.business_association?.matches.some(m=>m.businessLinkId===id));if(!features.length){notify('该接口路链尚未可靠关联到地图');return}reset();selectSectionFromFeature(features[0]);nextTick(()=>map.value?.fit(features))}
 function notify(message){toast.value=message;clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.value='',2800)}
-function selectSection(key,locate=false){selectedSectionKey.value=key;selected.value=null;if(locate)nextTick(()=>map.value?.fit(sectionModel.value.sections.get(key)?.roads||[]))}
-function selectSectionFromFeature(feature,locate=false){const key=sectionByLink.value.get(feature.properties.link_id)?.sectionKey;if(key)selectSection(key,locate)}
+function selectSection(key,locate=false){selectedSectionKey.value=key;selected.value=null;sectionLinkPage.value=1;if(locate)nextTick(()=>map.value?.fit(sectionModel.value.sections.get(key)?.roads||[]))}
+function selectSectionFromFeature(feature,locate=false){const key=sectionByLink.value.get(feature.properties.link_id)?.sectionKey;if(!key)return;if(selectedSectionKey.value===key)selectLink(feature,locate);else selectSection(key,locate)}
 function selectLink(feature,locate=false){selectedSectionKey.value=sectionByLink.value.get(feature.properties.link_id)?.sectionKey||null;selected.value=feature;if(locate)nextTick(()=>map.value?.fit([feature]))}
 function relationKind(id){return idIndex.value.get(id)?.properties.source_link_id===properties.value.source_link_id?'内部':'跨原链'}
 function related(id){const f=idIndex.value.get(id);if(f){query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';selectLink(f,true)}}
-function reset(){query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';selected.value=null;selectedSectionKey.value=null;nextTick(()=>map.value?.fit())}
+function reset(){query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';selected.value=null;selectedSectionKey.value=null;sectionLinkPage.value=1;nextTick(()=>map.value?.fit())}
 function download(){const features=visibleRoads.value;const geojson={type:'FeatureCollection',features:features.map(({gcjCoordinates,...f})=>f)};const blob=new Blob([JSON.stringify(geojson,null,2)],{type:'application/geo+json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='hainan-links-filtered.geojson';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);notify(`已导出 ${fmt(features.length)} 个要素（WGS84）`)}
 async function copyId(){try{await navigator.clipboard.writeText(properties.value.link_id);notify('编号已复制')}catch{notify('当前浏览器无法复制，请选中编号手动复制')}}
 async function copyGisPoints(){
@@ -92,7 +95,7 @@ async function load(){
     if(sequence!==loadSequence)return
     const {roadChunks,...summary}=manifest
     data.value={...summary,roads:[],relationships:[]}
-    selected.value=null;selectedSectionKey.value=null;page.value=1
+    selected.value=null;selectedSectionKey.value=null;sectionLinkPage.value=1
     for(let start=0;start<roadChunks.length;){
       const batchSize=start===0?1:3
       const groups=await Promise.all(roadChunks.slice(start,start+batchSize).map(name=>fetchJson(name,manifest.snapshotId)))
@@ -116,7 +119,7 @@ async function load(){
     else error.value=`海南数据加载失败：${e.message}`
   }
 }
-watch([query,roadType,route,structure,direction],()=>{page.value=1})
+watch([query,roadType,route,structure,direction],()=>{sectionLinkPage.value=1})
 watch(selected,()=>{pointCoordinateSystem.value='WGS84'})
 onMounted(async()=>{try{await load()}catch{}})
 onBeforeUnmount(()=>{clearTimeout(toastTimer)})
@@ -139,14 +142,13 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
             <div class="filter-grid"><label>道路类型<select v-model="roadType"><option value="all">全部类型</option><option value="motorway">高速主线</option><option value="motorway_link">高速匝道</option></select></label><label>路线编号<select v-model="route"><option value="all">全部路线</option><option v-for="r in routes" :key="r" :value="r">{{ r }}</option></select></label><label>道路结构<select v-model="structure"><option value="all">全部结构</option><option value="bridge">桥梁</option><option value="tunnel">隧道</option></select></label><label>上下行<select v-model="direction"><option value="all">全部方向</option><option value="UP">上行</option><option value="DOWN">下行</option><option value="unconfirmed">待确认</option><option value="bidirectional">双向</option></select></label></div>
           </div>
           <div class="result-label"><span>路段列表 <b>{{ fmt(list.length) }}</b></span><button @click="reset">重置</button></div>
-          <div class="resource-list"><button v-for="section in pageItems" :key="section.key" class="resource-item section-item" :class="{selected:selectedSectionKey===section.key}" @click="selectSection(section.key,true)"><span class="road-symbol" :class="{ramp:section.kind==='pilot'}">⌁</span><div><strong>{{ section.name }}</strong><small>{{ section.id }}</small><span class="section-kind">{{ section.kind==='pilot'?'先导段':'非先导段' }}</span><div class="item-meta"><span>{{ section.roads.length }} 条路链</span><b>{{ section.lengthM.toFixed(1) }} m</b></div></div><span class="item-arrow">›</span></button><div v-if="!list.length&&!loadingRoads" class="empty-results">没有找到匹配的路段<button @click="reset">清除筛选条件</button></div></div>
-          <div class="pagination"><span>{{ page }} / {{ pages }} 页</span><div><button :disabled="page===1" aria-label="上一页" @click="page--">‹</button><button :disabled="page===pages" aria-label="下一页" @click="page++">›</button></div></div>
+          <div class="resource-list"><button v-for="section in list" :key="section.key" class="resource-item section-item" :class="{selected:selectedSectionKey===section.key}" @click="selectSection(section.key,true)"><span class="road-symbol" :class="{ramp:section.kind==='pilot'}">⌁</span><div><strong>{{ section.name }}</strong><small>{{ section.kind==='pilot'?'已关联先导接口的路链':'其余路链' }}</small><div class="item-meta"><span>{{ fmt(section.roads.length) }} 条路链</span><b>{{ (section.lengthM/1000).toFixed(1) }} km</b></div></div><span class="item-arrow">›</span></button><div v-if="!list.length&&!loadingRoads" class="empty-results">没有找到匹配的路段<button @click="reset">清除筛选条件</button></div></div>
         </aside>
         <section class="map-panel"><div class="map-heading"><div><i class="tiny-dot"></i><h2>海南高速路网</h2><span>可交互地图</span></div><button @click="map?.fit()">⌖ 全域视图</button></div>
-          <RoadMap ref="map" :roads="mapRoads" :extent="data.extent" :section-by-link="sectionByLink" :selected-section-key="selectedSectionKey" :endpoints="endpoints" :arrows="arrows" @select="selectSectionFromFeature" @ready="mapState=$event" />
+          <RoadMap ref="map" :roads="displayRoads" :extent="data.extent" :section-by-link="sectionByLink" :selected-section-key="selectedSectionKey" :selected-link-id="selected?.properties.link_id" :endpoints="endpoints" :arrows="arrows" @select="selectSectionFromFeature" @ready="mapState=$event" />
           <div v-if="selectedSection" class="layer-control"><span>图层</span><label><input v-model="endpoints" type="checkbox">路链端点</label><label><input v-model="arrows" type="checkbox">方向箭头</label></div>
-          <div v-if="selectedSection" class="map-legend"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>段内第 {{ index+1 }} 色</span><span><i class="legend-line selected"></i>选中路段边缘</span><span><i class="legend-dot start"></i>起点</span><span><i class="legend-dot end"></i>终点</span><span><i class="legend-dot purple"></i>共用端点</span></div>
-          <div class="map-footer"><span><i class="tiny-dot"></i>显示 {{ fmt(mapRoads.length) }} 条路链 · {{ filteredLength.toFixed(1) }} km</span><span>缩放 {{ mapState.zoom }} · 拖动平移 / 滚轮缩放</span></div>
+          <div v-if="selectedSection" class="map-legend"><template v-if="selected"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>段内第 {{ index+1 }} 色</span></template><span><i class="legend-line selected"></i>{{ selected?'当前路链':'选中路段' }}</span><span><i class="legend-dot start"></i>起点</span><span><i class="legend-dot end"></i>终点</span><span><i class="legend-dot purple"></i>共用端点</span></div>
+          <div class="map-footer"><span><i class="tiny-dot"></i>显示 {{ fmt(displayRoads.length) }} 条路链 · {{ selectedSection?'已高亮'+selectedSection.name:filteredLength.toFixed(1)+' km' }}</span><span>缩放 {{ mapState.zoom }} · 拖动平移 / 滚轮缩放</span></div>
         </section>
         <aside class="detail-panel">
           <div class="section-title"><h2>{{ selected?'路链详情':selectedSection?'路段详情':'路网概览' }}</h2><button v-if="selected||selectedSection" class="close-button" aria-label="返回上一级" @click="selected?selected=null:selectedSectionKey=null">×</button><span v-else class="live-label">已载入</span></div>
@@ -176,12 +178,12 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
           </template>
           <template v-else-if="selectedSection">
             <div class="detail-title"><span class="section-kind">{{ selectedSection.kind==='pilot'?'先导段':'非先导段' }}</span><h3>{{ selectedSection.name }}</h3></div>
-            <div class="id-block"><label>{{ selectedSection.kind==='pilot'?'先导业务路链编号':'原链编号' }}</label><strong>{{ selectedSection.id }}</strong></div>
-            <div class="detail-metrics"><div><small>路链数量</small><strong>{{ selectedSection.roads.length }}</strong></div><div><small>合计长度</small><strong>{{ selectedSection.lengthM.toFixed(1) }}<span> m</span></strong></div></div>
-            <div class="detail-section"><h4>段内路链</h4><p class="detail-note">段内路链依次使用四种颜色循环，并以第五种颜色描边高亮。仅显示当前路段的端点与方向箭头。点击路链可查看详细属性。</p>
-              <div class="section-link-list"><button v-for="feature in selectedSection.roads" :key="feature.properties.link_id" class="section-link" @click="selectLink(feature,true)"><i :style="{background:LINK_COLORS[sectionByLink.get(feature.properties.link_id)?.colorIndex||0]}"></i><span>{{ feature.properties.link_id }}<small>第 {{ feature.properties.segment_index }} 段 · {{ Number(feature.properties.length_m).toFixed(1) }} m</small></span><b>›</b></button></div>
+            <div class="detail-metrics"><div><small>路链数量</small><strong>{{ fmt(selectedSection.roads.length) }}</strong></div><div><small>合计长度</small><strong>{{ (selectedSection.lengthM/1000).toFixed(1) }}<span> km</span></strong></div></div>
+            <div class="detail-section"><h4>段内路链 <span>{{ fmt(sectionLinks.length) }} 条</span></h4><p class="detail-note">已用第五种颜色高亮整个{{ selectedSection.name }}。再次点击地图路链或选择下方编号，可查看单条详情及段内四色区分。</p>
+              <div class="section-link-list"><button v-for="feature in sectionLinkPageItems" :key="feature.properties.link_id" class="section-link" @click="selectLink(feature,true)"><i :style="{background:LINK_COLORS[sectionByLink.get(feature.properties.link_id)?.colorIndex||0]}"></i><span>{{ feature.properties.link_id }}<small>{{ feature.properties.name || feature.properties.ref || '未命名道路' }} · {{ Number(feature.properties.length_m).toFixed(1) }} m</small></span><b>›</b></button></div>
+              <div v-if="sectionLinkPages>1" class="section-link-pagination"><button :disabled="sectionLinkPage===1" @click="sectionLinkPage--">上一页</button><span>{{ sectionLinkPage }} / {{ sectionLinkPages }}</span><button :disabled="sectionLinkPage===sectionLinkPages" @click="sectionLinkPage++">下一页</button></div>
             </div>
-            <p class="detail-note section-rule">先导段按重叠长度最大的业务路链归组；非先导段按原链编号归组。</p>
+            <p class="detail-note section-rule">先导段包含已关联先导接口的路链；非先导段包含其余路链。</p>
           </template>
           <template v-else><div class="overview-art"><svg viewBox="0 0 240 150" aria-hidden="true"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#d9e7e2" stroke-width=".5"/></pattern></defs><rect width="240" height="150" fill="url(#grid)"/><path d="M50 132L91 100 105 57 165 20M91 100L163 110 187 55 165 20M105 57L187 55M105 57L163 110" fill="none" stroke="#bed6cf" stroke-width="8"/><path d="M50 132L91 100 105 57 165 20M91 100L163 110 187 55 165 20M105 57L187 55" fill="none" stroke="#278c7c" stroke-width="2"/><g fill="#fff" stroke="#278c7c" stroke-width="2"><circle cx="91" cy="100" r="5"/><circle cx="105" cy="57" r="5"/><circle cx="163" cy="110" r="5"/><circle cx="187" cy="55" r="5"/></g><circle cx="105" cy="57" r="13" fill="#278c7c" opacity=".1"/></svg><strong>从一个路段开始探索</strong><p>点击地图中的道路，或从左侧列表选择路段，再查看段内路链。</p></div><div class="detail-section direction-coverage"><h4>上下行标注范围</h4><p>G98 主线：上行 {{ fmt(data.directionSummary.inferredUp) }} 条，下行 {{ fmt(data.directionSummary.inferredDown) }} 条，均为推断。</p><p class="detail-note">部分先导路段采用接口方向；其余路线及匝道待确认。</p></div><div v-if="data.associationSummary" class="detail-section association-coverage"><h4>接口关联范围</h4><p>G9811 北段：{{ fmt(data.associationSummary.matchedBusinessLinks) }} / {{ fmt(data.associationSummary.businessLinks) }} 条接口路链，对应 {{ fmt(data.associationSummary.associatedOsmLinks) }} 条地图路链。</p><p>{{ fmt(data.associationSummary.businessDirectionOsmLinks) }} 条地图路链采用接口空间关联方向。</p><button class="association-show" @click="locateAssociations">定位关联区域 ↗</button><p class="detail-note">先按整条高速对照主线，再按互通与收费单元逐一匹配匝道。空间关联待人工复核。</p><details class="highway-comparison"><summary>按高速与收费单元逐一对照</summary><div v-for="ref in data.associationSummary.groups.routes" :key="ref" class="comparison-route"><button @click="compareHighway(ref)">对照 {{ ref }} 整条主线 ↗</button><p>{{ data.associationSummary.groups.mainUnits.length }} 个主线单元，先核对两幅单向道路与接口顺序。</p></div><div class="comparison-units"><strong>主线收费单元</strong><button v-for="unit in data.associationSummary.groups.mainUnits" :key="unit.unitId" @click="locateUnit(unit.unitId)">{{ unit.name }}<small>{{ unit.statusCounts.matched || 0 }} / {{ unit.businessLinkIds.length }} 条通过关联检查</small></button><strong>互通匝道与服务区</strong><button v-for="unit in data.associationSummary.groups.rampUnits" :key="unit.unitId" @click="locateUnit(unit.unitId)">{{ unit.name }}<small>{{ unit.statusCounts.matched || 0 }} / {{ unit.businessLinkIds.length }} 条通过关联检查</small></button></div></details></div><div class="detail-section"><h4>道路组成</h4><div class="composition-bar"><span :style="{width:mainCount/roads.length*100+'%'}"></span></div><div class="composition-label"><span><i class="legend-dot start"></i>主线 {{ fmt(mainCount) }}</span><span><i class="legend-dot end"></i>匝道 {{ fmt(roads.length-mainCount) }}</span></div></div><div class="detail-section"><h4>特殊道路结构</h4><div class="structure-row"><span>桥梁路链</span><b>{{ fmt(bridgeCount) }}<small>条</small></b></div><div class="structure-row"><span>隧道路链</span><b>{{ fmt(tunnelCount) }}<small>条</small></b></div><p class="detail-note">按 OSM 结构标签统计，计数单位为拆分后的路链。</p></div><div class="source-card"><span class="eyebrow">DATA SOURCE</span><strong>OpenStreetMap</strong><p>海南高速主线与匝道<br>本地嵌入 · WGS84 / GCJ-02</p><span class="source-status"><i class="tiny-dot"></i>数据校验{{ data.validation.valid?'通过':'需检查' }}</span></div></template>
         </aside>
