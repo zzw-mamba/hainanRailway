@@ -1,7 +1,7 @@
 <script setup>
 import { ref, shallowRef, computed, onMounted, watch, nextTick, onBeforeUnmount } from 'vue'
 import RoadMap from './components/RoadMap.vue'
-import { buildRoadSections, LINK_COLORS } from './roadSections.js'
+import { buildRoadSections, LINK_COLORS, prioritizePilotRoads } from './roadSections.js'
 const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),sectionFilter=ref('all'),selected=shallowRef(null),page=ref(1),viewMode=ref('global'),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
 const loadingRoads=ref(false),loadError=ref(''),loadingRelations=ref(false)
 let loadSequence=0
@@ -28,7 +28,7 @@ const pilotTermini=computed(()=>{
   return [{...ends.at(-1),label:'先导段起点'},{...ends[0],label:'先导段终点'}]
 })
 const visiblePilotTermini=computed(()=>viewMode.value==='pilot'?pilotTermini.value:[])
-const list=visibleRoads
+const list=computed(()=>sectionFilter.value==='all'?prioritizePilotRoads(visibleRoads.value):visibleRoads.value)
 const pages=computed(()=>Math.max(1,Math.ceil(list.value.length/PAGE_SIZE)))
 const pageItems=computed(()=>list.value.slice((page.value-1)*PAGE_SIZE,page.value*PAGE_SIZE))
 const filteredLength=computed(()=>mapRoads.value.reduce((sum,f)=>sum+Number(f.properties.length_m||0),0)/1000)
@@ -153,7 +153,7 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
             <div class="filter-grid"><label>道路类型<select v-model="roadType"><option value="all">全部类型</option><option value="motorway">高速主线</option><option value="motorway_link">高速匝道</option></select></label><label>路线编号<select v-model="route"><option value="all">全部路线</option><option v-for="r in routes" :key="r" :value="r">{{ r }}</option></select></label><label>道路结构<select v-model="structure"><option value="all">全部结构</option><option value="bridge">桥梁</option><option value="tunnel">隧道</option></select></label><label>上下行<select v-model="direction"><option value="all">全部方向</option><option value="UP">上行</option><option value="DOWN">下行</option><option value="unconfirmed">待确认</option><option value="bidirectional">双向</option></select></label><label class="wide-filter">路段类别<select v-model="sectionFilter"><option value="all">全部路链</option><option value="pilot">先导段</option><option value="ordinary">非先导段</option></select></label></div>
           </div>
           <div class="result-label"><span>路链列表 <b>{{ fmt(list.length) }}</b></span><button @click="reset">重置</button></div>
-          <div class="resource-list"><button v-for="feature in pageItems" :key="feature.properties.link_id" class="resource-item" :class="{selected:selected===feature}" @click="selectLink(feature,true)"><span class="road-symbol" :class="{ramp:feature.properties.highway==='motorway_link'}">⌁</span><div><strong>{{ feature.properties.name || (feature.properties.highway==='motorway'?'未命名高速主线':'未命名高速匝道') }}</strong><small>{{ feature.properties.link_id }}</small><span class="section-kind">{{ sectionByLink.get(feature.properties.link_id)?.sectionKey==='pilot'?'先导段':'非先导段' }}{{ feature.properties.pilot_continuity?' · 拓扑补齐':'' }}</span><div class="item-meta"><span v-if="feature.properties.ref" class="route-tag">{{ feature.properties.ref }}</span><span>{{ feature.properties.direction_annotation?.label || '上下行待确认' }}</span><b>{{ Number(feature.properties.length_m).toFixed(1) }} m</b></div></div><span class="item-arrow">›</span></button><div v-if="!list.length&&!loadingRoads" class="empty-results">没有找到匹配的路链<button @click="reset">清除筛选条件</button></div></div>
+          <div class="resource-list"><button v-for="feature in pageItems" :key="feature.properties.link_id" class="resource-item" :class="{selected:selected===feature}" @click="selectLink(feature,true)"><span class="road-symbol" :class="{ramp:feature.properties.highway==='motorway_link'}">⌁</span><div><strong>{{ feature.properties.name || (feature.properties.highway==='motorway'?'未命名高速主线':'未命名高速匝道') }}</strong><small>{{ feature.properties.link_id }}</small><span class="section-kind">{{ feature.properties.business_association?.matches?.length?'先导段 · 接口关联':feature.properties.pilot_continuity?.status==='topology_bridge'?'先导段 · 拓扑补齐':'非先导段' }}</span><div class="item-meta"><span v-if="feature.properties.ref" class="route-tag">{{ feature.properties.ref }}</span><span>{{ feature.properties.direction_annotation?.label || '上下行待确认' }}</span><b>{{ Number(feature.properties.length_m).toFixed(1) }} m</b></div></div><span class="item-arrow">›</span></button><div v-if="!list.length&&!loadingRoads" class="empty-results">没有找到匹配的路链<button @click="reset">清除筛选条件</button></div></div>
           <div class="pagination"><span>{{ page }} / {{ pages }} 页</span><div><button :disabled="page===1" aria-label="上一页" @click="page--">‹</button><button :disabled="page===pages" aria-label="下一页" @click="page++">›</button></div></div>
         </aside>
         <section class="map-panel"><div class="map-heading"><div><i class="tiny-dot"></i><h2>海南高速路网</h2><span>可交互地图</span></div><button :disabled="viewMode==='global'&&(loadingRoads||!pilotRoads.length)" @click="toggleView">⌖ {{ viewMode==='global'?'切换先导段视角':'返回全局视角' }}</button></div>

@@ -1,5 +1,16 @@
-export const LINK_COLORS = ['#137f78', '#d88438', '#7654bb', '#ca5873']
+export const LINK_COLORS = ['#6399CB', '#70B884', '#F2D379', '#D8886A']
 export const SELECTED_SECTION_COLOR = '#f5c542'
+
+export function prioritizePilotRoads(roads) {
+  const confirmed = [], continuity = [], ordinary = []
+  for (const feature of roads) {
+    const properties = feature.properties
+    if (properties.business_association?.matches?.length) confirmed.push(feature)
+    else if (properties.pilot_continuity?.status === 'topology_bridge') continuity.push(feature)
+    else ordinary.push(feature)
+  }
+  return [...confirmed, ...continuity, ...ordinary]
+}
 
 export function sectionIdentity(feature) {
   const pilot = Boolean(feature.properties.business_association?.matches?.length ||

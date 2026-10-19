@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { buildRoadSections, sectionIdentity, LINK_COLORS } from './roadSections.js'
+import { buildRoadSections, sectionIdentity, prioritizePilotRoads, LINK_COLORS } from './roadSections.js'
 
 const road = (id, segment, association) => ({ properties: {
   link_id: id, source_link_id: 'HN-SRC-000001', segment_index: segment,
@@ -14,7 +14,20 @@ test('all ordinary links form one section and cycle through four colors', () => 
   assert.equal(sections.size, 1)
   assert.equal(sections.get('ordinary').lengthM, 500)
   assert.deepEqual([1, 2, 3, 4, 5].map(n => byLink.get(`HN-G98-M-${n}`).colorIndex), [0, 1, 2, 3, 0])
-  assert.equal(LINK_COLORS.length, 4)
+  assert.deepEqual(LINK_COLORS, ['#6399CB', '#70B884', '#F2D379', '#D8886A'])
+})
+
+test('all-data list shows confirmed pilot links, then continuity links, then other links', () => {
+  const firstOrdinary = road('ordinary-a', 1)
+  const bridge = road('bridge', 2)
+  bridge.properties.pilot_continuity = { status: 'topology_bridge' }
+  const firstConfirmed = road('confirmed-a', 3, [{ businessLinkId: 'A' }])
+  const secondOrdinary = road('ordinary-b', 4)
+  const secondConfirmed = road('confirmed-b', 5, [{ businessLinkId: 'B' }])
+  const input = [firstOrdinary, bridge, firstConfirmed, secondOrdinary, secondConfirmed]
+  assert.deepEqual(prioritizePilotRoads(input).map(feature => feature.properties.link_id),
+    ['confirmed-a', 'confirmed-b', 'bridge', 'ordinary-a', 'ordinary-b'])
+  assert.equal(input[0], firstOrdinary)
 })
 
 test('all associated links form the pilot section even with different business IDs', () => {
