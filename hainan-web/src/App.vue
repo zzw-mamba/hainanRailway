@@ -1,7 +1,7 @@
 <script setup>
 import { ref, shallowRef, computed, onMounted, watch, nextTick, onBeforeUnmount } from 'vue'
 import RoadMap from './components/RoadMap.vue'
-import { buildRoadSections, LINK_COLORS, prioritizePilotRoads } from './roadSections.js'
+import { buildRoadSections, LINK_COLORS, prioritizeRoads } from './roadSections.js'
 const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),sectionFilter=ref('all'),selected=shallowRef(null),page=ref(1),viewMode=ref('global'),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
 const loadingRoads=ref(false),loadError=ref(''),loadingRelations=ref(false)
 let loadSequence=0
@@ -28,7 +28,7 @@ const pilotTermini=computed(()=>{
   return [{...ends.at(-1),label:'先导段起点'},{...ends[0],label:'先导段终点'}]
 })
 const visiblePilotTermini=computed(()=>viewMode.value==='pilot'?pilotTermini.value:[])
-const list=computed(()=>sectionFilter.value==='all'?prioritizePilotRoads(visibleRoads.value):visibleRoads.value)
+const list=computed(()=>prioritizeRoads(visibleRoads.value))
 const pages=computed(()=>Math.max(1,Math.ceil(list.value.length/PAGE_SIZE)))
 const pageItems=computed(()=>list.value.slice((page.value-1)*PAGE_SIZE,page.value*PAGE_SIZE))
 const filteredLength=computed(()=>mapRoads.value.reduce((sum,f)=>sum+Number(f.properties.length_m||0),0)/1000)

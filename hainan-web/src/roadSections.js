@@ -1,15 +1,16 @@
 export const LINK_COLORS = ['#6399CB', '#70B884', '#F2D379', '#D8886A']
 export const SELECTED_SECTION_COLOR = '#f5c542'
 
-export function prioritizePilotRoads(roads) {
-  const confirmed = [], continuity = [], ordinary = []
+export function prioritizeRoads(roads) {
+  const groups = Array.from({ length: 6 }, () => [])
   for (const feature of roads) {
     const properties = feature.properties
-    if (properties.business_association?.matches?.length) confirmed.push(feature)
-    else if (properties.pilot_continuity?.status === 'topology_bridge') continuity.push(feature)
-    else ordinary.push(feature)
+    const roadTypeRank = properties.highway === 'motorway' ? 0 : 1
+    const pilotRank = properties.business_association?.matches?.length ? 0
+      : properties.pilot_continuity?.status === 'topology_bridge' ? 1 : 2
+    groups[roadTypeRank * 3 + pilotRank].push(feature)
   }
-  return [...confirmed, ...continuity, ...ordinary]
+  return groups.flat()
 }
 
 export function sectionIdentity(feature) {
