@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { LINK_COLORS, SELECTED_SECTION_COLOR } from '../roadSections.js'
-const props = defineProps({ roads: Array, extent: Array, sectionByLink: Map, selectedSectionKey: String, selectedLinkId: String, endpoints: Boolean, arrows: Boolean })
+const props = defineProps({ roads: Array, extent: Array, sectionByLink: Map, selectedLinkId: String, endpoints: Boolean, arrows: Boolean })
 const emit = defineEmits(['select', 'ready'])
 const host = ref(null), canvas = ref(null), hover = ref(null), engine = ref('路网视图'), zoomLevel = ref(8)
 let map, observer, frame, width = 1, height = 1, scale = 1, center = [0, 0], dragging, moved = false, destroyed = false
@@ -62,17 +62,11 @@ function draw() {
   drawn=[]
   const points=new Map()
   const groupOf = feature => props.sectionByLink?.get(feature.properties.link_id)
-  const selectedRoads = props.selectedSectionKey
-    ? props.roads.filter(f => groupOf(f)?.sectionKey === props.selectedSectionKey)
-    : []
-  const selectedIds = new Set(selectedRoads.map(f => f.properties.link_id))
-  const orderedRoads = [...props.roads.filter(f => !selectedIds.has(f.properties.link_id)),
-    ...selectedRoads.filter(f => f.properties.link_id !== props.selectedLinkId),
-    ...selectedRoads.filter(f => f.properties.link_id === props.selectedLinkId)]
+  const orderedRoads = [...props.roads.filter(f => f.properties.link_id !== props.selectedLinkId),
+    ...props.roads.filter(f => f.properties.link_id === props.selectedLinkId)]
   for (const feature of orderedRoads) {
     const membership=groupOf(feature)
-    const selected=selectedIds.has(feature.properties.link_id)
-    const selectedLink=selected && feature.properties.link_id===props.selectedLinkId
+    const selectedLink=feature.properties.link_id===props.selectedLinkId
     for (const part of geometry(feature)) {
       const path=part.map(pixel)
       const xs=path.map(p=>p[0]),ys=path.map(p=>p[1]),box=[Math.min(...xs),Math.min(...ys),Math.max(...xs),Math.max(...ys)]
@@ -80,15 +74,13 @@ function draw() {
       drawn.push({feature,path,box})
       ctx.beginPath();path.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.lineJoin='round';ctx.lineCap='round'
       if(selectedLink){ctx.strokeStyle='#745307';ctx.lineWidth=zoomLevel.value>11?9:7;ctx.stroke()}
-      ctx.strokeStyle=selected
-        ? (!props.selectedLinkId || selectedLink ? SELECTED_SECTION_COLOR : LINK_COLORS[membership?.colorIndex||0])
-        : '#a8b9b2'
-      ctx.lineWidth=selected?(zoomLevel.value>11?5:3.5):(zoomLevel.value>11?2.5:1.8);ctx.stroke()
-      if(selected && props.arrows && zoomLevel.value>=11) {
+      ctx.strokeStyle=selectedLink ? SELECTED_SECTION_COLOR : LINK_COLORS[membership?.colorIndex||0]
+      ctx.lineWidth=selectedLink?(zoomLevel.value>11?5:3.5):(zoomLevel.value>11?2.5:1.8);ctx.stroke()
+      if(selectedLink && props.arrows && zoomLevel.value>=11) {
         const reverse=String(feature.properties.oneway)==='-1';let distance=0
         for(let i=1;i<path.length;i++) {const a=path[i-1],b=path[i],dx=b[0]-a[0],dy=b[1]-a[1],len=Math.hypot(dx,dy);distance+=len;if(distance>65&&len>10){distance=0;const angle=Math.atan2(dy,dx)+(reverse?Math.PI:0);ctx.save();ctx.translate((a[0]+b[0])/2,(a[1]+b[1])/2);ctx.rotate(angle);ctx.beginPath();ctx.moveTo(-4,-3);ctx.lineTo(0,0);ctx.lineTo(-4,3);ctx.strokeStyle='#fff';ctx.lineWidth=1.7;ctx.stroke();if(String(feature.properties.oneway)==='no'){ctx.rotate(Math.PI);ctx.translate(9,0);ctx.beginPath();ctx.moveTo(-4,-3);ctx.lineTo(0,0);ctx.lineTo(-4,3);ctx.stroke()}ctx.restore()}}
       }
-      if(selected && props.endpoints && zoomLevel.value>=(props.selectedLinkId?10:12)){for(const [p,role] of [[path[0],1],[path.at(-1),2]]){const key=p.map(v=>v.toFixed(2)).join(',');const existing=points.get(key);points.set(key,{p,role:role|(existing?.role||0)})}}
+      if(selectedLink && props.endpoints && zoomLevel.value>=10){for(const [p,role] of [[path[0],1],[path.at(-1),2]]){const key=p.map(v=>v.toFixed(2)).join(',');const existing=points.get(key);points.set(key,{p,role:role|(existing?.role||0)})}}
     }
   }
   for(const {p,role} of points.values()){ctx.beginPath();ctx.arc(...p,3.2,0,Math.PI*2);ctx.fillStyle=role===3?'#896bc4':role===1?'#24ac80':'#e6894c';ctx.fill();ctx.strokeStyle='#fff';ctx.lineWidth=1;ctx.stroke()}
@@ -126,7 +118,7 @@ function loadAMap(){
 }
 onMounted(()=>{observer=new ResizeObserver(resize);observer.observe(host.value);resize();fit([],true);host.value.addEventListener('wheel',wheel,{passive:false});loadAMap()})
 onBeforeUnmount(()=>{destroyed=true;observer?.disconnect();cancelAnimationFrame(frame);clearTimeout(sdkTimer);map?.destroy();sdkScript?.remove();host.value?.removeEventListener('wheel',wheel)})
-watch(()=>[props.roads,props.sectionByLink,props.selectedSectionKey,props.selectedLinkId,props.endpoints,props.arrows],schedule)
+watch(()=>[props.roads,props.sectionByLink,props.selectedLinkId,props.endpoints,props.arrows],schedule)
 defineExpose({fit,zoom})
 </script>
 
@@ -136,6 +128,6 @@ defineExpose({fit,zoom})
     <div v-if="hover" class="map-tooltip" :style="{left:hover.x+'px',top:hover.y+'px'}"><strong>{{ hover.feature.properties.name || (hover.feature.properties.highway==='motorway'?'未命名高速主线':'未命名高速匝道') }}</strong><span>{{ sectionByLink?.get(hover.feature.properties.link_id)?.sectionKey==='pilot'?'先导段':'非先导段' }}{{ hover.feature.properties.pilot_continuity?' · 拓扑补齐':'' }} · {{ hover.feature.properties.link_id }}</span><small v-if="hover.feature.properties.length_m">{{ Number(hover.feature.properties.length_m).toFixed(1) }} m · {{ hover.feature.properties.direction_annotation?.label || '上下行待确认' }}</small></div>
     <div class="map-controls" @pointerdown.stop><button title="放大" aria-label="放大地图" @click="zoom(1)">＋</button><button title="缩小" aria-label="缩小地图" @click="zoom(-1)">−</button><hr><button title="显示当前筛选范围" aria-label="显示全部路链" @click="fit()">⌖</button></div>
     <div class="map-attribution">{{ engine }} <span>© 高德 / OpenStreetMap</span></div>
-    <div v-if="selectedSectionKey && endpoints && zoomLevel < (selectedLinkId?10:12)" class="zoom-note">放大至 {{ selectedLinkId?10:12 }} 级查看端点 · 11 级查看方向箭头</div>
+    <div v-if="selectedLinkId && endpoints && zoomLevel < 10" class="zoom-note">放大至 10 级查看端点 · 11 级查看方向箭头</div>
   </div>
 </template>
