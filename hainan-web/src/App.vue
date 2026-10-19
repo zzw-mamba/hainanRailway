@@ -2,7 +2,7 @@
 import { ref, shallowRef, computed, onMounted, watch, nextTick, onBeforeUnmount } from 'vue'
 import RoadMap from './components/RoadMap.vue'
 import { buildRoadSections, LINK_COLORS } from './roadSections.js'
-const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),sectionFilter=ref('all'),selected=shallowRef(null),page=ref(1),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
+const data=shallowRef(null),error=ref(''),query=ref(''),roadType=ref('all'),route=ref('all'),structure=ref('all'),direction=ref('all'),sectionFilter=ref('all'),selected=shallowRef(null),page=ref(1),viewMode=ref('global'),map=ref(null),endpoints=ref(true),arrows=ref(true),showValidation=ref(false),toast=ref(''),mapState=ref({engine:'路网视图',zoom:8})
 const loadingRoads=ref(false),loadError=ref(''),loadingRelations=ref(false)
 let loadSequence=0
 let toastTimer
@@ -16,6 +16,7 @@ const mapRoads=computed(()=>roads.value.filter(f=>{const p=f.properties;return(r
 const visibleRoads=computed(()=>{const q=query.value.trim().toLowerCase();return q?mapRoads.value.filter(f=>{const p=f.properties;return[p.name,p.ref,p.link_id,p.source_link_id,p.osm_link_id,p.osm_source_link_id,...(p.business_association?.matches||[]).flatMap(m=>[m.businessLinkId,m.unitId,m.unitName,m.startStakeNum,m.endStakeNum])].some(v=>String(v||'').toLowerCase().includes(q))}):mapRoads.value})
 const sectionModel=computed(()=>buildRoadSections(roads.value))
 const sectionByLink=computed(()=>sectionModel.value.byLink)
+const pilotRoads=computed(()=>sectionModel.value.sections.get('pilot')?.roads||[])
 const list=visibleRoads
 const pages=computed(()=>Math.max(1,Math.ceil(list.value.length/PAGE_SIZE)))
 const pageItems=computed(()=>list.value.slice((page.value-1)*PAGE_SIZE,page.value*PAGE_SIZE))
@@ -49,9 +50,17 @@ function locateAssociations(){reset();const features=roads.value.filter(f=>f.pro
 function locateBusiness(id){const features=roads.value.filter(f=>f.properties.business_association?.matches.some(m=>m.businessLinkId===id));if(!features.length){notify('该接口路链尚未可靠关联到地图');return}reset();selectLink(features[0]);nextTick(()=>map.value?.fit(features))}
 function notify(message){toast.value=message;clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.value='',2800)}
 function selectLink(feature,locate=false){selected.value=feature;if(locate)nextTick(()=>map.value?.fit([feature]))}
+function fitCurrentView(){if(viewMode.value==='pilot')map.value?.fit(pilotRoads.value);else map.value?.fit([],true)}
+function toggleView(){
+  const next=viewMode.value==='global'?'pilot':'global'
+  if(next==='pilot'&&!pilotRoads.value.length)return
+  viewMode.value=next
+  query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';sectionFilter.value='all';selected.value=null
+  nextTick(fitCurrentView)
+}
 function relationKind(id){return idIndex.value.get(id)?.properties.source_link_id===properties.value.source_link_id?'内部':'跨原链'}
 function related(id){const f=idIndex.value.get(id);if(f){query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';sectionFilter.value='all';selectLink(f,true)}}
-function reset(){query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';sectionFilter.value='all';selected.value=null;page.value=1;nextTick(()=>map.value?.fit())}
+function reset(){query.value='';roadType.value='all';route.value='all';structure.value='all';direction.value='all';sectionFilter.value='all';selected.value=null;page.value=1;viewMode.value='global';nextTick(fitCurrentView)}
 function download(){const features=visibleRoads.value;const geojson={type:'FeatureCollection',features:features.map(({gcjCoordinates,...f})=>f)};const blob=new Blob([JSON.stringify(geojson,null,2)],{type:'application/geo+json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='hainan-links-filtered.geojson';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);notify(`已导出 ${fmt(features.length)} 个要素（WGS84）`)}
 async function copyId(){try{await navigator.clipboard.writeText(properties.value.link_id);notify('编号已复制')}catch{notify('当前浏览器无法复制，请选中编号手动复制')}}
 async function copyGisPoints(){
@@ -86,7 +95,7 @@ async function load(){
     if(sequence!==loadSequence)return
     const {roadChunks,...summary}=manifest
     data.value={...summary,roads:[],relationships:[]}
-    selected.value=null;page.value=1
+    selected.value=null;page.value=1;viewMode.value='global'
     for(let start=0;start<roadChunks.length;){
       const batchSize=start===0?1:3
       const groups=await Promise.all(roadChunks.slice(start,start+batchSize).map(name=>fetchJson(name,manifest.snapshotId)))
@@ -136,8 +145,8 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
           <div class="resource-list"><button v-for="feature in pageItems" :key="feature.properties.link_id" class="resource-item" :class="{selected:selected===feature}" @click="selectLink(feature,true)"><span class="road-symbol" :class="{ramp:feature.properties.highway==='motorway_link'}">⌁</span><div><strong>{{ feature.properties.name || (feature.properties.highway==='motorway'?'未命名高速主线':'未命名高速匝道') }}</strong><small>{{ feature.properties.link_id }}</small><span class="section-kind">{{ sectionByLink.get(feature.properties.link_id)?.sectionKey==='pilot'?'先导段':'非先导段' }}{{ feature.properties.pilot_continuity?' · 拓扑补齐':'' }}</span><div class="item-meta"><span v-if="feature.properties.ref" class="route-tag">{{ feature.properties.ref }}</span><span>{{ feature.properties.direction_annotation?.label || '上下行待确认' }}</span><b>{{ Number(feature.properties.length_m).toFixed(1) }} m</b></div></div><span class="item-arrow">›</span></button><div v-if="!list.length&&!loadingRoads" class="empty-results">没有找到匹配的路链<button @click="reset">清除筛选条件</button></div></div>
           <div class="pagination"><span>{{ page }} / {{ pages }} 页</span><div><button :disabled="page===1" aria-label="上一页" @click="page--">‹</button><button :disabled="page===pages" aria-label="下一页" @click="page++">›</button></div></div>
         </aside>
-        <section class="map-panel"><div class="map-heading"><div><i class="tiny-dot"></i><h2>海南高速路网</h2><span>可交互地图</span></div><button @click="map?.fit()">⌖ 全域视图</button></div>
-          <RoadMap ref="map" :roads="mapRoads" :extent="data.extent" :section-by-link="sectionByLink" :selected-link-id="selected?.properties.link_id" :endpoints="endpoints" :arrows="arrows" @select="selectLink" @ready="mapState=$event" />
+        <section class="map-panel"><div class="map-heading"><div><i class="tiny-dot"></i><h2>海南高速路网</h2><span>可交互地图</span></div><button :disabled="viewMode==='global'&&(loadingRoads||!pilotRoads.length)" @click="toggleView">⌖ {{ viewMode==='global'?'切换先导段视角':'返回全局视角' }}</button></div>
+          <RoadMap ref="map" :roads="mapRoads" :extent="data.extent" :section-by-link="sectionByLink" :selected-link-id="selected?.properties.link_id" :endpoints="endpoints" :arrows="arrows" @select="selectLink" @fit="fitCurrentView" @ready="mapState=$event" />
           <div v-if="selected" class="layer-control"><span>图层</span><label><input v-model="endpoints" type="checkbox">路链端点</label><label><input v-model="arrows" type="checkbox">方向箭头</label></div>
           <div class="map-legend"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>第 {{ index+1 }} 色</span><span><i class="legend-line selected"></i>选中路链</span><template v-if="selected"><span><i class="legend-dot start"></i>起点</span><span><i class="legend-dot end"></i>终点</span><span><i class="legend-dot purple"></i>共用端点</span></template></div>
           <div class="map-footer"><span><i class="tiny-dot"></i>显示 {{ fmt(mapRoads.length) }} 条路链 · {{ filteredLength.toFixed(1) }} km</span><span>缩放 {{ mapState.zoom }} · 拖动平移 / 滚轮缩放</span></div>

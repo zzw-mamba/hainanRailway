@@ -2,7 +2,7 @@
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { LINK_COLORS, SELECTED_SECTION_COLOR } from '../roadSections.js'
 const props = defineProps({ roads: Array, extent: Array, sectionByLink: Map, selectedLinkId: String, endpoints: Boolean, arrows: Boolean })
-const emit = defineEmits(['select', 'ready'])
+const emit = defineEmits(['select', 'fit', 'ready'])
 const host = ref(null), canvas = ref(null), hover = ref(null), engine = ref('路网视图'), zoomLevel = ref(8)
 let map, observer, frame, width = 1, height = 1, scale = 1, center = [0, 0], dragging, moved = false, destroyed = false
 let drawn = [], cache = new WeakMap(), online = false, sdkScript, sdkTimer
@@ -126,7 +126,7 @@ defineExpose({fit,zoom})
   <div ref="host" class="road-map" @pointerdown="pointerdown" @pointermove="pointermove" @pointerup="pointerup" @pointercancel="dragging=null" @pointerleave="hover=null" @dblclick="!online && zoom(1)">
     <div class="basemap"></div><canvas ref="canvas" aria-label="海南高速路链地图，使用旁边的列表可搜索和选择道路"></canvas>
     <div v-if="hover" class="map-tooltip" :style="{left:hover.x+'px',top:hover.y+'px'}"><strong>{{ hover.feature.properties.name || (hover.feature.properties.highway==='motorway'?'未命名高速主线':'未命名高速匝道') }}</strong><span>{{ sectionByLink?.get(hover.feature.properties.link_id)?.sectionKey==='pilot'?'先导段':'非先导段' }}{{ hover.feature.properties.pilot_continuity?' · 拓扑补齐':'' }} · {{ hover.feature.properties.link_id }}</span><small v-if="hover.feature.properties.length_m">{{ Number(hover.feature.properties.length_m).toFixed(1) }} m · {{ hover.feature.properties.direction_annotation?.label || '上下行待确认' }}</small></div>
-    <div class="map-controls" @pointerdown.stop><button title="放大" aria-label="放大地图" @click="zoom(1)">＋</button><button title="缩小" aria-label="缩小地图" @click="zoom(-1)">−</button><hr><button title="显示当前筛选范围" aria-label="显示全部路链" @click="fit()">⌖</button></div>
+    <div class="map-controls" @pointerdown.stop><button title="放大" aria-label="放大地图" @click="zoom(1)">＋</button><button title="缩小" aria-label="缩小地图" @click="zoom(-1)">−</button><hr><button title="恢复当前视角" aria-label="恢复当前视角" @click="emit('fit')">⌖</button></div>
     <div class="map-attribution">{{ engine }} <span>© 高德 / OpenStreetMap</span></div>
     <div v-if="selectedLinkId && endpoints && zoomLevel < 10" class="zoom-note">放大至 10 级查看端点 · 11 级查看方向箭头</div>
   </div>
