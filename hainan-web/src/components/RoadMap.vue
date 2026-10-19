@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { LINK_COLORS, SELECTED_SECTION_COLOR } from '../roadSections.js'
-const props = defineProps({ roads: Array, extent: Array, sectionByLink: Map, selectedLinkId: String, endpoints: Boolean, arrows: Boolean })
+const props = defineProps({ roads: Array, extent: Array, sectionByLink: Map, pilotTermini: Array, selectedLinkId: String, endpoints: Boolean, arrows: Boolean })
 const emit = defineEmits(['select', 'fit', 'ready'])
 const host = ref(null), canvas = ref(null), hover = ref(null), engine = ref('路网视图'), zoomLevel = ref(8)
 let map, observer, frame, width = 1, height = 1, scale = 1, center = [0, 0], dragging, moved = false, destroyed = false
@@ -88,6 +88,23 @@ function draw() {
     ctx.font='12px "PingFang SC",sans-serif';ctx.textAlign='center'
     for(const [name,lng,lat] of CITIES){const [x,y]=pixel(mercator([lng,lat]));ctx.fillStyle='#edf4f1';ctx.fillRect(x-20,y-11,40,19);ctx.fillStyle='#5e7773';ctx.fillText(name,x,y+3)}ctx.textAlign='left'
   }
+  for(const end of props.pilotTermini||[]){
+    const coordinate=online&&end.gcjCoordinate?end.gcjCoordinate:end.coordinate
+    const [x,y]=pixel(mercator(coordinate))
+    if(x<0||x>width||y<0||y>height)continue
+    const labelX=Math.max(4,Math.min(width-92,x-46))
+    const labelY=Math.max(4,Math.min(height-24,end.label==='先导段起点'?y+12:y-32))
+    const color=end.label==='先导段起点'?'#218c68':'#d77a3e'
+    ctx.save()
+    ctx.fillStyle='#fff';ctx.strokeStyle=color;ctx.lineWidth=2
+    ctx.beginPath();ctx.arc(x,y,6,0,Math.PI*2);ctx.fill();ctx.stroke()
+    ctx.fillStyle=color;ctx.beginPath();ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fill()
+    ctx.fillStyle='#fff';ctx.strokeStyle='#d7e0d9';ctx.lineWidth=1
+    ctx.fillRect(labelX,labelY,92,20);ctx.strokeRect(labelX,labelY,92,20)
+    ctx.fillStyle='#284e3d';ctx.font='11px "PingFang SC",sans-serif';ctx.textAlign='center'
+    ctx.fillText(end.label,labelX+46,labelY+14)
+    ctx.restore()
+  }
   emit('ready', { engine: engine.value, zoom: zoomLevel.value })
 }
 function pick(x,y) {
@@ -99,7 +116,7 @@ function pick(x,y) {
 function position(e){const r=host.value.getBoundingClientRect();return [e.clientX-r.left,e.clientY-r.top]}
 function pointerdown(e){if(e.target.closest('button'))return;dragging={x:e.clientX,y:e.clientY,center:[...center]};moved=false;if(!online)host.value.setPointerCapture(e.pointerId)}
 function pointermove(e){const [x,y]=position(e);if(dragging){const dx=e.clientX-dragging.x,dy=e.clientY-dragging.y;if(Math.hypot(dx,dy)>4)moved=true;if(!online){center=[dragging.center[0]-dx/scale,dragging.center[1]-dy/scale];schedule()}hover.value=null;return}const feature=pick(x,y);hover.value=feature?{feature,x:Math.min(x+16,width-270),y:Math.max(10,y-65)}:null;host.value.style.cursor=feature?'pointer':'grab'}
-function pointerup(e){if(dragging&&!moved){const [x,y]=position(e),f=pick(x,y);if(f)emit('select',f)}dragging=null}
+function pointerup(e){if(dragging&&!moved){const [x,y]=position(e),f=pick(x,y);if(f){hover.value=null;emit('select',f)}}dragging=null}
 function wheel(e){if(online)return;e.preventDefault();const [x,y]=position(e),before=[center[0]+(x-width/2)/scale,center[1]+(y-height/2)/scale];scale=Math.max(256*2**5,Math.min(256*2**19,scale*Math.exp(-e.deltaY*.001)));center=[before[0]-(x-width/2)/scale,before[1]-(y-height/2)/scale];schedule()}
 function resize(){const r=host.value.getBoundingClientRect();width=r.width;height=r.height;canvas.value.width=width*(window.devicePixelRatio||1);canvas.value.height=height*(window.devicePixelRatio||1);schedule()}
 function loadAMap(){
@@ -118,7 +135,7 @@ function loadAMap(){
 }
 onMounted(()=>{observer=new ResizeObserver(resize);observer.observe(host.value);resize();fit([],true);host.value.addEventListener('wheel',wheel,{passive:false});loadAMap()})
 onBeforeUnmount(()=>{destroyed=true;observer?.disconnect();cancelAnimationFrame(frame);clearTimeout(sdkTimer);map?.destroy();sdkScript?.remove();host.value?.removeEventListener('wheel',wheel)})
-watch(()=>[props.roads,props.sectionByLink,props.selectedLinkId,props.endpoints,props.arrows],schedule)
+watch(()=>[props.roads,props.sectionByLink,props.pilotTermini,props.selectedLinkId,props.endpoints,props.arrows],schedule)
 defineExpose({fit,zoom})
 </script>
 

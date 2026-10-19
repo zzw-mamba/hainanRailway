@@ -17,6 +17,16 @@ const visibleRoads=computed(()=>{const q=query.value.trim().toLowerCase();return
 const sectionModel=computed(()=>buildRoadSections(roads.value))
 const sectionByLink=computed(()=>sectionModel.value.byLink)
 const pilotRoads=computed(()=>sectionModel.value.sections.get('pilot')?.roads||[])
+const pilotTermini=computed(()=>{
+  const mainline=pilotRoads.value.filter(feature=>feature.properties.highway==='motorway')
+  const ends=mainline.flatMap(feature=>[0,-1].map(index=>({
+    coordinate:feature.geometry.coordinates.at(index),
+    gcjCoordinate:feature.gcjCoordinates?.at(index),
+  })))
+  if(!ends.length)return []
+  ends.sort((a,b)=>a.coordinate[1]-b.coordinate[1])
+  return [{...ends.at(-1),label:'先导段起点'},{...ends[0],label:'先导段终点'}]
+})
 const list=visibleRoads
 const pages=computed(()=>Math.max(1,Math.ceil(list.value.length/PAGE_SIZE)))
 const pageItems=computed(()=>list.value.slice((page.value-1)*PAGE_SIZE,page.value*PAGE_SIZE))
@@ -146,9 +156,9 @@ onBeforeUnmount(()=>{clearTimeout(toastTimer)})
           <div class="pagination"><span>{{ page }} / {{ pages }} 页</span><div><button :disabled="page===1" aria-label="上一页" @click="page--">‹</button><button :disabled="page===pages" aria-label="下一页" @click="page++">›</button></div></div>
         </aside>
         <section class="map-panel"><div class="map-heading"><div><i class="tiny-dot"></i><h2>海南高速路网</h2><span>可交互地图</span></div><button :disabled="viewMode==='global'&&(loadingRoads||!pilotRoads.length)" @click="toggleView">⌖ {{ viewMode==='global'?'切换先导段视角':'返回全局视角' }}</button></div>
-          <RoadMap ref="map" :roads="mapRoads" :extent="data.extent" :section-by-link="sectionByLink" :selected-link-id="selected?.properties.link_id" :endpoints="endpoints" :arrows="arrows" @select="selectLink" @fit="fitCurrentView" @ready="mapState=$event" />
+          <RoadMap ref="map" :roads="mapRoads" :extent="data.extent" :section-by-link="sectionByLink" :pilot-termini="pilotTermini" :selected-link-id="selected?.properties.link_id" :endpoints="endpoints" :arrows="arrows" @select="selectLink($event,true)" @fit="fitCurrentView" @ready="mapState=$event" />
           <div v-if="selected" class="layer-control"><span>图层</span><label><input v-model="endpoints" type="checkbox">路链端点</label><label><input v-model="arrows" type="checkbox">方向箭头</label></div>
-          <div class="map-legend"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>第 {{ index+1 }} 色</span><span><i class="legend-line selected"></i>选中路链</span><template v-if="selected"><span><i class="legend-dot start"></i>起点</span><span><i class="legend-dot end"></i>终点</span><span><i class="legend-dot purple"></i>共用端点</span></template></div>
+          <div class="map-legend"><span v-for="(color,index) in LINK_COLORS" :key="color"><i class="legend-line" :style="{background:color}"></i>第 {{ index+1 }} 色</span><span><i class="legend-line selected"></i>选中路链</span><span v-if="pilotTermini.length"><i class="legend-dot start"></i>先导段起点</span><span v-if="pilotTermini.length"><i class="legend-dot end"></i>先导段终点</span><template v-if="selected"><span><i class="legend-dot start"></i>路链起点</span><span><i class="legend-dot end"></i>路链终点</span><span><i class="legend-dot purple"></i>共用端点</span></template></div>
           <div class="map-footer"><span><i class="tiny-dot"></i>显示 {{ fmt(mapRoads.length) }} 条路链 · {{ filteredLength.toFixed(1) }} km</span><span>缩放 {{ mapState.zoom }} · 拖动平移 / 滚轮缩放</span></div>
         </section>
         <aside class="detail-panel">
