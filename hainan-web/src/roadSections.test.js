@@ -28,3 +28,13 @@ test('all associated links form the pilot section even with different business I
   assert.equal(byLink.get('pilot-b').sectionKey, 'pilot')
   assert.equal(byLink.get('ordinary').sectionKey, 'ordinary')
 })
+
+test('inferred continuity belongs to the pilot display without a business match', () => {
+  const bridge = road('bridge', 3)
+  bridge.properties.pilot_continuity = { status: 'topology_bridge' }
+  const { sections, byLink } = buildRoadSections([road('confirmed', 1, [{ businessLinkId: 'A' }]), bridge])
+  assert.equal(sectionIdentity(bridge).key, 'pilot')
+  assert.equal(sections.get('pilot').roads.length, 2)
+  assert.equal(byLink.get('bridge').sectionKey, 'pilot')
+  assert.equal(bridge.properties.business_association, undefined)
+})

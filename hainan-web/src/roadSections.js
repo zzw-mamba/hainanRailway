@@ -2,7 +2,8 @@ export const LINK_COLORS = ['#137f78', '#d88438', '#7654bb', '#ca5873']
 export const SELECTED_SECTION_COLOR = '#f5c542'
 
 export function sectionIdentity(feature) {
-  const pilot = Boolean(feature.properties.business_association?.matches?.length)
+  const pilot = Boolean(feature.properties.business_association?.matches?.length ||
+    feature.properties.pilot_continuity?.status === 'topology_bridge')
   return pilot
     ? { key: 'pilot', id: 'pilot', kind: 'pilot', name: '先导段' }
     : { key: 'ordinary', id: 'ordinary', kind: 'ordinary', name: '非先导段' }

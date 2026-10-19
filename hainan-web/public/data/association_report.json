@@ -6265,5 +6265,349 @@
     "scope": "G9811 mainline and named ramps"
   },
   "note": "No shared IDs. Many-to-many spatial association only. API coordinate reference for links is not provider-confirmed. Unmatched and ambiguous links are not assigned.",
+  "pilotContinuity": {
+    "gapCount": 22,
+    "addedLinks": 112,
+    "addedLengthM": 52498.8,
+    "byDirection": {
+      "DOWN": 12,
+      "UP": 10
+    },
+    "gaps": [
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002782",
+        "nextConfirmedLinkId": "HN-G9811-M-002796",
+        "linkIds": [
+          "HN-G9811-M-002784",
+          "HN-G9811-M-002786",
+          "HN-G9811-M-002788",
+          "HN-G9811-M-002790",
+          "HN-G9811-M-002792",
+          "HN-G9811-M-002794"
+        ],
+        "lengthM": 2981.5
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002800",
+        "nextConfirmedLinkId": "HN-G9811-M-002812",
+        "linkIds": [
+          "HN-G9811-M-002802",
+          "HN-G9811-M-002804",
+          "HN-G9811-M-002806",
+          "HN-G9811-M-002808",
+          "HN-G9811-M-002810"
+        ],
+        "lengthM": 2484.6
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002820",
+        "nextConfirmedLinkId": "HN-G9811-M-002832",
+        "linkIds": [
+          "HN-G9811-M-002822",
+          "HN-G9811-M-002824",
+          "HN-G9811-M-002826",
+          "HN-G9811-M-002828",
+          "HN-G9811-M-002830"
+        ],
+        "lengthM": 2485.8
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002854",
+        "nextConfirmedLinkId": "HN-G9811-M-002862",
+        "linkIds": [
+          "HN-G9811-M-002856",
+          "HN-G9811-M-002858",
+          "HN-G9811-M-002860"
+        ],
+        "lengthM": 1491.5
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002866",
+        "nextConfirmedLinkId": "HN-G9811-M-002876",
+        "linkIds": [
+          "HN-G9811-M-002868",
+          "HN-G9811-M-002870",
+          "HN-G9811-M-002872",
+          "HN-G9811-M-002874"
+        ],
+        "lengthM": 1988.6
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002886",
+        "nextConfirmedLinkId": "HN-G9811-M-002903",
+        "linkIds": [
+          "HN-G9811-M-002888",
+          "HN-G9811-M-002890",
+          "HN-G9811-M-002891",
+          "HN-G9811-M-002893",
+          "HN-G9811-M-002895",
+          "HN-G9811-M-002897",
+          "HN-G9811-M-002899",
+          "HN-G9811-M-002901"
+        ],
+        "lengthM": 3548.6
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002911",
+        "nextConfirmedLinkId": "HN-G9811-M-002915",
+        "linkIds": [
+          "HN-G9811-M-002913"
+        ],
+        "lengthM": 470.4
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002919",
+        "nextConfirmedLinkId": "HN-G9811-M-002939",
+        "linkIds": [
+          "HN-G9811-M-002921",
+          "HN-G9811-M-002923",
+          "HN-G9811-M-002925",
+          "HN-G9811-M-002927",
+          "HN-G9811-M-002929",
+          "HN-G9811-M-002931",
+          "HN-G9811-M-002933",
+          "HN-G9811-M-002935",
+          "HN-G9811-M-002937"
+        ],
+        "lengthM": 3595.2
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002942",
+        "nextConfirmedLinkId": "HN-G9811-M-002950",
+        "linkIds": [
+          "HN-G9811-M-002944",
+          "HN-G9811-M-002946",
+          "HN-G9811-M-002948"
+        ],
+        "lengthM": 1354.0
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002956",
+        "nextConfirmedLinkId": "HN-G9811-M-002962",
+        "linkIds": [
+          "HN-G9811-M-002958",
+          "HN-G9811-M-002960"
+        ],
+        "lengthM": 937.4
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002974",
+        "nextConfirmedLinkId": "HN-G9811-M-002984",
+        "linkIds": [
+          "HN-G9811-M-002976",
+          "HN-G9811-M-002978",
+          "HN-G9811-M-002980",
+          "HN-G9811-M-002982"
+        ],
+        "lengthM": 1888.5
+      },
+      {
+        "carriageway": "G9811:carriageway:1",
+        "direction": "DOWN",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-003017",
+        "nextConfirmedLinkId": "HN-G9811-M-003031",
+        "linkIds": [
+          "HN-G9811-M-003019",
+          "HN-G9811-M-003021",
+          "HN-G9811-M-003023",
+          "HN-G9811-M-003025",
+          "HN-G9811-M-003027",
+          "HN-G9811-M-003029"
+        ],
+        "lengthM": 2991.1
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-003047",
+        "nextConfirmedLinkId": "HN-G9811-M-003044",
+        "linkIds": [
+          "HN-G9811-M-003046"
+        ],
+        "lengthM": 371.5
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-003032",
+        "nextConfirmedLinkId": "HN-G9811-M-003026",
+        "linkIds": [
+          "HN-G9811-M-003030",
+          "HN-G9811-M-003028"
+        ],
+        "lengthM": 969.9
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-003022",
+        "nextConfirmedLinkId": "HN-G9811-M-003012",
+        "linkIds": [
+          "HN-G9811-M-003020",
+          "HN-G9811-M-003018",
+          "HN-G9811-M-003016",
+          "HN-G9811-M-003014"
+        ],
+        "lengthM": 1939.9
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002979",
+        "nextConfirmedLinkId": "HN-G9811-M-002971",
+        "linkIds": [
+          "HN-G9811-M-002977",
+          "HN-G9811-M-002975",
+          "HN-G9811-M-002973"
+        ],
+        "lengthM": 1407.7
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002949",
+        "nextConfirmedLinkId": "HN-G9811-M-002938",
+        "linkIds": [
+          "HN-G9811-M-002947",
+          "HN-G9811-M-002945",
+          "HN-G9811-M-002943",
+          "HN-G9811-M-002940"
+        ],
+        "lengthM": 1875.0
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002928",
+        "nextConfirmedLinkId": "HN-G9811-M-002902",
+        "linkIds": [
+          "HN-G9811-M-002926",
+          "HN-G9811-M-002924",
+          "HN-G9811-M-002922",
+          "HN-G9811-M-002920",
+          "HN-G9811-M-002918",
+          "HN-G9811-M-002916",
+          "HN-G9811-M-002914",
+          "HN-G9811-M-002912",
+          "HN-G9811-M-002910",
+          "HN-G9811-M-002908",
+          "HN-G9811-M-002906",
+          "HN-G9811-M-002904"
+        ],
+        "lengthM": 5051.2
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002887",
+        "nextConfirmedLinkId": "HN-G9811-M-002869",
+        "linkIds": [
+          "HN-G9811-M-002885",
+          "HN-G9811-M-002883",
+          "HN-G9811-M-002881",
+          "HN-G9811-M-002879",
+          "HN-G9811-M-002877",
+          "HN-G9811-M-002875",
+          "HN-G9811-M-002873",
+          "HN-G9811-M-002871"
+        ],
+        "lengthM": 3921.2
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002865",
+        "nextConfirmedLinkId": "HN-G9811-M-002849",
+        "linkIds": [
+          "HN-G9811-M-002863",
+          "HN-G9811-M-002861",
+          "HN-G9811-M-002859",
+          "HN-G9811-M-002857",
+          "HN-G9811-M-002855",
+          "HN-G9811-M-002853",
+          "HN-G9811-M-002851"
+        ],
+        "lengthM": 3431.1
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002823",
+        "nextConfirmedLinkId": "HN-G9811-M-002815",
+        "linkIds": [
+          "HN-G9811-M-002821",
+          "HN-G9811-M-002819",
+          "HN-G9811-M-002817"
+        ],
+        "lengthM": 1462.8
+      },
+      {
+        "carriageway": "G9811:carriageway:3",
+        "direction": "UP",
+        "route": "G9811",
+        "previousConfirmedLinkId": "HN-G9811-M-002799",
+        "nextConfirmedLinkId": "HN-G9811-M-002773",
+        "linkIds": [
+          "HN-G9811-M-002797",
+          "HN-G9811-M-002795",
+          "HN-G9811-M-002793",
+          "HN-G9811-M-002791",
+          "HN-G9811-M-002789",
+          "HN-G9811-M-002787",
+          "HN-G9811-M-002785",
+          "HN-G9811-M-002783",
+          "HN-G9811-M-002781",
+          "HN-G9811-M-002779",
+          "HN-G9811-M-002777",
+          "HN-G9811-M-002775"
+        ],
+        "lengthM": 5851.3
+      }
+    ],
+    "note": "Topology bridges are inferred pilot-corridor display links, not verified API-to-OSM associations."
+  },
   "version": "V20260824114228"
 }

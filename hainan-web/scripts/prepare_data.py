@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from visualize_guangdong_amap import convert_coordinates
 from direction.annotate import extract_routes, annotate
 from association.match import associate
+from association.continuity import fill_pilot_continuity
 from identifiers import assign_ids, SCHEMA
 from osm_topology import extract_node_index, build_topology
 
@@ -70,6 +71,8 @@ def prepare(split_dir=None, output_dir=OUT, identifier_dir=None, report_dir=None
                          'relationships': api_records('link_relationship')}
         mappings, association_summary = associate(roads['features'], business_data['links'], business_data['units'],
                                                   business_data['relationships'], business_data['gantries'])
+        association_summary['pilotContinuity'] = fill_pilot_continuity(
+            roads['features'], association_summary['groups'])
         association_summary['version'] = business_data['version']
         report_dir.mkdir(parents=True, exist_ok=True)
         for directory in [report_dir, output_dir]:
