@@ -73,9 +73,9 @@ function draw() {
       if(box[2]<-20||box[0]>width+20||box[3]<-20||box[1]>height+20)continue
       drawn.push({feature,path,box})
       ctx.beginPath();path.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.lineJoin='round';ctx.lineCap='round'
-      if(selectedLink){ctx.strokeStyle='#745307';ctx.lineWidth=zoomLevel.value>11?9:7;ctx.stroke()}
+      if(selectedLink){ctx.strokeStyle='#745307';ctx.lineWidth=zoomLevel.value>11?9.5:7.5;ctx.stroke()}
       ctx.strokeStyle=selectedLink ? SELECTED_SECTION_COLOR : LINK_COLORS[membership?.colorIndex||0]
-      ctx.lineWidth=selectedLink?(zoomLevel.value>11?5:3.5):(zoomLevel.value>11?2.5:1.8);ctx.stroke()
+      ctx.lineWidth=selectedLink?(zoomLevel.value>11?5.5:4):(zoomLevel.value>11?2.9:2.1);ctx.stroke()
       if(selectedLink && props.arrows && zoomLevel.value>=11) {
         const reverse=String(feature.properties.oneway)==='-1';let distance=0
         for(let i=1;i<path.length;i++) {const a=path[i-1],b=path[i],dx=b[0]-a[0],dy=b[1]-a[1],len=Math.hypot(dx,dy);distance+=len;if(distance>65&&len>10){distance=0;const angle=Math.atan2(dy,dx)+(reverse?Math.PI:0);ctx.save();ctx.translate((a[0]+b[0])/2,(a[1]+b[1])/2);ctx.rotate(angle);ctx.beginPath();ctx.moveTo(-4,-3);ctx.lineTo(0,0);ctx.lineTo(-4,3);ctx.strokeStyle='#fff';ctx.lineWidth=1.7;ctx.stroke();if(String(feature.properties.oneway)==='no'){ctx.rotate(Math.PI);ctx.translate(9,0);ctx.beginPath();ctx.moveTo(-4,-3);ctx.lineTo(0,0);ctx.lineTo(-4,3);ctx.stroke()}ctx.restore()}}
