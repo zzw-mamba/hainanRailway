@@ -6,7 +6,7 @@
   "scripts": {
     "data": "python3 scripts/prepare_data.py",
     "predev": "node scripts/chunk_data.mjs",
-    "test": "node --test server/generation.test.js",
+    "test": "node --test server/generation.test.js src/roadSections.test.js",
     "dev": "vite --host 127.0.0.1",
     "prebuild": "node scripts/chunk_data.mjs",
     "build": "vite build",
